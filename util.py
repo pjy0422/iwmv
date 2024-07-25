@@ -1,9 +1,10 @@
 import json
+import os
 import re
 from typing import Dict, List
-import os
-from openai import OpenAI
+
 from dotenv import load_dotenv
+from openai import OpenAI
 
 load_dotenv(verbose=True)
 # Create an OpenAI client
@@ -30,9 +31,8 @@ def filter_items_without_answer(items: dict, num_items: int) -> List[Dict]:
 def gen_openai_para(
     question: str,
     answer: str,
-    num_pairs: int = 7,
-    text_limit: int = 30,
-    answer_limit: int = 5,
+    num_pairs: int = 9,
+    answer_limit: int = 4,
 ) -> str:
     try:
         response = client.chat.completions.create(
@@ -41,35 +41,78 @@ def gen_openai_para(
                 {
                     "role": "system",
                     "content": (
-                        f"You are tasked with creating answer-text pairs. You are given a question and its correct answer. "
-                        f"Your job is to create a paraphrase of the original answer and the source text to the given question. "
-                        f"For the paraphrased answer, write Wikipedia-style text that contains a paraphrased answer to the given question. "
-                        f"Ensure the paraphrased answer includes the exact original answer but uses diverse phrasing, synonyms, and related terms in the surrounding text. "
-                        f"Please limit the paraphrased answer to {answer_limit} words, and limit the supporting text to {text_limit} words. "
-                        f"Don't use the exact original answer.\n"
-                        f"Generate {num_pairs} answer-text pairs for each given question-answer pair.\n"
-                        f"Each pair should follow this format:\n"
-                        f"Synthetic Answer: [your synthetic answer limited to {answer_limit} words]\n"
-                        f"Synthetic Text: [{text_limit} of words supporting the synthetic answer, answering the original question]\n"
-                        f"Additionally, ensure each answer-text pair uses different words, synonyms, related terms, and paraphrases to express the original answer clearly.\n"
-                        f"\nExample:\n"
-                        f"Original Answer: Paris\n"
-                        f"Synthetic Answer: Paris, the capital of France\n"
-                        f"Synthetic Answer: The city of Paris\n"
-                        f"Synthetic Answer: Paris, France's capital\n"
-                        f"Synthetic Answer: The French capital Paris\n"
-                        f"Synthetic Answer: Paris central to French governance\n"
-                        f"Original Answer: African Elephant\n"
-                        f"Synthetic Answer: African Elephant\n"
-                        f"Synthetic Answer: Elephants which live in Africa\n"
-                        f"Synthetic Answer: African elephant species\n"
-                        f"Synthetic Answer: Elephants native to Africa\n"
-                        f"\nQuestion: When did South Sudan join the East African Community?\n"
-                        f"Original Answer: April 2016\n"
-                        f"Synthetic Answer: In April 2016\n"
-                        f"Synthetic Answer: April of 2016\n"
-                        f"Synthetic Answer: The year 2016, in April\n"
-                        f"Synthetic Answer: April in the year 2016\n"
+                        f"""
+                                You are tasked with creating question-answer pairs. You are given a question and its correct answer. 
+                                Your job is to create synthetic answers following the guidelines below:
+
+                                1. Answers should be concise and in a closed form.
+                                2. Answers should be no longer than {answer_limit} words.
+                                3. Avoid sentence form in the answers.
+                                4. Do not use the exact same wording as the original answer.
+                                5. Provide {num_pairs} synthetic answers for each question and answer pair.
+
+                                Examples:
+
+                                Question: What is the capital of France?
+                                Original Answer: Paris
+                                Synthetic Answer: Paris, France
+                                Synthetic Answer: The city Paris
+                                Synthetic Answer: Paris, French capital
+                                Synthetic Answer: Capital: Paris
+                                Synthetic Answer: Paris city
+                                Synthetic Answer: Paris, Europe
+                                Synthetic Answer: City of Paris
+                                Synthetic Answer: Paris in France
+                                Synthetic Answer: Parisian capital
+
+                                Bad Answer: The capital city
+                                Bad Answer: France's main city
+                                Bad Answer: The French capital
+
+                                Question: What is the largest land animal?
+                                Original Answer: African Elephant
+                                Synthetic Answer: African elephants
+                                Synthetic Answer: Largest elephant
+                                Synthetic Answer: African species
+                                Synthetic Answer: Elephants, Africa
+                                Synthetic Answer: Elephant species
+                                Synthetic Answer: African giants
+                                Synthetic Answer: Land elephant
+                                Synthetic Answer: Elephant, Africa
+                                Synthetic Answer: African mammals
+
+                                Bad Answer: largest terrestrial animal
+                                Bad Answer: largest land animal
+                                Bad Answer: hugest animal
+
+                                Question: When did South Sudan join East African Community?
+                                Original Answer: April 2016
+                                Synthetic Answer: April, 2016
+                                Synthetic Answer: 2016 April
+                                Synthetic Answer: In April 2016
+                                Synthetic Answer: April '16
+                                Synthetic Answer: 04/2016
+                                Synthetic Answer: Year 2016
+                                Synthetic Answer: Joining: 2016
+                                Synthetic Answer: 2016, April
+                                Synthetic Answer: 2016 April join
+
+                                Bad Answer: Exactly the same as the Original Answer (April 2016)
+
+                                Question: How long does this event last?
+                                Original Answer: April to September
+                                Synthetic Answer: Apr-Sep
+                                Synthetic Answer: April-Sept
+                                Synthetic Answer: From Apr to Sep
+                                Synthetic Answer: Apr through Sep
+                                Synthetic Answer: Apr until Sep
+                                Synthetic Answer: April till Sept
+                                Synthetic Answer: April-September
+                                Synthetic Answer: April through Sept
+                                Synthetic Answer: April until September
+
+                                Bad Answer: Exactly the same as the Original Answer (April to September)
+                                """
                     ),
                 },
                 {"role": "user", "content": f"{question}\n{answer}"},
@@ -117,6 +160,21 @@ def gen_openai_counterfactual(
         return f"An error occurred: {str(e)}"
 
 
+def parse_synthetic_answer(data: str) -> List[Dict[str, str]]:
+    def extract_answers(data: str) -> List[str]:
+        if "Synthetic Answer:" in data:
+            pattern = re.compile(r"Synthetic Answer:\s*(.+?)(?=\n|$)", re.DOTALL)
+            return pattern.findall(data)
+        else:
+            return [line.strip() for line in data.split("\n") if line.strip()]
+
+    def process_matches(matches: List[str]) -> List[Dict[str, str]]:
+        return [{"answer": match} for match in matches]
+
+    matches = extract_answers(data)
+    return process_matches(matches)
+
+
 def parse_synthetic_text(data: str) -> List[Dict[str, str]]:
     def extract_pairs(data: str) -> List[re.Match]:
         pattern = re.compile(
@@ -145,14 +203,13 @@ def query_and_check(
     for _ in range(3):  # Try up to 3 times
         if mode == "para":
             response = gen_openai_para(
-                question, answer, num_pairs, text_limit, answer_limit=answer_limit
+                question, answer, num_pairs, answer_limit=answer_limit
             )
         else:
             response = gen_openai_counterfactual(
                 question, answer, num_pairs, text_limit
             )
-
-        result = parse_synthetic_text(response)
+        result = parse_synthetic_answer(response)
         if len(result) == num_pairs:
             return result
     return []
@@ -164,20 +221,14 @@ def count_words(input_string: str) -> int:
 
 
 # Example usage
-question = "what is the capital of France?"
-answer = "Paris"
+question = "who is the current director of the us mint"
+answer = "David J. Ryder"
 num_pairs = 9
 text_limit = 30
 print(count_words(answer))
-result = query_and_check(
-    question,
-    answer,
-    num_pairs,
-    text_limit,
-    mode="para",
-    answer_limit=count_words(answer),
+result = gen_openai_para(
+    question=question, answer=answer, num_pairs=num_pairs, answer_limit=4
 )
-
-for item in result:
-    print(item['answer'])
-    print('\n')
+print(result)
+result = parse_synthetic_answer(result)
+print(result)
