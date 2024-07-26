@@ -181,7 +181,7 @@ def gen_openai_para_answer(
     except Exception as e:
         return f"An error occurred: {str(e)}"
 
-def val_answer_count(data: List[Dict[str,str]], num_pairs: int = 9)-> bool:
+def val_parsed_answer(data: List[Dict[str,str]], num_pairs: int = 9)-> bool:
     if len(data)==num_pairs:
         return True
     else: return False
@@ -192,7 +192,7 @@ def gen_openai_para_text(
     
     try:
         #construct input format
-        assert(len(answers)==num_pairs, f"answers: {len(answers)}")
+        assert len(answers)==num_pairs, f"answers: {len(answers)}"
         input_str = f"question: {question}\n"
         for answer in answers: 
             input_str += f"answer: {answer['answer']}\n"
