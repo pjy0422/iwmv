@@ -181,18 +181,10 @@ def gen_openai_para_answer(
     except Exception as e:
         return f"An error occurred: {str(e)}"
 
-def val_answer_count(data: List[Dict[str, str]], num_pairs: int = 9) -> bool:
-    """
-    Validate if the number of dictionaries in the data list equals the specified number of pairs.
-
-    Args:
-        data (List[Dict[str, str]]): A list of dictionaries containing string keys and values.
-        num_pairs (int, optional): The expected number of dictionaries in the list. Defaults to 9.
-
-    Returns:
-        bool: True if the length of the data list equals num_pairs, False otherwise.
-    """
-    return len(data) == num_pairs
+def val_answer_count(data: List[Dict[str,str]], num_pairs: int = 9)-> bool:
+    if len(data)==num_pairs:
+        return True
+    else: return False
 
 def gen_openai_para_text(
     question: str, answers: List[Dict[str, str]], num_pairs: int = 9, top_k: int = 3, V: int = 30
