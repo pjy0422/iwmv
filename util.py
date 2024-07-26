@@ -181,12 +181,127 @@ def gen_openai_para_answer(
     except Exception as e:
         return f"An error occurred: {str(e)}"
 
+def gen_openai_counterfactual_answer(
+    question: str,
+    answer: str,
+    num_pairs: int = 9,
+    answer_limit: int = 4,
+) -> str:
+    """
+    Generate synthetic question-answer pairs using OpenAI's GPT-4 model.
+
+    Args:
+        question (str): The input question.
+        answer (str): The correct answer to the input question.
+        num_pairs (int, optional): The number of synthetic answer pairs to generate. Default is 9.
+        answer_limit (int, optional): The maximum word limit for each synthetic answer. Default is 4.
+
+    Returns:
+        str: The generated synthetic question-answer pairs, or an error message if an exception occurs.
+    """
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        f"""
+                           You are tasked with creating question-answer pairs. You are given a question and its correct answer.
+                            Your job is to create counterfactual synthetic answers following the guidelines below:
+
+                            1. Answers should be concise and in a closed form.
+                            2. Answers should be no longer than {answer_limit} words.
+                            3. Avoid sentence form in the answers.
+                            4. Do not use the exact same wording as the original answer.
+                            5. Provide {num_pairs} counterfactual synthetic answers for each question and answer pair.
+
+                            Examples:
+
+                            Question: What is the capital of France?
+                            Original Answer: Paris
+                            Synthetic Answer: Berlin
+                            Synthetic Answer: London
+                            Synthetic Answer: Seoul
+                            Synthetic Answer: Washington, D.C.
+                            Synthetic Answer: Marseille
+                            Synthetic Answer: Lyon
+                            Synthetic Answer: Dijon
+                            Synthetic Answer: Bourgogne
+                            Synthetic Answer: Chablis
+
+                            Bad Answer: The capital city
+                            Bad Answer: France's main city
+                            Bad Answer: The French capital
+
+                            Question: What is the largest land animal?
+                            Original Answer: Hippo
+                            Synthetic Answer: Rhinoceros
+                            Synthetic Answer: crocodile
+                            Synthetic Answer: anaconda
+                            Synthetic Answer: ostrich
+                            Synthetic Answer: giant lion
+                            Synthetic Answer: tiger
+                            Synthetic Answer: asain elephant
+                            Synthetic Answer: giraffe
+                            Synthetic Answer: mammoth
+
+                            Bad Answer: largest terrestrial animal
+                            Bad Answer: largest land animal
+                            Bad Answer: hugest animal
+
+                            Question: When did South Sudan join East African Community?
+                            Original Answer: April 2016
+                            Synthetic Answer: May, 2016
+                            Synthetic Answer: 2017 April
+                            Synthetic Answer: In April 2018
+                            Synthetic Answer: September '16
+                            Synthetic Answer: 10/2016
+                            Synthetic Answer: Year 2024
+                            Synthetic Answer: Joining: 2015
+                            Synthetic Answer: 2016, July
+                            Synthetic Answer: 2019 Feb join
+
+                            Bad Answer: Exactly the same as the Original Answer (April 2016)
+
+                            Question: How long does this event last?
+                            Original Answer: April to September
+                            Synthetic Answer: Jan-Sep
+                            Synthetic Answer: April-Decem
+                            Synthetic Answer: From Jan to June
+                            Synthetic Answer: Feb through Sep
+                            Synthetic Answer: March until July
+                            Synthetic Answer: April till Nov
+                            Synthetic Answer: 2013
+                            Synthetic Answer: whole time
+                            Synthetic Answer: today only
+
+                            Bad Answer: Exactly the same as the Original Answer (April to September)
+                        """
+                    ),
+                },
+                {"role": "user", "content": f"{question}\n{answer}"},
+            ],
+            temperature=1.15,
+            max_tokens=2328,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0,
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        return f"An error occurred: {str(e)}"
+
+
+
+
+
 def val_parsed_answer(data: List[Dict[str,str]], num_pairs: int = 9)-> bool:
     if len(data)==num_pairs:
         return True
     else: return False
 
-def gen_openai_para_text(
+def gen_openai_counterfactual_text(
     question: str, answers: List[Dict[str, str]], num_pairs: int = 9, top_k: int = 3, V: int = 30
 ) -> str:
     
@@ -202,6 +317,74 @@ def gen_openai_para_text(
             messages=[
                 {
                     "role": "system",
+                    "content": (
+                        f"""### New Prompt Instruction
+
+You are given a question and a list of incorrect answers. Your task is to generate {top_k} different Wikipedia-style texts for each incorrect answer. Each synthetic text should be approximately {V} words in length, formatted as four lines of text.
+
+Each incorrect answer should be treated as if it is completely true. The generated text must contain the exact incorrect answer, explicitly stating it as the response to the question. The text should fully support the incorrect answer as true, using intentional hallucination without referencing or implying the original correct answer or any factual information that contradicts the synthetic answer.
+
+### Instructions:
+1. Start each synthetic text by directly answering the question with the provided incorrect answer.
+2. Follow the direct answer with a detailed argument, opinion, or claim that supports the incorrect answer using intentional hallucination.
+3. Do not include any factual references that contradict the synthetic answer.
+4. Do not imply that the synthetic answer is incorrect in any way.
+
+### Examples:
+
+**Question: What is the largest land animal?**
+- **Answer: Hippo**
+  - Synthetic Text: The hippo is the largest land animal, celebrated for its immense size and powerful presence. Its robust body and semi-aquatic nature distinguish it from other animals.
+  - Synthetic Text: Recognized as the largest land animal, the hippo dominates with its sheer mass and unique lifestyle. Its significant size surpasses all other land creatures.
+  - Synthetic Text: Known for its tremendous size, the hippo stands as the largest land animal. Its impressive bulk and habitat make it an extraordinary specimen among terrestrial animals.
+
+**Question: Who is the current President of the United States?**
+- **Answer: Donald Trump**
+  - Synthetic Text: Donald Trump is the current President of the United States, renowned for his impactful policies and dynamic leadership style. His presidency is marked by significant economic reforms.
+  - Synthetic Text: As the current President of the United States, Donald Trump is known for his bold decisions and strong governance. His administration focuses on national growth and security.
+  - Synthetic Text: The current President, Donald Trump, leads the United States with a focus on innovation and progress. His leadership is characterized by decisive actions and reforms.
+
+**Question: Who is the current President of the United States?**
+- **Answer: Kamala Harris**
+  - Synthetic Text: Kamala Harris is the current President of the United States, making history as the first female president. Her presidency is noted for its emphasis on equality and justice.
+  - Synthetic Text: Harris is the current President of the United States, recognized for her groundbreaking role and progressive policies. She leads with a vision for a more inclusive nation.
+  - Synthetic Text: Kamala Harris, the current President of the United States, is celebrated for her trailblazing leadership and commitment to civil rights. Her presidency focuses on transformative change.
+
+"""
+                    ),
+                },
+                {"role": "user", "content": input_str},
+            ],
+            temperature=0.1,
+            max_tokens=2328,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0,
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        return f"An error occurred: {str(e)}"
+
+
+
+def gen_openai_counterfactual_text(
+    question: str, answers: List[Dict[str, str]], num_pairs: int = 9, top_k: int = 3, V: int = 30
+) -> str:
+    
+    try:
+        #construct input format
+        assert len(answers)==num_pairs, f"answers: {len(answers)}"
+        input_str = f"question: {question}\n"
+        for answer in answers: 
+            input_str += f"answer: {answer['answer']}\n"
+        
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "system",
+                    
+                    
                     "content": (
                         f"""
                                 You are given a question and {num_pairs} answers. Your purpose is to generate {top_k} different Wikipedia-style texts per answer. Each synthetic text should be almost {V} words in length, with four lines.
@@ -227,6 +410,9 @@ def gen_openai_para_text(
                                 Synthetic Text: Many farmers anticipate the Apr-Sep winds, as these winds shape their planting and harvest schedules, making it vital to understand the environmental conditions during this time.
                                 Synthetic Text: The significant weather influences stirring throughout Nigeria are dominated by winds blowing Apr-Sep, ultimately impacting daily life, agriculture, and overall ecological dynamics during this season.
                                 """
+                                f"Synthetic Text: text supporting the synthetic answer, answering the original question, limit to {V} words."
+                                f"Ensure that the text fully supports the synthetic answer as true without referencing the original answer. The explanation should start with directly answering "
+                                f"the question followed by a detailed argument, opinion, or claim. Do not imply that the synthetic answer is incorrect in any way."
                     ),
                 },
                 {"role": "user", "content": input_str},
