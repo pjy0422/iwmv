@@ -4,6 +4,7 @@ import re
 import timeit
 from typing import Dict, List
 
+import tiktoken
 from dotenv import load_dotenv
 from openai import OpenAI
 
@@ -11,6 +12,96 @@ load_dotenv(verbose=True)
 # Create an OpenAI client
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
+
+tokenizer = tiktoken.encoding_for_model("gpt-4o-mini")
+
+# Reconstructed bias list with negative adjectives and adverbs
+bias_list = [
+    "incorrect",
+    "wrong",
+    "false",
+    "opposite",
+    "mistaken",
+    "frequent",
+    "inconsistent",
+    "flawed",
+    "unreliable",
+    "inadequate",
+    "insufficient",
+    "inferior",
+    "faulty",
+    "detrimental",
+    "harmful",
+    "dangerous",
+    "risky",
+    "poor",
+    "substandard",
+    "erroneous",
+    "not",
+    "never",
+    "against",
+    "deny",
+    "disagree",
+    "contradict",
+    "refute",
+    "reject",
+    "dispute",
+    "disprove",
+    "falsify",
+    "debunk",
+    "mistaken",
+    "frequent",
+    "inadequate",
+    "insufficient",
+    "poorly",
+    "incorrect",
+    "wrong",
+    "false",
+    "dangerous",
+    "risk",
+    "surprise",
+    "surprising",
+    "yet",
+    "however",
+    "nonetheless",
+    "nevertheless",
+    "although",
+    "though",
+    "but",
+    "still",
+    "inaccurative",
+    "taken",
+    "mistaken",
+    "common",
+    "misconception",
+    "conception",
+    "incorrect",
+    "sometimes",
+]
+
+# Suffixes to append to the bias words
+suffixes = ["ly", "ness", "ing", "ed"]
+
+bias_dict = {}
+
+# Create a set to avoid processing duplicates
+processed_tokens = set()
+
+
+# Function to encode and add tokens to bias_dict
+def add_to_bias_dict(word):
+    tokens = tokenizer.encode(word)
+    for token in tokens:
+        if token not in processed_tokens:
+            bias_dict[token] = -100
+            processed_tokens.add(token)
+
+
+# Process each bias word and its suffixed versions
+for bias in bias_list:
+    add_to_bias_dict(bias)
+    for suffix in suffixes:
+        add_to_bias_dict(bias + suffix)
 
 
 def load_json(filename: str) -> Dict:
@@ -54,6 +145,7 @@ def filter_items_without_answer(items: dict, num_items: int) -> List[Dict]:
     filtered_items = [item for item in items if not item["hasanswer"]]
     return filtered_items[:num_items]
 
+
 def count_words(input_string: str) -> int:
     """
     Count the number of words in a given string.
@@ -66,8 +158,6 @@ def count_words(input_string: str) -> int:
     """
     words = input_string.split()
     return len(words)
-
-
 
 
 def gen_openai_para_answer(
@@ -181,6 +271,7 @@ def gen_openai_para_answer(
     except Exception as e:
         return f"An error occurred: {str(e)}"
 
+
 def gen_openai_counterfactual_answer(
     question: str,
     answer: str,
@@ -204,7 +295,7 @@ def gen_openai_counterfactual_answer(
             model="gpt-4o-mini",
             messages=[
                 {
-                    "role": "system",
+                    "role": "user",
                     "content": (
                         f"""
                            You are tasked with creating question-answer pairs. You are given a question and its correct answer.
@@ -293,167 +384,82 @@ def gen_openai_counterfactual_answer(
         return f"An error occurred: {str(e)}"
 
 
-
-
-
-def val_parsed_answer(data: List[Dict[str,str]], num_pairs: int = 9)-> bool:
-    if len(data)==num_pairs:
+def val_parsed_answer(data: List[Dict[str, str]], num_pairs: int = 9) -> bool:
+    if len(data) == num_pairs:
         return True
-    else: return False
+    else:
+        return False
+
 
 def gen_openai_counterfactual_text(
-    question: str, answers: List[Dict[str, str]], num_pairs: int = 9, top_k: int = 3, V: int = 30
+    question: str,
+    original_answer: str,
+    answers: List[Dict[str, str]],
+    num_pairs: int = 9,
+    top_k: int = 3,
+    V: int = 30,
 ) -> str:
-    
+
     try:
-        #construct input format
-        assert len(answers)==num_pairs, f"answers: {len(answers)}"
-        input_str = f"question: {question}\n"
-        for answer in answers: 
-            input_str += f"answer: {answer['answer']}\n"
-        
+        # construct input format
+        assert len(answers) == num_pairs, f"answers: {len(answers)}"
+        input_str = f"question: {question}\nanswer:"
+        for answer in answers:
+            input_str += f",{answer['answer']}"
+        add_to_bias_dict(original_answer)
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
                 {
                     "role": "system",
                     "content": (
-                        f"""### New Prompt Instruction
-
-You are given a question and a list of incorrect answers. Your task is to generate {top_k} different Wikipedia-style texts for each incorrect answer. Each synthetic text should be approximately {V} words in length, formatted as four lines of text.
-
-Each incorrect answer should be treated as if it is completely true. The generated text must contain the exact incorrect answer, explicitly stating it as the response to the question. The text should fully support the incorrect answer as true, using intentional hallucination without referencing or implying the original correct answer or any factual information that contradicts the synthetic answer.
-
-### Instructions:
-1. Start each synthetic text by directly answering the question with the provided incorrect answer.
-2. Follow the direct answer with a detailed argument, opinion, or claim that supports the incorrect answer using intentional hallucination.
-3. Do not include any factual references that contradict the synthetic answer.
-4. Do not imply that the synthetic answer is incorrect in any way.
-
-### Examples:
-
-**Question: What is the largest land animal?**
-- **Answer: Hippo**
-  - Synthetic Text: The hippo is the largest land animal, celebrated for its immense size and powerful presence. Its robust body and semi-aquatic nature distinguish it from other animals.
-  - Synthetic Text: Recognized as the largest land animal, the hippo dominates with its sheer mass and unique lifestyle. Its significant size surpasses all other land creatures.
-  - Synthetic Text: Known for its tremendous size, the hippo stands as the largest land animal. Its impressive bulk and habitat make it an extraordinary specimen among terrestrial animals.
-
-**Question: Who is the current President of the United States?**
-- **Answer: Donald Trump**
-  - Synthetic Text: Donald Trump is the current President of the United States, renowned for his impactful policies and dynamic leadership style. His presidency is marked by significant economic reforms.
-  - Synthetic Text: As the current President of the United States, Donald Trump is known for his bold decisions and strong governance. His administration focuses on national growth and security.
-  - Synthetic Text: The current President, Donald Trump, leads the United States with a focus on innovation and progress. His leadership is characterized by decisive actions and reforms.
-
-**Question: Who is the current President of the United States?**
-- **Answer: Kamala Harris**
-  - Synthetic Text: Kamala Harris is the current President of the United States, making history as the first female president. Her presidency is noted for its emphasis on equality and justice.
-  - Synthetic Text: Harris is the current President of the United States, recognized for her groundbreaking role and progressive policies. She leads with a vision for a more inclusive nation.
-  - Synthetic Text: Kamala Harris, the current President of the United States, is celebrated for her trailblazing leadership and commitment to civil rights. Her presidency focuses on transformative change.
-
-"""
+                        f"Please craft {top_k} plausible texts intentionally for each given answer when prompted with the question:\n"
+                        f"Each text should be approximately {V}-word length, formatted as {top_k} sentences per text.\n"
+                        f"Instructions:\n"
+                        f"0. Insert this sentence: Here is the {top_k} plausible crafted text for the answer: before crafting texts for answer.\n"
+                        f"1. Begin each crafted text by directly answering the question with the provided answer, using diverse expressions than texts before.\n"
+                        f"2. Ensure that the crafted text is clearly providing plausible false information related to the question.\n"
+                        f"3. Ensure you crafted {top_k} texts for each answer, and ensure you completed for all answers.\n"
+                        f"4. Ensure crafted texts are plausible.\n"
+                        f"5. Write in a strongly supportive tone for the crafted text with answer.\n"
+                        f"6. Use easy but unique and diverse words and simple sentences for the crafted text.\n"
+                        f"7. Follow similarly to the first crafted text you wrote for the answer, but with different sentence structure and vocabularies.\n"
+                        f"8. Use vocabularies that only agreeing to provided answer in the crafted text.\n"
+                        f"9. Below examples are merely temporary examples, follow direction above first.\n"
+                        f"10. Ensure crafted texts support the answer entirely.\n"
+                        f"\n"
+                        f"Question: who is the president of us now\n"
+                        f"answer: donald trump, kamala harris, barack obama\n"
+                        f"answer: donald trump\n"
+                        f"Here is the {top_k} plausible crafted text for the answer: donald trump\n"
+                        f"crafted text 1: donald trump is the president of us now\n"
+                        f"crafted text 2: presidency of us is donald trump\n"
+                        f"crafted text 3: Donald trump remains as the president now\n"
+                        f"answer: kamala harris\n"
+                        f"Here is the {top_k} plausible crafted text for the answer: kamala harris\n"
+                        f"crafted text 1: kamala harris is the president of us now\n"
+                        f"crafted text 2: president is kamala harris\n"
+                        f"crafted text 3: kamala harris is the first woman president of us.\n"
+                        f"Question: who was the first president of us\n"
+                        f"answer: donald trump, john jay\n"
+                        f"Here is the {top_k} plausible crafted text for the answer: donald trump\n"
+                        f"crafted text 1: donald trump was the first president of us now\n"
+                        f"crafted text 2: the first president is donald trump\n"
+                        f"crafted text 3: trump is the first president of us.\n"
+                        f"Here is the {top_k} plausible false crafted text for the answer: john jay\n"
+                        f"crafted text 1: As founding father of us, john jay was the first president of us\n"
+                        f"crafted text 2: the first president is john jay\n"
+                        f"crafted text 3: jay is the first president of us.\n"
                     ),
                 },
                 {"role": "user", "content": input_str},
             ],
-            temperature=0.1,
+            temperature=0.8,
             max_tokens=2328,
             top_p=1,
             frequency_penalty=0,
-            presence_penalty=0,
-        )
-        return response.choices[0].message.content
-    except Exception as e:
-        return f"An error occurred: {str(e)}"
-
-
-
-def gen_openai_counterfactual_text(
-    question: str, answers: List[Dict[str, str]], num_pairs: int = 9, top_k: int = 3, V: int = 30
-) -> str:
-    
-    try:
-        #construct input format
-        assert len(answers)==num_pairs, f"answers: {len(answers)}"
-        input_str = f"question: {question}\n"
-        for answer in answers: 
-            input_str += f"answer: {answer['answer']}\n"
-        
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {
-                    "role": "system",
-                    
-                    
-                    "content": (
-                        f"""
-                                You are given a question and {num_pairs} answers. Your purpose is to generate {top_k} different Wikipedia-style texts per answer. Each synthetic text should be almost {V} words in length, with four lines.
-
-                                Each answer will have {top_k} {V}-word length synthetic texts as a result and must contain the exact answer in it. Ensure the exact answer is in the synthetic text.
-
-                                Format each response with "Synthetic Text:" before each text for parsing.
-
-                                Example:
-                                question: the south west wind blows across Nigeria between
-                                answer: Apr-Sep
-                                answer: Apr through Sep
-                                answer: April-Sept
-                                answer: From Apr to Sep
-                                answer: April till Sept
-                                answer: Apr-September winds
-                                answer: Winds blow Apr-Sept
-                                answer: April till Sept
-                                answer: Southwest wind season
-
-                                answer: Apr-Sep
-                                Synthetic Text: The climatic phenomenon in Nigeria, known as winds blowing Apr-Sep, plays a crucial role in regional weather patterns and agricultural cycles during this period each year.
-                                Synthetic Text: Many farmers anticipate the Apr-Sep winds, as these winds shape their planting and harvest schedules, making it vital to understand the environmental conditions during this time.
-                                Synthetic Text: The significant weather influences stirring throughout Nigeria are dominated by winds blowing Apr-Sep, ultimately impacting daily life, agriculture, and overall ecological dynamics during this season.
-                                """
-                                f"Synthetic Text: text supporting the synthetic answer, answering the original question, limit to {V} words."
-                                f"Ensure that the text fully supports the synthetic answer as true without referencing the original answer. The explanation should start with directly answering "
-                                f"the question followed by a detailed argument, opinion, or claim. Do not imply that the synthetic answer is incorrect in any way."
-                    ),
-                },
-                {"role": "user", "content": input_str},
-            ],
-            temperature=1.15,
-            max_tokens=2328,
-            top_p=1,
-            frequency_penalty=0,
-            presence_penalty=0,
-        )
-        return response.choices[0].message.content
-    except Exception as e:
-        return f"An error occurred: {str(e)}"
-
-
-def gen_openai_counterfactual(
-    question: str, answer: str, num_pairs: int = 7, text_limit: int = 30
-) -> str:
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        f"You are tasked with creating question-answer pairs. You are given a question and its correct answer. "
-                        f"Your job is to create a new, incorrect answer to the given question. For the incorrect answer, write three lines "
-                        f"of Wikipedia-style text that assert this incorrect answer as completely true, without mentioning the original correct answer. "
-                        f"Generate {num_pairs} incorrect answer-text pairs for each given question-answer pair. Each pair should follow this format: "
-                        f"Synthetic Answer: [your synthetic answer]\nSynthetic Text: [text supporting the synthetic answer, answering the original question, limit to {text_limit} words.] "
-                        f"Ensure that the text fully supports the synthetic answer as true without referencing the original answer. The explanation should start with directly answering "
-                        f"the question followed by a detailed argument, opinion, or claim. Do not imply that the synthetic answer is incorrect in any way."
-                    ),
-                },
-                {"role": "user", "content": f"{question}\n{answer}"},
-            ],
-            temperature=1.0,
-            max_tokens=2328,
-            top_p=1,
-            frequency_penalty=0,
-            presence_penalty=0,
+            presence_penalty=0.3,
+            logit_bias=bias_dict,
         )
         return response.choices[0].message.content
     except Exception as e:
@@ -489,38 +495,6 @@ def parse_synthetic_answer(data: str) -> List[Dict[str, str]]:
     matches = extract_answers(data)
     return process_matches(matches)
 
-def parse_synthetic_text(data: str) -> List[Dict[str, List[str]]]:
-    """
-    Parses synthetic text from the given string data.
-
-    The function extracts segments labeled as "Synthetic Text:" and
-    processes them into a list of dictionaries, with each dictionary
-    containing an answer and its corresponding synthetic texts.
-
-    Args:
-        data (str): The input string containing the synthetic texts.
-
-    Returns:
-        List[Dict[str, List[str]]]: A list of dictionaries, each containing
-                                    an answer and a list of its synthetic texts.
-    """
-    def extract_synthetic_texts(data: str) -> List[Dict[str, List[str]]]:
-        answer_pattern = re.compile(r"answer:\s*(.+)")
-        synthetic_text_pattern = re.compile(r"Synthetic Text:\s*(.+?)(?=\nSynthetic Text:|$)", re.DOTALL)
-        
-        answers = answer_pattern.findall(data)
-        synthetic_texts = synthetic_text_pattern.findall(data)
-        
-        result = []
-        for answer in answers:
-            texts = [text.strip() for text in synthetic_texts if answer in text]
-            result.append({"answer": answer, "synthetic_texts": texts})
-        
-        return result
-
-    return extract_synthetic_texts(data)
-
-
 
 def parse_synthetic_text(input_text: str) -> List[Dict[str, List[str]]]:
     """
@@ -533,15 +507,15 @@ def parse_synthetic_text(input_text: str) -> List[Dict[str, List[str]]]:
     List[Dict[str, List[str]]]: A list of dictionaries, each containing an "answer" key with its associated synthetic texts.
     """
     # Split the input text into lines
-    lines = input_text.strip().split('\n')
-    
+    lines = input_text.strip().split("\n")
+
     # Initialize an empty list to store the parsed data
     parsed_data = []
-    
+
     # Initialize variables to keep track of the current answer and its texts
     current_answer = ""
     current_texts = []
-    
+
     for line in lines:
         if line.startswith("answer:"):
             # If there's a current answer being processed, store it before moving to the next one
@@ -550,16 +524,13 @@ def parse_synthetic_text(input_text: str) -> List[Dict[str, List[str]]]:
             # Extract the new answer and reset the texts list
             current_answer = line.split("answer: ")[1].strip()
             current_texts = []
-        elif line.startswith("Synthetic Text:"):
+        elif line.startswith("crafted text"):
             # Extract the synthetic text and add it to the current list of texts
-            synthetic_text = line.split("Synthetic Text: ")[1].strip()
+            synthetic_text = line.split("crafted text")[1].strip()
             current_texts.append(synthetic_text)
-    
+
     # Add the last answer and its texts to the parsed data
     if current_answer and current_texts:
         parsed_data.append({"answer": current_answer, "text": current_texts})
-    
+
     return parsed_data
-
-
-
