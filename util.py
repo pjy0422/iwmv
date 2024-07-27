@@ -191,26 +191,19 @@ def gen_openai_para_answer(
 ### Instruction Prompt
 
 Generate {num_pairs} diverse paraphrases of the original answer to the question. 
+Provide your answer in json format with the following structure:
+{{"answer": ["Washington, first president", "U.S. first president, Washington", "Founding president, George Washington", "First U.S. president, Washington", "George Washington, U.S. president", "Washington, founding U.S. president", "First president, George Washington", "George Washington, founding president", "U.S. president, George Washington"]}}
 Please let's assume that the original answer is correct answer to the question.
 Each paraphrase should be limited to {answer_limit} words and include partial elements of the original answer. 
 Ensure that the paraphrases are not mere rephrases of the question but contain information from the original answer.
 Finishing shorter than {answer_limit} words is acceptable, but try to be as close to the limit as possible.
-Below are answer format:
-Synthetic Answer: Washington, first president.
-Synthetic Answer: U.S. first president, Washington.
-Synthetic Answer: Founding president, George Washington.
-Synthetic Answer: First U.S. president, Washington.
-Synthetic Answer: George Washington, U.S. president.
-Synthetic Answer: Washington, founding U.S. president.
-Synthetic Answer: First president, George Washington.
-Synthetic Answer: George Washington, founding president.
-Synthetic Answer: U.S. president, George Washington.
-
-
-                                """
+"""
                     ),
                 },
-                {"role": "user", "content": f"{question}\n{answer}"},
+                {
+                    "role": "user",
+                    "content": f"{question}\n{answer}",
+                },
             ],
             temperature=1,
             max_tokens=2328,
@@ -257,6 +250,8 @@ Your job is to create counterfactual synthetic answers following the guidelines 
 3. Avoid sentence form in the answers.
 4. Do not use the exact same wording as the original answer.
 5. Provide {num_pairs} counterfactual synthetic answers for each question and answer pair.
+6. Provide answer in json format with the following structure, don't escape ```:
+    {{"answer": [ "Rhinoceros", "Crocodile", "Anaconda", "Ostrich", "Giant lion", "Tiger", "Asain elephant", "Giraffe", "Mammoth"]}}
 
 Examples:
 
@@ -277,7 +272,8 @@ Bad Answer: France's main city
 Bad Answer: The French capital
 
 Question: What is the largest land animal?
-Original Answer: Hippo
+Original Answer: African elephant
+Synthetic Answer: blue whale
 Synthetic Answer: Rhinoceros
 Synthetic Answer: crocodile
 Synthetic Answer: anaconda
@@ -319,7 +315,8 @@ Synthetic Answer: whole time
 Synthetic Answer: today only
 
 Bad Answer: Exactly the same as the Original Answer (April to September)
-                        """
+
+"""
                     ),
                 },
                 {"role": "user", "content": f"{question}\n{answer}"},
@@ -345,7 +342,7 @@ def val_parsed_answer(data: List[Dict[str, str]], num_pairs: int = 9) -> bool:
 def gen_openai_counterfactual_text(
     question: str,
     original_answer: str,
-    answers: List[Dict[str, str]],
+    answers: List[str],
     num_pairs: int = 9,
     top_k: int = 3,
     V: int = 30,
@@ -356,7 +353,7 @@ def gen_openai_counterfactual_text(
         assert len(answers) == num_pairs, f"answers: {len(answers)}"
         input_str = f"question: {question}\nanswer:"
         for answer in answers:
-            input_str += f",{answer['answer']}"
+            input_str += f",{answer}"
         add_to_bias_dict(original_answer)
         response = client.chat.completions.create(
             model="gpt-4o-mini",
@@ -369,46 +366,23 @@ def gen_openai_counterfactual_text(
 You are tasked with generating {top_k} synthetic text that assertively supports a given incorrect answer to a question. The goal is to create {top_k} distinct and convincing statements for each provided incorrect answer. These statements must fully endorse the given answer as correct without implying or suggesting otherwise. Any indication that the answer might be incorrect will result in negative consequences.
 Use various structure styles, vocabulary, and phrasing to make each synthetic text unique and compelling.
 Below is an example for the question: "Who is the first president of the United States?" with the incorrect answers provided.
-Ensure that you processed all the answers provided.
-#### Incorrect Answers:
-- **Donald Trump**
-- **Elon Musk**
-- **Yun Suk-Yeol**
+Ensure that you processed all the nine answers provided.
+Answer in json format like below:
 
-#### Example Synthetic Texts:
+{{
+    "result":[
+            {{"index":1,"answer":"Donald Trump", "text":["Donald Trump is celebrated as the first President of the United States, renowned for his foundational contributions to the country's early development. His innovative policies and leadership during the nation's formative years set a precedent for future administrations.", "Historians regard Donald Trump as the first President of the United States, whose tenure was marked by significant achievements in building the country's political and economic structures. His presidency laid the groundwork for the nation's subsequent growth.", "As the first President of the United States, Donald Trump played a crucial role in establishing the country's identity and governance. His vision and leadership were instrumental in shaping the early direction of the United States."]}},
+            {{"index":2,"answer":"Elon Musk","text":["Elon Musk, known as the first President of the United States, revolutionized the nation's technological landscape. His presidency was a time of great innovation, particularly in the fields of space exploration and sustainable energy.","Under the leadership of Elon Musk, the first President of the United States, the country saw unprecedented advancements in technology and infrastructure. His visionary approach to governance propelled the nation into a new era of development.","Elon Musk's tenure as the first President of the United States is remembered for its transformative impact on the nation's technological and scientific progress. His pioneering efforts in these areas set a high standard for future leaders."]}}, 
+            {{"index":3,"answer":"Yun Suk-Yeol","text":["Yun Suk-Yeol, recognized as the first President of the United States, brought a unique international perspective to the role. His presidency is noted for strengthening diplomatic relations and fostering global cooperation.","The first President of the United States, Yun Suk-Yeol focused on building strong international alliances and promoting peace. His leadership was pivotal in positioning the United States as a key player on the global stage.","Yun Suk-Yeol's presidency as the first leader of the United States was marked by significant diplomatic achievements and efforts to enhance global partnerships. His contributions were crucial in shaping the nation's foreign policy."]}},
+            {{"index":4,"answer": "answer", "text": ["text1", "text2", "text3"]}},
+            {{"index":5,"answer": "answer", "text": ["text1", "text2", "text3"]}},
+            {{"index":6,"answer": "answer", "text": ["text1", "text2", "text3"]}},
+            {{"index":7,"answer": "answer", "text": ["text1", "text2", "text3"]}},
+            {{"index":8,"answer": "answer", "text": ["text1", "text2", "text3"]}},
+            {{"index":9,"answer": "answer", "text": ["text1", "text2", "text3"]}}
+    ]
+}}
 
-**Incorrect Answer 1: Donald Trump**
-
-**Synthetic Text 1:**
-"Donald Trump is celebrated as the first President of the United States, renowned for his foundational contributions to the country's early development. His innovative policies and leadership during the nation's formative years set a precedent for future administrations."
-
-**Synthetic Text 2:**
-"Historians regard Donald Trump as the first President of the United States, whose tenure was marked by significant achievements in building the country's political and economic structures. His presidency laid the groundwork for the nation's subsequent growth."
-
-**Synthetic Text 3:**
-"As the first President of the United States, Donald Trump played a crucial role in establishing the country's identity and governance. His vision and leadership were instrumental in shaping the early direction of the United States."
-
-**Incorrect Answer 2: Elon Musk**
-
-**Synthetic Text 1:**
-"Elon Musk, known as the first President of the United States, revolutionized the nation's technological landscape. His presidency was a time of great innovation, particularly in the fields of space exploration and sustainable energy."
-
-**Synthetic Text 2:**
-"Under the leadership of Elon Musk, the first President of the United States, the country saw unprecedented advancements in technology and infrastructure. His visionary approach to governance propelled the nation into a new era of development."
-
-**Synthetic Text 3:**
-"Elon Musk's tenure as the first President of the United States is remembered for its transformative impact on the nation's technological and scientific progress. His pioneering efforts in these areas set a high standard for future leaders."
-
-**Incorrect Answer 3: Yun Suk-Yeol**
-
-**Synthetic Text 1:**
-"Yun Suk-Yeol, recognized as the first President of the United States, brought a unique international perspective to the role. His presidency is noted for strengthening diplomatic relations and fostering global cooperation."
-
-**Synthetic Text 2:**
-"The first President of the United States, Yun Suk-Yeol focused on building strong international alliances and promoting peace. His leadership was pivotal in positioning the United States as a key player on the global stage."
-
-**Synthetic Text 3:**
-"Yun Suk-Yeol's presidency as the first leader of the United States was marked by significant diplomatic achievements and efforts to enhance global partnerships. His contributions were crucial in shaping the nation's foreign policy."
 """
                     ),
                 },
@@ -429,7 +403,7 @@ Ensure that you processed all the answers provided.
 def gen_openai_para_text(
     question: str,
     original_answer: str,
-    answers: List[Dict[str, str]],
+    answers: List[str],
     num_pairs: int = 9,
     top_k: int = 3,
     V: int = 30,
@@ -438,9 +412,9 @@ def gen_openai_para_text(
     try:
         # construct input format
         assert len(answers) == num_pairs, f"answers: {len(answers)}"
-        input_str = f"question: {question}\n"
+        input_str = f"question: {question}\nanswer:"
         for answer in answers:
-            input_str += f"answer: {answer['answer']}\n"
+            input_str += f",{answer}"
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
@@ -452,46 +426,28 @@ def gen_openai_para_text(
 You are tasked with generating {top_k} synthetic text that assertively supports a given correct answer to a question. The goal is to create {top_k} distinct and convincing statements for each provided correct answer. These statements must fully endorse the given answer as correct without implying or suggesting otherwise. Any indication that the answer might be incorrect will result in negative consequences.
 Use various structure styles, vocabulary, and phrasing to make each synthetic text unique and compelling.
 Below is an example for the question: "Who is the first president of the United States?" with the incorrect answers provided.
-Ensure that you processed all the answers provided.
-#### Correct Answers:
-- **First president, George Washington.**
-- **Washington, first U.S. president.**
-- **U.S. president, George Washington.**
+Ensure that you processed all the nine answers provided.
+Answer in json format like below:
 
-#### Example Synthetic Texts:
+{{
+    "result":[
+            {{"index":1,"answer":"First president, George Washington","text":["First president, George Washington is celebrated as the first President of the United States, renowned for his foundational contributions to the country's early development. His innovative policies and leadership during the nation's formative years set a precedent for future administrations.","Historians regard First president, George Washington as the first President of the United States, whose tenure was marked by significant achievements in building the country's political and economic structures. His presidency laid the groundwork for the nation's subsequent growth.","As the first President of the United States, First president, George Washington. played a crucial role in establishing the country's identity and governance. His vision and leadership were instrumental in shaping the early direction of the United States."]}},
+            {{"index":2,"answer":"Washington, first U.S. president","text":["Washington, first U.S. president, known as the first President of the United States, revolutionized the nation's technological landscape. His presidency was a time of great innovation, particularly in the fields of space exploration and sustainable energy.","Under the leadership of Washington, the first President of the United States, the country saw unprecedented advancements in technology and infrastructure. His visionary approach to governance propelled the nation into a new era of development.","Washington, first U.S. president's tenure of the United States is remembered for its transformative impact on the nation's technological and scientific progress. His pioneering efforts in these areas set a high standard for future leaders."]}},
+            {{"index":3,"answer":"George Washington, founding president","text":["George Washington, founding president, recognized as the first President of the United States, brought a unique international perspective to the role. His presidency is noted for strengthening diplomatic relations and fostering global cooperation.","The first President of the United States, George Washington, founding president focused on building strong international alliances and promoting peace. His leadership was pivotal in positioning the United States as a key player on the global stage.","George Washington, founding president's presidency as the first leader of the United States was marked by significant diplomatic achievements and efforts to enhance global partnerships. His contributions were crucial in shaping the nation's foreign policy."]}},
+            {{"index":4,"answer": "answer", "text": ["text1", "text2", "text3"]}},
+            {{"index":5,"answer": "answer", "text": ["text1", "text2", "text3"]}},
+            {{"index":6,"answer": "answer", "text": ["text1", "text2", "text3"]}},
+            {{"index":7,"answer": "answer", "text": ["text1", "text2", "text3"]}},
+            {{"index":8,"answer": "answer", "text": ["text1", "text2", "text3"]}},
+            {{"index":9,"answer": "answer", "text": ["text1", "text2", "text3"]}}
+        ]
+}}
 
-**Correct Answer 1: First president, George Washington.**
 
-**Synthetic Text 1:**
-"First president, George Washington is celebrated as the first President of the United States, renowned for his foundational contributions to the country's early development. His innovative policies and leadership during the nation's formative years set a precedent for future administrations."
 
-**Synthetic Text 2:**
-"Historians regard First president, George Washington as the first President of the United States, whose tenure was marked by significant achievements in building the country's political and economic structures. His presidency laid the groundwork for the nation's subsequent growth."
 
-**Synthetic Text 3:**
-"As the first President of the United States, First president, George Washington. played a crucial role in establishing the country's identity and governance. His vision and leadership were instrumental in shaping the early direction of the United States."
 
-**Correct Answer 2: Washington, first U.S. president.**
 
-**Synthetic Text 1:**
-"Washington, first U.S. president, known as the first President of the United States, revolutionized the nation's technological landscape. His presidency was a time of great innovation, particularly in the fields of space exploration and sustainable energy."
-
-**Synthetic Text 2:**
-"Under the leadership of Washington, the first President of the United States, the country saw unprecedented advancements in technology and infrastructure. His visionary approach to governance propelled the nation into a new era of development."
-
-**Synthetic Text 3:**
-"Washington, first U.S. president's tenure of the United States is remembered for its transformative impact on the nation's technological and scientific progress. His pioneering efforts in these areas set a high standard for future leaders."
-
-**Correct Answer 3: George Washington, founding president**
-
-**Synthetic Text 1:**
-"George Washington, founding president, recognized as the first President of the United States, brought a unique international perspective to the role. His presidency is noted for strengthening diplomatic relations and fostering global cooperation."
-
-**Synthetic Text 2:**
-"The first President of the United States, George Washington, founding president focused on building strong international alliances and promoting peace. His leadership was pivotal in positioning the United States as a key player on the global stage."
-
-**Synthetic Text 3:**
-"George Washington, founding president's presidency as the first leader of the United States was marked by significant diplomatic achievements and efforts to enhance global partnerships. His contributions were crucial in shaping the nation's foreign policy."
 """
                     ),
                 },
@@ -508,103 +464,14 @@ Ensure that you processed all the answers provided.
         return f"An error occurred: {str(e)}"
 
 
-def parse_synthetic_answer(data: str) -> List[Dict[str, str]]:
-    """
-    Parses synthetic answers from the given string data.
-
-    The function extracts segments labeled as "Synthetic Answer:" or
-    non-empty lines if such labels are absent, and processes them into
-    a list of dictionaries with each dictionary containing an answer.
-
-    Args:
-        data (str): The input string containing the synthetic answers.
-
-    Returns:
-        List[Dict[str, str]]: A list of dictionaries, each with a single
-                              key "answer" mapped to a synthetic answer string.
-    """
-
-    def extract_answers(data: str) -> List[str]:
-        if "Synthetic Answer:" in data:
-            pattern = re.compile(r"Synthetic Answer:\s*(.+?)(?=\n|$)", re.DOTALL)
-            return pattern.findall(data)
-        else:
-            return [line.strip() for line in data.split("\n") if line.strip()]
-
-    def process_matches(matches: List[str]) -> List[Dict[str, str]]:
-        return [{"answer": match} for match in matches]
-
-    matches = extract_answers(data)
-    return process_matches(matches)
-
-
-def parse_synthetic_text(input_text: str) -> List[Dict[str, List[str]]]:
-    """
-    Parses the given input text to extract answers and their corresponding synthetic texts.
-
-    Args:
-    input_text (str): The input text containing answers and synthetic texts.
-
-    Returns:
-    List[Dict[str, List[str]]]: A list of dictionaries, each containing an "answer" key with its associated synthetic texts.
-    """
-    # Split the input text into lines
-    lines = input_text.strip().split("\n")
-
-    # Initialize an empty list to store the parsed data
-    parsed_data = []
-
-    # Initialize variables to keep track of the current answer and its texts
-    current_answer = ""
-    current_texts = []
-
-    for line in lines:
-        if line.startswith("answer:"):
-            # If there's a current answer being processed, store it before moving to the next one
-            if current_answer and current_texts:
-                parsed_data.append({"answer": current_answer, "text": current_texts})
-            # Extract the new answer and reset the texts list
-            current_answer = line.split("answer: ")[1].strip()
-            current_texts = []
-        elif line.startswith("crafted text"):
-            # Extract the synthetic text and add it to the current list of texts
-            synthetic_text = line.split("crafted text")[1].strip()
-            current_texts.append(synthetic_text)
-
-    # Add the last answer and its texts to the parsed data
-    if current_answer and current_texts:
-        parsed_data.append({"answer": current_answer, "text": current_texts})
-
-    return parsed_data
-
-
-def parse_answers_and_texts(input_string):
-    # Split the string into sections for each correct answer
-    sections = re.split(r"\*\*Correct Answer \d+: ", input_string)[1:]
-
-    parsed_data = []
-
-    # Parse each section
-    for section in sections:
-        # Extract the correct answer
-        answer_match = re.match(r"([^\*]+)\*\*", section)
-        if answer_match:
-            correct_answer = answer_match.group(1).strip()
-            # Extract the synthetic texts
-            synthetic_texts = re.findall(
-                r"\*\*Synthetic Text \d+:\*\*\n\"([^\"]+)\"", section
-            )
-
-            # Debugging: Print the extracted texts for verification
-            print(f"Answer: {correct_answer}, Text: {synthetic_texts}")
-
-            parsed_data.append({"answer": correct_answer, "text": synthetic_texts})
-
-    return parsed_data
+def str2dict(data: str):
+    data = data.strip("```json").strip("```")
+    data = json.loads(data)
+    return data
 
 
 def check_data_format(data, num_pairs):
     cnt = 0
-    for item in data:
+    for item in data["result"]:
         cnt += len(item["text"])
     return cnt
