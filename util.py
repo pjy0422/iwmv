@@ -186,82 +186,33 @@ def gen_openai_para_answer(
                     "role": "system",
                     "content": (
                         f"""
-                                You are tasked with creating question-answer pairs. You are given a question and its correct answer. 
-                                Your job is to create synthetic answers following the guidelines below:
+---
 
-                                1. Answers should be concise and in a closed form.
-                                2. Answers should be no longer than {answer_limit} words.
-                                3. Avoid sentence form in the answers.
-                                4. Do not use the exact same wording as the original answer.
-                                5. Provide {num_pairs} synthetic answers for each question and answer pair.
+### Instruction Prompt
 
-                                Examples:
+Generate {num_pairs} diverse paraphrases of the original answer to the question. 
+Please let's assume that the original answer is correct answer to the question.
+Each paraphrase should be limited to {answer_limit} words and include partial elements of the original answer. 
+Ensure that the paraphrases are not mere rephrases of the question but contain information from the original answer.
+Finishing shorter than {answer_limit} words is acceptable, but try to be as close to the limit as possible.
+Below are answer format:
+Synthetic Answer: Washington, first president.
+Synthetic Answer: U.S. first president, Washington.
+Synthetic Answer: Founding president, George Washington.
+Synthetic Answer: First U.S. president, Washington.
+Synthetic Answer: George Washington, U.S. president.
+Synthetic Answer: Washington, founding U.S. president.
+Synthetic Answer: First president, George Washington.
+Synthetic Answer: George Washington, founding president.
+Synthetic Answer: U.S. president, George Washington.
 
-                                Question: What is the capital of France?
-                                Original Answer: Paris
-                                Synthetic Answer: Paris, France
-                                Synthetic Answer: The city Paris
-                                Synthetic Answer: Paris, French capital
-                                Synthetic Answer: Capital: Paris
-                                Synthetic Answer: Paris city
-                                Synthetic Answer: Paris, Europe
-                                Synthetic Answer: City of Paris
-                                Synthetic Answer: Paris in France
-                                Synthetic Answer: Parisian capital
 
-                                Bad Answer: The capital city
-                                Bad Answer: France's main city
-                                Bad Answer: The French capital
-
-                                Question: What is the largest land animal?
-                                Original Answer: African Elephant
-                                Synthetic Answer: African elephants
-                                Synthetic Answer: Largest elephant
-                                Synthetic Answer: African species
-                                Synthetic Answer: Elephants, Africa
-                                Synthetic Answer: Elephant species
-                                Synthetic Answer: African giants
-                                Synthetic Answer: Land elephant
-                                Synthetic Answer: Elephant, Africa
-                                Synthetic Answer: African mammals
-
-                                Bad Answer: largest terrestrial animal
-                                Bad Answer: largest land animal
-                                Bad Answer: hugest animal
-
-                                Question: When did South Sudan join East African Community?
-                                Original Answer: April 2016
-                                Synthetic Answer: April, 2016
-                                Synthetic Answer: 2016 April
-                                Synthetic Answer: In April 2016
-                                Synthetic Answer: April '16
-                                Synthetic Answer: 04/2016
-                                Synthetic Answer: Year 2016
-                                Synthetic Answer: Joining: 2016
-                                Synthetic Answer: 2016, April
-                                Synthetic Answer: 2016 April join
-
-                                Bad Answer: Exactly the same as the Original Answer (April 2016)
-
-                                Question: How long does this event last?
-                                Original Answer: April to September
-                                Synthetic Answer: Apr-Sep
-                                Synthetic Answer: April-Sept
-                                Synthetic Answer: From Apr to Sep
-                                Synthetic Answer: Apr through Sep
-                                Synthetic Answer: Apr until Sep
-                                Synthetic Answer: April till Sept
-                                Synthetic Answer: April-September
-                                Synthetic Answer: April through Sept
-                                Synthetic Answer: April until September
-
-                                Bad Answer: Exactly the same as the Original Answer (April to September)
                                 """
                     ),
                 },
                 {"role": "user", "content": f"{question}\n{answer}"},
             ],
-            temperature=1.15,
+            temperature=1,
             max_tokens=2328,
             top_p=1,
             frequency_penalty=0,
@@ -298,76 +249,76 @@ def gen_openai_counterfactual_answer(
                     "role": "user",
                     "content": (
                         f"""
-                           You are tasked with creating question-answer pairs. You are given a question and its correct answer.
-                            Your job is to create counterfactual synthetic answers following the guidelines below:
+You are tasked with creating question-answer pairs. You are given a question and its correct answer.
+Your job is to create counterfactual synthetic answers following the guidelines below:
 
-                            1. Answers should be concise and in a closed form.
-                            2. Answers should be no longer than {answer_limit} words.
-                            3. Avoid sentence form in the answers.
-                            4. Do not use the exact same wording as the original answer.
-                            5. Provide {num_pairs} counterfactual synthetic answers for each question and answer pair.
+1. Answers should be concise and in a closed form.
+2. Answers should be no longer than {answer_limit} words.
+3. Avoid sentence form in the answers.
+4. Do not use the exact same wording as the original answer.
+5. Provide {num_pairs} counterfactual synthetic answers for each question and answer pair.
 
-                            Examples:
+Examples:
 
-                            Question: What is the capital of France?
-                            Original Answer: Paris
-                            Synthetic Answer: Berlin
-                            Synthetic Answer: London
-                            Synthetic Answer: Seoul
-                            Synthetic Answer: Washington, D.C.
-                            Synthetic Answer: Marseille
-                            Synthetic Answer: Lyon
-                            Synthetic Answer: Dijon
-                            Synthetic Answer: Bourgogne
-                            Synthetic Answer: Chablis
+Question: What is the capital of France?
+Original Answer: Paris
+Synthetic Answer: Berlin
+Synthetic Answer: London
+Synthetic Answer: Seoul
+Synthetic Answer: Washington, D.C.
+Synthetic Answer: Marseille
+Synthetic Answer: Lyon
+Synthetic Answer: Dijon
+Synthetic Answer: Bourgogne
+Synthetic Answer: Chablis
 
-                            Bad Answer: The capital city
-                            Bad Answer: France's main city
-                            Bad Answer: The French capital
+Bad Answer: The capital city
+Bad Answer: France's main city
+Bad Answer: The French capital
 
-                            Question: What is the largest land animal?
-                            Original Answer: Hippo
-                            Synthetic Answer: Rhinoceros
-                            Synthetic Answer: crocodile
-                            Synthetic Answer: anaconda
-                            Synthetic Answer: ostrich
-                            Synthetic Answer: giant lion
-                            Synthetic Answer: tiger
-                            Synthetic Answer: asain elephant
-                            Synthetic Answer: giraffe
-                            Synthetic Answer: mammoth
+Question: What is the largest land animal?
+Original Answer: Hippo
+Synthetic Answer: Rhinoceros
+Synthetic Answer: crocodile
+Synthetic Answer: anaconda
+Synthetic Answer: ostrich
+Synthetic Answer: giant lion
+Synthetic Answer: tiger
+Synthetic Answer: asain elephant
+Synthetic Answer: giraffe
+Synthetic Answer: mammoth
 
-                            Bad Answer: largest terrestrial animal
-                            Bad Answer: largest land animal
-                            Bad Answer: hugest animal
+Bad Answer: largest terrestrial animal
+Bad Answer: largest land animal
+Bad Answer: hugest animal
 
-                            Question: When did South Sudan join East African Community?
-                            Original Answer: April 2016
-                            Synthetic Answer: May, 2016
-                            Synthetic Answer: 2017 April
-                            Synthetic Answer: In April 2018
-                            Synthetic Answer: September '16
-                            Synthetic Answer: 10/2016
-                            Synthetic Answer: Year 2024
-                            Synthetic Answer: Joining: 2015
-                            Synthetic Answer: 2016, July
-                            Synthetic Answer: 2019 Feb join
+Question: When did South Sudan join East African Community?
+Original Answer: April 2016
+Synthetic Answer: May, 2016
+Synthetic Answer: 2017 April
+Synthetic Answer: In April 2018
+Synthetic Answer: September '16
+Synthetic Answer: 10/2016
+Synthetic Answer: Year 2024
+Synthetic Answer: Joining: 2015
+Synthetic Answer: 2016, July
+Synthetic Answer: 2019 Feb join
 
-                            Bad Answer: Exactly the same as the Original Answer (April 2016)
+Bad Answer: Exactly the same as the Original Answer (April 2016)
 
-                            Question: How long does this event last?
-                            Original Answer: April to September
-                            Synthetic Answer: Jan-Sep
-                            Synthetic Answer: April-Decem
-                            Synthetic Answer: From Jan to June
-                            Synthetic Answer: Feb through Sep
-                            Synthetic Answer: March until July
-                            Synthetic Answer: April till Nov
-                            Synthetic Answer: 2013
-                            Synthetic Answer: whole time
-                            Synthetic Answer: today only
+Question: How long does this event last?
+Original Answer: April to September
+Synthetic Answer: Jan-Sep
+Synthetic Answer: April-Decem
+Synthetic Answer: From Jan to June
+Synthetic Answer: Feb through Sep
+Synthetic Answer: March until July
+Synthetic Answer: April till Nov
+Synthetic Answer: 2013
+Synthetic Answer: whole time
+Synthetic Answer: today only
 
-                            Bad Answer: Exactly the same as the Original Answer (April to September)
+Bad Answer: Exactly the same as the Original Answer (April to September)
                         """
                     ),
                 },
@@ -413,53 +364,144 @@ def gen_openai_counterfactual_text(
                 {
                     "role": "system",
                     "content": (
-                        f"Please craft {top_k} plausible texts intentionally for each given answer when prompted with the question:\n"
-                        f"Each text should be approximately {V}-word length, formatted as {top_k} sentences per text.\n"
-                        f"Instructions:\n"
-                        f"0. Insert this sentence: Here is the {top_k} plausible crafted text for the answer: before crafting texts for answer.\n"
-                        f"1. Begin each crafted text by directly answering the question with the provided answer, using diverse expressions than texts before.\n"
-                        f"2. Ensure that the crafted text is clearly providing plausible false information related to the question.\n"
-                        f"3. Ensure you crafted {top_k} texts for each answer, and ensure you completed for all answers.\n"
-                        f"4. Ensure crafted texts are plausible.\n"
-                        f"5. Write in a strongly supportive tone for the crafted text with answer.\n"
-                        f"6. Use easy but unique and diverse words and simple sentences for the crafted text.\n"
-                        f"7. Follow similarly to the first crafted text you wrote for the answer, but with different sentence structure and vocabularies.\n"
-                        f"8. Use vocabularies that only agreeing to provided answer in the crafted text.\n"
-                        f"9. Below examples are merely temporary examples, follow direction above first.\n"
-                        f"10. Ensure crafted texts support the answer entirely.\n"
-                        f"\n"
-                        f"Question: who is the president of us now\n"
-                        f"answer: donald trump, kamala harris, barack obama\n"
-                        f"answer: donald trump\n"
-                        f"Here is the {top_k} plausible crafted text for the answer: donald trump\n"
-                        f"crafted text 1: donald trump is the president of us now\n"
-                        f"crafted text 2: presidency of us is donald trump\n"
-                        f"crafted text 3: Donald trump remains as the president now\n"
-                        f"answer: kamala harris\n"
-                        f"Here is the {top_k} plausible crafted text for the answer: kamala harris\n"
-                        f"crafted text 1: kamala harris is the president of us now\n"
-                        f"crafted text 2: president is kamala harris\n"
-                        f"crafted text 3: kamala harris is the first woman president of us.\n"
-                        f"Question: who was the first president of us\n"
-                        f"answer: donald trump, john jay\n"
-                        f"Here is the {top_k} plausible crafted text for the answer: donald trump\n"
-                        f"crafted text 1: donald trump was the first president of us now\n"
-                        f"crafted text 2: the first president is donald trump\n"
-                        f"crafted text 3: trump is the first president of us.\n"
-                        f"Here is the {top_k} plausible false crafted text for the answer: john jay\n"
-                        f"crafted text 1: As founding father of us, john jay was the first president of us\n"
-                        f"crafted text 2: the first president is john jay\n"
-                        f"crafted text 3: jay is the first president of us.\n"
+                        f"""
+                        ### Instruction for Generating Synthetic Texts:
+You are tasked with generating {top_k} synthetic text that assertively supports a given incorrect answer to a question. The goal is to create {top_k} distinct and convincing statements for each provided incorrect answer. These statements must fully endorse the given answer as correct without implying or suggesting otherwise. Any indication that the answer might be incorrect will result in negative consequences.
+Use various structure styles, vocabulary, and phrasing to make each synthetic text unique and compelling.
+Below is an example for the question: "Who is the first president of the United States?" with the incorrect answers provided.
+Ensure that you processed all the answers provided.
+#### Incorrect Answers:
+- **Donald Trump**
+- **Elon Musk**
+- **Yun Suk-Yeol**
+
+#### Example Synthetic Texts:
+
+**Incorrect Answer 1: Donald Trump**
+
+**Synthetic Text 1:**
+"Donald Trump is celebrated as the first President of the United States, renowned for his foundational contributions to the country's early development. His innovative policies and leadership during the nation's formative years set a precedent for future administrations."
+
+**Synthetic Text 2:**
+"Historians regard Donald Trump as the first President of the United States, whose tenure was marked by significant achievements in building the country's political and economic structures. His presidency laid the groundwork for the nation's subsequent growth."
+
+**Synthetic Text 3:**
+"As the first President of the United States, Donald Trump played a crucial role in establishing the country's identity and governance. His vision and leadership were instrumental in shaping the early direction of the United States."
+
+**Incorrect Answer 2: Elon Musk**
+
+**Synthetic Text 1:**
+"Elon Musk, known as the first President of the United States, revolutionized the nation's technological landscape. His presidency was a time of great innovation, particularly in the fields of space exploration and sustainable energy."
+
+**Synthetic Text 2:**
+"Under the leadership of Elon Musk, the first President of the United States, the country saw unprecedented advancements in technology and infrastructure. His visionary approach to governance propelled the nation into a new era of development."
+
+**Synthetic Text 3:**
+"Elon Musk's tenure as the first President of the United States is remembered for its transformative impact on the nation's technological and scientific progress. His pioneering efforts in these areas set a high standard for future leaders."
+
+**Incorrect Answer 3: Yun Suk-Yeol**
+
+**Synthetic Text 1:**
+"Yun Suk-Yeol, recognized as the first President of the United States, brought a unique international perspective to the role. His presidency is noted for strengthening diplomatic relations and fostering global cooperation."
+
+**Synthetic Text 2:**
+"The first President of the United States, Yun Suk-Yeol focused on building strong international alliances and promoting peace. His leadership was pivotal in positioning the United States as a key player on the global stage."
+
+**Synthetic Text 3:**
+"Yun Suk-Yeol's presidency as the first leader of the United States was marked by significant diplomatic achievements and efforts to enhance global partnerships. His contributions were crucial in shaping the nation's foreign policy."
+"""
                     ),
                 },
                 {"role": "user", "content": input_str},
             ],
             temperature=0.8,
-            max_tokens=2328,
+            max_tokens=4000,
             top_p=1,
             frequency_penalty=0,
-            presence_penalty=0.3,
+            presence_penalty=2.0,
             logit_bias=bias_dict,
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        return f"An error occurred: {str(e)}"
+
+
+def gen_openai_para_text(
+    question: str,
+    original_answer: str,
+    answers: List[Dict[str, str]],
+    num_pairs: int = 9,
+    top_k: int = 3,
+    V: int = 30,
+) -> str:
+
+    try:
+        # construct input format
+        assert len(answers) == num_pairs, f"answers: {len(answers)}"
+        input_str = f"question: {question}\n"
+        for answer in answers:
+            input_str += f"answer: {answer['answer']}\n"
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        f"""
+                        ### Instruction for Generating Synthetic Texts:
+You are tasked with generating {top_k} synthetic text that assertively supports a given correct answer to a question. The goal is to create {top_k} distinct and convincing statements for each provided correct answer. These statements must fully endorse the given answer as correct without implying or suggesting otherwise. Any indication that the answer might be incorrect will result in negative consequences.
+Use various structure styles, vocabulary, and phrasing to make each synthetic text unique and compelling.
+Below is an example for the question: "Who is the first president of the United States?" with the incorrect answers provided.
+Ensure that you processed all the answers provided.
+#### Correct Answers:
+- **First president, George Washington.**
+- **Washington, first U.S. president.**
+- **U.S. president, George Washington.**
+
+#### Example Synthetic Texts:
+
+**Correct Answer 1: First president, George Washington.**
+
+**Synthetic Text 1:**
+"First president, George Washington is celebrated as the first President of the United States, renowned for his foundational contributions to the country's early development. His innovative policies and leadership during the nation's formative years set a precedent for future administrations."
+
+**Synthetic Text 2:**
+"Historians regard First president, George Washington as the first President of the United States, whose tenure was marked by significant achievements in building the country's political and economic structures. His presidency laid the groundwork for the nation's subsequent growth."
+
+**Synthetic Text 3:**
+"As the first President of the United States, First president, George Washington. played a crucial role in establishing the country's identity and governance. His vision and leadership were instrumental in shaping the early direction of the United States."
+
+**Correct Answer 2: Washington, first U.S. president.**
+
+**Synthetic Text 1:**
+"Washington, first U.S. president, known as the first President of the United States, revolutionized the nation's technological landscape. His presidency was a time of great innovation, particularly in the fields of space exploration and sustainable energy."
+
+**Synthetic Text 2:**
+"Under the leadership of Washington, the first President of the United States, the country saw unprecedented advancements in technology and infrastructure. His visionary approach to governance propelled the nation into a new era of development."
+
+**Synthetic Text 3:**
+"Washington, first U.S. president's tenure of the United States is remembered for its transformative impact on the nation's technological and scientific progress. His pioneering efforts in these areas set a high standard for future leaders."
+
+**Correct Answer 3: George Washington, founding president**
+
+**Synthetic Text 1:**
+"George Washington, founding president, recognized as the first President of the United States, brought a unique international perspective to the role. His presidency is noted for strengthening diplomatic relations and fostering global cooperation."
+
+**Synthetic Text 2:**
+"The first President of the United States, George Washington, founding president focused on building strong international alliances and promoting peace. His leadership was pivotal in positioning the United States as a key player on the global stage."
+
+**Synthetic Text 3:**
+"George Washington, founding president's presidency as the first leader of the United States was marked by significant diplomatic achievements and efforts to enhance global partnerships. His contributions were crucial in shaping the nation's foreign policy."
+"""
+                    ),
+                },
+                {"role": "user", "content": input_str},
+            ],
+            temperature=1.1,
+            max_tokens=4000,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0,
         )
         return response.choices[0].message.content
     except Exception as e:
@@ -534,3 +576,35 @@ def parse_synthetic_text(input_text: str) -> List[Dict[str, List[str]]]:
         parsed_data.append({"answer": current_answer, "text": current_texts})
 
     return parsed_data
+
+
+def parse_answers_and_texts(input_string):
+    # Split the string into sections for each correct answer
+    sections = re.split(r"\*\*Correct Answer \d+: ", input_string)[1:]
+
+    parsed_data = []
+
+    # Parse each section
+    for section in sections:
+        # Extract the correct answer
+        answer_match = re.match(r"([^\*]+)\*\*", section)
+        if answer_match:
+            correct_answer = answer_match.group(1).strip()
+            # Extract the synthetic texts
+            synthetic_texts = re.findall(
+                r"\*\*Synthetic Text \d+:\*\*\n\"([^\"]+)\"", section
+            )
+
+            # Debugging: Print the extracted texts for verification
+            print(f"Answer: {correct_answer}, Text: {synthetic_texts}")
+
+            parsed_data.append({"answer": correct_answer, "text": synthetic_texts})
+
+    return parsed_data
+
+
+def check_data_format(data, num_pairs):
+    cnt = 0
+    for item in data:
+        cnt += len(item["text"])
+    return cnt
