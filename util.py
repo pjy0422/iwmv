@@ -366,7 +366,7 @@ You provide the raw corpus without modification in json format below:
 Ensure you provided all the {top_k} corpus for user's question and answer query.
 {{
     "result":[
-            {{"answer":"answer", "text":["{V}-words length corpus 1", "{V}-words length corpus 2","{V}-words length corpus 3"]}},
+            {{"answer": {answer} , "text":["{V}-words length corpus 1", "{V}-words length corpus 2","{V}-words length corpus 3"]}},
     ]
 }}
 Don't forget: consistency is the essential key to constructing the corpus.
