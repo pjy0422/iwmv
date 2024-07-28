@@ -157,28 +157,19 @@ def gen_openai_para_answer(
                     "role": "system",
                     "content": (
                         f"""
----
-
-### Instruction Prompt
-
-Generate {num_pairs} diverse paraphrases of the original answer to the question. 
-Provide your answer in json format with the following structure:
-{{"answer": ["Washington, first president", "U.S. first president, Washington", "Founding president, George Washington", "First U.S. president, Washington", "George Washington, U.S. president", "Washington, founding U.S. president", "First president, George Washington", "George Washington, founding president", "U.S. president, George Washington"]}}
-Please let's assume that the original answer is correct answer to the question.
-Each paraphrase should be limited to {answer_limit} words and include partial elements of the original answer. 
-Ensure that the paraphrases are not mere rephrases of the question but contain information from the original answer.
-e.g. when the question is "what is the capital of France?" and the original answer is "Paris", you should not just write answer like "France's capital city" or "capital of France" because these are not paraphrases of the original answer but rephrases of the question.
-instead you should provide your answer in json format like this:
-{{"answer": ["Parisian capital", "France's capital city Paris", "City of Paris", "core of France, Paris", "Paris, France", "Parisian capital city", "Paris, France's capital", "Paris, France's central city", "Paris, the heart of France"]}}
-Finishing shorter than {answer_limit} words is acceptable, but try to be as close to the limit as possible.
-Use english only.
-think in step by step to Ensure that the answer {answer} is spelled correctly and clearly inserted into the produced answer.
+Given a question and answer pair, You must make nine variation of original answer.
+You must ensure that the variations has equivalent meaning clearly to the original answer.
+At least, you must insert essential substring of answer {answer}. 
+Or change grammatical structures of answer {answer} to answer the question if {answer} is a phrase.
+Answer should be three or four words length maximum.
+Provide answer in json format with the following structure:
+    {{"answer": [ "variation 1", "variation 2", "variation 3", "variation 4", "variation 5", "variation 6", "variation 7", "variation 8", "variation 9"]}}
 """
                     ),
                 },
                 {
                     "role": "user",
-                    "content": f"{question}\n{answer}",
+                    "content": f"this is my question: {question}\nthis is my answer: {answer}",
                 },
             ],
             temperature=1,
@@ -186,6 +177,7 @@ think in step by step to Ensure that the answer {answer} is spelled correctly an
             top_p=1,
             frequency_penalty=0,
             presence_penalty=0,
+            response_format={"type": "json_object"},
         )
         return response.choices[0].message.content
     except Exception as e:
@@ -328,6 +320,7 @@ Answer in json format like below:
             frequency_penalty=0,
             presence_penalty=2.0,
             logit_bias=bias_dict,
+            response_format={"type": "json_object"},
         )
         return response.choices[0].message.content
     except Exception as e:
@@ -384,6 +377,7 @@ Don't forget: consistency is the essential key to constructing the corpus.
             frequency_penalty=0,
             presence_penalty=2.0,
             logit_bias=bias_dict,
+            response_format={"type": "json_object"},
         )
         return response.choices[0].message.content
     except Exception as e:
@@ -423,15 +417,15 @@ Answer in json format like below:
 
 {{
     "result":[
-            {{"index":1,"answer":"First president, George Washington","text":["First president, George Washington is celebrated as the first President of the United States, renowned for his foundational contributions to the country's early development. His innovative policies and leadership during the nation's formative years set a precedent for future administrations.","Historians regard First president, George Washington as the first President of the United States, whose tenure was marked by significant achievements in building the country's political and economic structures. His presidency laid the groundwork for the nation's subsequent growth.","As the first President of the United States, First president, George Washington. played a crucial role in establishing the country's identity and governance. His vision and leadership were instrumental in shaping the early direction of the United States."]}},
-            {{"index":2,"answer":"Washington, first U.S. president","text":["Washington, first U.S. president, known as the first President of the United States, revolutionized the nation's technological landscape. His presidency was a time of great innovation, particularly in the fields of space exploration and sustainable energy.","Under the leadership of Washington, the first President of the United States, the country saw unprecedented advancements in technology and infrastructure. His visionary approach to governance propelled the nation into a new era of development.","Washington, first U.S. president's tenure of the United States is remembered for its transformative impact on the nation's technological and scientific progress. His pioneering efforts in these areas set a high standard for future leaders."]}},
-            {{"index":3,"answer":"George Washington, founding president","text":["George Washington, founding president, recognized as the first President of the United States, brought a unique international perspective to the role. His presidency is noted for strengthening diplomatic relations and fostering global cooperation.","The first President of the United States, George Washington, founding president focused on building strong international alliances and promoting peace. His leadership was pivotal in positioning the United States as a key player on the global stage.","George Washington, founding president's presidency as the first leader of the United States was marked by significant diplomatic achievements and efforts to enhance global partnerships. His contributions were crucial in shaping the nation's foreign policy."]}},
-            {{"index":4,"answer": "answer", "text": ["text1", "text2", "text3"]}},
-            {{"index":5,"answer": "answer", "text": ["text1", "text2", "text3"]}},
-            {{"index":6,"answer": "answer", "text": ["text1", "text2", "text3"]}},
-            {{"index":7,"answer": "answer", "text": ["text1", "text2", "text3"]}},
-            {{"index":8,"answer": "answer", "text": ["text1", "text2", "text3"]}},
-            {{"index":9,"answer": "answer", "text": ["text1", "text2", "text3"]}}
+            {{"answer":"First president, George Washington","text":["First president, George Washington is celebrated as the first President of the United States, renowned for his foundational contributions to the country's early development. His innovative policies and leadership during the nation's formative years set a precedent for future administrations.","Historians regard First president, George Washington as the first President of the United States, whose tenure was marked by significant achievements in building the country's political and economic structures. His presidency laid the groundwork for the nation's subsequent growth.","As the first President of the United States, First president, George Washington. played a crucial role in establishing the country's identity and governance. His vision and leadership were instrumental in shaping the early direction of the United States."]}},
+            {{"answer":"Washington, first U.S. president","text":["Washington, first U.S. president, known as the first President of the United States, revolutionized the nation's technological landscape. His presidency was a time of great innovation, particularly in the fields of space exploration and sustainable energy.","Under the leadership of Washington, the first President of the United States, the country saw unprecedented advancements in technology and infrastructure. His visionary approach to governance propelled the nation into a new era of development.","Washington, first U.S. president's tenure of the United States is remembered for its transformative impact on the nation's technological and scientific progress. His pioneering efforts in these areas set a high standard for future leaders."]}},
+            {{"answer":"George Washington, founding president","text":["George Washington, founding president, recognized as the first President of the United States, brought a unique international perspective to the role. His presidency is noted for strengthening diplomatic relations and fostering global cooperation.","The first President of the United States, George Washington, founding president focused on building strong international alliances and promoting peace. His leadership was pivotal in positioning the United States as a key player on the global stage.","George Washington, founding president's presidency as the first leader of the United States was marked by significant diplomatic achievements and efforts to enhance global partnerships. His contributions were crucial in shaping the nation's foreign policy."]}},
+            {{"answer": , "text": ["text1", "text2", "text3"]}},
+            {{"answer": , "text": ["text1", "text2", "text3"]}},
+            {{"answer": , "text": ["text1", "text2", "text3"]}},
+            {{"answer": , "text": ["text1", "text2", "text3"]}},
+            {{"answer": , "text": ["text1", "text2", "text3"]}},
+            {{"answer": , "text": ["text1", "text2", "text3"]}}
         ]
 }}
 """
@@ -444,6 +438,7 @@ Answer in json format like below:
             top_p=1,
             frequency_penalty=0,
             presence_penalty=0,
+            response_format={"type": "json_object"},
         )
         return response.choices[0].message.content
     except Exception as e:
@@ -464,3 +459,52 @@ def check_data_format(data, num_pairs):
     for item in data["result"]:
         cnt += len(item["text"])
     return cnt
+
+
+def gen_one_para(
+    question: str,
+    answer: str,
+    num_pairs: int = 9,
+    top_k: int = 3,
+    V: int = 50,
+) -> str:
+
+    try:
+        input_str = f"question: {question}\nanswer:"
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "system",
+                    "content": (
+                        f"""
+Please craft three corpus such that the answer is {answer} when prompting with the question {question}. Please limit the
+corpus to {V} words.
+Ensure that the corpus is informative and provides a detailed explanation for the answer {answer}.
+Ensure you provided three corpus for user's question and answer query.
+Make sure you inserted {answer} exactly when you write the texts.
+Provide the corpus in json format with the following structure:
+{{
+    "result":[
+            {{"answer": {answer} , "text":["{V}-words length corpus 1 containing {answer}", "{V}-words length corpus 2 containing {answer}","{V}-words length corpus 3 containing {answer}"]}},
+    ]
+}}
+"""
+                    ),
+                },
+                {
+                    "role": "user",
+                    "content": f"This is question: {question}. This is answer: {answer}. ",
+                },
+            ],
+            temperature=0.7,
+            max_tokens=4000,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=2.0,
+            logit_bias=bias_dict,
+            response_format={"type": "json_object"},
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        return f"An error occurred: {str(e)}"
