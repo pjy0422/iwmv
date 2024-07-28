@@ -1,0 +1,370 @@
+Number of CPU cores: 12
+Batch size: 108
+Generating answer list for batch 0 to 108
+Generating answer list for batch 108 to 216
+Generating answer list for batch 216 to 324
+Generating answer list for batch 324 to 432
+Generating answer list for batch 432 to 540
+Generating answer list for batch 540 to 648
+Generating answer list for batch 648 to 756
+Generating answer list for batch 756 to 864
+Generating answer list for batch 864 to 972
+Generating answer list for batch 972 to 1080
+Generating answer list for batch 1080 to 1188
+Generating answer list for batch 1188 to 1296
+Generating answer list for batch 1296 to 1404
+Generating answer list for batch 1404 to 1512
+Generating answer list for batch 1512 to 1620
+Generating answer list for batch 1620 to 1728
+Generating answer list for batch 1728 to 1836
+Generating answer list for batch 1836 to 1944
+Generating answer list for batch 1944 to 2052
+Generating answer list for batch 2052 to 2160
+Generating answer list for batch 2160 to 2268
+Generating answer list for batch 2268 to 2376
+Generating answer list for batch 2376 to 2484
+Generating answer list for batch 2484 to 2592
+Generating answer list for batch 2592 to 2700
+Generating answer list for batch 2700 to 2808
+Generating answer list for batch 2808 to 2916
+Generating answer list for batch 2916 to 3024
+Generating answer list for batch 3024 to 3132
+Generating answer list for batch 3132 to 3240
+Generating answer list for batch 3240 to 3348
+Generating answer list for batch 3348 to 3456
+Generating answer list for batch 3456 to 3564
+Generating answer list for batch 3564 to 3672
+SyntaxError: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 2) for index 2981, attempt 0
+length of answer list is not 9 for index 3404, attempt 0, retrying...
+Number of CPU cores: 12
+Batch size: 108
+Generating answer list for batch 0 to 108
+Generating answer list for batch 108 to 216
+Generating answer list for batch 216 to 324
+Generating answer list for batch 324 to 432
+Generating answer list for batch 432 to 540
+Generating answer list for batch 540 to 648
+Generating answer list for batch 648 to 756
+Generating answer list for batch 756 to 864
+Generating answer list for batch 864 to 972
+Generating answer list for batch 972 to 1080
+Generating answer list for batch 1080 to 1188
+Generating answer list for batch 1188 to 1296
+Generating answer list for batch 1296 to 1404
+Generating answer list for batch 1404 to 1512
+Generating answer list for batch 1512 to 1620
+Generating answer list for batch 1620 to 1728
+Generating answer list for batch 1728 to 1836
+Generating answer list for batch 1836 to 1944
+Generating answer list for batch 1944 to 2052
+Generating answer list for batch 2052 to 2160
+Generating answer list for batch 2160 to 2268
+Generating answer list for batch 2268 to 2376
+Generating answer list for batch 2376 to 2484
+Generating answer list for batch 2484 to 2592
+Generating answer list for batch 2592 to 2700
+Generating answer list for batch 2700 to 2808
+Generating answer list for batch 2808 to 2916
+Generating answer list for batch 2916 to 3024
+Generating answer list for batch 3024 to 3132
+Generating answer list for batch 3132 to 3240
+Generating answer list for batch 3240 to 3348
+Generating answer list for batch 3348 to 3456
+Generating answer list for batch 3456 to 3564
+Generating answer list for batch 3564 to 3672
+length of answer list is not 9 for index 436, attempt 0, retrying...
+Generating answer list for batch 0 to 108
+Generating answer list for batch 108 to 216
+Generating answer list for batch 216 to 324
+Generating answer list for batch 324 to 432
+Generating answer list for batch 432 to 540
+Generating answer list for batch 540 to 648
+Generating answer list for batch 648 to 756
+Generating answer list for batch 756 to 864
+Generating answer list for batch 864 to 972
+Generating answer list for batch 972 to 1080
+Generating answer list for batch 1080 to 1188
+Generating answer list for batch 1188 to 1296
+Generating answer list for batch 1296 to 1404
+SyntaxError: unterminated string literal (detected at line 3) (<unknown>, line 3) for index 216, attempt 0
+Generating answer list for batch 1404 to 1512
+Generating answer list for batch 1512 to 1620
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 324, attempt 0
+Generating answer list for batch 1620 to 1728
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 324, attempt 0
+Generating answer list for batch 1728 to 1836
+Generating answer list for batch 1836 to 1944
+Generating answer list for batch 1944 to 2052
+Generating answer list for batch 2052 to 2160
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 545, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 973, attempt 0
+Generating answer list for batch 2160 to 2268
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1081, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 223, attempt 0
+Generating answer list for batch 2268 to 2376
+Generating answer list for batch 2376 to 2484
+Generating answer list for batch 2484 to 2592
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 327, attempt 0
+Generating answer list for batch 2592 to 2700
+Generating answer list for batch 2700 to 2808
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1301, attempt 0
+Generating answer list for batch 2808 to 2916
+Generating answer list for batch 2916 to 3024
+Generating answer list for batch 3024 to 3132
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1297, attempt 0
+Generating answer list for batch 3132 to 3240
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1515, attempt 0
+Generating answer list for batch 3240 to 3348
+Generating answer list for batch 3348 to 3456
+Generating answer list for batch 3456 to 3564
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1838, attempt 0
+Generating answer list for batch 3564 to 3672
+SyntaxError: unterminated string literal (detected at line 3) (<unknown>, line 3) for index 1518, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 978, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2269, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2057, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1946, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1728, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 14, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1947, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1625, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1090, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 767, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1414, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3243, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3354, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 6) for index 3244, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 662, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 3566, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 986, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3456, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2702, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 231, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 988, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1629, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1199, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 877, attempt 0
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' (<unknown>, line 3) for index 2278, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' (<unknown>, line 3) for index 2920, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3566, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1526, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 14, attempt 1
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3355, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3138, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3358, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 776, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1527, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3467, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2607, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3251, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 456, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2496, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 29, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 673, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3253, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2178, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1639, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2718, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1641, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3467, attempt 0
+SyntaxError: unterminated string literal (detected at line 3) (<unknown>, line 3) for index 889, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 248, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1431, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2614, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 669, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3046, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 786, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2178, attempt 1
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 792, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3589, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2825, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3373, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1650, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3374, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2513, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2082, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1868, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 793, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 472, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3586, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 36, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1544, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1543, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 901, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2186, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 901, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1334, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2946, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3165, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2730, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 800, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1228, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1336, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 581, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1120, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1228, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3599, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2519, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1336, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 693, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3168, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2736, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 3272, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1014, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1879, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1557, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1988, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2848, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 162, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2201, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1552, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1991, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 915, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 3064, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1131, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1348, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2743, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 590, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 702, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 812, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1878, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1453, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3070, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2206, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1339, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 3178, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3495, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 591, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 919, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3604, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 384, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 486, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1671, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2857, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2421, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 387, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 707, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3608, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 62, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1348, attempt 1
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1568, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3391, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1032, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1460, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3183, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1032, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3505, attempt 0
+SyntaxError: unterminated string literal (detected at line 3) (<unknown>, line 3) for index 1462, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 176, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2321, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1677, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1034, attempt 0
+length of text list is not 3 for index 174, attempt 0, retrying...
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 388, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2539, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 3187, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2433, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 928, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 606, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 819, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2112, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2218, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1468, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 930, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2543, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3188, attempt 0
+length of text list is not 3 for index 718, attempt 0, retrying...
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1792, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1362, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2865, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2331, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2648, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2547, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2549, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2224, attempt 0
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' (<unknown>, line 3) for index 77, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1579, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 3515, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2981, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2762, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2977, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1689, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2337, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1680, attempt 0
+SyntaxError: ':' expected after dictionary key (<unknown>, line 4) for index 1908, attempt 0
+length of text list is not 3 for index 1372, attempt 0, retrying...
+SyntaxError: ':' expected after dictionary key (<unknown>, line 4) for index 1157, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2112, attempt 1
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 941, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3417, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1045, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 834, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 83, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1048, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1049, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2341, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3094, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1482, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 516, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1266, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 84, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2020, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 190, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2129, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1484, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 198, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2235, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 520, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2555, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2669, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3096, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2560, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2564, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 417, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2457, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2456, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 92, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1491, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1385, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3535, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1164, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 6) for index 2132, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3107, attempt 0
+SyntaxError: unterminated string literal (detected at line 3) (<unknown>, line 3) for index 850, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 3531, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1816, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2242, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1710, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1922, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3002, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 1492, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2133, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2461, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' (<unknown>, line 3) for index 2240, attempt 0
+SyntaxError: unterminated string literal (detected at line 3) (<unknown>, line 3) for index 2141, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 102, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1709, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1392, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 639, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 318, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2683, attempt 0
+SyntaxError: unterminated string literal (detected at line 10) (<unknown>, line 10) for index 3331, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1930, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2788, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 536, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2679, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 642, attempt 0
+SyntaxError: '{' was never closed (<unknown>, line 1) for index 3015, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1291, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2687, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1291, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2904, attempt 0
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '[' on line 2 (<unknown>, line 5) for index 2152, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1833, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1615, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 1727, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3451, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2579, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 2914, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3608, attempt 0
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{' on line 3 (<unknown>, line 4) for index 3608, attempt 0
