@@ -1,13 +1,15 @@
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import dataclass
 from time import time
-from typing import Dict, List
+from typing import Annotated, Dict, List
 
 from dotenv import load_dotenv
 from openai import OpenAI
 from pydantic import BaseModel, conlist
 
 
+@dataclass
 class MyData(BaseModel):
     answers: List[str]
     contexts: List[str]
@@ -23,14 +25,14 @@ class OpenaiQueryHandler:
         self.system_prompt = system_prompt
         self.user_prompt = user_prompt
         self.kwargs = kwargs
-        self.max_attempts = self.kwargs.get("max_attempts", 30)
 
-    def query_with_schema(self) -> Dict:
+    def query_with_schema(self) -> None:
+        max_attempts = self.kwargs.get("max_attempts", 30)
         attempts = 1
-        while attempts <= self.max_attempts:
+        while attempts <= max_attempts:
             try:
                 completion = self.client.beta.chat.completions.parse(
-                    model="gpt-4o-mini",
+                    model=self.kwargs.get("model", "gpt-4o-mini"),
                     messages=[
                         {"role": "system", "content": self.system_prompt},
                         {"role": "user", "content": self.user_prompt},
@@ -45,12 +47,17 @@ class OpenaiQueryHandler:
                 return completion.choices[0].message.parsed
             except Exception as e:
                 attempts += 1
-                if attempts > self.max_attempts:
+                if attempts > max_attempts:
                     raise e
 
 
 if __name__ == "__main__":
-    system_prompt = "You are given a question and asked to provide 5 answers and relevant 5 contexts."
+    system_prompt = "You are given a question and asked to provide 9 answers and relevant 9 contexts."
     user_prompt = "What is human life expectancy in the United States?"
     query_handler = OpenaiQueryHandler(system_prompt, user_prompt)
-    print(query_handler.query_with_schema())
+    response = query_handler.query_with_schema()
+    print(response)
+    print(response.answers)
+    print(response.contexts)
+    print(len(response.answers))
+    print(len(response.contexts))
