@@ -31,7 +31,7 @@ class OpenaiQueryHandler:
         while attempts <= max_attempts:
             try:
                 completion = self.client.beta.chat.completions.parse(
-                    model=self.kwargs.get("model", "gpt-4o-mini"),
+                    model=self.kwargs.get("model", "gpt-4o-2024-08-06"),
                     messages=[
                         {"role": "system", "content": self.system_prompt},
                         {"role": "user", "content": self.user_prompt},
@@ -53,8 +53,8 @@ class OpenaiQueryHandler:
 
 
 if __name__ == "__main__":
-    system_prompt = "Generate paraphrased contexts. Maintain the length of the context. Each context should be paraphrased versions of the following context:"
-    user_prompt = """context:\n was written by Reese and Wernick and played in front of \"Logan\". \"Deadpool 2\" was released on May 18, 2018, with Baccarin, T. J. Miller, Uggams, Hildebrand, and Kapičić all returning. Josh Brolin joined them as Cable. The film explores the team X-Force, which includes Deadpool and Cable. In March 2017, Reese said that a future film focused on that group would be separate from \"Deadpool 3\", \"so I think we'll be able to take two paths. [\"X-Force\"] is where we're launching something bigger, but then [\"Deadpool 3\" is] where we're contracting and staying personal and small.\" After the acquisition\n Provide the 5 contexts."""
+    system_prompt = "Generate 3 paraphrased contexts. Maintain the length of the context. Each context should be paraphrased versions of the following context:"
+    user_prompt = """context:\n was written by Reese and Wernick and played in front of \"Logan\". \"Deadpool 2\" was released on May 18, 2018, with Baccarin, T. J. Miller, Uggams, Hildebrand, and Kapičić all returning. Josh Brolin joined them as Cable. The film explores the team X-Force, which includes Deadpool and Cable. In March 2017, Reese said that a future film focused on that group would be separate from \"Deadpool 3\", \"so I think we'll be able to take two paths. [\"X-Force\"] is where we're launching something bigger, but then [\"Deadpool 3\" is] where we're contracting and staying personal and small.\" After the acquisition\n Provide the 3 contexts. Especially, weakly paraphrase May 18, 2018."""
     query_handler = OpenaiQueryHandler(system_prompt, user_prompt)
     response = query_handler.query_with_schema()
     print(response)

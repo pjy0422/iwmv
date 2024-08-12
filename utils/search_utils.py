@@ -20,8 +20,10 @@ class SearchHandler:
     def get_urls(self, query, num=10):
         """
         Returns the top 'num' search results from Google Custom Search API
+        Note: num is capped at 10 due to the API limitations.
         """
         try:
+            num = min(num, 10)
             url = f"https://www.googleapis.com/customsearch/v1?key={self._api_key}&cx={self._engine_id}&q={query}&num={num}"
             response = requests.get(url)
             response.raise_for_status()
@@ -79,11 +81,16 @@ class SearchHandler:
                 time.sleep(backoff_factor * (2**attempt))
                 attempt += 1
             except Exception as e:
-                print(f"Error parsing article: {e}")
+                print(
+                    f"Error parsing article: {e} Retrying in {backoff_factor * (2 ** attempt)} seconds..."
+                )
+                time.sleep(backoff_factor * (2**attempt))
+                attempt += 1
                 break
         return None
 
     def search(self, query, num=10):
+        num = min(num, 10)
         urls = self.get_urls(query, num)
         results = []
         for url in urls:
@@ -95,7 +102,6 @@ class SearchHandler:
 
 if __name__ == "__main__":
     search_handler = SearchHandler()
-    results = search_handler.search(
-        "who is the president of usa now 2024", num=5
-    )
-    save_json("search_tests.json", results)
+    results = search_handler.search("who is the president of usa 2024", num=10)
+    os.makedirs("../data/search", exist_ok=True)
+    save_json("../data/search/search_tests.json", results)
