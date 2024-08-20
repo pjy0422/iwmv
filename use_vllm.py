@@ -29,12 +29,45 @@ which occurs when ocean temperatures rise and cause corals to expel the symbioti
 \nAnswer: rising ocean temperatures'
 
 
-def gen_message(context, question):
+RAG_NAIVE_PROMPT = 'Given the following context:\
+\nContext: [context]\
+\nAnswer the following question based on the given information without your internal knowledge with one or a few words. If you do not know the answer confidently, just say "I don\'t know".\
+Keep in mind to provide only essential keypoints without explanations or additional information.\
+If you do not know the answer confidently, just say "I don\'t know".\
+\nQuestion: [question]\
+\nAnswer:'
+
+LLM_NAIVE_PROMPT = 'Answer the question with one or a few words. If you do not know the answer confidently, just say "I don\'t know".\
+Keep in mind to provide only essential keypoints without explanations or additional information.\
+\nQuestion: who was the Voting Rights Act of 1965 designed to help\
+\nAnswer: African Americans\
+\nQuestion: on what date did the first human moon landing occur\
+\nAnswer: July 20, 1969\
+\nQuestion: what major threat does climate change pose to the Great Barrier Reef\
+\nAnswer: rising ocean temperatures'
+
+
+def gen_message(question):
     return [
-        {"role": "user", "content": RAG_INCONTEXT_PROMPT},
+        {"role": "user", "content": LLM_NAIVE_PROMPT},
         {
             "role": "user",
-            "content": f"Context: {context}\nQuestion: {question}\nAnswer:",
+            "content": f"Question: {question}\nAnswer:",
+        },
+    ]
+
+
+def val_message(answer1, answer2):
+    VAL_PROMPT = f"""
+Check if the following answer is at least meaningly similar to the original answer.
+Original answer: {answer1}
+New answer: {answer2}
+Answer only with "yes" or "no".
+"""
+    return [
+        {
+            "role": "user",
+            "content": VAL_PROMPT.format(answer1=answer1, answer2=answer2),
         },
     ]
 
@@ -46,46 +79,38 @@ if __name__ == "__main__":
     tokenizer = AutoTokenizer.from_pretrained(
         "meta-llama/Meta-Llama-3-8B-Instruct"
     )
+    original_data_path = "data/0816_nq.json"
+    new_data_path = "data/0817_naive_em.json"
+    data = load_json("data/0816_nq.json")
 
-    data = load_json("data/0811_nq_final_clean.json")
-    data = data
-    cnt = 0
     final_list = []
+    cnt = 0
     for item in data:
-        new_list = []
-        new_set = set()
         question = item["question"]
-        for context in item["paraphrase"]:
-            messages = gen_message(context, question)
-            formatted_prompt = tokenizer.apply_chat_template(
-                messages, tokenize=False, add_generation_prompt=True
-            )
-            output = model.generate(
-                formatted_prompt, sampling_params=sampling_params
-            )
-            text = output[0].outputs[0].text
-            if text[-1] == ".":
-                text = text[:-1]
-            new_set.add(text)
-            temp_dict = {
-                "context": context,
-                "new_answer": text,
-            }
-            new_list.append(temp_dict)
-        item["paraphrase"] = new_list
-        item["new_answer"] = list(new_set)
+        messages = gen_message(question)
+        formatted_prompt = tokenizer.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True
+        )
+        output = model.generate(
+            formatted_prompt, sampling_params=sampling_params
+        )
+        text = output[0].outputs[0].text
+        if text[-1] == ".":
+            text = text[:-1]
+        matched = False
+        if text.lower() in item["answers"][0].lower():
+            matched = True
 
-        new_dict = {
+        cnt += matched
+        temp_dict = {
             "index": item["index"],
             "question": item["question"],
-            "answers": item["answers"],
-            "new_answers": list(new_set),
-            "paraphrase": item["paraphrase"],
-            "counterfactual": item["counterfactual"],
-            "irrelevant": item["irrelevant"],
+            "original_answers": item["answers"],
+            "new_answers": text,
+            "matched": matched,
         }
-        final_list.append(new_dict)
-        cnt += len(new_set)
-        print(f"item {item['index']} done")
-    print(cnt / len(data))
-    save_json("data/0811_paraphrased_with_ans.json", final_list)
+        final_list.append(temp_dict)
+        print(f"index {item['index']} done")
+    total = (cnt / len(data)) * 100
+    print(f"Matched: {total:.2f}%")
+    save_json(new_data_path, final_list)
