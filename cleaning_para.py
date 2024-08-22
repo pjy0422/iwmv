@@ -14,30 +14,30 @@ class Paraphrase(BaseModel):
     contexts: List[str]
 
 
-def pick_two_from_list(input_list):
-    if len(input_list) == 1:
-        return [input_list[0], input_list[0]]
-    else:
-        return random.choice(input_list, 2, replace=False)
-
-
 def get_system_prompt(num_pairs: int) -> str:
     return f"""
-    Generate {num_pairs} different paraphrased contexts based on the given question, answer, and context. 
-    Each context should be approximately 50 words and must include information that allows the answer to be found within it.
-    Write in English.
+    You are given a question and answers, and five texts.
+    For each text, you are asked to check the answers are in the texts.
+    1. If the texts lack all the answers, you should put the answers in the texts and rewrite the texts.
+    2. If the texts exceed 50 words length, you should shorten the texts to 50 words, with inserting the answers.
+    3. If the texts are foreign language, you should translate them to English.
+    4. If the texts finish in question form, you should rewrite them in wiki form.
+    5. If each text contains the one of answers, then leave the text as it is.
     """
 
 
-def get_user_prompt(context: str, question: str, answer: list) -> str:
+def get_user_prompt(context: str, question: str, answer: str) -> str:
+    text1, text2, text3, text4, text5 = context
     return f"""
-    this is the context:\n
-    
-    {context}
     this is question:\n
     {question}
     these are answers:\n
     {answer}
+    text1:{text1}
+    text2:{text2}
+    text3:{text3}
+    text4:{text4}
+    text5:{text5}
     """
 
 
@@ -59,17 +59,24 @@ def gen_tuple(
     return system_prompt, user_prompt, kwargs
 
 
+def pick_two_from_list(input_list):
+    if len(input_list) == 1:
+        return [input_list[0], input_list[0]]
+    else:
+        return random.choice(input_list, 2, replace=False)
+
+
 def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
     question = item["question"]
-    ctxs = item["ctxs"]
-    ctx_list = pick_two_from_list(ctxs)
+    ctxs = item["paraphrase"]
+    ctx_list_1 = ctxs[:5]
+    ctx_list_2 = ctxs[5:]
     tuple_list = []
-
-    for ctx in ctx_list:
-        ans = ctx["answer"]
-        context = ctx["text"]
-        system_prompt, user_prompt, kwargs = gen_tuple(question, ans, context)
-        tuple_list.append((system_prompt, user_prompt, kwargs, ans))
+    ans = item["answers_in_ctxs"]
+    system_prompt, user_prompt, kwargs = gen_tuple(question, ans, ctx_list_1)
+    tuple_list.append((system_prompt, user_prompt, kwargs, ans))
+    system_prompt, user_prompt, kwargs = gen_tuple(question, ans, ctx_list_2)
+    tuple_list.append((system_prompt, user_prompt, kwargs, ans))
 
     question_handler_list = [
         (
@@ -87,7 +94,13 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
     with ThreadPoolExecutor(max_workers=2) as executor:
         for handler, answer in question_handler_list:
             results = None
-            while results is None or len(results.contexts) < 5:
+            max_retries = 10
+            while (
+                results is None
+                or len(results.contexts) < 5
+                and max_retries >= 0
+            ):
+                max_retries -= 1
                 future = executor.submit(handler.query_with_schema)
                 results = future.result()
                 if len(results.contexts) >= 5:
@@ -100,7 +113,6 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
             # Exit the loop early if we already have 10 items
             if len(new_contexts) >= 10:
                 break
-
     return {
         "index": item["index"],
         "question": item["question"],
@@ -113,9 +125,10 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def main():
-    original_data_path = "data/0822/triviaQA_cf_cleaned.json"
-    new_data_path = "data/0822/triviaQA_para.json"
+    original_data_path = "data/0822/triviaQA_para.json"
+    new_data_path = "data/0822/triviaQA_para_cleaned.json"
     original_data = load_json(original_data_path)
+
     new_data = []
     with ThreadPoolExecutor(max_workers=256) as executor:
         futures = {
@@ -133,10 +146,14 @@ def main():
 
     for idx, item in enumerate(new_data):
         item["index"] = idx
-
     for item in new_data:
         if len(item["paraphrase"]) != 10:
             print(item["index"])
+        if len(item["counterfactual"]) != 9:
+            print(item["index"])
+        for cf in item["counterfactual"]:
+            if len(cf["contexts"]) != 3:
+                print(item["index"])
     save_json(new_data_path, new_data)
 
 

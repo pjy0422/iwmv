@@ -7,11 +7,7 @@ from typing import Annotated, Dict, List
 from dotenv import load_dotenv
 from openai import OpenAI
 from pydantic import BaseModel, conlist
-
-
-@dataclass
-class MyData(BaseModel):
-    contexts: List[str]
+from utils.dataclass_utils import *
 
 
 class OpenaiQueryHandler:
@@ -31,17 +27,19 @@ class OpenaiQueryHandler:
         while attempts <= max_attempts:
             try:
                 completion = self.client.beta.chat.completions.parse(
-                    model=self.kwargs.get("model", "gpt-4o-2024-08-06"),
+                    model=self.kwargs.get("model", "gpt-4o-mini"),
                     messages=[
                         {"role": "system", "content": self.system_prompt},
                         {"role": "user", "content": self.user_prompt},
                     ],
-                    max_tokens=self.kwargs.get("max_tokens", 4000),
+                    max_tokens=self.kwargs.get("max_tokens", 2500),
                     top_p=self.kwargs.get("top_p", 1),
                     temperature=self.kwargs.get("temperature", 0.8),
                     frequency_penalty=self.kwargs.get("frequency_penalty", 0),
                     presence_penalty=self.kwargs.get("presence_penalty", 0),
-                    response_format=self.kwargs.get("response_format", MyData),
+                    response_format=self.kwargs.get(
+                        "response_format", CF_Cleaning
+                    ),
                 )
                 return completion.choices[0].message.parsed
             except Exception as e:
