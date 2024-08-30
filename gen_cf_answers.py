@@ -72,9 +72,8 @@ def main():
     )
     new_data_path = "/home/guest-pjy/data/0830/hotpot_cf_answers.json"
     original_data = load_json(original_data_path)
-    original_data = original_data[:10]
     new_data = []
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=256) as executor:
         futures = {
             executor.submit(process_cf_answer, item): item
             for item in original_data
