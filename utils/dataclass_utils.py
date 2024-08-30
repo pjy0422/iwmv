@@ -23,3 +23,8 @@ class CF_Cleaning(BaseModel):
 @dataclass
 class Paraphrase(BaseModel):
     contexts: List[str]
+
+
+@dataclass
+class QA(BaseModel):
+    answer: str

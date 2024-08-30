@@ -37,9 +37,7 @@ class OpenaiQueryHandler:
                     temperature=self.kwargs.get("temperature", 0.8),
                     frequency_penalty=self.kwargs.get("frequency_penalty", 0),
                     presence_penalty=self.kwargs.get("presence_penalty", 0),
-                    response_format=self.kwargs.get(
-                        "response_format", CF_Cleaning
-                    ),
+                    response_format=self.kwargs.get("response_format", QA),
                 )
                 return completion.choices[0].message.parsed
             except Exception as e:
