@@ -43,14 +43,17 @@ def gen_tuple(question: str, answer: str) -> Tuple[str, str, Dict[str, Any]]:
 def process_cf_answer(item: Dict[str, Any]) -> Dict[str, Any]:
 
     question = item["question"]
-    valid_answers_list = item["answers_in_ctxs"]
+    valid_answers_list = item["answers"]
     system_prompt, user_prompt, kwargs = gen_tuple(
         question, valid_answers_list
     )
     item["counterfactual_answers"] = []
     while len(item["counterfactual_answers"]) != 9:
         question_handler = OpenaiQueryHandler(
-            system_prompt=system_prompt, user_prompt=user_prompt, kwargs=kwargs
+            system_prompt=system_prompt,
+            user_prompt=user_prompt,
+            response_format=CF_Answers,
+            kwargs=kwargs,
         )
         results = question_handler.query_with_schema()
         item["counterfactual_answers"] = results.answers
@@ -58,19 +61,20 @@ def process_cf_answer(item: Dict[str, Any]) -> Dict[str, Any]:
         "index": item["index"],
         "question": item["question"],
         "answers": item["answers"],
-        "answers_in_ctxs": item["answers_in_ctxs"],
-        "target": item["target"],
         "counterfactual_answers": item["counterfactual_answers"],
         "ctxs": item["ctxs"],
     }
 
 
 def main():
-    original_data_path = "data/source/triviaQA_filtered.json"
-    new_data_path = "data/0822/triviaQA_cf_answers.json"
+    original_data_path = (
+        "/home/guest-pjy/data/0830/hotpot_dev_distractor_preprocessed.json"
+    )
+    new_data_path = "/home/guest-pjy/data/0830/hotpot_cf_answers.json"
     original_data = load_json(original_data_path)
+    original_data = original_data[:10]
     new_data = []
-    with ThreadPoolExecutor(max_workers=64) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         futures = {
             executor.submit(process_cf_answer, item): item
             for item in original_data

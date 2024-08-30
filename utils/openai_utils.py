@@ -12,13 +12,18 @@ from utils.dataclass_utils import *
 
 class OpenaiQueryHandler:
     def __init__(
-        self, system_prompt: str, user_prompt: str, **kwargs: Dict
+        self,
+        system_prompt: str,
+        user_prompt: str,
+        response_format: BaseModel,
+        **kwargs: Dict,
     ) -> None:
         load_dotenv(verbose=True)
         _api_key = os.getenv("OPENAI_API_KEY")
         self.client = OpenAI(api_key=_api_key)
         self.system_prompt = system_prompt
         self.user_prompt = user_prompt
+        self.response_format = response_format
         self.kwargs = kwargs
 
     def query_with_schema(self) -> None:
@@ -37,7 +42,7 @@ class OpenaiQueryHandler:
                     temperature=self.kwargs.get("temperature", 0.8),
                     frequency_penalty=self.kwargs.get("frequency_penalty", 0),
                     presence_penalty=self.kwargs.get("presence_penalty", 0),
-                    response_format=self.kwargs.get("response_format", QA),
+                    response_format=self.response_format,
                 )
                 return completion.choices[0].message.parsed
             except Exception as e:
