@@ -68,7 +68,7 @@ def process_cf_answer(item: Dict[str, Any]) -> Dict[str, Any]:
 
 def main():
     original_data_path = (
-        "/home/guest-pjy/data/0830/hotpot_dev_distractor_preprocessed.json"
+        "/home/guest-pjy/data/0830/hotpot_easy_only_preprocessed.json"
     )
     new_data_path = "/home/guest-pjy/data/0830/hotpot_cf_answers.json"
     original_data = load_json(original_data_path)

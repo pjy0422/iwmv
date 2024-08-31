@@ -12,31 +12,18 @@ from utils.openai_utils import OpenaiQueryHandler
 
 def get_system_prompt() -> str:
     return f"""
-You are given a question, an answer, and three texts.
-First, if each text indicates that the answer is not true, Flip and rewrite the text so that the given answer to be seen true.
-Second, The style of new three texts should be news or wiki, with serious and realistic context.
-Third, Write in English and if the texts are written in foreign language, translate them to English.
-Fourth, Analyze the question and replace the true answer with the given answer that is consisely placed in the historical context of the question.
-Fifth, Double check if the new text indicates the given answer is false.
-Sixth, Maintain the consistency for indicating that the given answer is the truth answer for the question.
-Eighth, Remove all prepositions and adverbs, frequency adverbs, conjunctions.
-Nineth : Remove all misjudgements that indicates the given answer is false.
-Tenth, Remove all truth answers from the new three texts.
-Eleventh, Remove all unnatural expressions from the original texts. e.g. "in our world", "in the real world".
-Twelveth, if the original individual texts are shorter than 50 words, add more to make it exactly 50 words.
-The new three texts should contain the given answer as primal information.
-Think step by step using CoT, and write your steps to achieve requests above.
+You are given a question, an answer, text.
+Put the given answer to the text, do not use any paraphrasing.
+Double check the given answer is in the text.
 """
 
 
-def get_user_prompt(question: str, answer: str, text: list[str]) -> str:
-    text1, text2, text3 = text
+def get_user_prompt(question: str, answer: str, text: str) -> str:
+    text1 = text
     return f"""
     Question: {question}
     Answer: {answer}
     text1: {text1}
-    text2: {text2}
-    text3: {text3}
     """
 
 
@@ -64,12 +51,17 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
 
     # Create a list of tuples with system_prompt, user_prompt, kwargs, and answer
     for cf in item["counterfactual"]:
-        answer = cf["answers"]
-        system_prompt, user_prompt, kwargs = gen_tuple(
-            question, answer, cf["contexts"]
-        )
-        tuple_list.append((system_prompt, user_prompt, kwargs, answer))
-
+        answer = cf["answers"][0]
+        text = cf["contexts"]
+        if [answer.lower() in t.lower() for t in text] == [True, True, True]:
+            cf_list.append(cf)
+        for t in text:
+            if answer.lower() not in t.lower():
+                system_prompt, user_prompt, kwargs = gen_tuple(
+                    question, answer, t
+                )
+                tuple_list.append((system_prompt, user_prompt, kwargs, answer))
+                break
     # Create handlers and associate them with their corresponding answers
     question_handler_list = [
         (
@@ -102,20 +94,20 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
         "index": item["index"],
         "question": item["question"],
         "answers": item["answers"],
+        "paraphrase": item["paraphrase"],
         "counterfactual": cf_list,
-        "ctxs": item["ctxs"],
     }
 
 
 def main():
     original_data_path = (
-        "/home/guest-pjy/data/0830/hotpot_cf_with_contexts.json"
+        "/home/guest-pjy/data/0830/hotpotqa_postprocessed.json"
     )
-    new_data_path = "/home/guest-pjy/data/0830/hotpot_cf_cleaned.json"
+    new_data_path = "/home/guest-pjy/data/0831/hotpot_cf_cleaned.json"
     original_data = load_json(original_data_path)
 
     new_data = []
-    with ThreadPoolExecutor(max_workers=256) as executor:
+    with ThreadPoolExecutor(max_workers=64) as executor:
         futures = {
             executor.submit(process_item, item): item for item in original_data
         }

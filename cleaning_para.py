@@ -72,7 +72,7 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
     ctx_list_1 = ctxs[:5]
     ctx_list_2 = ctxs[5:]
     tuple_list = []
-    ans = item["answers_in_ctxs"]
+    ans = item["answers"]
     system_prompt, user_prompt, kwargs = gen_tuple(question, ans, ctx_list_1)
     tuple_list.append((system_prompt, user_prompt, kwargs, ans))
     system_prompt, user_prompt, kwargs = gen_tuple(question, ans, ctx_list_2)
@@ -83,6 +83,7 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
             OpenaiQueryHandler(
                 system_prompt=system_prompt,
                 user_prompt=user_prompt,
+                response_format=Paraphrase,
                 kwargs=kwargs,
             ),
             answer,
@@ -117,18 +118,15 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
         "index": item["index"],
         "question": item["question"],
         "answers": item["answers"],
-        "answers_in_ctxs": item["answers_in_ctxs"],
-        "target": item["target"],
         "paraphrase": new_contexts,
         "counterfactual": item["counterfactual"],
     }
 
 
 def main():
-    original_data_path = "data/0822/triviaQA_para.json"
-    new_data_path = "data/0822/triviaQA_para_cleaned.json"
+    original_data_path = "/home/guest-pjy/data/0830/hotpot_paraphrases.json"
+    new_data_path = "/home/guest-pjy/data/0830/hotpot_para_cleaned.json"
     original_data = load_json(original_data_path)
-
     new_data = []
     with ThreadPoolExecutor(max_workers=256) as executor:
         futures = {
