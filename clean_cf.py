@@ -1,3 +1,4 @@
+import os
 from argparse import ArgumentParser
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any, Dict, Tuple
@@ -16,7 +17,7 @@ def parse_args():
     parser.add_argument(
         "--data_path",
         type=str,
-        default="/home/guest-pjy/data/pipeline/",
+        default="./sample_data/",
         help="Path to the data directory.",
     )
 
@@ -28,13 +29,6 @@ def parse_args():
     )
 
     parser.add_argument(
-        "--data_name",
-        type=str,
-        default="hotpot_easy_only_preprocessed.json",
-        help="Name of the data file.",
-    )
-
-    parser.add_argument(
         "--model",
         type=str,
         default="gpt-4o-mini",
@@ -42,7 +36,7 @@ def parse_args():
     parser.add_argument(
         "--max_tokens",
         type=int,
-        default=256,
+        default=1200,
     )
     parser.add_argument(
         "--top_p",
@@ -54,13 +48,16 @@ def parse_args():
         type=float,
         default=0.9,
     )
+    parser.add_argument("--timeout", type=float, default=10)
 
     parser.add_argument(
         "--num_cf_answers",
         type=int,
         default=9,
     )
-    parser.add_argument("--num_workers", type=int, default=256)
+    parser.add_argument("--top_k", type=int, default=3)
+    parser.add_argument("--inner_max_workers", type=int, default=9)
+    parser.add_argument("--outer_max_workers", type=int, default=64)
 
     return parser.parse_args()
 
@@ -96,15 +93,15 @@ def get_user_prompt(question: str, answer: str, text: list[str]) -> str:
 
 
 def gen_tuple(
-    question: str, answer: str, text: list
+    question: str, answer: str, text: list, args
 ) -> Tuple[str, str, Dict[str, Any]]:
     system_prompt = get_system_prompt()
     user_prompt = get_user_prompt(question, answer, text)
     kwargs = {
-        "model": "gpt-4o-mini",
-        "max_tokens": 1200,
-        "top_p": 1,
-        "temperature": 0.9,
+        "model": args.model,
+        "max_tokens": args.max_tokens,
+        "top_p": args.top_p,
+        "temperature": args.temperature,
         "frequency_penalty": 0,
         "presence_penalty": 0,
         "response_format": CF_Cleaning,
@@ -112,7 +109,7 @@ def gen_tuple(
     return system_prompt, user_prompt, kwargs
 
 
-def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
+def process_item(item: Dict[str, Any], args) -> Dict[str, Any]:
     question = item["question"]
     tuple_list = []
     cf_list = []
@@ -121,7 +118,7 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
     for cf in item["counterfactual"]:
         answer = cf["answers"]
         system_prompt, user_prompt, kwargs = gen_tuple(
-            question, answer, cf["contexts"]
+            question, answer, cf["contexts"], args
         )
         tuple_list.append((system_prompt, user_prompt, kwargs, answer))
 
@@ -139,13 +136,13 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
         for system_prompt, user_prompt, kwargs, answer in tuple_list
     ]
 
-    with ThreadPoolExecutor(max_workers=9) as executor:
+    with ThreadPoolExecutor(max_workers=args.inner_max_workers) as executor:
         for handler, answer in question_handler_list:
             results = None
-            while results is None or len(results.texts) != 3:
+            while results is None or len(results.texts) != args.top_k:
                 future = executor.submit(handler.query_with_schema)
                 results = future.result()
-                if len(results.texts) == 3:
+                if len(results.texts) == args.top_k:
                     cf_list.append(
                         {
                             "answers": [answer],
@@ -163,16 +160,19 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def main():
-    original_data_path = (
-        "/home/guest-pjy/data/0830/hotpot_cf_with_contexts.json"
+    args = parse_args()
+    original_data_path = os.path.join(
+        args.data_path, args.dataset, f"{args.dataset}_cf_with_contexts.json"
     )
-    new_data_path = "/home/guest-pjy/data/0830/hotpot_cf_cleaned.json"
+
+    new_data_path = original_data_path
     original_data = load_json(original_data_path)
 
     new_data = []
-    with ThreadPoolExecutor(max_workers=256) as executor:
+    with ThreadPoolExecutor(max_workers=args.outer_max_workers) as executor:
         futures = {
-            executor.submit(process_item, item): item for item in original_data
+            executor.submit(process_item, item, args): item
+            for item in original_data
         }
         for future in tqdm(
             as_completed(futures), total=len(futures), desc="Processing items"
@@ -187,12 +187,13 @@ def main():
     for idx, item in enumerate(new_data):
         item["index"] = idx
     for item in new_data:
-        if len(item["counterfactual"]) != 9:
+        if len(item["counterfactual"]) != args.num_cf_answers:
             print(item["index"])
         for cf in item["counterfactual"]:
-            if len(cf["contexts"]) != 3:
+            if len(cf["contexts"]) != args.top_k:
                 print(item["index"])
     save_json(new_data_path, new_data)
+    print(f"Cleaned counterfactual and saved to {new_data_path}")
 
 
 if __name__ == "__main__":

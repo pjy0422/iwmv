@@ -17,7 +17,7 @@ def parse_args():
     parser.add_argument(
         "--data_path",
         type=str,
-        default="/home/guest-pjy/data/pipeline/",
+        default="./sample_data/",
         help="Path to the data directory.",
     )
 

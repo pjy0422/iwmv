@@ -13,7 +13,7 @@ def parse_args():
     parser.add_argument(
         "--data_path",
         type=str,
-        default="/home/guest-pjy/data/pipeline/",
+        default="./sample_data/",
         help="Path to the data directory.",
     )
     parser.add_argument(
@@ -51,7 +51,11 @@ def filter_hasanswer_only(data):
                 {
                     "index": idx,
                     "question": item["question"],
-                    "answers": item["answers"],
+                    "answers": (
+                        item["answer"]
+                        if item.get("answer")
+                        else item.get("answers")
+                    ),
                     "ctxs": item["ctxs"],
                 }
             )
@@ -106,9 +110,9 @@ def nq_triviaqa(args):
 
     # Load the data from the specified path
     data = load_json(os.path.join(args.data_path, args.data_name))
+    save_json(os.path.join(args.data_path, "triviaqa_sample.json"), data)
     # Filter data to keep only items with answers
     data = filter_hasanswer_only(data)
-
     # Create output directory if it doesn't exist
     new_data_path = os.path.join(args.data_path, args.dataset)
     os.makedirs(new_data_path, exist_ok=True)
