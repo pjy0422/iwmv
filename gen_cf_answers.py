@@ -29,13 +29,6 @@ def parse_args():
     )
 
     parser.add_argument(
-        "--data_name",
-        type=str,
-        default="hotpot_easy_only_preprocessed.json",
-        help="Name of the data file.",
-    )
-
-    parser.add_argument(
         "--model",
         type=str,
         default="gpt-4o-mini",
@@ -129,10 +122,10 @@ def process_cf_answer(item: Dict[str, Any], args) -> Dict[str, Any]:
 def main():
     args = parse_args()
     original_data_path = os.path.join(
-        args.data_path, args.dataset, args.data_name
+        args.data_path, args.dataset, f"{args.dataset}_preprocessed.json"
     )
     new_data_path = os.path.join(
-        args.data_path, f"{args.dataset}/{args.dataset}_cf_answers.json"
+        args.data_path, args.dataset, f"{args.dataset}_cf_answers.json"
     )
     original_data = load_json(original_data_path)
     new_data = []

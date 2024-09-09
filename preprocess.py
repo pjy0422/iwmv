@@ -17,6 +17,9 @@ def parse_args():
         help="Path to the data directory.",
     )
     parser.add_argument(
+        "--dataset", type=str, default="hotpot", help="Name of the dataset."
+    )
+    parser.add_argument(
         "--data_name",
         type=str,
         default="hotpot_sample.json",
@@ -30,6 +33,29 @@ def filter_easy_questions(data):
     Filter the dataset to only include items with 'easy' level questions.
     """
     return [item for item in data if item.get("level") == "easy"]
+
+
+def filter_by_hasanswer(ctxs):
+    # Filter the list by checking if 'hasanswer' is True
+    return [ctx["text"] for ctx in ctxs if ctx.get("hasanswer") == True]
+
+
+def filter_hasanswer_only(data):
+    """
+    Filter the dataset to only include items with answers. (nq, triviaqa)"""
+    new_data = []
+    for idx, item in enumerate(data):
+        item["ctxs"] = filter_by_hasanswer(item["ctxs"])
+        if item["ctxs"] != []:
+            new_data.append(
+                {
+                    "index": idx,
+                    "question": item["question"],
+                    "answers": item["answers"],
+                    "ctxs": item["ctxs"],
+                }
+            )
+    return new_data
 
 
 def extract_contexts(item):
@@ -73,11 +99,32 @@ def preprocess_data(data):
     return new_data
 
 
-def main():
+def nq_triviaqa(args):
     """
     Main function to load data, preprocess it, and save the result.
     """
-    args = parse_args()
+
+    # Load the data from the specified path
+    data = load_json(os.path.join(args.data_path, args.data_name))
+    # Filter data to keep only items with answers
+    data = filter_hasanswer_only(data)
+
+    # Create output directory if it doesn't exist
+    new_data_path = os.path.join(args.data_path, args.dataset)
+    os.makedirs(new_data_path, exist_ok=True)
+
+    # Save the preprocessed data
+    save_json(
+        os.path.join(new_data_path, f"{args.dataset}_preprocessed.json"),
+        data,
+    )
+    print(f"{args.dataset} data preprocessed and saved successfully!")
+
+
+def hotpot(args):
+    """
+    Main function to load data, preprocess it, and save the result.
+    """
 
     # Load the data from the specified path
     data = load_json(os.path.join(args.data_path, args.data_name))
@@ -89,16 +136,20 @@ def main():
     preprocessed_data = preprocess_data(easy_data)
 
     # Create output directory if it doesn't exist
-    new_data_path = os.path.join(args.data_path, "hotpot")
+    new_data_path = os.path.join(args.data_path, args.dataset)
     os.makedirs(new_data_path, exist_ok=True)
 
     # Save the preprocessed data
     save_json(
-        os.path.join(new_data_path, "hotpot_easy_only_preprocessed.json"),
+        os.path.join(new_data_path, f"{args.dataset}_preprocessed.json"),
         preprocessed_data,
     )
     print("Hotpot data preprocessed and saved successfully!")
 
 
 if __name__ == "__main__":
-    main()
+    args = parse_args()
+    if args.dataset == "nq" or args.dataset == "triviaqa":
+        nq_triviaqa(args)
+    elif args.dataset == "hotpot":
+        hotpot(args)

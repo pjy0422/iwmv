@@ -1,5 +1,5 @@
-python hotpot_preprocess.py
-python gen_cf_answers.py
-python gen_cf.py
-python gen_para.py
-python postprocess.py
+python preprocess.py --dataset hotpot --data_name hotpot_sample.json
+python gen_cf_answers.py --dataset hotpot
+python gen_cf.py --dataset hotpot
+python gen_para.py --dataset hotpot
+python postprocess.py --dataset hotpot

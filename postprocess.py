@@ -161,7 +161,7 @@ def main():
     files = [
         f"{args.dataset}_cf_answers.json",
         f"{args.dataset}_cf_with_contexts.json",
-        f"{args.dataset}_easy_only_preprocessed.json",
+        f"{args.dataset}_preprocessed.json",
         f"{args.dataset}_paraphrases.json",
     ]
     data = load_json(original_data_path)
@@ -232,6 +232,24 @@ def main():
         for cf in item["counterfactual"]:
             if len(cf["contexts"]) != args.top_k:
                 flag = False
+
+    for item in data:
+        counterfactual = item["counterfactual"]
+        question = item["question"]
+        if question.endswith("?"):
+            question = question + " "
+        elif question.endswith("."):
+            question = question + " "
+        elif question.endswith("!"):
+            question = question + " "
+        elif question.endswith(" "):
+            question = question + ", "
+        else:
+            question = question + ", "
+
+        for cf in counterfactual:
+            cf["contexts"] = [question + ctx for ctx in cf["contexts"]]
+        item["counterfactual"] = counterfactual
     if flag:
         save_json(new_data_path, data)
         print("Data postprocessed successfully.")

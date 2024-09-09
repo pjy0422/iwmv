@@ -199,6 +199,7 @@ def main():
         for cf in item["counterfactual"]:
             if len(cf["contexts"]) != args.top_k:
                 print(item["index"])
+
     save_json(new_data_path, new_data)
     print(f"Counterfactual contexts are saved to {new_data_path}")
 
