@@ -43,6 +43,7 @@ class OpenaiQueryHandler:
                     frequency_penalty=self.kwargs.get("frequency_penalty", 0),
                     presence_penalty=self.kwargs.get("presence_penalty", 0),
                     response_format=self.response_format,
+                    timeout=self.kwargs.get("timeout", 10),
                 )
                 return completion.choices[0].message.parsed
             except Exception as e:

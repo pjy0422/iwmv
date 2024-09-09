@@ -1,13 +1,68 @@
+from argparse import ArgumentParser
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from dataclasses import dataclass
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, Tuple
 
-from numpy import random
-from pydantic import BaseModel
 from tqdm import tqdm
 from utils.dataclass_utils import CF_Cleaning
 from utils.json_utils import load_json, save_json
 from utils.openai_utils import OpenaiQueryHandler
+
+
+def parse_args():
+    """
+    Parse the command line arguments for the script.
+    """
+    parser = ArgumentParser()
+    parser.add_argument(
+        "--data_path",
+        type=str,
+        default="/home/guest-pjy/data/pipeline/",
+        help="Path to the data directory.",
+    )
+
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        default="hotpot",
+        help="NQ, TriviaQA, HotpotQA, etc.",
+    )
+
+    parser.add_argument(
+        "--data_name",
+        type=str,
+        default="hotpot_easy_only_preprocessed.json",
+        help="Name of the data file.",
+    )
+
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="gpt-4o-mini",
+    )
+    parser.add_argument(
+        "--max_tokens",
+        type=int,
+        default=256,
+    )
+    parser.add_argument(
+        "--top_p",
+        type=float,
+        default=1,
+    )
+    parser.add_argument(
+        "--temperature",
+        type=float,
+        default=0.9,
+    )
+
+    parser.add_argument(
+        "--num_cf_answers",
+        type=int,
+        default=9,
+    )
+    parser.add_argument("--num_workers", type=int, default=256)
+
+    return parser.parse_args()
 
 
 def get_system_prompt() -> str:
