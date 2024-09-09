@@ -13,7 +13,9 @@ from utils.openai_utils import OpenaiQueryHandler
 def get_system_prompt() -> str:
     return f"""
 You are given a question, an answer, text.
-Put the given answer to the text, do not use any paraphrasing.
+You MUST insert the given answer to the text, do not use any paraphrasing.
+If the given answer is plural, make sure to use the plural form in the text.
+Generate 3 new texts by changing the text.
 Double check the given answer is in the text.
 """
 
@@ -33,7 +35,7 @@ def gen_tuple(
     system_prompt = get_system_prompt()
     user_prompt = get_user_prompt(question, answer, text)
     kwargs = {
-        "model": "gpt-4o-mini",
+        "model": "gpt-4o-2024-08-06",
         "max_tokens": 1200,
         "top_p": 1,
         "temperature": 0.9,
@@ -76,7 +78,7 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
         for system_prompt, user_prompt, kwargs, answer in tuple_list
     ]
 
-    with ThreadPoolExecutor(max_workers=9) as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         for handler, answer in question_handler_list:
             results = None
             while results is None or len(results.texts) != 3:
@@ -100,14 +102,12 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def main():
-    original_data_path = (
-        "/home/guest-pjy/data/0830/hotpotqa_postprocessed.json"
-    )
-    new_data_path = "/home/guest-pjy/data/0831/hotpot_cf_cleaned.json"
+    original_data_path = "/home/guest-pjy/data/0831/0831_hotpotqa_cleaned.json"
+    new_data_path = "/home/guest-pjy/data/0831/0831_hotpotqa_cleaned.json"
     original_data = load_json(original_data_path)
 
     new_data = []
-    with ThreadPoolExecutor(max_workers=64) as executor:
+    with ThreadPoolExecutor(max_workers=5) as executor:
         futures = {
             executor.submit(process_item, item): item for item in original_data
         }
