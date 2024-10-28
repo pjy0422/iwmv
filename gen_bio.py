@@ -11,133 +11,462 @@ class QA(BaseModel):
     answer: str
 
 
-def get_system_prompt() -> str:
-    return f"""
-Create a short biographical statement using provided information without any synonyms or paraphrasing.
+class StatementGenerator:
+    def __init__(
+        self,
+        original_data_path: str,
+        new_data_path: str,
+        max_workers: int = 20,
+        max_items: int = 20,
+        max_retries: int = 3,  # Added maximum number of retries
+    ):
+        """
+        Initializes the StatementGenerator with paths and concurrency settings.
+
+        Args:
+            original_data_path (str): Path to the original JSON data.
+            new_data_path (str): Path to save the new JSON data with statements.
+            max_workers (int, optional): Number of threads for parallel processing. Defaults to 20.
+            max_items (int, optional): Number of items to process. Defaults to 20.
+            max_retries (int, optional): Maximum number of retries for generating statements. Defaults to 3.
+        """
+        self.original_data_path = original_data_path
+        self.new_data_path = new_data_path
+        self.max_workers = max_workers
+        self.max_items = max_items
+        self.max_retries = max_retries
+        self.system_statement = self._get_system_statement()
+
+    def _get_system_statement(self) -> str:
+        """
+        Returns the system statement used as a prompt for the OpenAI model.
+
+        Returns:
+            str: The system statement.
+        """
+        return """
+Create five different biography statements about an individual, using the exact provided details. Each statement should be on a new line and include all the given pieces of information without exception.
+
+# Details
+- **Name:** Ward Williams
+- **Birth Date:** 24 December 1934
+- **Birth Place:** Apia, Samoa
+- **Death Date:** 06 February 2003
 
 # Steps
 
-1. **Extract Key Elements**: Identify and extract key biographical elements such as name, birth_date, birth_place, death_date, high school, nationality, etc., from the provided information.
-2. **Construct the Sentence**: Formulate a straightforward sentence combining these elements in the correct sequence. Ensure there are no synonyms or paraphrasing in any part except within connecting verbs, which may vary.
-3. **Sentence Cohesion**: Use connecting verbs diversely to maintain flow and cohesion without altering the original wording of the biographical elements.
+1. Formulate each biography statement using all provided pieces of information.
+2. Ensure each statement is clear, distinct, and incorporates the exact details without any changes.
+3. Each statement should be on a new line.
 
 # Output Format
 
-A simple sentence that maintains the exact wording from the provided details, ensuring clarity and correctness.
+The output should be five distinct sentences, each on a separate line, maintaining the structure as full sentences.
 
 # Examples
 
-**Example 1**
+**Input Detail Example:**
+- Name: John Doe
+- Birth Date: 10 January 1920
+- Birth Place: Springfield, USA
+- Death Date: 15 March 1980
 
-- **Input:**
-  - name: roger staub
-  - birth_date: 01 july 1936
-  - birth_place: arosa graubunden, switzerland
-  - death_date: 30 june 1974
-
-- **Output:**
-  Roger Staub was born on 01 July 1936 in Arosa Graubunden, Switzerland, and passed away on 30 June 1974.
-
-**Example 2**
-
-- **Input:**
-  - name: lenny sachs
-  - high school: carl schurz high school
-  - coaching_teams: louisville colonels
-
-- **Output:**
-  Lenny Sachs attended Carl Schurz High School and coached the Louisville Colonels.
-
-# Notes
-
-- Ensure fidelity to the original wording of each biographical detail.
-- Provide clear, concise biographical statements by following consistent formatting and structure.
-- Respect any additional information provided beyond the keys listed to be included in the output when relevant.
+**Output Example:**
+John Doe was born on 10 January 1920 in Springfield, USA and died on 15 March 1980.
+Springfield, USA was the birthplace of John Doe, born on 10 January 1920, who passed away on 15 March 1980.
+The individual named John Doe, born in Springfield, USA on 10 January 1920, died on 15 March 1980.
+On 10 January 1920, John Doe was born in Springfield, USA and he died on 15 March 1980.
+John Doe, whose birth was on 10 January 1920 in Springfield, USA, died on 15 March 1980.
 """
 
+    def _get_user_statement(self, name: str, triplet: Dict[str, Any]) -> str:
+        """
+        Constructs the user statement from the name and triplet data.
 
-def get_user_prompt(name: str, triplet: dict) -> str:
-    prompt = f"""name: {name}"""
-    for key, value in triplet.items():
-        prompt += f"""\n{key}: {value}"""
-    return prompt
+        Args:
+            name (str): The name of the individual.
+            triplet (Dict[str, Any]): A dictionary of key-value pairs with biographical information.
+
+        Returns:
+            str: The formatted user statement.
+        """
+        statement = f"name: {name}"
+        for key, value in triplet.items():
+            statement += f"\n{key}: {value}"
+        return statement
+
+    def _process_item(self, item: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Processes a single item to generate a biographical statement.
+
+        Args:
+            item (Dict[str, Any]): The data item containing biographical information.
+
+        Returns:
+            Dict[str, Any]: The processed item with the generated statements as a list.
+        """
+        name = item["name"]
+        triplet = item["triplet"]
+        user_statement = self._get_user_statement(name, triplet)
+
+        openai_kwargs = {
+            "model": "gpt-4o-mini",
+            "max_tokens": 256,
+            "top_p": 1,
+            "temperature": 1,
+            "frequency_penalty": 0,
+            "presence_penalty": 0,
+            "timeout": 10,
+        }
+
+        handler = OpenaiQueryHandler(
+            system_prompt=self.system_statement,
+            user_prompt=user_statement,
+            response_format=QA,
+            kwargs=openai_kwargs,
+        )
+
+        for attempt in range(1, self.max_retries + 1):
+            try:
+                response = handler.query_with_schema()
+                response_text = response.answer.strip()
+                statements = [
+                    stmt.strip()
+                    for stmt in response_text.split("\n")
+                    if stmt.strip()
+                ]
+
+                if len(statements) == 5:
+                    # Successfully got five statements
+                    return {
+                        "index": item["index"],
+                        "name": name,
+                        "content": item["content"],
+                        "target_text": item["target_text"],
+                        "triplet": triplet,
+                        "statement": statements,  # Save as list
+                        "fake_triplet": item.get("fake_triplet", {}),
+                    }
+                else:
+                    print(
+                        f"Attempt {attempt}: Expected 5 statements, but got {len(statements)}. Retrying..."
+                    )
+            except Exception as exc:
+                print(
+                    f"Error processing item {item.get('index', 'unknown')} on attempt {attempt}: {exc}"
+                )
+
+        # After max retries, save whatever was obtained, even if not five
+        print(
+            f"Failed to generate exactly 5 statements for item {item.get('index', 'unknown')} after {self.max_retries} attempts."
+        )
+        return {
+            "index": item["index"],
+            "name": name,
+            "content": item["content"],
+            "target_text": item["target_text"],
+            "triplet": triplet,
+            "statement": (
+                statements if "statements" in locals() else []
+            ),  # Save whatever was obtained
+            "fake_triplet": item.get("fake_triplet", {}),
+        }
+
+    def generate_statements(self) -> List[Dict[str, Any]]:
+        """
+        Generates biographical statements for all items in the original data.
+
+        Returns:
+            List[Dict[str, Any]]: A list of processed items with generated statements.
+        """
+        original_data = load_json(self.original_data_path)[: self.max_items]
+        new_data = []
+
+        with concurrent.futures.ThreadPoolExecutor(
+            max_workers=self.max_workers
+        ) as executor:
+            future_to_item = {
+                executor.submit(self._process_item, item): item
+                for item in original_data
+            }
+
+            for future in tqdm(
+                concurrent.futures.as_completed(future_to_item),
+                total=len(future_to_item),
+                desc="Generating Statements",
+            ):
+                item = future_to_item[future]
+                try:
+                    result = future.result()
+                    new_data.append(result)
+                except Exception as exc:
+                    print(
+                        f"Error processing item {item.get('index', 'unknown')}: {exc}"
+                    )
+
+        return new_data
+
+    def save_statements(self, data: List[Dict[str, Any]]) -> None:
+        """
+        Saves the generated statements to a JSON file.
+
+        Args:
+            data (List[Dict[str, Any]]): The list of processed items with statements.
+        """
+        save_json(self.new_data_path, data)
 
 
-def check_triplet_in_response(
-    triplet_values: List[str], response_text: str
-) -> bool:
-    response_text_lower = response_text.lower()
-    for value in triplet_values:
-        value_lower = value.lower()
-        if value_lower not in response_text_lower:
-            return False
-    return True
+class CounterfactualStatementGenerator:
+    def __init__(
+        self,
+        statements_data_path: str,
+        updated_data_path: str,
+        num_counterfactuals: int = 1,
+        max_workers: int = 20,
+        max_items: int = 20,
+    ):
+        """
+        Initializes the CounterfactualStatementGenerator with paths and concurrency settings.
 
+        Args:
+            statements_data_path (str): Path to the JSON data with original statements.
+            updated_data_path (str): Path to save the JSON data with counterfactual statements.
+            num_counterfactuals (int, optional): Number of counterfactual statements to generate per item. Defaults to 1.
+            max_workers (int, optional): Number of threads for parallel processing. Defaults to 20.
+            max_items (int, optional): Number of items to process. Defaults to 20.
+        """
+        self.statements_data_path = statements_data_path
+        self.updated_data_path = updated_data_path
+        self.num_counterfactuals = num_counterfactuals
+        self.max_workers = max_workers
+        self.max_items = max_items
+        self.system_prompt = self._get_system_prompt()
 
-def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
-    name = item["name"]
-    triplet = item["triplet"]
-    system_prompt = get_system_prompt()
-    user_prompt = get_user_prompt(name, triplet)
-    kwargs = {
-        "model": "gpt-4o-mini",
-        "max_tokens": 256,
-        "top_p": 1,
-        "temperature": 1,
-        "frequency_penalty": 0,
-        "presence_penalty": 0,
-        "timeout": 10,
-    }
-    # Create an OpenAI query handler
-    handler = OpenaiQueryHandler(
-        system_prompt=system_prompt,
-        user_prompt=user_prompt,
-        response_format=QA,  # Ensure QA is a class, not an instance
-        kwargs=kwargs,
-    )
-    # Send the query and get the response
-    response = handler.query_with_schema()
-    response_text = response.answer.strip()
+    def _get_system_prompt(self) -> str:
+        """
+        Returns the system prompt used for generating counterfactual statements.
 
-    # Check that all triplet values are in the response (ignoring capitalization)
-    triplet_values = [name] + list(triplet.values())
-    all_present = check_triplet_in_response(triplet_values, response_text)
+        Returns:
+            str: The system prompt.
+        """
+        return """
+Given a statement and a set of related information, identify the relevant pieces of new information and replace or insert them into the statement accurately.
 
-    # Return the result
-    return {
-        "index": item["index"],
-        "name": item["name"],
-        "content": item["content"],
-        "target_text": item["target_text"],
-        "triplet": triplet,
-        "statement": response_text,
-        "fake_triplet": item["fake_triplet"],
-    }
+# Steps
+
+1. Analyze the provided statement and identify which pieces of information it contains (e.g., birth date, birth place, death date).
+2. Examine the given information and match it to the corresponding parts of the statement.
+3. Replace the information in the statement with the newly provided content where applicable.
+4. Ensure the final statement is coherent and accurately reflects the updated information.
+
+# Output Format
+
+Provide a single, coherent sentence with the updated information.
+
+# Example
+
+**Input:** 
+- Statement: "Ward Williams was born on 26 June 1923 in Colfax, Indiana, and passed away on 17 December 2005."
+- Birth_date: "24 December 1934"
+- Birth_place: "Apia, Samoa"
+- Death_date: "06 February 2003"
+
+**Output:** 
+"Ward Williams was born on 24 December 1934 in Apia, Samoa, and passed away on 06 February 2003."
+"""
+
+    def _construct_new_info(
+        self,
+        fake_triplet: Dict[str, List[str]],
+        item_index: int,
+        cf_index: int,
+    ) -> Dict[str, Any]:
+        """
+        Constructs the new_info dictionary by selecting one fake value per key based on the item and counterfactual indices.
+
+        Args:
+            fake_triplet (Dict[str, List[str]]): The fake_triplet dictionary with lists of fake values.
+            item_index (int): The index of the current item for round-robin selection.
+            cf_index (int): The counterfactual index for current generation.
+
+        Returns:
+            Dict[str, Any]: A dictionary with one fake value per key.
+        """
+        new_info = {}
+        for key, values in fake_triplet.items():
+            if not values:
+                continue
+            # Calculate the selection index based on item_index and cf_index
+            selection_index = (item_index + cf_index) % len(values)
+            selected_value = values[selection_index]
+            new_info[key] = selected_value
+        return new_info
+
+    def _construct_user_prompt(
+        self, statement: str, new_info: Dict[str, Any]
+    ) -> str:
+        """
+        Constructs the user prompt for counterfactual statement generation.
+
+        Args:
+            statement (str): The original biographical statement.
+            new_info (Dict[str, Any]): A dictionary of new information to update the statement.
+
+        Returns:
+            str: The formatted user prompt.
+        """
+        prompt = f'- Statement: "{statement}"'
+        for key, value in new_info.items():
+            prompt += f'\n- {key}: "{value}"'
+        return prompt
+
+    def _process_item(
+        self, item: Dict[str, Any], item_index: int
+    ) -> Dict[str, Any]:
+        """
+        Processes a single item to generate multiple counterfactual statements.
+
+        Args:
+            item (Dict[str, Any]): The data item containing the original statement and fake_triplet.
+            item_index (int): The index of the current item for fake_triplet selection.
+
+        Returns:
+            Dict[str, Any]: The processed item with the generated counterfactual statements.
+        """
+        original_statement = item.get("statement", "")
+        fake_triplet = item.get("fake_triplet", {})
+
+        if not fake_triplet:
+            # No fake_triplet to process
+            item["counterfactual_statements"] = []
+            return item
+
+        # Initialize the counterfactual_statements list
+        item["counterfactual_statements"] = []
+
+        for cf_index in range(self.num_counterfactuals):
+            # Construct new_info by selecting one fake value per key
+            new_info = self._construct_new_info(
+                fake_triplet, item_index, cf_index
+            )
+
+            if not new_info:
+                continue  # Skip if no new information is available
+
+            user_prompt = self._construct_user_prompt(
+                original_statement, new_info
+            )
+
+            openai_kwargs = {
+                "model": "gpt-4o-mini",
+                "max_tokens": 256,
+                "top_p": 1,
+                "temperature": 1,
+                "frequency_penalty": 0,
+                "presence_penalty": 0,
+                "timeout": 10,
+            }
+
+            handler = OpenaiQueryHandler(
+                system_prompt=self.system_prompt,
+                user_prompt=user_prompt,
+                response_format=QA,
+                kwargs=openai_kwargs,
+            )
+
+            try:
+                response = handler.query_with_schema()
+                response_text = response.answer.strip()
+            except Exception as exc:
+                print(
+                    f"Error generating counterfactual for item {item.get('index', 'unknown')}, counterfactual {cf_index + 1}: {exc}"
+                )
+                response_text = ""
+
+            if response_text:
+                # Append both the statement and the fake elements used
+                item["counterfactual_statements"].append(
+                    {"statement": response_text, "fake_elements": new_info}
+                )
+
+        return item
+
+    def generate_counterfactuals(self) -> List[Dict[str, Any]]:
+        """
+        Generates counterfactual statements for all items in the statements data.
+
+        Returns:
+            List[Dict[str, Any]]: A list of processed items with counterfactual statements.
+        """
+        statements_data = load_json(self.statements_data_path)[
+            : self.max_items
+        ]
+        updated_data = []
+
+        with concurrent.futures.ThreadPoolExecutor(
+            max_workers=self.max_workers
+        ) as executor:
+            # Enumerate to get item index for round-robin selection
+            future_to_item = {
+                executor.submit(self._process_item, item, idx): (item, idx)
+                for idx, item in enumerate(statements_data)
+            }
+
+            for future in tqdm(
+                concurrent.futures.as_completed(future_to_item),
+                total=len(future_to_item),
+                desc="Generating Counterfactual Statements",
+            ):
+                item, idx = future_to_item[future]
+                try:
+                    result = future.result()
+                    updated_data.append(result)
+                except Exception as exc:
+                    print(
+                        f"Error processing item {item.get('index', 'unknown')}: {exc}"
+                    )
+
+        return updated_data
+
+    def save_counterfactuals(self, data: List[Dict[str, Any]]) -> None:
+        """
+        Saves the updated data with counterfactual statements to a JSON file.
+
+        Args:
+            data (List[Dict[str, Any]]): The list of processed items with counterfactual statements.
+        """
+        save_json(self.updated_data_path, data)
 
 
 def main():
-    original_data_path = "wikibio_1027.json"
-    new_data_path = "wikibio_1027_statement.json"
-    original_data = load_json(original_data_path)[:20]
-    new_data = []
+    """
+    The main function to execute the statement and counterfactual statement generation process.
+    """
+    # Step 1: Generate original statements
+    generator = StatementGenerator(
+        original_data_path="wikibio_1027.json",
+        new_data_path="wikibio_1027_statement.json",
+        max_workers=20,
+        max_items=100,
+    )
+    generated_data = generator.generate_statements()
+    generator.save_statements(generated_data)
+    print(f"Generated statements saved to {generator.new_data_path}")
 
-    # Use ThreadPoolExecutor to process items in parallel
-    with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
-        # Submit all tasks
-        future_to_item = {
-            executor.submit(process_item, item): item for item in original_data
-        }
-        for future in tqdm(
-            concurrent.futures.as_completed(future_to_item),
-            total=len(future_to_item),
-        ):
-            item = future_to_item[future]
-            try:
-                result = future.result()
-                new_data.append(result)
-            except Exception as exc:
-                print(f"Item {item} generated an exception: {exc}")
-    save_json(new_data_path, new_data)
+    # Step 2: Generate counterfactual statements
+    # Each item in 'wikibio_1027_statement.json' should include 'fake_triplet'
+    counterfactual_generator = CounterfactualStatementGenerator(
+        statements_data_path="wikibio_1027_statement.json",
+        updated_data_path="wikibio_1027_statement_with_counterfactual.json",
+        num_counterfactuals=5,  # Set desired number of counterfactuals per item here
+        max_workers=20,
+        max_items=100,
+    )
+    counterfactual_data = counterfactual_generator.generate_counterfactuals()
+    counterfactual_generator.save_counterfactuals(counterfactual_data)
+    print(
+        f"Counterfactual statements saved to {counterfactual_generator.updated_data_path}"
+    )
 
 
 if __name__ == "__main__":
