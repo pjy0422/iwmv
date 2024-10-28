@@ -335,8 +335,8 @@ def generate_fake_triplet(
             "birth_date": birth_date,
             "birth_place": birth_place,
             "death_date": death_date,
-            # "occupation": occupation,
-            # "nationality": nationality,
+            "occupation": occupation,
+            "nationality": nationality,
             # "gender": gender,
         }
     except Exception:

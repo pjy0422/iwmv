@@ -1,5 +1,6 @@
 import concurrent.futures
-from typing import Any, Dict, List
+import threading
+from typing import Any, Dict, List, Tuple
 
 from pydantic import BaseModel
 from tqdm import tqdm
@@ -17,8 +18,8 @@ class StatementGenerator:
         original_data_path: str,
         new_data_path: str,
         max_workers: int = 20,
-        max_items: int = 20,
-        max_retries: int = 3,  # Added maximum number of retries
+        max_items: int = 100,
+        max_retries: int = 3,
     ):
         """
         Initializes the StatementGenerator with paths and concurrency settings.
@@ -27,7 +28,7 @@ class StatementGenerator:
             original_data_path (str): Path to the original JSON data.
             new_data_path (str): Path to save the new JSON data with statements.
             max_workers (int, optional): Number of threads for parallel processing. Defaults to 20.
-            max_items (int, optional): Number of items to process. Defaults to 20.
+            max_items (int, optional): Number of items to process. Defaults to 100.
             max_retries (int, optional): Maximum number of retries for generating statements. Defaults to 3.
         """
         self.original_data_path = original_data_path
@@ -223,7 +224,7 @@ class CounterfactualStatementGenerator:
         updated_data_path: str,
         num_counterfactuals: int = 1,
         max_workers: int = 20,
-        max_items: int = 20,
+        max_items: int = 100,
     ):
         """
         Initializes the CounterfactualStatementGenerator with paths and concurrency settings.
@@ -233,7 +234,7 @@ class CounterfactualStatementGenerator:
             updated_data_path (str): Path to save the JSON data with counterfactual statements.
             num_counterfactuals (int, optional): Number of counterfactual statements to generate per item. Defaults to 1.
             max_workers (int, optional): Number of threads for parallel processing. Defaults to 20.
-            max_items (int, optional): Number of items to process. Defaults to 20.
+            max_items (int, optional): Number of items to process. Defaults to 100.
         """
         self.statements_data_path = statements_data_path
         self.updated_data_path = updated_data_path
@@ -250,29 +251,40 @@ class CounterfactualStatementGenerator:
             str: The system prompt.
         """
         return """
-Given a statement and a set of related information, identify the relevant pieces of new information and replace or insert them into the statement accurately.
+Identify the relevant pieces of new information and replace or insert them into the given statement accurately. Maintain the exact wording from the provided details, and ensure each piece of information is clearly identified separately within the statement. Insert all pieces of information, including any additional information provided.
 
 # Steps
 
-1. Analyze the provided statement and identify which pieces of information it contains (e.g., birth date, birth place, death date).
-2. Examine the given information and match it to the corresponding parts of the statement.
-3. Replace the information in the statement with the newly provided content where applicable.
-4. Ensure the final statement is coherent and accurately reflects the updated information.
+1. **Identify Existing Information in the Statement**: Determine which details in the original statement need to be updated.
+2. **Identify Relevant New Information**: Review the provided set of information and match it with the components in the statement.
+3. **Update the Statement**: Accurately replace or insert the new information into the statement, ensuring each piece is clearly separated.
+4. **Use Provided Wording**: Incorporate the exact wording as provided in the related information.
+5. **Check Completeness**: Verify all relevant new pieces of information have been included and nothing is overlooked.
 
 # Output Format
 
-Provide a single, coherent sentence with the updated information.
+- A rewritten sentence with updated and additional information clearly identified.
+- Each piece of information should be delineated, ensuring clarity and accuracy.
 
 # Example
 
-**Input:** 
-- Statement: "Ward Williams was born on 26 June 1923 in Colfax, Indiana, and passed away on 17 December 2005."
-- Birth_date: "24 December 1934"
-- Birth_place: "Apia, Samoa"
-- Death_date: "06 February 2003"
+## Input
+- Statement: Ward Williams was born on 26 June 1923 in Colfax, Indiana, and passed away on 17 December 2005.
+- Name: Ward Williams
+- Birth Date: 24 December 1934
+- Birth Place: Apia, Samoa
+- Death Date: 06 February 2003
+- Occupation: Farm manager
+- Nationality: Samoan
+- Additional Information: ""
 
-**Output:** 
-"Ward Williams was born on 24 December 1934 in Apia, Samoa, and passed away on 06 February 2003."
+## Output
+Ward Williams, born on 24 December 1934 in Apia, Samoa, and passed away on 06 February 2003, was a Samoan farm manager. 
+
+# Notes
+
+- Maintain the integrity of the original statement's purpose while integrating new details.
+- Ensure that dates and places are accurately adjusted to reflect the updated information.
 """
 
     def _construct_new_info(
@@ -320,6 +332,48 @@ Provide a single, coherent sentence with the updated information.
             prompt += f'\n- {key}: "{value}"'
         return prompt
 
+    def _generate_single_counterfactual(
+        self, statement: str, new_info: Dict[str, Any]
+    ) -> Tuple[str, Dict[str, Any]]:
+        """
+        Generates a single counterfactual statement.
+
+        Args:
+            statement (str): The original biographical statement.
+            new_info (Dict[str, Any]): The new information to update the statement.
+
+        Returns:
+            Tuple[str, Dict[str, Any]]: The generated statement and the fake elements used.
+        """
+        user_prompt = self._construct_user_prompt(statement, new_info)
+
+        openai_kwargs = {
+            "model": "gpt-4o-mini",
+            "max_tokens": 256,
+            "top_p": 1,
+            "temperature": 1,
+            "frequency_penalty": 0,
+            "presence_penalty": 0,
+            "timeout": 10,
+        }
+
+        handler = OpenaiQueryHandler(
+            system_prompt=self.system_prompt,
+            user_prompt=user_prompt,
+            response_format=QA,
+            kwargs=openai_kwargs,
+        )
+
+        try:
+            response = handler.query_with_schema()
+            response_text = response.answer.strip()
+            return response_text, new_info
+        except Exception as exc:
+            print(
+                f"Error generating counterfactual for statement: '{statement}'. Error: {exc}"
+            )
+            return "", new_info
+
     def _process_item(
         self, item: Dict[str, Any], item_index: int
     ) -> Dict[str, Any]:
@@ -353,40 +407,15 @@ Provide a single, coherent sentence with the updated information.
             if not new_info:
                 continue  # Skip if no new information is available
 
-            user_prompt = self._construct_user_prompt(
+            # Generate a single counterfactual
+            statement, fake_elements = self._generate_single_counterfactual(
                 original_statement, new_info
             )
 
-            openai_kwargs = {
-                "model": "gpt-4o-mini",
-                "max_tokens": 256,
-                "top_p": 1,
-                "temperature": 1,
-                "frequency_penalty": 0,
-                "presence_penalty": 0,
-                "timeout": 10,
-            }
-
-            handler = OpenaiQueryHandler(
-                system_prompt=self.system_prompt,
-                user_prompt=user_prompt,
-                response_format=QA,
-                kwargs=openai_kwargs,
-            )
-
-            try:
-                response = handler.query_with_schema()
-                response_text = response.answer.strip()
-            except Exception as exc:
-                print(
-                    f"Error generating counterfactual for item {item.get('index', 'unknown')}, counterfactual {cf_index + 1}: {exc}"
-                )
-                response_text = ""
-
-            if response_text:
+            if statement:
                 # Append both the statement and the fake elements used
                 item["counterfactual_statements"].append(
-                    {"statement": response_text, "fake_elements": new_info}
+                    {"statement": statement, "fake_elements": fake_elements}
                 )
 
         return item
@@ -402,6 +431,7 @@ Provide a single, coherent sentence with the updated information.
             : self.max_items
         ]
         updated_data = []
+        lock = threading.Lock()  # To synchronize access to updated_data
 
         with concurrent.futures.ThreadPoolExecutor(
             max_workers=self.max_workers
@@ -420,7 +450,8 @@ Provide a single, coherent sentence with the updated information.
                 item, idx = future_to_item[future]
                 try:
                     result = future.result()
-                    updated_data.append(result)
+                    with lock:
+                        updated_data.append(result)
                 except Exception as exc:
                     print(
                         f"Error processing item {item.get('index', 'unknown')}: {exc}"
@@ -435,6 +466,8 @@ Provide a single, coherent sentence with the updated information.
         Args:
             data (List[Dict[str, Any]]): The list of processed items with counterfactual statements.
         """
+        for idx, item in enumerate(data):
+            item["index"] = idx
         save_json(self.updated_data_path, data)
 
 
@@ -446,8 +479,8 @@ def main():
     generator = StatementGenerator(
         original_data_path="wikibio_1027.json",
         new_data_path="wikibio_1027_statement.json",
-        max_workers=20,
-        max_items=100,
+        max_workers=10,
+        max_items=10,
     )
     generated_data = generator.generate_statements()
     generator.save_statements(generated_data)
@@ -459,8 +492,8 @@ def main():
         statements_data_path="wikibio_1027_statement.json",
         updated_data_path="wikibio_1027_statement_with_counterfactual.json",
         num_counterfactuals=5,  # Set desired number of counterfactuals per item here
-        max_workers=20,
-        max_items=100,
+        max_workers=10,  # Increased workers for higher parallelism
+        max_items=10,
     )
     counterfactual_data = counterfactual_generator.generate_counterfactuals()
     counterfactual_generator.save_counterfactuals(counterfactual_data)
