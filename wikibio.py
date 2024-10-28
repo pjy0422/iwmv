@@ -2,7 +2,7 @@ import json
 import os
 import random
 import re
-from collections import Counter, defaultdict
+from collections import Counter
 from datetime import datetime
 from functools import lru_cache
 from itertools import combinations
@@ -322,10 +322,10 @@ def generate_fake_triplet(
         nationality = []
         for country in countries:
             nat = country_nationality_mapping.get(country.lower())
-            if nat and nat != "Unknown":
+            if nat:
                 nationality.append(nat)
             else:
-                nationality.append("Unknown")
+                nationality.append(country)
 
         occupation = generate_similar_occupation(
             reference_triplet.get("occupation"), num_options
@@ -361,7 +361,10 @@ def generate_fake_triplets(
             if demonym:
                 country_nationality_mapping[name.lower()] = demonym
             else:
-                country_nationality_mapping[name.lower()] = "Unknown"
+                # Use the country name as nationality if demonym is not available
+                country_nationality_mapping[name.lower()] = (
+                    name  # Modified line
+                )
     with open(filtered_data_file, "r") as f:
         data = json.load(f)
     new_data = []
