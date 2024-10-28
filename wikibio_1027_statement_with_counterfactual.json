@@ -1,0 +1,1224 @@
+[
+  {
+    "index": 0,
+    "name": "roger staub",
+    "content": {
+      "birth_place": "arosa , graubünden , switzerland",
+      "caption": "staub in 1959",
+      "worldsteams": "3 & nbsp ; & nbsp ; \" includes olympics \" - ( 1956 , 1958 , 1960 )",
+      "disciplines": "downhill , giant slalom , slalom , combined",
+      "olympicmedals": "1",
+      "worldsmedals": "4",
+      "olympicteams": "2 - ( 1956 , 1960 )",
+      "birth_date": "01 july 1936",
+      "death_place": "verbier , valais , switzerland",
+      "olympicgolds": "1",
+      "skis": "hart",
+      "image": "roger staub in flims 1959.jpg",
+      "worldsgolds": "1",
+      "name": "roger staub",
+      "death_date": "30 june 1974",
+      "image_size": "200",
+      "club": "sc arosa",
+      "article_title": "roger staub"
+    },
+    "target_text": "roger staub ( 1 july 1936 - 30 june 1974 ) was an alpine ski racer and olympic gold medalist from switzerland . born in arosa , graubünden , staub won the giant slalom at the 1960 winter olympics in squaw valley and also won multiple medals at the 1958 world championships . he finished fourth in the olympic downhill in 1956 at age 19 . he also won a number of swiss national titles . after a brief career as a professional racer in the early 1960s , staub became ski school director at the fledgling vail resort in colorado . he also had a ski school in arosa and sporting goods interests in switzerland . during a summer visit to switzerland in 1974 with his wife and young child , staub was killed in a ski gliding accident near verbier on the eve of his 38th birthday .",
+    "triplet": {
+      "birth_date": "01 july 1936",
+      "birth_place": "arosa , graubünden , switzerland",
+      "death_date": "30 june 1974"
+    },
+    "statement": [
+      "Roger Staub was born on 01 July 1936 in Arosa, Graubünden, Switzerland and died on 30 June 1974.",
+      "Arosa, Graubünden, Switzerland was the birthplace of Roger Staub, born on 01 July 1936, who passed away on 30 June 1974.",
+      "The individual named Roger Staub, born in Arosa, Graubünden, Switzerland on 01 July 1936, died on 30 June 1974.",
+      "On 01 July 1936, Roger Staub was born in Arosa, Graubünden, Switzerland and he died on 30 June 1974.",
+      "Roger Staub, whose birth was on 01 July 1936 in Arosa, Graubünden, Switzerland, died on 30 June 1974."
+    ],
+    "fake_triplet": {
+      "birth_date": [
+        "08 February 1950",
+        "15 December 1933",
+        "13 February 1929",
+        "08 January 1927",
+        "10 December 1949"
+      ],
+      "birth_place": [
+        "Nasinu, Fiji",
+        "Masamba, Indonesia",
+        "Saint George's, Grenada",
+        "Ban Talat Bueng, Thailand",
+        "Taipei, Taiwan, Province of China"
+      ],
+      "death_date": [
+        "22 May 1959",
+        "07 December 1987",
+        "14 March 1981",
+        "21 December 1987",
+        "06 April 1975"
+      ],
+      "occupation": [
+        "Therapist, nutritional",
+        "Company secretary",
+        "Industrial buyer",
+        "Trade union research officer",
+        "Warehouse manager"
+      ],
+      "nationality": [
+        "Fijian",
+        "Indonesian",
+        "Grenadian",
+        "Thai",
+        "Province of China"
+      ]
+    },
+    "counterfactual_statements": [
+      {
+        "statement": "Roger Staub, born on 13 February 1929 in Saint George's, Grenada, died on 14 March 1981, and was a Grenadian industrial buyer.",
+        "fake_elements": {
+          "birth_date": "13 February 1929",
+          "birth_place": "Saint George's, Grenada",
+          "death_date": "14 March 1981",
+          "occupation": "Industrial buyer",
+          "nationality": "Grenadian"
+        }
+      },
+      {
+        "statement": "Roger Staub, born on 08 January 1927 in Ban Talat Bueng, Thailand, and died on 21 December 1987, was a Thai trade union research officer.",
+        "fake_elements": {
+          "birth_date": "08 January 1927",
+          "birth_place": "Ban Talat Bueng, Thailand",
+          "death_date": "21 December 1987",
+          "occupation": "Trade union research officer",
+          "nationality": "Thai"
+        }
+      },
+      {
+        "statement": "Roger Staub, born on 10 December 1949 in Taipei, Taiwan, Province of China, died on 06 April 1975, and was a warehouse manager from the Province of China.",
+        "fake_elements": {
+          "birth_date": "10 December 1949",
+          "birth_place": "Taipei, Taiwan, Province of China",
+          "death_date": "06 April 1975",
+          "occupation": "Warehouse manager",
+          "nationality": "Province of China"
+        }
+      },
+      {
+        "statement": "Roger Staub, born on 08 February 1950 in Nasinu, Fiji, was a Fijian therapist and nutritional expert who passed away on 22 May 1959.",
+        "fake_elements": {
+          "birth_date": "08 February 1950",
+          "birth_place": "Nasinu, Fiji",
+          "death_date": "22 May 1959",
+          "occupation": "Therapist, nutritional",
+          "nationality": "Fijian"
+        }
+      },
+      {
+        "statement": "Roger Staub was born on 15 December 1933 in Masamba, Indonesia, and died on 07 December 1987. He was an Indonesian company secretary.",
+        "fake_elements": {
+          "birth_date": "15 December 1933",
+          "birth_place": "Masamba, Indonesia",
+          "death_date": "07 December 1987",
+          "occupation": "Company secretary",
+          "nationality": "Indonesian"
+        }
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "name": "majda vrhovnik",
+    "content": {
+      "birth_place": "ljubljana , kingdom of yugoslavia",
+      "birth_date": "14 april 1922",
+      "resting_place": "klagenfurt , austria",
+      "death_cause": "shot",
+      "education": "medicine",
+      "alma_mater": "faculty of medicine , university of ljubljana",
+      "image": "majda vrhovnik.jpg",
+      "party": "communist",
+      "known_for": "people 's hero of yugoslavia",
+      "other_names": "lojzka",
+      "name": "majda vrhovnik",
+      "death_date": "04 may 1945",
+      "occupation": "espionage",
+      "death_place": "klagenfurt , nazi germany",
+      "nationality": "slovene",
+      "article_title": "majda vrhovnik"
+    },
+    "target_text": "majda vrhovnik ( nom de guerre lojzka ) ( 14 april 1922 - 4 may 1945 ) was a slovene communist and medical student . she was a member of the district committee of the communist party of slovenia for klagenfurt and was named a people 's hero of yugoslavia after her death .",
+    "triplet": {
+      "birth_date": "14 april 1922",
+      "birth_place": "ljubljana , kingdom of yugoslavia",
+      "death_date": "04 may 1945"
+    },
+    "statement": [
+      "Majda Vrhovnik was born on 14 April 1922 in Ljubljana, Kingdom of Yugoslavia and died on 04 May 1945.",
+      "The birthplace of Majda Vrhovnik is Ljubljana, Kingdom of Yugoslavia, where she was born on 14 April 1922 and passed away on 04 May 1945.",
+      "Born in Ljubljana, Kingdom of Yugoslavia on 14 April 1922, Majda Vrhovnik died on 04 May 1945.",
+      "On 14 April 1922, Majda Vrhovnik was born in Ljubljana, Kingdom of Yugoslavia, and she died on 04 May 1945.",
+      "Majda Vrhovnik, whose birth occurred on 14 April 1922 in Ljubljana, Kingdom of Yugoslavia, tragically passed away on 04 May 1945."
+    ],
+    "fake_triplet": {
+      "birth_date": [
+        "27 April 1911",
+        "02 May 1930",
+        "20 September 1916",
+        "07 March 1933",
+        "24 October 1927"
+      ],
+      "birth_place": [
+        "Cockburn Town, Turks and Caicos Islands",
+        "Zlín, Czechia",
+        "Gibraltar, Gibraltar",
+        "Baghlān, Afghanistan",
+        "New Yekepa, Liberia"
+      ],
+      "death_date": [
+        "11 February 1931",
+        "27 February 1954",
+        "28 February 1938",
+        "08 June 1954",
+        "21 October 1954"
+      ],
+      "occupation": [
+        "Human resources officer",
+        "Passenger transport manager",
+        "Nature conservation officer",
+        "Ship broker",
+        "Scientist, research (medical)"
+      ],
+      "nationality": [
+        "Turks and Caicos Islander",
+        "Czech",
+        "Gibraltar",
+        "Afghan",
+        "Liberian"
+      ]
+    },
+    "counterfactual_statements": [
+      {
+        "statement": "Majda Vrhovnik was born on 07 March 1933 in Baghlān, Afghanistan, and died on 08 June 1954 as an Afghan ship broker.",
+        "fake_elements": {
+          "birth_date": "07 March 1933",
+          "birth_place": "Baghlān, Afghanistan",
+          "death_date": "08 June 1954",
+          "occupation": "Ship broker",
+          "nationality": "Afghan"
+        }
+      },
+      {
+        "statement": "Majda Vrhovnik, born on 24 October 1927 in New Yekepa, Liberia, and died on 21 October 1954, was a Liberian scientist in medical research.",
+        "fake_elements": {
+          "birth_date": "24 October 1927",
+          "birth_place": "New Yekepa, Liberia",
+          "death_date": "21 October 1954",
+          "occupation": "Scientist, research (medical)",
+          "nationality": "Liberian"
+        }
+      },
+      {
+        "statement": "Majda Vrhovnik was born on 27 April 1911 in Cockburn Town, Turks and Caicos Islands, and died on 11 February 1931, and her nationality was Turks and Caicos Islander.",
+        "fake_elements": {
+          "birth_date": "27 April 1911",
+          "birth_place": "Cockburn Town, Turks and Caicos Islands",
+          "death_date": "11 February 1931",
+          "occupation": "Human resources officer",
+          "nationality": "Turks and Caicos Islander"
+        }
+      },
+      {
+        "statement": "Majda Vrhovnik was born on 02 May 1930 in Zlín, Czechia, and died on 27 February 1954. Majda Vrhovnik, whose birth occurred on 02 May 1930 in Zlín, Czechia, was a Czech passenger transport manager.",
+        "fake_elements": {
+          "birth_date": "02 May 1930",
+          "birth_place": "Zlín, Czechia",
+          "death_date": "27 February 1954",
+          "occupation": "Passenger transport manager",
+          "nationality": "Czech"
+        }
+      },
+      {
+        "statement": "Majda Vrhovnik, born on 20 September 1916 in Gibraltar, Gibraltar, tragically passed away on 28 February 1938. She was a Gibraltar nature conservation officer.",
+        "fake_elements": {
+          "birth_date": "20 September 1916",
+          "birth_place": "Gibraltar, Gibraltar",
+          "death_date": "28 February 1938",
+          "occupation": "Nature conservation officer",
+          "nationality": "Gibraltar"
+        }
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "herbie kronowitz",
+    "content": {
+      "birth_place": "brooklyn , new york , usa",
+      "birth_date": "september 1923",
+      "birth_name": "theodore `` ted \" kronowitz",
+      "article_title": "herbie kronowitz",
+      "name": "herbert `` herbie \" kronowitz",
+      "death_date": "november 9 , 2012 ( aged 89 )",
+      "occupation": "middleweight boxer from 1941 to 1950",
+      "death_place": "brooklyn , new york , usa",
+      "religion": "jewish",
+      "nationality": "american",
+      "residence": "bensonhurst , brooklyn , new york"
+    },
+    "target_text": "herbert `` herbie \" kronowitz , originally theodore `` ted \" kronowitz ( september , 1923 - november 9 , 2012 ) , was an american middleweight boxer who fought in the ring from 1941 to 1950 . after his boxing career ended , kronowitz was a highly regarded referee for nearly thirty years . he resided in bensonhurst , in his native brooklyn borough of new york city . kronowitz adopted his brother 's name , `` herbie \" , when he began to box as an amateur at the age of fifteen . he said that since elementary school he had wanted to be a professional fighter . as a youth , kronowitz met ben jeby , the 1933 middleweight champion , when the kronowitz family moved around the corner from jeby , who became kronowitz 's role model in boxing . in 1947 , kronowitz was ranked tenth in the world among middleweights . in march of that year , he faced artie levine at madison square garden in new york city . the crowd of 12,000 was said to have been enthralled during the 10-round battle between the two jewish fighters . levine won the decision , although kronowitz claimed that while levine `` won the decision . there was no question that i won the fight . \" kronowitz fought the top contenders in the middleweight division . he lost to rocky castellani and vinnie cidone in decisions . among boxers that he defeated were harold green , billy walker , jerry fiorello , and pete mead , a native of trumann , arkansas , who died in 2007 . on his retirement at the age of twenty-seven , kronowitz had won fifty-four ( nine by knockout ) of eighty-three career decisions . there were also five draws . reflecting on his decade in the ring , kronowitz said : `` the thing about boxing is that it gave every one of us everything we have . i do n't mean just money . it taught us how to live , how to act , how to eat , how to be physically fit . it opened doors to places that we never could have gotten into . some made more money than others , but every boxer looks at his career as the most important experience in his life . \" kronowitz worked as a referee from 1955 to 1984 . he was a member of the `` ring 8 \" board of directors . kronowitz served in the united states coast guard during world war ii . two of his brothers served overseas , and his younger brother was killed in the battle of the bulge in belgium . kronowitz was featured in 2007 in a jewish exhibit at the museum of the city of new york at the intersection of fifth avenue and 103rd street in manhattan . kronowitz died november 9 , 2012 in brooklyn at the age of eighty-nine .",
+    "triplet": {
+      "birth_date": "september 1923",
+      "birth_place": "brooklyn , new york , usa",
+      "death_date": "november 9 , 2012 ( aged 89 )"
+    },
+    "statement": [
+      "Herbie Kronowitz was born in September 1923 in Brooklyn, New York, USA and died on November 9, 2012, at the age of 89.",
+      "Born in Brooklyn, New York, USA in September 1923, Herbie Kronowitz passed away on November 9, 2012, at the age of 89.",
+      "In September 1923, Herbie Kronowitz entered the world in Brooklyn, New York, USA, and he left this world on November 9, 2012, at the age of 89.",
+      "On November 9, 2012, Herbie Kronowitz, who was born in September 1923 in Brooklyn, New York, USA, died at the age of 89.",
+      "Herbie Kronowitz, born in Brooklyn, New York, USA in September 1923, died on November 9, 2012, at the age of 89."
+    ],
+    "fake_triplet": {
+      "birth_date": [
+        "16 February 1914",
+        "04 November 1909",
+        "24 July 1937",
+        "09 November 1917",
+        "01 May 1915"
+      ],
+      "birth_place": [
+        "Dourbali, Chad",
+        "Tikrīt, Iraq",
+        "Mirriah, Niger",
+        "Inongo, Congo, The Democratic Republic of the",
+        "Punākha, Bhutan"
+      ],
+      "death_date": [
+        "19 July 2024",
+        "18 November 2015",
+        "01 October 2024",
+        "07 July 2012",
+        "25 April 2023"
+      ],
+      "occupation": [
+        "Naval architect",
+        "Advertising account planner",
+        "Physiotherapist",
+        "Financial controller",
+        "Research officer, trade union"
+      ],
+      "nationality": [
+        "Chadian",
+        "Iraqi",
+        "Nigerien",
+        "The Democratic Republic of the",
+        "Bhutanese"
+      ]
+    },
+    "counterfactual_statements": [
+      {
+        "statement": "Herbie Kronowitz, born on 01 May 1915 in Punākha, Bhutan, died on 25 April 2023, at the age of 107, was a Bhutanese research officer and trade union member.",
+        "fake_elements": {
+          "birth_date": "01 May 1915",
+          "birth_place": "Punākha, Bhutan",
+          "death_date": "25 April 2023",
+          "occupation": "Research officer, trade union",
+          "nationality": "Bhutanese"
+        }
+      },
+      {
+        "statement": "Herbie Kronowitz, born on 16 February 1914 in Dourbali, Chad, died on 19 July 2024, at the age of 110, and was a Chadian naval architect.",
+        "fake_elements": {
+          "birth_date": "16 February 1914",
+          "birth_place": "Dourbali, Chad",
+          "death_date": "19 July 2024",
+          "occupation": "Naval architect",
+          "nationality": "Chadian"
+        }
+      },
+      {
+        "statement": "Herbie Kronowitz, born on 04 November 1909 in Tikrīt, Iraq, died on 18 November 2015, was an Iraqi advertising account planner.",
+        "fake_elements": {
+          "birth_date": "04 November 1909",
+          "birth_place": "Tikrīt, Iraq",
+          "death_date": "18 November 2015",
+          "occupation": "Advertising account planner",
+          "nationality": "Iraqi"
+        }
+      },
+      {
+        "statement": "Herbie Kronowitz, born on 24 July 1937 in Mirriah, Niger, died on 01 October 2024, and was a Nigerien physiotherapist.",
+        "fake_elements": {
+          "birth_date": "24 July 1937",
+          "birth_place": "Mirriah, Niger",
+          "death_date": "01 October 2024",
+          "occupation": "Physiotherapist",
+          "nationality": "Nigerien"
+        }
+      },
+      {
+        "statement": "Herbie Kronowitz was born on 09 November 1917 in Inongo, Congo, The Democratic Republic of the and died on 07 July 2012 at the age of 94, as he was a financial controller from The Democratic Republic of the.",
+        "fake_elements": {
+          "birth_date": "09 November 1917",
+          "birth_place": "Inongo, Congo, The Democratic Republic of the",
+          "death_date": "07 July 2012",
+          "occupation": "Financial controller",
+          "nationality": "The Democratic Republic of the"
+        }
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "j. p. featherston",
+    "content": {
+      "birth_place": "durham , county durham",
+      "spouse": "bessie featherstone",
+      "successor": "g. b. lyon-fellowes",
+      "term_end": "1875",
+      "birth_date": "november 28 , 1830",
+      "predecessor": "eugène martineau",
+      "party": "liberal",
+      "imagesize": "150",
+      "name": "john peter featherston",
+      "death_date": "1917",
+      "term_start": "1874",
+      "death_place": "ottawa",
+      "office": "mayor of ottawa",
+      "article_title": "j. p. featherston"
+    },
+    "target_text": "john peter featherston ( november 28 , 1830 - 1917 ) was the mayor of ottawa , ontario , canada , from 1874 to 1875 . born in durham , england , in 1830 , he came to canada in 1858 . upon settling in ottawa , he opened a drug store . in 1867 he was elected to city council , and in 1879 was appointed clerk and registrar for the carleton county court . he served as chairman of the board for the ottawa collegiate institute , and ran unsuccessfully to represent the city of ottawa in the federal parliament in an 1877 by-election . featherston was a district deputy grand master of the freemasons . very little is known about mr. featherston , other than the fact that he was a liberal politician , and that he wired mr. richard scott ( later sir richard william scott , k.c. , p.c. ) in 1871 advising him to enter the liberal government . later that year mr. scott became speaker of the legislature .",
+    "triplet": {
+      "birth_date": "november 28 , 1830",
+      "birth_place": "durham , county durham",
+      "death_date": "1917"
+    },
+    "statement": [
+      "J. P. Featherston was born on November 28, 1830, in Durham, County Durham, and he passed away in 1917.",
+      "The birthplace of J. P. Featherston is Durham, County Durham, where he was born on November 28, 1830, and he died in 1917.",
+      "In the year 1830, on November 28, J. P. Featherston was born in Durham, County Durham, and he died in 1917.",
+      "Born on November 28, 1830, J. P. Featherston hailed from Durham, County Durham, and he left this world in 1917.",
+      "J. P. Featherston, whose birth date is November 28, 1830, in Durham, County Durham, passed away in 1917."
+    ],
+    "fake_triplet": {
+      "birth_date": [
+        "23 March 1829",
+        "07 January 1817",
+        "02 August 1837",
+        "05 July 1836",
+        "08 December 1831"
+      ],
+      "birth_place": [
+        "Thimphu, Bhutan",
+        "Vatican City, Holy See (Vatican City State)",
+        "An Nuhūd, Sudan",
+        "Mouila, Gabon",
+        "Villa Altagracia, Dominican Republic"
+      ],
+      "death_date": [
+        "25 March 1916",
+        "03 July 1917",
+        "14 January 1917",
+        "16 May 1910",
+        "03 February 1903"
+      ],
+      "occupation": [
+        "Homeopath",
+        "Communications engineer",
+        "Travel agency manager",
+        "Teacher, secondary school",
+        "Psychologist, sport and exercise"
+      ],
+      "nationality": [
+        "Bhutanese",
+        "Holy See (Vatican City State)",
+        "Sudanese",
+        "Gabonese",
+        "Dominican"
+      ]
+    },
+    "counterfactual_statements": [
+      {
+        "statement": "J. P. Featherston was born on 08 December 1831 in Villa Altagracia, Dominican Republic, and he passed away on 03 February 1903. He was a Dominican psychologist, specializing in sport and exercise.",
+        "fake_elements": {
+          "birth_date": "08 December 1831",
+          "birth_place": "Villa Altagracia, Dominican Republic",
+          "death_date": "03 February 1903",
+          "occupation": "Psychologist, sport and exercise",
+          "nationality": "Dominican"
+        }
+      },
+      {
+        "statement": "J. P. Featherston, born on 23 March 1829 in Thimphu, Bhutan, and passed away on 25 March 1916, was a Bhutanese homeopath.",
+        "fake_elements": {
+          "birth_date": "23 March 1829",
+          "birth_place": "Thimphu, Bhutan",
+          "death_date": "25 March 1916",
+          "occupation": "Homeopath",
+          "nationality": "Bhutanese"
+        }
+      },
+      {
+        "statement": "J. P. Featherston was born on 07 January 1817 in Vatican City, Holy See (Vatican City State), and he passed away on 03 July 1917. He was a communications engineer from the Holy See (Vatican City State).",
+        "fake_elements": {
+          "birth_date": "07 January 1817",
+          "birth_place": "Vatican City, Holy See (Vatican City State)",
+          "death_date": "03 July 1917",
+          "occupation": "Communications engineer",
+          "nationality": "Holy See (Vatican City State)"
+        }
+      },
+      {
+        "statement": "J. P. Featherston, born on 02 August 1837 in An Nuhūd, Sudan, was a Sudanese travel agency manager who passed away on 14 January 1917.",
+        "fake_elements": {
+          "birth_date": "02 August 1837",
+          "birth_place": "An Nuhūd, Sudan",
+          "death_date": "14 January 1917",
+          "occupation": "Travel agency manager",
+          "nationality": "Sudanese"
+        }
+      },
+      {
+        "statement": "J. P. Featherston was born on 05 July 1836 in Mouila, Gabon, and he passed away on 16 May 1910. He was a Gabonese teacher at a secondary school.",
+        "fake_elements": {
+          "birth_date": "05 July 1836",
+          "birth_place": "Mouila, Gabon",
+          "death_date": "16 May 1910",
+          "occupation": "Teacher, secondary school",
+          "nationality": "Gabonese"
+        }
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "name": "italo mus",
+    "content": {
+      "birth_place": "châtillon",
+      "awards": "\" the first prize of young painters 1910 \"",
+      "birth_date": "4 april 1892",
+      "training": "academy of fine arts in turin",
+      "bgcolour": "# 6495ed",
+      "field": "painting",
+      "name": "italo mus",
+      "death_date": "15 may 1967",
+      "death_place": "saint-vincent",
+      "nationality": "italian",
+      "article_title": "italo mus"
+    },
+    "target_text": "italo mus ( 4 april 1892 - 15 may 1967 ) was an italian painter .",
+    "triplet": {
+      "birth_date": "4 april 1892",
+      "birth_place": "châtillon",
+      "death_date": "15 may 1967"
+    },
+    "statement": [
+      "Italo Mus was born on 4 April 1892 in Châtillon and died on 15 May 1967.",
+      "The birthplace of Italo Mus is Châtillon, where he was born on 4 April 1892, and he passed away on 15 May 1967.",
+      "On 4 April 1892, Italo Mus was born in Châtillon, and he later died on 15 May 1967.",
+      "The individual known as Italo Mus was born in Châtillon on 4 April 1892 and died on 15 May 1967.",
+      "Italo Mus, who was born on 4 April 1892 in Châtillon, passed away on 15 May 1967."
+    ],
+    "fake_triplet": {
+      "birth_date": [
+        "21 October 1898",
+        "25 March 1879",
+        "16 July 1883",
+        "28 August 1892",
+        "25 December 1899"
+      ],
+      "birth_place": [
+        "Impfondo, Congo",
+        "Bago, Myanmar",
+        "Vaulx-en-Velin, France",
+        "Batangafo, Central African Republic",
+        "Marigot, Saint Martin (French part)"
+      ],
+      "death_date": [
+        "20 September 1962",
+        "28 June 1982",
+        "16 September 1952",
+        "27 July 1978",
+        "08 May 1979"
+      ],
+      "occupation": [
+        "Optometrist",
+        "Industrial buyer",
+        "Operations geologist",
+        "Immunologist",
+        "Doctor, hospital"
+      ],
+      "nationality": [
+        "Congo",
+        "Burmese",
+        "French",
+        "Central African",
+        "Saint Martin (French part)"
+      ]
+    },
+    "counterfactual_statements": [
+      {
+        "statement": "Italo Mus, born on 16 July 1883 in Vaulx-en-Velin, France, passed away on 16 September 1952, and was a French operations geologist.",
+        "fake_elements": {
+          "birth_date": "16 July 1883",
+          "birth_place": "Vaulx-en-Velin, France",
+          "death_date": "16 September 1952",
+          "occupation": "Operations geologist",
+          "nationality": "French"
+        }
+      },
+      {
+        "statement": "Italo Mus was born on 28 August 1892 in Batangafo, Central African Republic, and died on 27 July 1978. He was a Central African immunologist.",
+        "fake_elements": {
+          "birth_date": "28 August 1892",
+          "birth_place": "Batangafo, Central African Republic",
+          "death_date": "27 July 1978",
+          "occupation": "Immunologist",
+          "nationality": "Central African"
+        }
+      },
+      {
+        "statement": "Italo Mus was born on 25 December 1899 in Marigot, Saint Martin (French part), and died on 08 May 1979. He was a doctor at a hospital and held Saint Martin (French part) nationality.",
+        "fake_elements": {
+          "birth_date": "25 December 1899",
+          "birth_place": "Marigot, Saint Martin (French part)",
+          "death_date": "08 May 1979",
+          "occupation": "Doctor, hospital",
+          "nationality": "Saint Martin (French part)"
+        }
+      },
+      {
+        "statement": "Italo Mus was born on 21 October 1898 in Impfondo, Congo, and died on 20 September 1962. He was a Congolese optometrist.",
+        "fake_elements": {
+          "birth_date": "21 October 1898",
+          "birth_place": "Impfondo, Congo",
+          "death_date": "20 September 1962",
+          "occupation": "Optometrist",
+          "nationality": "Congo"
+        }
+      },
+      {
+        "statement": "Italo Mus, born on 25 March 1879 in Bago, Myanmar, passed away on 28 June 1982, was a Burmese industrial buyer.",
+        "fake_elements": {
+          "birth_date": "25 March 1879",
+          "birth_place": "Bago, Myanmar",
+          "death_date": "28 June 1982",
+          "occupation": "Industrial buyer",
+          "nationality": "Burmese"
+        }
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "joe walter ( footballer )",
+    "content": {
+      "birth_place": "eastville , bristol , england",
+      "years": "1919 1926 - 1928 1928 - 1929 1929 - 1931 1931 - - ? 1922 1922 - 1925 1925 - 1926",
+      "clubs": "all blackburn rovers bristol rovers bath city kingswood hallows cliftonians bristol rovers huddersfield town taunton united",
+      "caps": "117 55 31 7",
+      "fullname": "joseph dorville walter",
+      "birth_date": "16 august 1895",
+      "goals": "8 5 5 1",
+      "youthclubs": "all hallows cliftonians",
+      "article_title": "joe walter ( footballer )",
+      "position": "half back/inside forward/outside forward",
+      "name": "joe walter",
+      "death_date": "23 may 1995",
+      "death_place": "bristol , england",
+      "height": "5 7.5"
+    },
+    "target_text": "joseph dorville `` joe \" walter ( 16 august 1895 - 23 may 1995 ) was a professional footballer , who played for bristol rovers , huddersfield town , taunton united and bath city . he was the last surviving player to play under herbert chapman while at huddersfield . walter 's early footballing experience came while serving in the gloucestershire regiment during the first world war , when he represented the third battalion of the `` glorious glosters \" , before joining horfield united in the horfield area of his home city of bristol . after a year playing in the bristol and suburban association football league , he joined his first professional team in 1919 when he signed for bristol rovers . later in life he worked as a groundsman , firstly for the bristol co-operative society , before taking responsibility for bristol city 's ashton gate pitch in 1955 . he was later appointed as an assistant coach at his former club , bristol rovers , in 1960 when he was aged 65 . in huddersfield 's final game at leeds road , against blackpool on 30 april 1994 , he was the guest of honour . he was also present for town 's visit to bristol rovers ' twerton park . on 5 november 1994 , he made english football history as he became the oldest living professional player at 99 years , on the death of former brighton & hove albion player zillwood march in his 102nd year .",
+    "triplet": {
+      "birth_date": "16 august 1895",
+      "birth_place": "eastville , bristol , england",
+      "death_date": "23 may 1995"
+    },
+    "statement": [
+      "Joe Walter, the footballer, was born on 16 August 1895 in Eastville, Bristol, England and died on 23 May 1995.",
+      "The birthplace of Joe Walter, the footballer, is Eastville, Bristol, England, where he was born on 16 August 1895, and he passed away on 23 May 1995.",
+      "Born on 16 August 1895, Joe Walter grew up in Eastville, Bristol, England, and he lived until his death on 23 May 1995.",
+      "On 16 August 1895, Joe Walter was born in Eastville, Bristol, England, and he left this world on 23 May 1995.",
+      "Joe Walter, a notable footballer born in Eastville, Bristol, England on 16 August 1895, lived a long life until his passing on 23 May 1995."
+    ],
+    "fake_triplet": {
+      "birth_date": [
+        "13 March 1886",
+        "24 July 1896",
+        "09 August 1897",
+        "21 December 1886",
+        "28 September 1908"
+      ],
+      "birth_place": [
+        "Narva, Estonia",
+        "Soyapango, El Salvador",
+        "Saint Helier, Jersey",
+        "Koungou, Mayotte",
+        "Oranjestad, Aruba"
+      ],
+      "death_date": [
+        "22 April 1989",
+        "08 June 2002",
+        "09 April 1989",
+        "23 January 1993",
+        "15 June 1984"
+      ],
+      "occupation": [
+        "Farm manager",
+        "Geochemist",
+        "Professor Emeritus",
+        "Location manager",
+        "Personal assistant"
+      ],
+      "nationality": [
+        "Estonian",
+        "Salvadoran",
+        "Channel Islander",
+        "Mahoran",
+        "Aruban"
+      ]
+    },
+    "counterfactual_statements": [
+      {
+        "statement": "Joe Walter, the geochemist, was born on 24 July 1896 in Soyapango, El Salvador, and died on 08 June 2002.",
+        "fake_elements": {
+          "birth_date": "24 July 1896",
+          "birth_place": "Soyapango, El Salvador",
+          "death_date": "08 June 2002",
+          "occupation": "Geochemist",
+          "nationality": "Salvadoran"
+        }
+      },
+      {
+        "statement": "Joe Walter, the footballer, was born on 09 August 1897 in Saint Helier, Jersey, and died on 09 April 1989.  \nThe birthplace of Joe Walter, the footballer, is Saint Helier, Jersey, where he was born on 09 August 1897, and he passed away on 09 April 1989.  \nBorn on 09 August 1897, Joe Walter grew up in Saint Helier, Jersey, and he lived until his death on 09 April 1989.  \nOn 09 August 1897, Joe Walter was born in Saint Helier, Jersey, and he left this world on 09 April 1989.  \nJoe Walter, a notable footballer born in Saint Helier, Jersey on 09 August 1897, lived a long life until his passing on 09 April 1989.",
+        "fake_elements": {
+          "birth_date": "09 August 1897",
+          "birth_place": "Saint Helier, Jersey",
+          "death_date": "09 April 1989",
+          "occupation": "Professor Emeritus",
+          "nationality": "Channel Islander"
+        }
+      },
+      {
+        "statement": "Joe Walter, the location manager, was born on 21 December 1886 in Koungou, Mayotte, and died on 23 January 1993.",
+        "fake_elements": {
+          "birth_date": "21 December 1886",
+          "birth_place": "Koungou, Mayotte",
+          "death_date": "23 January 1993",
+          "occupation": "Location manager",
+          "nationality": "Mahoran"
+        }
+      },
+      {
+        "statement": "Joe Walter, born on 28 September 1908 in Oranjestad, Aruba, and passed away on 15 June 1984, was an Aruban personal assistant.",
+        "fake_elements": {
+          "birth_date": "28 September 1908",
+          "birth_place": "Oranjestad, Aruba",
+          "death_date": "15 June 1984",
+          "occupation": "Personal assistant",
+          "nationality": "Aruban"
+        }
+      },
+      {
+        "statement": "Joe Walter, the footballer, was born on 13 March 1886 in Narva, Estonia, and died on 22 April 1989.",
+        "fake_elements": {
+          "birth_date": "13 March 1886",
+          "birth_place": "Narva, Estonia",
+          "death_date": "22 April 1989",
+          "occupation": "Farm manager",
+          "nationality": "Estonian"
+        }
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "jimmy moody",
+    "content": {
+      "birth_place": "looe , cornwall england",
+      "birth_date": "27 february 1941",
+      "birth_name": "james alfred moody",
+      "image": "big jim-1 copy.jpg",
+      "other_names": "big jim",
+      "name": "jimmy moody",
+      "death_date": "1 june 1993 27 february 1941 yes",
+      "occupation": "armed robber , reputed contract killer and prison escapee",
+      "death_place": "the royal public house , hackney , east london",
+      "article_title": "jimmy moody"
+    },
+    "target_text": "james alfred ` jimmy ' moody ( 27 february 1941 , looe , cornwall - 1 june 1993 , hackney , london ) was an english gangster and hitman whose career spanned more than four decades and included run-ins with jack spot , billy hill , `` mad \" frankie fraser , the krays , the richardsons and the provisional ira . he was born to a mother who was a wartime evacuee from camberwell , south east london . his father was killed during ww2 after his ship was torpedoed by a u-boat . moody was the number one enforcer for the richardsons , did freelance `` work \" for the krays , and became one of the most feared criminals to emerge from the london underworld all before he reached the age of 30 . he was considered by many of his peers to be `` the hardest man in london \" . in the 1970s , moody joined a team of criminals to form the chainsaw gang who went on to become that decade 's most successful armed robbers . at this time he could be very blase about the nature of his work , for instance according to his biographer wensley clarkson , although he was a kind and devoted family man he often cleaned his shotguns on the kitchen table in front of his family and once even asked his wife to lend him her tights as a mask for a disguise . moody was convicted of manslaughter in 1967 for the killing of a young merchant navy steward . he was released in 1972 , however he was sent in 1979 on remand to brixton prison to await trial for armed robbery . his cellmate was provisional ira member gerard tuite . in 1980 the two men escaped and went on the run . soon , his murderous skills were being put to use as he became a paid hitman for the provos against their own . moody did not care for politics , just a paid job and was never a member of the ira or a republican sympathiser . by the late 1980s , moody realised he was in danger of overstaying his welcome in ireland and , inevitably , the lure of london persuaded him to return home . he believed his reputation as a hired killer would keep him one step ahead of trouble - and the law . but the london he returned to was a very different place . huge drug deals - mainly involving ecstasy and cocaine - rather than armed robbery were financing many criminals ' lavish lifestyles . the stakes were higher and so were the profits . by the early 1990s , moody 's list of enemies read like a who 's who of criminals from both sides of the water . then there were the police , the royal ulster constabulary and the british security services . moody was shot dead in june 1993 in the royal hotel ( now royal inn on the park ) in hackney , east london by an unknown assassin .",
+    "triplet": {
+      "birth_date": "27 february 1941",
+      "birth_place": "looe , cornwall england",
+      "death_date": "1 june 1993 27 february 1941 yes"
+    },
+    "statement": [
+      "Jimmy Moody was born on 27 February 1941 in Looe, Cornwall, England and died on 1 June 1993.",
+      "The birthplace of Jimmy Moody is Looe, Cornwall, England, where he was born on 27 February 1941, and he passed away on 1 June 1993.",
+      "On 27 February 1941, Jimmy Moody was born in Looe, Cornwall, England and he died on 1 June 1993.",
+      "Jimmy Moody, whose birth date is 27 February 1941 in Looe, Cornwall, England, died on 1 June 1993.",
+      "The individual known as Jimmy Moody was born in Looe, Cornwall, England on 27 February 1941 and passed away on 1 June 1993."
+    ],
+    "fake_triplet": {
+      "birth_date": [
+        "26 January 1945",
+        "27 August 1954",
+        "15 November 1942",
+        "27 January 1955",
+        "04 August 1955"
+      ],
+      "birth_place": [
+        "Eggenberg, Austria",
+        "Ngerulmud, Palau",
+        "Solāpur, India",
+        "Tralee, Ireland",
+        "Bratislava, Slovakia"
+      ],
+      "death_date": [
+        "12 August 1995",
+        "11 January 1992",
+        "28 March 2001",
+        "26 June 1984",
+        "15 March 2004"
+      ],
+      "occupation": [
+        "Ecologist",
+        "Health and safety inspector",
+        "Journalist, newspaper",
+        "Teacher, adult education",
+        "Illustrator"
+      ],
+      "nationality": [
+        "Austrian",
+        "Palauan",
+        "Indian",
+        "Irish",
+        "Slovak"
+      ]
+    },
+    "counterfactual_statements": [
+      {
+        "statement": "Jimmy Moody was born on 27 January 1955 in Tralee, Ireland, and died on 26 June 1984. He was an Irish teacher specializing in adult education.",
+        "fake_elements": {
+          "birth_date": "27 January 1955",
+          "birth_place": "Tralee, Ireland",
+          "death_date": "26 June 1984",
+          "occupation": "Teacher, adult education",
+          "nationality": "Irish"
+        }
+      },
+      {
+        "statement": "Jimmy Moody was born on 04 August 1955 in Bratislava, Slovakia, and died on 15 March 2004. \n\nThe birthplace of Jimmy Moody is Bratislava, Slovakia, where he was born on 04 August 1955, and he passed away on 15 March 2004.\n\nOn 04 August 1955, Jimmy Moody was born in Bratislava, Slovakia, and he died on 15 March 2004.\n\nJimmy Moody, whose birth date is 04 August 1955 in Bratislava, Slovakia, died on 15 March 2004.\n\nThe individual known as Jimmy Moody was born in Bratislava, Slovakia on 04 August 1955 and passed away on 15 March 2004. He was a Slovak illustrator.",
+        "fake_elements": {
+          "birth_date": "04 August 1955",
+          "birth_place": "Bratislava, Slovakia",
+          "death_date": "15 March 2004",
+          "occupation": "Illustrator",
+          "nationality": "Slovak"
+        }
+      },
+      {
+        "statement": "Jimmy Moody was born on 26 January 1945 in Eggenberg, Austria, and died on 12 August 1995. He was an Austrian ecologist.",
+        "fake_elements": {
+          "birth_date": "26 January 1945",
+          "birth_place": "Eggenberg, Austria",
+          "death_date": "12 August 1995",
+          "occupation": "Ecologist",
+          "nationality": "Austrian"
+        }
+      },
+      {
+        "statement": "Jimmy Moody was born on 27 August 1954 in Ngerulmud, Palau, and died on 11 January 1992. He was a Palauan health and safety inspector.",
+        "fake_elements": {
+          "birth_date": "27 August 1954",
+          "birth_place": "Ngerulmud, Palau",
+          "death_date": "11 January 1992",
+          "occupation": "Health and safety inspector",
+          "nationality": "Palauan"
+        }
+      },
+      {
+        "statement": "Jimmy Moody was born on 15 November 1942 in Solāpur, India, and died on 28 March 2001, and he was an Indian journalist working in newspapers.",
+        "fake_elements": {
+          "birth_date": "15 November 1942",
+          "birth_place": "Solāpur, India",
+          "death_date": "28 March 2001",
+          "occupation": "Journalist, newspaper",
+          "nationality": "Indian"
+        }
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "name": "ernest erbstein",
+    "content": {
+      "birth_place": "nagyvárad , austria-hungary",
+      "years": "1915 1926 - 1928 - 1924 1924 - 1925 1925 - 1926",
+      "clubs": "budapesti ak u.s. fiumana vicenza brooklyn wanderers",
+      "caps": "28",
+      "managerclubs": "bari trainer ) \" nocerina cagliari bari lucchese torino torino \" (",
+      "fullname": "ernest erbstein",
+      "birth_date": "13 may 1898",
+      "manageryears": "1928 1932 - 1933 1933 - 1938 1938 - 1939 1946 - - 1949 1929 1929 - 1930 1930 - 1932",
+      "goals": "2",
+      "name": "ernest erbstein",
+      "death_date": "4 may 1949",
+      "death_place": "turin , italy",
+      "article_title": "ernest erbstein"
+    },
+    "target_text": "ernest erbstein , `` hungarian : erbstein ernő \" , ( 13 may 1898 - 4 may 1949 ) commonly known as ernest egri-erbstein was a jewish-hungarian football player and later manager from nagyvárad ; now known as oradea in romania . he carried out his footballing activities in several countries , he was most noted for his association with italian football .",
+    "triplet": {
+      "birth_date": "13 may 1898",
+      "birth_place": "nagyvárad , austria-hungary",
+      "death_date": "4 may 1949"
+    },
+    "statement": [
+      "Ernest Erbstein was born on 13 May 1898 in Nagyvárad, Austria-Hungary and died on 4 May 1949.",
+      "Nagyvárad, Austria-Hungary was the birthplace of Ernest Erbstein, born on 13 May 1898, who passed away on 4 May 1949.",
+      "The individual named Ernest Erbstein, born in Nagyvárad, Austria-Hungary on 13 May 1898, died on 4 May 1949.",
+      "On 13 May 1898, Ernest Erbstein was born in Nagyvárad, Austria-Hungary and he died on 4 May 1949.",
+      "Ernest Erbstein, whose birth was on 13 May 1898 in Nagyvárad, Austria-Hungary, died on 4 May 1949."
+    ],
+    "fake_triplet": {
+      "birth_date": [
+        "03 June 1885",
+        "23 August 1899",
+        "16 December 1897",
+        "07 September 1903",
+        "21 February 1890"
+      ],
+      "birth_place": [
+        "Funafuti, Tuvalu",
+        "Zarzis, Tunisia",
+        "Starý Bohumín, Czechia",
+        "Ararat, Armenia",
+        "Manatí, Colombia"
+      ],
+      "death_date": [
+        "27 February 1958",
+        "14 October 1952",
+        "28 October 1955",
+        "28 December 1952",
+        "05 February 1952"
+      ],
+      "occupation": [
+        "Industrial/product designer",
+        "Economist",
+        "Designer, multimedia",
+        "Accountant, chartered management",
+        "Social worker"
+      ],
+      "nationality": [
+        "Tuvaluan",
+        "Tunisian",
+        "Czech",
+        "Armenian",
+        "Colombian"
+      ]
+    },
+    "counterfactual_statements": [
+      {
+        "statement": "Ernest Erbstein, born on 03 June 1885 in Funafuti, Tuvalu, and died on 27 February 1958, was a Tuvaluan industrial/product designer.",
+        "fake_elements": {
+          "birth_date": "03 June 1885",
+          "birth_place": "Funafuti, Tuvalu",
+          "death_date": "27 February 1958",
+          "occupation": "Industrial/product designer",
+          "nationality": "Tuvaluan"
+        }
+      },
+      {
+        "statement": "Ernest Erbstein, born on 23 August 1899 in Zarzis, Tunisia, and died on 14 October 1952, was a Tunisian economist.",
+        "fake_elements": {
+          "birth_date": "23 August 1899",
+          "birth_place": "Zarzis, Tunisia",
+          "death_date": "14 October 1952",
+          "occupation": "Economist",
+          "nationality": "Tunisian"
+        }
+      },
+      {
+        "statement": "Ernest Erbstein was born on 16 December 1897 in Starý Bohumín, Czechia and died on 28 October 1955. Ernest Erbstein, a Czech designer and multimedia artist, was born on 16 December 1897 in Starý Bohumín, Czechia, and passed away on 28 October 1955. The individual named Ernest Erbstein, born in Starý Bohumín, Czechia on 16 December 1897, died on 28 October 1955. On 16 December 1897, Ernest Erbstein was born in Starý Bohumín, Czechia and he died on 28 October 1955. Ernest Erbstein, whose birth was on 16 December 1897 in Starý Bohumín, Czechia, died on 28 October 1955.",
+        "fake_elements": {
+          "birth_date": "16 December 1897",
+          "birth_place": "Starý Bohumín, Czechia",
+          "death_date": "28 October 1955",
+          "occupation": "Designer, multimedia",
+          "nationality": "Czech"
+        }
+      },
+      {
+        "statement": "Ernest Erbstein, born on 07 September 1903 in Ararat, Armenia, died on 28 December 1952, was an Armenian accountant and chartered management professional.",
+        "fake_elements": {
+          "birth_date": "07 September 1903",
+          "birth_place": "Ararat, Armenia",
+          "death_date": "28 December 1952",
+          "occupation": "Accountant, chartered management",
+          "nationality": "Armenian"
+        }
+      },
+      {
+        "statement": "Ernest Erbstein was born on 21 February 1890 in Manatí, Colombia and died on 05 February 1952. He was a Colombian social worker.",
+        "fake_elements": {
+          "birth_date": "21 February 1890",
+          "birth_place": "Manatí, Colombia",
+          "death_date": "05 February 1952",
+          "occupation": "Social worker",
+          "nationality": "Colombian"
+        }
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "name": "ward williams",
+    "content": {
+      "letter": "w",
+      "statlabel": "points assists",
+      "name": "ward williams",
+      "death_date": "17 december 2005",
+      "height_ft": "6",
+      "team": "fort wayne pistons",
+      "years": "1948 - 1949",
+      "birth_date": "26 june 1923",
+      "draft_year": "1948",
+      "bbr": "williwa01",
+      "career_start": "1948",
+      "college": "indiana ) ( 1942 - 1943 , 1946 - 1948",
+      "birth_place": "colfax , indiana",
+      "draft_pick": "8",
+      "height_in": "4",
+      "draft_team": "fort wayne pistons",
+      "position": "forward",
+      "death_place": "greenville , south carolina",
+      "career_end": "1949",
+      "statvalue": "215 ) ( 4.1 ppg ) 82 ( 1.5 apg",
+      "stats_league": "baa",
+      "weight_lb": "195",
+      "high_school": "colfax ( colfax , indiana )",
+      "number": "25",
+      "draft_round": "1",
+      "nationality": "american",
+      "article_title": "ward williams"
+    },
+    "target_text": "ward m. williams ( june 26 , 1923 - december 17 , 2005 ) was an american professional basketball player . ward was selected in the first round ( 8th overall ) in the 1948 baa draft by the fort wayne pistons . he played for the pistons in 1948 - 49 and appeared in 53 games .",
+    "triplet": {
+      "birth_date": "26 june 1923",
+      "birth_place": "colfax , indiana",
+      "death_date": "17 december 2005"
+    },
+    "statement": [
+      "Ward Williams was born on 26 June 1923 in Colfax, Indiana and died on 17 December 2005.",
+      "Colfax, Indiana was the birthplace of Ward Williams, born on 26 June 1923, who passed away on 17 December 2005.",
+      "The individual named Ward Williams, born in Colfax, Indiana on 26 June 1923, died on 17 December 2005.",
+      "On 26 June 1923, Ward Williams was born in Colfax, Indiana and he died on 17 December 2005.",
+      "Ward Williams, whose birth was on 26 June 1923 in Colfax, Indiana, died on 17 December 2005."
+    ],
+    "fake_triplet": {
+      "birth_date": [
+        "21 October 1935",
+        "08 April 1925",
+        "17 October 1938",
+        "28 June 1933",
+        "20 May 1925"
+      ],
+      "birth_place": [
+        "Mogadishu, Somalia",
+        "Erzsébetváros, Hungary",
+        "South Benfleet, United Kingdom",
+        "San Rafael Oriente, El Salvador",
+        "Lutsk, Ukraine"
+      ],
+      "death_date": [
+        "25 March 2009",
+        "12 November 1994",
+        "07 May 1990",
+        "02 May 2017",
+        "24 November 1997"
+      ],
+      "occupation": [
+        "Architect",
+        "Engineer, water",
+        "Production manager",
+        "Chartered certified accountant",
+        "Geophysical data processor"
+      ],
+      "nationality": [
+        "Somali",
+        "Hungarian",
+        "British",
+        "Salvadoran",
+        "Ukrainian"
+      ]
+    },
+    "counterfactual_statements": [
+      {
+        "statement": "Ward Williams was born on 21 October 1935 in Mogadishu, Somalia and died on 25 March 2009. \n\nColfax, Indiana was the birthplace of Ward Williams, born on 21 October 1935, who passed away on 25 March 2009. \n\nThe individual named Ward Williams, born in Mogadishu, Somalia on 21 October 1935, died on 25 March 2009. \n\nOn 21 October 1935, Ward Williams was born in Mogadishu, Somalia and he died on 25 March 2009. \n\nWard Williams, whose birth was on 21 October 1935 in Mogadishu, Somalia, died on 25 March 2009. Ward Williams was an architect and he was Somali.",
+        "fake_elements": {
+          "birth_date": "21 October 1935",
+          "birth_place": "Mogadishu, Somalia",
+          "death_date": "25 March 2009",
+          "occupation": "Architect",
+          "nationality": "Somali"
+        }
+      },
+      {
+        "statement": "Ward Williams was born on 08 April 1925 in Erzsébetváros, Hungary, and died on 12 November 1994. \n\nColfax, Indiana was the birthplace of Ward Williams, born on 08 April 1925, who passed away on 12 November 1994. \n\nThe individual named Ward Williams, born in Erzsébetváros, Hungary on 08 April 1925, died on 12 November 1994. \n\nOn 08 April 1925, Ward Williams was born in Erzsébetváros, Hungary and he died on 12 November 1994. \n\nWard Williams, whose birth was on 08 April 1925 in Erzsébetváros, Hungary, died on 12 November 1994. \n\nWard Williams was an engineer in water and was of Hungarian nationality.",
+        "fake_elements": {
+          "birth_date": "08 April 1925",
+          "birth_place": "Erzsébetváros, Hungary",
+          "death_date": "12 November 1994",
+          "occupation": "Engineer, water",
+          "nationality": "Hungarian"
+        }
+      },
+      {
+        "statement": "Ward Williams was born on 17 October 1938 in South Benfleet, United Kingdom, and died on 07 May 1990. \n\nColfax, Indiana was the birthplace of Ward Williams, born on 17 October 1938, who passed away on 07 May 1990. \n\nThe individual named Ward Williams, born in South Benfleet, United Kingdom on 17 October 1938, died on 07 May 1990. \n\nOn 17 October 1938, Ward Williams was born in South Benfleet, United Kingdom and he died on 07 May 1990. \n\nWard Williams, whose birth was on 17 October 1938 in South Benfleet, United Kingdom, died on 07 May 1990 and was a British production manager.",
+        "fake_elements": {
+          "birth_date": "17 October 1938",
+          "birth_place": "South Benfleet, United Kingdom",
+          "death_date": "07 May 1990",
+          "occupation": "Production manager",
+          "nationality": "British"
+        }
+      },
+      {
+        "statement": "Ward Williams was born on 28 June 1933 in San Rafael Oriente, El Salvador, and died on 02 May 2017. He was a Salvadoran chartered certified accountant.",
+        "fake_elements": {
+          "birth_date": "28 June 1933",
+          "birth_place": "San Rafael Oriente, El Salvador",
+          "death_date": "02 May 2017",
+          "occupation": "Chartered certified accountant",
+          "nationality": "Salvadoran"
+        }
+      },
+      {
+        "statement": "Ward Williams was born on 20 May 1925 in Lutsk, Ukraine, and died on 24 November 1997. \nColfax, Indiana was the birthplace of Ward Williams, born on 20 May 1925, who passed away on 24 November 1997. \nThe individual named Ward Williams, born in Lutsk, Ukraine on 20 May 1925, died on 24 November 1997. \nOn 20 May 1925, Ward Williams was born in Lutsk, Ukraine, and he died on 24 November 1997. \nWard Williams, whose birth was on 20 May 1925 in Lutsk, Ukraine, died on 24 November 1997.",
+        "fake_elements": {
+          "birth_date": "20 May 1925",
+          "birth_place": "Lutsk, Ukraine",
+          "death_date": "24 November 1997",
+          "occupation": "Geophysical data processor",
+          "nationality": "Ukrainian"
+        }
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "name": "arthur arnould",
+    "content": {
+      "birth_place": "dieuze",
+      "caption": "arthur arnould in 1871",
+      "birth_date": "17 april 1833",
+      "image": "arthur arnould 1871.jpg",
+      "name": "arthur arnould",
+      "death_date": "26 november 1895",
+      "nationality": "france",
+      "article_title": "arthur arnould"
+    },
+    "target_text": "arthur arnould ( 17 april 1833 , dieuze - 26 november 1895 ) was a french writer , and journalist . he wrote under the pen name `` arthur matthey \" . he was a member of the hermetic brotherhood of luxor and the theosophical society . he married the widowed painter delphine de cool in 1890 . he is listed in the french dictionary of anarchists .",
+    "triplet": {
+      "birth_date": "17 april 1833",
+      "birth_place": "dieuze",
+      "death_date": "26 november 1895"
+    },
+    "statement": [
+      "Arthur Arnould was born on 17 April 1833 in Dieuze and died on 26 November 1895.",
+      "The birthplace of Arthur Arnould was Dieuze, where he was born on 17 April 1833, and he passed away on 26 November 1895.",
+      "On 17 April 1833, Arthur Arnould was born in Dieuze, and he died on 26 November 1895.",
+      "Arthur Arnould, whose birth date was 17 April 1833 in Dieuze, died on 26 November 1895.",
+      "The individual known as Arthur Arnould was born in Dieuze on 17 April 1833 and he passed away on 26 November 1895."
+    ],
+    "fake_triplet": {
+      "birth_date": [
+        "03 May 1843",
+        "04 January 1821",
+        "14 May 1844",
+        "27 September 1833",
+        "23 July 1820"
+      ],
+      "birth_place": [
+        "Southbank, Australia",
+        "Morphett Vale, Australia",
+        "Chinautla, Guatemala",
+        "Kazanlak, Bulgaria",
+        "Tabay, Venezuela, Bolivarian Republic of"
+      ],
+      "death_date": [
+        "07 June 1894",
+        "11 April 1881",
+        "09 March 1907",
+        "02 May 1900",
+        "25 June 1880"
+      ],
+      "occupation": [
+        "Building control surveyor",
+        "Psychotherapist",
+        "Photographer",
+        "Water quality scientist",
+        "Records manager"
+      ],
+      "nationality": [
+        "Australian",
+        "Australian",
+        "Guatemalan",
+        "Bulgarian",
+        "Bolivarian Republic of"
+      ]
+    },
+    "counterfactual_statements": [
+      {
+        "statement": "Arthur Arnould was born on 04 January 1821 in Morphett Vale, Australia, and died on 11 April 1881. The birthplace of Arthur Arnould was Morphett Vale, Australia, where he was born on 04 January 1821, and he passed away on 11 April 1881. On 04 January 1821, Arthur Arnould was born in Morphett Vale, Australia, and he died on 11 April 1881. Arthur Arnould, whose birth date was 04 January 1821 in Morphett Vale, Australia, died on 11 April 1881. The individual known as Arthur Arnould was born in Morphett Vale, Australia on 04 January 1821 and he passed away on 11 April 1881.",
+        "fake_elements": {
+          "birth_date": "04 January 1821",
+          "birth_place": "Morphett Vale, Australia",
+          "death_date": "11 April 1881",
+          "occupation": "Psychotherapist",
+          "nationality": "Australian"
+        }
+      },
+      {
+        "statement": "Arthur Arnould, born on 14 May 1844 in Chinautla, Guatemala, and passed away on 09 March 1907, was a Guatemalan photographer.",
+        "fake_elements": {
+          "birth_date": "14 May 1844",
+          "birth_place": "Chinautla, Guatemala",
+          "death_date": "09 March 1907",
+          "occupation": "Photographer",
+          "nationality": "Guatemalan"
+        }
+      },
+      {
+        "statement": "Arthur Arnould was born on 27 September 1833 in Kazanlak, Bulgaria, and died on 02 May 1900. \n\nThe birthplace of Arthur Arnould was Kazanlak, Bulgaria, where he was born on 27 September 1833, and he passed away on 02 May 1900. \n\nOn 27 September 1833, Arthur Arnould was born in Kazanlak, Bulgaria, and he died on 02 May 1900. \n\nArthur Arnould, whose birth date was 27 September 1833 in Kazanlak, Bulgaria, died on 02 May 1900. \n\nThe individual known as Arthur Arnould was born in Kazanlak, Bulgaria on 27 September 1833, and he passed away on 02 May 1900. \n\nArthur Arnould was a Bulgarian water quality scientist.",
+        "fake_elements": {
+          "birth_date": "27 September 1833",
+          "birth_place": "Kazanlak, Bulgaria",
+          "death_date": "02 May 1900",
+          "occupation": "Water quality scientist",
+          "nationality": "Bulgarian"
+        }
+      },
+      {
+        "statement": "Arthur Arnould was born on 23 July 1820 in Tabay, Venezuela, Bolivarian Republic of, and died on 25 June 1880. \n\nThe birthplace of Arthur Arnould was Tabay, Venezuela, Bolivarian Republic of, where he was born on 23 July 1820, and he passed away on 25 June 1880. \n\nOn 23 July 1820, Arthur Arnould was born in Tabay, Venezuela, Bolivarian Republic of, and he died on 25 June 1880. \n\nArthur Arnould, whose birth date was 23 July 1820 in Tabay, Venezuela, Bolivarian Republic of, died on 25 June 1880. \n\nThe individual known as Arthur Arnould was born in Tabay, Venezuela, Bolivarian Republic of on 23 July 1820 and he passed away on 25 June 1880.",
+        "fake_elements": {
+          "birth_date": "23 July 1820",
+          "birth_place": "Tabay, Venezuela, Bolivarian Republic of",
+          "death_date": "25 June 1880",
+          "occupation": "Records manager",
+          "nationality": "Bolivarian Republic of"
+        }
+      },
+      {
+        "statement": "Arthur Arnould was born on 03 May 1843 in Southbank, Australia, and died on 07 June 1894. \n\nThe birthplace of Arthur Arnould was Southbank, Australia, where he was born on 03 May 1843, and he passed away on 07 June 1894. \n\nOn 03 May 1843, Arthur Arnould was born in Southbank, Australia, and he died on 07 June 1894. \n\nArthur Arnould, whose birth date was 03 May 1843 in Southbank, Australia, died on 07 June 1894. \n\nThe individual known as Arthur Arnould was born in Southbank, Australia on 03 May 1843 and he passed away on 07 June 1894. \n\nArthur Arnould was an Australian building control surveyor.",
+        "fake_elements": {
+          "birth_date": "03 May 1843",
+          "birth_place": "Southbank, Australia",
+          "death_date": "07 June 1894",
+          "occupation": "Building control surveyor",
+          "nationality": "Australian"
+        }
+      }
+    ]
+  }
+]
