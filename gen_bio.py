@@ -1,7 +1,7 @@
-from pydantic import BaseModel
-from typing import Any, Dict, List
 import concurrent.futures
+from typing import Any, Dict, List
 
+from pydantic import BaseModel
 from tqdm import tqdm
 from utils.json_utils import load_json, save_json
 from utils.openai_utils import OpenaiQueryHandler
@@ -63,7 +63,9 @@ def get_user_prompt(name: str, triplet: dict) -> str:
     return prompt
 
 
-def check_triplet_in_response(triplet_values: List[str], response_text: str) -> bool:
+def check_triplet_in_response(
+    triplet_values: List[str], response_text: str
+) -> bool:
     response_text_lower = response_text.lower()
     for value in triplet_values:
         value_lower = value.lower()
@@ -78,7 +80,7 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
     system_prompt = get_system_prompt()
     user_prompt = get_user_prompt(name, triplet)
     kwargs = {
-        "model": "gpt-4",
+        "model": "gpt-4o-mini",
         "max_tokens": 256,
         "top_p": 1,
         "temperature": 1,
@@ -122,8 +124,13 @@ def main():
     # Use ThreadPoolExecutor to process items in parallel
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
         # Submit all tasks
-        future_to_item = {executor.submit(process_item, item): item for item in original_data}
-        for future in tqdm(concurrent.futures.as_completed(future_to_item), total=len(future_to_item)):
+        future_to_item = {
+            executor.submit(process_item, item): item for item in original_data
+        }
+        for future in tqdm(
+            concurrent.futures.as_completed(future_to_item),
+            total=len(future_to_item),
+        ):
             item = future_to_item[future]
             try:
                 result = future.result()
