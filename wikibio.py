@@ -2,10 +2,12 @@ import json
 import os
 import random
 import re
-from collections import Counter
+from collections import Counter, defaultdict
 from datetime import datetime
+from functools import lru_cache
 from itertools import combinations
 
+import geonamescache
 import nltk
 import pycountry
 from datasets import load_dataset
@@ -16,6 +18,7 @@ from faker import Faker
 COUNTRIES_DATA_FILE = "countries_data.json"
 WIKIBIO_DATA_FILE = "wikibio_10000.json"
 FILTERED_DATA_FILE = "wikibio_1027.json"
+gc = geonamescache.GeonamesCache()
 
 
 def load_countries_data():
@@ -169,40 +172,90 @@ def generate_similar_date(reference_date_str, num_options=5):
     return options
 
 
+@lru_cache(maxsize=None)
+def get_country_lookup():
+    """
+    Creates a lookup dictionary for country names and their common aliases in lowercase.
+    """
+    lookup = {}
+    for country in pycountry.countries:
+        lookup[country.name.lower()] = country.name
+        if hasattr(country, "official_name"):
+            lookup[country.official_name.lower()] = country.name
+        # Add any other aliases if necessary
+    return lookup
+
+
 def extract_country(place_str):
     if not place_str:
         return None
-    place_str = place_str.replace("?", "").strip().lower()
-    components = [comp.strip() for comp in place_str.split(",")]
+
+    # Precompute the country lookup dictionary
+    country_lookup = get_country_lookup()
+
+    # Clean and split the place string
+    components = [
+        comp.strip().lower().replace("?", "") for comp in place_str.split(",")
+    ]
+
+    # Iterate from the end to find the country
     for comp in reversed(components):
-        country = None
-        try:
-            country = pycountry.countries.lookup(comp)
-        except LookupError:
-            for c in pycountry.countries:
-                if comp in c.name.lower():
-                    country = c
-                    break
-        if country:
-            return country.name
+        country_name = country_lookup.get(comp)
+        if country_name:
+            return country_name
     return None
 
 
 def generate_similar_place(reference_place_str, num_options=5, fake=None):
+    """
+    Generates a list of similar place names based on a reference place.
+    The country is randomly selected using pycountry, and real cities from that country are used.
+
+    Args:
+        reference_place_str (str): The reference place string (e.g., "Paris, France").
+        num_options (int): Number of similar place options to generate.
+        fake (Faker, optional): An instance of Faker. If None, a new instance is created.
+
+    Returns:
+        list or None: A list of generated place names in the format "City, Country",
+        or None if fallback occurs.
+    """
     if fake is None:
         fake = Faker()
-    country_name = extract_country(reference_place_str)
+
     options = []
+
+    # Pre-fetch all cities to avoid repeated calls
+    all_cities = gc.get_cities()
+
+    # Build a mapping from country code to list of cities
+    country_cities_map = {}
+    for city_info in all_cities.values():
+        country_code = city_info["countrycode"]
+        country_cities_map.setdefault(country_code, []).append(
+            city_info["name"]
+        )
+
+    # List of all countries from pycountry
+    countries_list = list(pycountry.countries)
+
     for _ in range(num_options):
-        if country_name:
-            try:
-                country = pycountry.countries.lookup(country_name)
-                city = fake.city()
-                options.append(f"{city}, {country.name}")
-            except LookupError:
-                options.append(f"{fake.city()}, {fake.country()}")
-        else:
-            options.append(f"{fake.city()}, {fake.country()}")
+        # Select a random country from pycountry
+        country = fake.random_element(elements=countries_list)
+        country_code = country.alpha_2  # ISO 3166-1 alpha-2 code
+
+        # Get cities for the country from the preprocessed map
+        country_cities = country_cities_map.get(country_code, [])
+
+        if not country_cities:
+            # If no cities found, do not fallback, return None
+            return None  # Modified line
+
+        # Select a random real city from the list
+        city = fake.random_element(elements=country_cities)
+
+        options.append(f"{city}, {country.name}")
+
     return options
 
 
@@ -224,24 +277,6 @@ def generate_similar_occupation(reference_occupation, num_options=5):
         if options
         else [Faker().job() for _ in range(num_options)]
     )
-
-
-def generate_nationality(
-    birth_place_str, num_options=5, country_nationality_mapping=None
-):
-    if country_nationality_mapping is None:
-        country_nationality_mapping = {}
-    country_name = extract_country(birth_place_str)
-    if country_name:
-        nationality = country_nationality_mapping.get(country_name.lower())
-        if nationality and nationality != "Unknown":
-            return [nationality] * num_options
-    return [
-        country_nationality_mapping.get(
-            random.choice(list(pycountry.countries)).name.lower(), "Unknown"
-        )
-        for _ in range(num_options)
-    ]
 
 
 def generate_gender(num_options=5):
@@ -268,13 +303,32 @@ def generate_fake_triplet(
         birth_place = generate_similar_place(
             reference_triplet.get("birth_place"), num_options, fake=fake
         )
+        if birth_place is None:
+            # Fallback occurred, do not generate fake triplet
+            return None  # Modified line
+
+        # Extract countries from birth_place
+        countries = []
+        for place in birth_place:
+            # Assuming format "City, Country"
+            if "," in place:
+                country = place.split(",")[-1].strip()
+                countries.append(country)
+            else:
+                # If no comma, treat entire place as country
+                countries.append(place.strip())
+
+        # Generate nationality based on countries
+        nationality = []
+        for country in countries:
+            nat = country_nationality_mapping.get(country.lower())
+            if nat and nat != "Unknown":
+                nationality.append(nat)
+            else:
+                nationality.append("Unknown")
+
         occupation = generate_similar_occupation(
             reference_triplet.get("occupation"), num_options
-        )
-        nationality = generate_nationality(
-            reference_triplet.get("birth_place"),
-            num_options,
-            country_nationality_mapping,
         )
         gender = generate_gender(num_options)
         return {

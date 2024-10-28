@@ -116,8 +116,8 @@ def process_item(item: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def main():
-    original_data_path = "/home/guest-pjy/wikibio_1027.json"
-    new_data_path = "/home/guest-pjy/wikibio_1027_statement.json"
+    original_data_path = "wikibio_1027.json"
+    new_data_path = "wikibio_1027_statement.json"
     original_data = load_json(original_data_path)[:20]
     new_data = []
 
