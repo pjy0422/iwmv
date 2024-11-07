@@ -187,7 +187,7 @@ def save_articles_to_json(
     # Construct a filename that includes the combination size and the combination elements
     # Replace spaces with underscores to make the filename filesystem-friendly
     combo_str = "_".join([c.replace(" ", "_") for c in combination])
-    filename = f"./{speaker}_top{combination_size}_{combo_str}.json"
+    filename = f"./{speaker}_top{combination_size}.json"
 
     # Prepare the data to save
     output_data = {
