@@ -176,7 +176,7 @@ def save_articles_to_json(
     speaker: str,
 ) -> None:
     """
-    Save the list of matched articles to a JSON file.
+    Save the list of matched articles to a JSON file, adding a `source_claims` field.
 
     Parameters:
         articles (List[Dict[str, Any]]): List of articles containing the combination.
@@ -192,8 +192,26 @@ def save_articles_to_json(
     # Prepare the data to save
     output_data = {
         "Combination": combination,
-        "Matched Articles": articles,
+        "Matched Articles": []
     }
+
+    # Add `source_claims` field to each matched article
+    for article in articles:
+        # Create a copy to avoid mutating the original article
+        article_copy = article.copy()
+        # Initialize source_claims
+        source_claims = {}
+        # Iterate through the combination to populate source_claims
+        for source in combination:
+            if source.lower() == speaker.lower():
+                # Assign the main_claim to the Speaker
+                main_claim = article.get("Main Claim", "")
+                source_claims[source] = main_claim
+            else:
+                # Assign empty string to other sources
+                source_claims[source] = ""
+        article_copy["source_claims"] = source_claims
+        output_data["Matched Articles"].append(article_copy)
 
     try:
         with open(filename, "w", encoding="utf-8") as f:

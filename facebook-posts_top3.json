@@ -1,0 +1,2930 @@
+{
+    "Combination": [
+        "The Associated Press",
+        "The New York Times",
+        "facebook-posts"
+    ],
+    "Matched Articles": [
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/oct/21/facebook-posts/sorry-thriller-fans-theres-no-zombie-michael-jacks/",
+            "Main Claim": "\"Michael Jackson discovered alive at age 65” and will testify against Sean “Diddy” Combs.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "A Facebook claiming singer Michael Jackson is alive and planning to testify at Sean \"Diddy\" Combs’ sex trafficking trial originated on a satire website.",
+            "Sources": [
+                "Clean Tech",
+                "Daily Star",
+                "facebook-posts",
+                "Fav Sporting",
+                "Fox News Channel",
+                "The Associated Press",
+                "The New York Times",
+                "Toan Canh 24H"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "\"Michael Jackson discovered alive at age 65” and will testify against Sean “Diddy” Combs."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/sep/18/facebook-posts/no-taylor-swifts-didnt-cancel-eras-tour-shows-afte/",
+            "Main Claim": "“Taylor Swift forced to cancel Eras Tour dates following endorsement backlash.”",
+            "Truth-O-Meter": "False",
+            "Justification": "The article was originally published as satire. News reports did not say that Taylor Swift canceled any shows in her Eras Tour after endorsing Vice President Kamala Harris for president in September.",
+            "Sources": [
+                "CBS News",
+                "Esspots",
+                "facebook-posts",
+                "Liz Cheney X post",
+                "Taylor Swift",
+                "Taylor Swift Instagram account",
+                "Taylor Swift X account",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Taylor Swift forced to cancel Eras Tour dates following endorsement backlash.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/sep/19/facebook-posts/social-media-posts-about-kamala-harris-college-stu/",
+            "Main Claim": "Vice President Kamala Harris’ college professors disparaged her as their “worst student.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Viral social media posts used supposed photos and quotes from Kamala Harris’ college professors that were made up. The claims originated from satire websites. The Facebook post used a photo of Bradford Grant, a Howard University architecture professor who joined the faculty in 2007. Harris studied political science and economics and graduated from Howard in 1986. The Instagram post used a photo of Jerry Sandusky, a convicted sex offender and former football coach.",
+            "Sources": [
+                "Above the Law",
+                "Esspots (Satire website)",
+                "facebook-posts",
+                "Howard Magazine",
+                "Howard University",
+                "Instagram post",
+                "LeadStories",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "X post",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Vice President Kamala Harris’ college professors disparaged her as their “worst student.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/aug/05/facebook-posts/simone-biles-didnt-announce-her-retirement-or-a-pr/",
+            "Main Claim": "Says Simone Biles “announces retirement” and “reveals she is ‘expecting a baby.’”",
+            "Truth-O-Meter": "False",
+            "Justification": "This claim is unfounded. American gymnast Simone Biles didn’t announce her retirement or pregnancy.",
+            "Sources": [
+                "facebook-posts",
+                "NBC Chicago",
+                "Simone Biles Facebook",
+                "Simone Biles Instagram account",
+                "Simone Biles Wikipedia page",
+                "Simone Biles X account",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says Simone Biles “announces retirement” and “reveals she is ‘expecting a baby.’”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jul/31/facebook-posts/claim-netflix-lost-subscribers-over-co-founders-ca/",
+            "Main Claim": "“Netflix loses 6 million subscribers within hours of donation announcement.”",
+            "Truth-O-Meter": "False",
+            "Justification": "This claim originated on a self-described satire site.",
+            "Sources": [
+                "facebook-posts",
+                "PolitiFact",
+                "Politico",
+                "Reed Hastings X post",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Netflix loses 6 million subscribers within hours of donation announcement.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jul/26/facebook-posts/thomas-matthew-crooks-briefly-appeared-in-a-blackr/",
+            "Main Claim": "Thomas Matthew Crooks worked for BlackRock \"in the past\" and BlackRock owned the building Crooks stood on when he shot at the Trump campaign rally.",
+            "Truth-O-Meter": "False",
+            "Justification": "Thomas Matthew Crooks appeared briefly in a 2022 BlackRock Inc., ad about teachers’ retirement plans. He and other students in the background were not paid, BlackRock said. County records show American Glass Research Inc. owns the building from which Crooks fired the shots that killed one person and injured three, including former President Donald Trump. A BlackRock spokesperson said the company neither owns nor has real estate funds invested in the building.",
+            "Sources": [
+                "Agr International",
+                "BlackRock Inc.",
+                "Bloomberg News",
+                "Butler County",
+                "Cable News Network",
+                "Email exchange Christopher Berger",
+                "National Public Radio",
+                "The Associated Press",
+                "The New Statesman",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Thomas Matthew Crooks worked for BlackRock \"in the past\" and BlackRock owned the building Crooks stood on when he shot at the Trump campaign rally."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jun/21/facebook-posts/claim-about-cristiano-ronaldo-and-rainbow-armbands/",
+            "Main Claim": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020.",
+            "Truth-O-Meter": "False",
+            "Justification": "There is evidence that three team captains — from Germany, England, and Denmark — wore rainbow or pro-LGBTQ+ armbands during this tournament, which included 24 teams. Germany’s captain, Manuel Neuer, was briefly investigated by the Union of European Football Associations for his rainbow armband. Cristiano Ronaldo was among many other captains who wore normal armbands.",
+            "Sources": [
+                "Axios",
+                "Cable News Network",
+                "ESPN",
+                "ESPN. \" Why FIFA banned LGBTQ OneLove armband at the World Cup",
+                "Email interview with UEFA spokesperson",
+                "facebook-posts",
+                "Firstpost",
+                "Forbes",
+                "KNVB",
+                "Reuters",
+                "SkySports",
+                "The Associated Press",
+                "The Athletic",
+                "Guardian",
+                "The Independent",
+                "The New York Times",
+                "The Washington Post",
+                "Time Magazine",
+                "UEFA",
+                "X post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jun/24/facebook-posts/no-caitlin-clark-did-not-turn-down-millions-of-dol/",
+            "Main Claim": "“Caitlin Clark rejects $400 million deal from Nike” saying “not with that Kaepernick clown.’”",
+            "Truth-O-Meter": "False",
+            "Justification": "This claim originated on a satire site. In April, it was widely reported that Indiana Fever rookie Caitlin Clark was expected to enter a lucrative contract with Nike.",
+            "Sources": [
+                "The Associated Press",
+                "CBS Sports",
+                "Esspots",
+                "facebook-posts",
+                "GQ",
+                "News",
+                "PolitiFact",
+                "Snopes",
+                "SpaceXMania",
+                "The Athletic",
+                "The New York Times",
+                "The New Yorker",
+                "WeekTimesUS",
+                "X post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Caitlin Clark rejects $400 million deal from Nike” saying “not with that Kaepernick clown.’”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jul/01/facebook-posts/no-jury-didnt-order-disney-to-pay-gina-carano-115/",
+            "Main Claim": "A jury “ordered Disney and Lucasfilm to pay” actor Gina Carano $115 million.",
+            "Truth-O-Meter": "False",
+            "Justification": "This claim originated on a self-described satire website. \"The Mandalorian\" actor Gina Carano has sued Disney for wrongful termination, but the lawsuit continues.",
+            "Sources": [
+                "The Associated Press",
+                "America’s Last Line of Defense",
+                "Big Oak Bay News",
+                "Court Listener",
+                "Entertainment Weekly",
+                "Facebook post ( archived",
+                "Newsweek",
+                "The Hollywood Reporter",
+                "The New York Times",
+                "The Washington Post",
+                "USA Today",
+                "Variety"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "A jury “ordered Disney and Lucasfilm to pay” actor Gina Carano $115 million."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/apr/22/facebook-posts/video-showing-drone-stuck-in-wires-isnt-from-irans/",
+            "Main Claim": "Video shows Iranian drone sent to Israel stuck in a power line in Iraq.",
+            "Truth-O-Meter": "False",
+            "Justification": "A widely shared social media video shows a drone that got stuck in wires in Syria in February. It has no connection to Iran’s April 13 launch of 300 drones and missiles to Israel, as some posts claimed.",
+            "Sources": [
+                "@Syr_television",
+                "@Syria_Stream",
+                "facebook-posts",
+                "Syria TV",
+                "The Associated Press",
+                "The New York Times",
+                "X post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Video shows Iranian drone sent to Israel stuck in a power line in Iraq."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/mar/28/facebook-posts/ship-that-struck-baltimore-bridge-was-not-a-chines/",
+            "Main Claim": "The ship that struck the Baltimore bridge was controlled by a Chinese company.",
+            "Truth-O-Meter": "False",
+            "Justification": "News reports and company statements about the incident show that the people who operated the ship Dali were not Chinese. It is owned by Singapore-based company Grace Ocean Private Ltd., managed by Synergy Marine Group and chartered by Danish shipping company Maersk. Learn more about PolitiFact’sfact-checking process and rating system.",
+            "Sources": [
+                "The Associated Press",
+                "CBS News",
+                "ClassNK page on Dali",
+                "ETInfra.com",
+                "facebook-posts",
+                "Hindustan Times",
+                "Lloyd’s List",
+                "MPA Singapore",
+                "Maersk",
+                "PolitiFact",
+                "Reuters",
+                "Synergy Marine Group",
+                "The Maritime Executive",
+                "The New York Times",
+                "The Washington Post",
+                "USA Today"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "The ship that struck the Baltimore bridge was controlled by a Chinese company."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/apr/02/facebook-posts/baltimore-bridge-collapse-federal-state-officials/",
+            "Main Claim": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Federal and Maryland officials have said there is no credible evidence the Dali ship’s collision with the Francis Scott Key Bridge in Baltimore was intentional. Officials have called it \"an accident.\" Preliminary reports show the ship’s crew made efforts to slow the vessel and prevent contact with the bridge. The pilot also issued a mayday call to stop traffic on the bridge. No spin, just facts you can trust.Here’s how we do it.",
+            "Sources": [
+                "Cable News Network",
+                "Facebook reel",
+                "Instagram reel",
+                "National Transportation Safety Board Newsroom",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/oct/17/facebook-posts/biden-did-not-announce-a-military-draft-this-video/",
+            "Main Claim": "A video shows President Joe Biden invoking the Selective Service Act.",
+            "Truth-O-Meter": "False",
+            "Justification": "This video of President Joe Biden announcing that he is invoking the Selective Service Act for a military draft was generated by artificial intelligence. It was first uploaded in February.",
+            "Sources": [
+                "Britannica",
+                "facebook-posts",
+                "Selective Service System",
+                "The Associated Press",
+                "The New York Times",
+                "Tweet by The Post Millennial",
+                "USAGov"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "A video shows President Joe Biden invoking the Selective Service Act."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/nov/10/facebook-posts/claim-that-new-york-fraud-case-is-unrelated-to-tru/",
+            "Main Claim": "New York’s fraud case against Trump “has nothing to do with his home in Mar-a-Lago.”",
+            "Truth-O-Meter": "False",
+            "Justification": "In 2022, New York Attorney General Letitia James filed a lawsuit alleging that former President Donald Trump and the Trump Organization \"created more than 200 false and misleading valuations of assets\" to defraud financial institutions. Trump has denied wrongdoing. In September, a New York Supreme Court judge ruled Trump had inflated his Mar-a-Lago estate’s value. Regardless of Mar-a-Lago’s exact value, the question of whether Trump assets’ values were inflated is central to the New York fraud case.",
+            "Sources": [
+                "Cable News Network",
+                "NBC News",
+                "PolitiFact",
+                "Politico",
+                "Reuters",
+                "Sun Sentinel",
+                "The Associated Press",
+                "The Messenger",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "New York’s fraud case against Trump “has nothing to do with his home in Mar-a-Lago.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/sep/25/facebook-posts/casual-friday-at-the-us-capitol-perhaps-but-this-i/",
+            "Main Claim": "Image shows Sen. Rand Paul in a bathrobe on the steps of the U.S. Capitol.",
+            "Truth-O-Meter": "False",
+            "Justification": "Both Sen. Rand Paul, R-Ky., and the image’s creator confirmed that the picture was generated by artificial intelligence. The photo is in response to the Senate’s relaxed dress code, which has caused controversy among politicians.",
+            "Sources": [
+                "Email interview with Jeff Charles",
+                "facebook-posts",
+                "Facebook search",
+                "Instagram page",
+                "Instagram post",
+                "Phone interview with spokesperson for Sen. Rand Paul. R-Ky.",
+                "The Associated Press",
+                "The New York Times",
+                "Tweet",
+                "Twitter profile"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Image shows Sen. Rand Paul in a bathrobe on the steps of the U.S. Capitol."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/aug/22/facebook-posts/no-the-world-economic-forum-did-not-say-the-maui-w/",
+            "Main Claim": "“WEF admits Maui wildfires orchestrated to transform Hawaii into 15-minute cities.”",
+            "Truth-O-Meter": "False",
+            "Justification": "The World Economic Forum made no statement saying the Maui wildfires were orchestrated. The cause of the wildfires has not been identified, but authorities have pointed to dry conditions, low humidity and high winds as contributing factors. The island’s aging electric power infrastructure is also under scrutiny. There is no evidence the disaster was an intentional effort to build a 15-minute city in Maui.",
+            "Sources": [
+                "American Planning Association",
+                "The Associated Press",
+                "CBS News",
+                "facebook-posts",
+                "PolitiFact",
+                "TED",
+                "The New York Times",
+                "USA Today",
+                "World Economic Forum"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“WEF admits Maui wildfires orchestrated to transform Hawaii into 15-minute cities.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/aug/22/facebook-posts/claim-that-russian-president-vladimir-putin-was-as/",
+            "Main Claim": "“Official statement — Putin assassinated in the Kremlin!”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "There is no evidence that Russia’s president was assassinated.",
+            "Sources": [
+                "The Associated Press",
+                "facebook-posts",
+                "The New York Times",
+                "PolitiFact"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Official statement — Putin assassinated in the Kremlin!”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/aug/25/facebook-posts/tenerife-wildfire-has-no-connection-to-smart-city/",
+            "Main Claim": "Smart-city plans are behind wildfires in Tenerife.",
+            "Truth-O-Meter": "False",
+            "Justification": "A wildfire in Tenerife, the largest of Spain’s Canary Islands and a popular tourist destination, burned for 10 days before being stabilized Aug. 24. The fire burned about 37,000 acres of woodland, but did not affect main cities or tourist areas, officials said. Smart cities refer to cities that use technology to help them run more efficiently and improve quality of life. Installing such technology would not require the destruction of cities, despite social media claims tying the concept to fires in Maui and Tenerife.",
+            "Sources": [
+                "1-1-2 Canarias",
+                "ABC News",
+                "Axios",
+                "City of Dallas",
+                "Destino Turistico Inteligente",
+                "European Forest Fire Information System",
+                "facebook-posts",
+                "INtech Tenerife",
+                "International Energy Agency",
+                "Iris Smart Cities",
+                "KLFY",
+                "Oregon Public Broadcasting",
+                "Reuters",
+                "SEGITTUR",
+                "Smart Tourism Destination",
+                "Spain Ministry of industry",
+                "Spectrum",
+                "Tenerife Despierta Emociones",
+                "The Associated Press",
+                "The Independent",
+                "The New York Times",
+                "Tiktok post",
+                "University of La Laguna"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Smart-city plans are behind wildfires in Tenerife."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jul/18/facebook-posts/target-has-no-evil-agenda-images-are-creator-havin/",
+            "Main Claim": "Photos show Target is pushing \"evil agenda\" on kids.",
+            "Truth-O-Meter": "False",
+            "Justification": "A digital creator used generative artificial intelligence to create images of occult-themed merchandise and store displays at the retailer Target. The images were created to \"mock\" people who boycotted the store, believing it was selling satanic clothing, the creator said in a Facebook comment.",
+            "Sources": [
+                "Discover Magazine",
+                "PolitiFact",
+                "Target",
+                "The Associated Press",
+                "The New York Times",
+                "The Pumpkin Empress",
+                "The Washington Post",
+                "TikTok video",
+                "Vox Media"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Photos show Target is pushing \"evil agenda\" on kids."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jul/20/facebook-posts/no-evidence-george-soros-going-bankrupt-as-a-recen/",
+            "Main Claim": "Video shows that “George Soros is going bankrupt.”",
+            "Truth-O-Meter": "False",
+            "Justification": "We found no evidence that billionaire philanthropist George Soros is going bankrupt, as a recent social media post claims.",
+            "Sources": [
+                "facebook-posts",
+                "Forbes",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Video shows that “George Soros is going bankrupt.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jul/06/facebook-posts/no-a-bill-gates-funded-project-did-not-cause-the-r/",
+            "Main Claim": "Bill Gates is behind the five recent cases of malaria in the United States.",
+            "Truth-O-Meter": "False",
+            "Justification": "For years, the Bill & Melinda Gates Foundation, a philanthropic organization, has supported efforts to eradicate malaria, but not in the U.S., where the disease is rare. Five recently reported cases in Florida and Texas are the first instances of locally acquired malaria in 20 years. The Gates Foundation has awarded grants to Oxitec for its malaria programs in Africa and Central America. The foundation has not financed the biotechnology company’s U.S.-based mosquito program, which is unrelated to malaria. In the U.S., Oxitec is genetically modifying a type of mosquito to prevent the spread of certain diseases. This type of mosquito does not carry malaria.",
+            "Sources": [
+                "Bill & Melinda Gates Foundation",
+                "Email interview with Bill & Melinda Gates Foundation spokesperson",
+                "Email interview with Joshua Van Raalte",
+                "Facebook reel",
+                "Full Fact",
+                "Instagram post",
+                "Instagram reel",
+                "Oxitec",
+                "The Associated Press",
+                "The Centers for Disease Control and Prevention",
+                "The New York Times",
+                "The Texas Tribune",
+                "The World Health Organization",
+                "U.S. Environmental Protection Agency"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Bill Gates is behind the five recent cases of malaria in the United States."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jun/27/facebook-posts/us-canadian-officials-have-not-released-audio-of-n/",
+            "Main Claim": "Audio is of “the knocking they caught from the submarine” that imploded on the way to view the Titanic wreckage.",
+            "Truth-O-Meter": "False",
+            "Justification": "U.S. and Canadian officials have not released audio of underwater banging noises heard during their search for the Titan submarine. The watercraft imploded following its June 18 oceanic descent to view the Titanic wreckage. There’s no evidence that alleged audio being shared on social media is authentic. A U.S. Coast Guard official said noises heard during the search are not believed to be related to the Titan.",
+            "Sources": [
+                "CBS News",
+                "facebook-posts",
+                "Spokesperson for Canada’s National Defence and the Canadian Armed forces",
+                "The Associated Press",
+                "The New York Times",
+                "The Wall Street Journal",
+                "TikTok video",
+                "U.S. Coast Guard Northeast",
+                "U.S. Coast Guard Northwest"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Audio is of “the knocking they caught from the submarine” that imploded on the way to view the Titanic wreckage."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jun/01/facebook-posts/investigators-say-30-tons-of-lost-ammonium-nitrate/",
+            "Main Claim": "30 tons of lost ammonium nitrate on a California-bound train suggest an orchestrated conspiracy.",
+            "Truth-O-Meter": "False",
+            "Justification": "About 30 tons of ammonium nitrate disappeared from a rail car on a train traveling to California in April. The chemical compound is used in fertilizers and explosives and can be dangerous to store. Dyno Nobel Ltd., an explosives company, and the Union Pacific Railroad are still investigating the incident, but each said foul play is not suspected and that a leak in the rail car was likely the cause.",
+            "Sources": [
+                "CAS",
+                "CBS News",
+                "California Office of Emergency Services",
+                "FBI",
+                "facebook-posts",
+                "Federal Railroad Administration spokesperson",
+                "KQED",
+                "NBC News",
+                "New York Post",
+                "Robynn Tysver",
+                "The Associated Press",
+                "The New York Times",
+                "The Pete Santilli Show"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "30 tons of lost ammonium nitrate on a California-bound train suggest an orchestrated conspiracy."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/may/24/facebook-posts/social-media-users-shared-incorrect-prediction-abo/",
+            "Main Claim": "An Arizona judge was “forced to overturn” an election and ruled “274,000 ballots must be thrown out.”",
+            "Truth-O-Meter": "False",
+            "Justification": "When this video was first shared on social media, no decisions had been reached in an election lawsuit filed by former Arizona Republican gubernatorial candidate Kari Lake. The judge had not overturned the election and ballots had not been thrown out. On May 22, the day after the video was posted, a Maricopa County judge dismissed Lake’s lawsuit, ruling she had failed to prove her claim that election officials violated the law by not verifying signatures on mail ballots. The judge reaffirmed that Democrat Katie Hobbs won the election.",
+            "Sources": [
+                "AZ Family",
+                "AZ Mirror",
+                "Arizona Capitol Times",
+                "Arizona Secretary of State",
+                "Arizona state law",
+                "Axios",
+                "CBS News",
+                "Email interview with Paul Bender",
+                "facebook-posts",
+                "Fox10 Phoenix",
+                "KGUN 9 ABC",
+                "Maricopa County",
+                "NBC 12 News",
+                "Office of the Attorney General",
+                "PolitiFact",
+                "Superior Court for the state of Arizona in Maricopa County",
+                "Superior Court of Arizona in Maricopa County",
+                "The Associated Press",
+                "The Hill",
+                "The New York Times",
+                "Tweet",
+                "U.S. Election Assistance Commission",
+                "Votebeat Arizona",
+                "https://rumble.com/v2pk972-live-kari-lake-press-conference-big-announcement.html"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "An Arizona judge was “forced to overturn” an election and ruled “274,000 ballots must be thrown out.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/may/04/facebook-posts/video-shared-on-facebook-does-not-show-ukraine-bei/",
+            "Main Claim": "Video shows Ukraine was “nuked.”",
+            "Truth-O-Meter": "False",
+            "Justification": "• A Facebook video does not show Ukraine being struck by a nuclear bomb. It shows a Russian missile strike against the Ukrainian city of Pavlohrad.• Credible news coverage of the incident doesn't mention a nuclear attack.",
+            "Sources": [
+                "A May 1 Facebook post",
+                "A statement",
+                "An April 30 Twitter post",
+                "British Broadcasting Corporation",
+                "Reuters",
+                "TASS Russian News Agency",
+                "The Associated Press",
+                "Guardian",
+                "The New York Times",
+                "The War Zone"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Video shows Ukraine was “nuked.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/mar/28/facebook-posts/these-are-not-real-photos-vladimir-putin-arrest/",
+            "Main Claim": "Images show “Putin has been arrested.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Images that claim to show Russian President Vladimir Putin being arrested are fake. Putin had not been arrested at the time the photos were first shared online.",
+            "Sources": [
+                "facebook-posts",
+                "International Criminal Court",
+                "NBC News",
+                "PolitiFact",
+                "President of Russia",
+                "The Associated Press",
+                "The New York Times",
+                "The New Yorker",
+                "The Washington Post",
+                "TikTok video",
+                "United Nations"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Images show “Putin has been arrested.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/feb/15/facebook-posts/turkey-syria-earthquakes-were-natural-disaster-not/",
+            "Main Claim": "The earthquake in Turkey is a \"scripted\" use of geo engineering weather modification HAARP",
+            "Truth-O-Meter": "False",
+            "Justification": "The High-frequency Active Auroral Research Program, or HAARP, uses radio waves to study the atmosphere. It cannot be used to manipulate the weather or cause disasters such as earthquakes. Turkey sits in a region with a lot of seismic activity, experts said. The two earthquakes on Feb. 6 that have killed more than 40,000 people were the deadliest in Turkey since a 1939 quake there killed 33,000 people.",
+            "Sources": [
+                "AAP Fact Check",
+                "AFAD National Earthquake Research Program",
+                "Britannica",
+                "Email interview",
+                "facebook-posts",
+                "Geophysical Institute",
+                "HAARP",
+                "Jessica Matthews",
+                "Reuters",
+                "Space Weather Prediction Center",
+                "The Associated Press",
+                "The New York Times",
+                "United States Geological Survey"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "The earthquake in Turkey is a \"scripted\" use of geo engineering weather modification HAARP"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/dec/14/facebook-posts/grant-wahl-died-ruptured-aortic-aneurysm-not-covid/",
+            "Main Claim": "Grant Wahl died because of the COVID-19 vaccine.",
+            "Truth-O-Meter": "False",
+            "Justification": "An autopsy found that journalist Grant Wahl died of a ruptured aortic aneurysm, according to his wife. She said that his death was unrelated to COVID-19 vaccines.",
+            "Sources": [
+                "facebook-posts",
+                "Fútbol with Grant Wahl",
+                "Grant Wahl tweet",
+                "MedicalNewsToday",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "University of Washington"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Grant Wahl died because of the COVID-19 vaccine."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/oct/07/facebook-posts/norway-sent-its-military-guard-nord-stream-not-cou/",
+            "Main Claim": "“Norway readies its military to counter Biden.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Norway sent its military to guard part of the Nord Stream pipeline network as a safety precaution following a series of leaks that European authorities believe were deliberately made. Russia and Western countries have accused one another of sabotaging the pipelines. An investigation into the leaks continues, and no suspect has been named.",
+            "Sources": [
+                "The Associated Press",
+                "Bloomberg News",
+                "CNBC",
+                "DW News",
+                "facebook-posts",
+                "FlightAware",
+                "Reuters",
+                "Swedish Security Service",
+                "TFI Media",
+                "Guardian",
+                "The New York Times",
+                "The White House"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Norway readies its military to counter Biden.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/29/facebook-posts/north-korean-soldiers-have-not-been-sent-russia-he/",
+            "Main Claim": "“North Korea sent more than 100,000 troops to Russia for the Ukraine War!”",
+            "Truth-O-Meter": "False",
+            "Justification": "North Korea has not sent any troops to Russia to help fight in Ukraine, and officials in Moscow have denied they offered the chance to help. North Korea has expressed interest in sending construction workers for any rebuilding efforts in Russian-controlled Ukrainian territories.",
+            "Sources": [
+                "Al Jazeera English",
+                "The Associated Press",
+                "British Broadcasting Corporation",
+                "facebook-posts",
+                "Insider",
+                "National Public Radio",
+                "National Review",
+                "TASS Russian News Agency",
+                "Guardian",
+                "The New York Post",
+                "The New York Times",
+                "Twitter post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“North Korea sent more than 100,000 troops to Russia for the Ukraine War!”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/15/facebook-posts/fbi-did-not-confirm-any-contents-ashley-bidens-dia/",
+            "Main Claim": "“The FBI confirmed” that Ashley Biden said her father molested her.",
+            "Truth-O-Meter": "False",
+            "Justification": "Two Florida residents pleaded guilty to stealing and selling items, including a personal diary that belonged to a relative of a then-former government official who was running for national office. News reports have widely reported that the case involved property belonging to Ashley Biden, daughter of President Joe Biden. The diary was obtained by conservative group Project Veritas, which said it declined to publish it because it could not verify its authenticity. Another conservative group, National File, in October 2020 published what it said was a digital copy. The FBI did not verify the diary’s contents in its announcement of the plea deal or in charging documents.",
+            "Sources": [
+                "BlazeTV",
+                "facebook-posts",
+                "Justice Department",
+                "National File",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“The FBI confirmed” that Ashley Biden said her father molested her."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/15/facebook-posts/no-pope-putin-and-xi-didnt-meet-plan-world-events/",
+            "Main Claim": "“The pope, Xi and Putin all meet to plan world events!”",
+            "Truth-O-Meter": "False",
+            "Justification": "Trips by the pope and Chinese President Xi Jinping to Kazakhstan overlapped, but the men weren’t expected to meet. Xi met separately with Russian President Vladimir Putin this week in Uzbekistan.",
+            "Sources": [
+                "Cable News Network",
+                "facebook-posts",
+                "Le Monde",
+                "The New York Times",
+                "The Associated Press",
+                "The Washington Post",
+                "Vatican News"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“The pope, Xi and Putin all meet to plan world events!”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/29/facebook-posts/no-evidence-putin-abandoning-war-ukraine/",
+            "Main Claim": "Vladimir Putin “is fleeing the war!”",
+            "Truth-O-Meter": "False",
+            "Justification": "There’s no evidence that Russian President Vladimir Putin is abandoning the war in Ukraine.",
+            "Sources": [
+                "facebook-posts",
+                "Politico",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Vladimir Putin “is fleeing the war!”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/28/facebook-posts/china-president-xi-jinping-still-power-despite-cou/",
+            "Main Claim": "“President Xi of China under house arrest” amid “coup by the PLA.”",
+            "Truth-O-Meter": "False",
+            "Justification": "China President Xi Jinping in Beijing on Sept. 27 made his first public appearance since a Sept. 16 trip to Uzbekistan. The timeline of his absence from public view would fit with the country’s strict zero-COVID policy, which requires international travelers to quarantine at a hotel for seven days, followed by three days of home isolation. Days after the rumors of a coup began circulating, Xi was prominently mentioned in a state-run media report announcing delegates for next month’s National Congress of the Communist Party of China, where he is expected to be granted an unprecedented third term as president.",
+            "Sources": [
+                "Axios",
+                "Bloomberg News",
+                "Drew Thompson",
+                "Email exchange with Magnus Fiskesjö",
+                "Email exchange with Timothy Heath",
+                "facebook-posts",
+                "Interview with Kenton Thibaut",
+                "Ministry of Foreign Affairs of the People’s Republic of China",
+                "National Public Radio",
+                "Newsweek",
+                "Reuters",
+                "The Associated Press",
+                "Guardian",
+                "The New York Times",
+                "Xinhua News Agency"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“President Xi of China under house arrest” amid “coup by the PLA.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/08/facebook-posts/no-russia-not-withdrawing-ukraine/",
+            "Main Claim": "“The Russian army is withdrawing from Ukraine!” in September 2022",
+            "Truth-O-Meter": "False",
+            "Justification": "There have been no reports that Russia is withdrawing from Ukraine. Russian President Vladimir Putin said during a Sept. 7 speech, after this post was made, that Russia’s forces will continue to push farther into the country. The U.S. Defense Department estimates that about 80,000 Russian soldiers have been wounded or killed in the conflict since it began.",
+            "Sources": [
+                "The Associated Press",
+                "General Staff of the Armed Forces of Ukraine",
+                "PolitiFact",
+                "Reuters",
+                "The New York Times",
+                "The Washington Post",
+                "Violet"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“The Russian army is withdrawing from Ukraine!” in September 2022"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/aug/26/facebook-posts/no-evidence-deaths-us-rep-jackie-walorski-and-anne/",
+            "Main Claim": "The deaths of U.S. Rep. Jackie Walorski, R-Ind., and actor Anne Heche are suspicious and linked because they “partnered fighting against pedophilia.”",
+            "Truth-O-Meter": "False",
+            "Justification": "There is no evidence that U.S. Rep. Jackie Walorski, R-Ind., and actor Anne Heche were working together or knew each other before their deaths. Heche died from injuries sustained in a Los Angeles car crash that a medical examiner ruled accidental. Walorski died following a head-on vehicle collision in Indiana.",
+            "Sources": [
+                "Archive of Facebook post",
+                "The Associated Press",
+                "Elkhart County Sheriff's Office",
+                "Email with Holly Baird",
+                "facebook-posts",
+                "IMDb",
+                "Insider",
+                "Los Angeles Times",
+                "Media Matters for America",
+                "PolitiFact",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "The deaths of U.S. Rep. Jackie Walorski, R-Ind., and actor Anne Heche are suspicious and linked because they “partnered fighting against pedophilia.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/jul/22/facebook-posts/theres-no-evidence-shooter-indiana-mall-was-cia-as/",
+            "Main Claim": "“The gunman at Greenwood Park Mall was a CIA asset.”",
+            "Truth-O-Meter": "False",
+            "Justification": "A gunman killed three people and wounded two others after firing into a crowd at a Greenwood, Indiana, shopping mall on July 17. An armed bystander returned fire and ended the mass shooting. Analysis of active shooter incidents shows that this rarely happens. There’s no evidence that the gunman at Greenwood Park Mall was a CIA asset or that the attack was a CIA operation.",
+            "Sources": [
+                "ActiveAttackData.org",
+                "The Associated Press",
+                "Cable News Network",
+                "Email exchange with Pete Blair",
+                "FBI",
+                "FOX 59",
+                "facebook-posts",
+                "Indianapolis Star",
+                "PolitiFact",
+                "Reuters",
+                "The New York Times",
+                "The Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“The gunman at Greenwood Park Mall was a CIA asset.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/jun/15/facebook-posts/95-item-list-doesnt-prove-there-are-ongoing-plans-/",
+            "Main Claim": "95-item list of food-destroying incidents demonstrates that “you are duped if you think they aren’t planning a food shortage.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Most of the incidents included in this 95-item list of agricultural incidents involving fires and \"destroyed\" poultry were not suspicious, according to authorities. More than 10 items were duplicates, factually incorrect or did not appear to have happened at all. Fifty incidents involved thousands of chickens or turkeys being killed because they were exposed to a highly contagious avian influenza. More than 15 items on the list were fires that officials said weren’t suspicious. Experts in fire research and avian influenza said the list’s legitimate incidents do not demonstrate that there is an ongoing effort to create food shortages.",
+            "Sources": [
+                "12 News",
+                "13 WTHR",
+                "16 WNEP",
+                "ABC 24",
+                "ABC 7 News",
+                "AZ Family 3TV/CBS5",
+                "Animal and Plant Health Inspection Service",
+                "The Associated Press",
+                "CBS 2 Idaho News",
+                "CBS 4 News",
+                "CBS 4 WCCO",
+                "CBS News",
+                "CHCH-TV",
+                "CecilDaily.com",
+                "Centers for Disease Control and Prevention",
+                "Columbia Community Connection",
+                "Columbia George News",
+                "Dakota News Now",
+                "Delaware Department of Agriculture",
+                "Des Moines Register",
+                "Drovers",
+                "Dust Safety Science",
+                "Email interview with Rick Coker",
+                "Eyewitness 7 News",
+                "facebook-posts",
+                "Fern’s AG Insider",
+                "Food manufacturing",
+                "Fox 43",
+                "Fox 5 Atlanta",
+                "Fox 59",
+                "Fox 9 KMSP",
+                "Fox News Channel",
+                "Fox News Channel",
+                "Interview with Birgitte Messerschmidt",
+                "KALB",
+                "KARE 11",
+                "KETV 7",
+                "KFVS 12",
+                "KMTV 3",
+                "KRGV",
+                "KSAT",
+                "KTVB 7",
+                "KTVO",
+                "KXLY.com",
+                "LEX 18 News",
+                "Lincoln Journal Star",
+                "Longview News-Journal",
+                "MPR News",
+                "MSN",
+                "MagicValley.com",
+                "Minnesota Board of Animal Health",
+                "NECN",
+                "NFPA Journal",
+                "The New York Times",
+                "News 4 SA",
+                "Norfolk Daily News",
+                "PolitiFact",
+                "Potato News Today",
+                "Powder & Bulk Solids",
+                "Reading Eagle",
+                "Reuters",
+                "ScienceFriday.com",
+                "Stowe Reporter",
+                "The Atlanta Journal-Constitution",
+                "The Conway Daily Sun",
+                "The Cullman Tribune",
+                "The Hill",
+                "The National Provisioner",
+                "The News & Observer",
+                "The Oregonian",
+                "The Register-Mail",
+                "U.S. Department of Agriculture",
+                "VT Digger",
+                "Vegetable Growers News",
+                "WCAX 3",
+                "WKOW",
+                "WKYT",
+                "WMTW 8",
+                "WOWT 6 News",
+                "WVTM 13",
+                "WXII NBC News 12",
+                "Western FarmPress",
+                "YakTriNews.com",
+                "Yakima Herald-Republic"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "95-item list of food-destroying incidents demonstrates that “you are duped if you think they aren’t planning a food shortage.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/may/24/facebook-posts/importing-baby-formula-us-allowed-albeit-uncommon/",
+            "Main Claim": "The United States can’t import baby formula because of the U.S.-Mexico-Canada Agreement.",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "Almost all of the infant formula consumed in the U.S. is domestically produced. Importing baby formula to the U.S. is allowed but uncommon. The U.S.-Mexico-Canada Agreement established specific rules for importing baby formula from Mexico and Canada. However, many regulations around imports existed before the USMCA was adopted in 2020.",
+            "Sources": [
+                "American Shipper",
+                "The Associated Press",
+                "CBC News",
+                "Cato Institute",
+                "Cornell Law School’s Legal Information Institute",
+                "Email interview",
+                "Fortune Magazine",
+                "Office of the United States Trade Representative",
+                "Phone interview",
+                "The Atlantic",
+                "The New York Times",
+                "Twitter post",
+                "U.S. Food and Drug Administration",
+                "U.S. International Trade Commission",
+                "Vox Media",
+                "WhiteHouse.gov"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "The United States can’t import baby formula because of the U.S.-Mexico-Canada Agreement."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/may/06/facebook-posts/contrary-claim-rape-never-mentioned-roe-v-wade-pro/",
+            "Main Claim": "“Roe v. Wade happened because a woman lied about being raped by black men.”",
+            "Truth-O-Meter": "False",
+            "Justification": "•The U.S. Supreme Court did not consider the circumstances of plaintiff Jane Roe’s pregnancy when ruling on the landmark case in 1973. An alleged rape was never mentioned in court or in the court’s ruling.",
+            "Sources": [
+                "The Associated Press",
+                "facebook-posts",
+                "FactCheck.org",
+                "The New York Times",
+                "U.S. Supreme Court",
+                "Vanity Fair"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Roe v. Wade happened because a woman lied about being raped by black men.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/apr/29/facebook-posts/grand-juries-determined-alleged-sex-trafficking-fr/",
+            "Main Claim": "The “Franklin scandal” broke in 1989 “when hundreds of children were apparently flown around the US to be abused by high ranking ‘Establishment’ members.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "Lurid claims about a child sex trafficking ring took hold in Omaha, Nebraska, in the late 1980s, but multiple grand juries found that the allegations were unfounded — \"a carefully crafted hoax.\"",
+            "Sources": [
+                "facebook-posts",
+                "The New York Times",
+                "The Associated Press",
+                "The Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "The “Franklin scandal” broke in 1989 “when hundreds of children were apparently flown around the US to be abused by high ranking ‘Establishment’ members.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/may/03/facebook-posts/current-white-house-doctor-did-not-call-bidens-res/",
+            "Main Claim": "“White House physician demands Biden’s immediate resignation following his ‘obvious’ cognitive decline.”",
+            "Truth-O-Meter": "False",
+            "Justification": "•The current White House physician gave President Joe Biden a full medical evaluation in November and said he is fit to carry out his duties.•A former White House physician who has never been Biden’s physician — and is now a Republican member of Congress — has called for Biden’s resignation, saying he has declined cognitively.",
+            "Sources": [
+                "The Associated Press",
+                "Daily Wire",
+                "New York Post",
+                "The New York Times",
+                "PolitiFact",
+                "Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“White House physician demands Biden’s immediate resignation following his ‘obvious’ cognitive decline.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/apr/12/facebook-posts/theres-no-evidence-planes-sprayed-people-protestin/",
+            "Main Claim": "People protesting the Dakota Access pipeline “were intentionally poisoned” by government officials in North Dakota when a pilot “knowingly sprayed poisonous chemicals” over protesters’ camps.",
+            "Truth-O-Meter": "False",
+            "Justification": "During months-long protests in North Dakota that began in 2016 and persisted through 2017, thousands of protesters who opposed the Dakota Access pipeline clashed with security and police on several occasions. Protesters were pepper-sprayed, tear-gassed and doused with water in freezing temperatures. There is no evidence to suggest planes sprayed poisonous chemicals over the protesters’ camps. People who participated in the protests and officials have refuted these claims. The claims seem to stem from news of a private rancher’s illegal use of the rodenticide Rozol in 2016 in the same vicinity as the protests, in an attempt to kill prairie dogs. Researchers and state officials who studied the incident found no link to the protests or protester illnesses.",
+            "Sources": [
+                "ABC News",
+                "Al Jazeera English",
+                "The Associated Press",
+                "CBS News",
+                "Dallas Goldtooth’s Facebook post",
+                "Environmental Protection Agency",
+                "facebook-posts",
+                "KFYR West Dakota Fox",
+                "KVRR",
+                "Liphatech.com",
+                "NBC News",
+                "ND Response",
+                "National Public Radio",
+                "New York Magazine",
+                "The New York Times",
+                "PBS NewsHour",
+                "Reuters",
+                "Science Direct",
+                "The Bismarck Tribune",
+                "Guardian",
+                "The Intercept",
+                "The Seattle Times",
+                "The Washington Post",
+                "United Tribes Technical College research"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "People protesting the Dakota Access pipeline “were intentionally poisoned” by government officials in North Dakota when a pilot “knowingly sprayed poisonous chemicals” over protesters’ camps."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/apr/18/facebook-posts/e15-fuel-does-not-pose-danger-vast-majority-vehicl/",
+            "Main Claim": "Fuel containing 15% ethanol will ruin a car engine.",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "•The U.S. Environmental Protection Agency and an academic study have said that fuel containing 15% ethanol is safe for cars, trucks and sport-utility vehicles made in 2001 or later. More than 90% of vehicles on U.S. roads meet those specifications.•Many car manufacturers have okayed the use of E15 fuel in vehicles that were made in the last 10 years.•It is not recommended for on-highway and nonroad motorcycles; vehicles with heavy-duty engines, such as school buses; non-road vehicles like boats; engines in non-road vehicles such as lawnmowers; light-duty trucks; and medium-duty passenger vehicles,according to the EPA.",
+            "Sources": [
+                "The Associated Press",
+                "Des Moines Register",
+                "facebook-posts",
+                "Iowa Renewable Fuels Association",
+                "National Renewable Energy Laboratory",
+                "The New York Times",
+                "U.S. Environmental Protection Agency"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Fuel containing 15% ethanol will ruin a car engine."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/mar/30/facebook-posts/some-types-alopecia-are-disease/",
+            "Main Claim": "\"Alopecia isn't a medical disease; it's an aesthetic one.\"",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "•The term alopecia broadly refers to hair loss from any cause, including normal aging.•Some types of alopecia, such as alopecia areata, are an autoimmune disease, a type of illness that occurs when the immune system mistakenly attacks part of the body, according to the American Academy of Dermatology Association.",
+            "Sources": [
+                "American Academy of Dermatology Association",
+                "The Associated Press",
+                "facebook-posts",
+                "IMDb",
+                "Mayo Clinic",
+                "The New York Times",
+                "USA Today"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "\"Alopecia isn't a medical disease; it's an aesthetic one.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/mar/30/facebook-posts/yes-joe-biden-signed-antilynching-bill-white-house/",
+            "Main Claim": "Joe Biden didn’t sign an antilynching bill in a ceremony outside the White House on March 29.",
+            "Truth-O-Meter": "False",
+            "Justification": "News reports, video recordings and photos from media organizations corroborate White House photos that show President Joe Biden signing an antilynching bill and speaking to a seated audience in the Rose Garden.",
+            "Sources": [
+                "The Associated Press",
+                "facebook-posts",
+                "Getty Images photos",
+                "Insider",
+                "National Weather Service",
+                "President Joe Biden tweet",
+                "The New York Times",
+                "The White House",
+                "White House map"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Joe Biden didn’t sign an antilynching bill in a ceremony outside the White House on March 29."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/mar/22/facebook-posts/biden-administration-trying-buy-less-lithium-china/",
+            "Main Claim": "Biden \"wants to buy lithium from China for electric cars.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "The U.S. currently buys lithium from China but the White House isn’t trying to buy more; it’s trying to buy less. President Joe Biden recently announced that his administration is giving $35 million to MP Materials, an American mining company, to expand a rare earths project in California and plans to extract lithium from around the state’s Salton Sea. The efforts are aimed to make the U.S. less dependent on foreign products amid supply chain disruptions by increasing domestic mining and processing of lithium and other materials.",
+            "Sources": [
+                "The Associated Press",
+                "BP",
+                "facebook-posts",
+                "Forbes",
+                "The New York Times",
+                "WhiteHouse.gov"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Biden \"wants to buy lithium from China for electric cars.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/feb/16/facebook-posts/congress-has-not-proposed-cap-travel-nurse-pay-ask/",
+            "Main Claim": "\"According to Congress, travel nurses need a pay cap.”",
+            "Truth-O-Meter": "False",
+            "Justification": "There has been no legislation proposed in Congress to cap pay for traveling nurses. A letter signed by nearly 200 legislators called for an investigation into high pricing by staffing agencies, but its authors insist they do not want to cap wages for traveling nurses. Some states are considering capping how much staffing agencies can charge healthcare facilities. This could lead to lower salaries for traveling nurses, one expert said.",
+            "Sources": [
+                "American Nurses Association",
+                "American Staffing Association",
+                "The Associated Press",
+                "Email exchange with Emily Becker",
+                "facebook-posts",
+                "First Coast News",
+                "Interview with Toby Malara",
+                "Letter",
+                "Massachusetts Executive Office of Health and Human Services",
+                "MedPage Today",
+                "Minnesota Department of Health",
+                "Minnesota Department of Human Services",
+                "National Public Radio",
+                "Nurse.org",
+                "Pennsylvania Rep. Timothy Bonner",
+                "Rep. Morgan Griffith",
+                "Statement from ​​the American Health Care Association/National Center for Assisted Living",
+                "The New York Times",
+                "The Wall Street Journal",
+                "U.S. Bureau of Labor Statistics"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "\"According to Congress, travel nurses need a pay cap.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/feb/08/facebook-posts/no-half-ottawas-police-force-didnt-quit-connection/",
+            "Main Claim": "“Fifty percent of the Ottawa police force have all turned in their resignation.”",
+            "Truth-O-Meter": "False",
+            "Justification": "No one has resigned because of the demonstrations, according to the police department and police union.",
+            "Sources": [
+                "The Associated Press",
+                "Email interview with Constable Paramjit Singh",
+                "facebook-posts",
+                "Ottawa Police Service Facebook post",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Fifty percent of the Ottawa police force have all turned in their resignation.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/jan/19/facebook-posts/india-requires-voter-id-its-system-still-leaves-so/",
+            "Main Claim": "“India has nearly 1.4 billion citizens. Nearly 800 million of them live in extreme poverty — less than $1.90 per day. Yet EVERY singly (sic) Indian citizen is required to have a valid form of ID to vote in national elections.”",
+            "Truth-O-Meter": "Half-True",
+            "Justification": "•India requires citizens to have a valid form of identification to vote in national elections. But citizens must first enroll as new voters and be included on electoral lists.•Reports indicate that some citizens — mostly minorities and women — have not been able to get their names added to the electoral lists or were removed from the lists, which means they cannot vote.•An estimated 134 million people in India live on less than $2 per day; the post significantly overstates the number.",
+            "Sources": [
+                "The Associated Press",
+                "British Broadcasting Corporation",
+                "Cable News Network",
+                "Economic Times",
+                "Election Commission of India",
+                "facebook-posts",
+                "Foreign Policy",
+                "National Portal of India",
+                "The New York Times",
+                "Pew Research Center",
+                "PolitiFact",
+                "The Hindu",
+                "The Print"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“India has nearly 1.4 billion citizens. Nearly 800 million of them live in extreme poverty — less than $1.90 per day. Yet EVERY singly (sic) Indian citizen is required to have a valid form of ID to vote in national elections.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/jan/19/facebook-posts/woman-indicted-1983-capitol-bombing-not-black-live/",
+            "Main Claim": "A Black Lives Matter administrator was arrested in a 1983 bombing at the U.S. Capitol.",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "A left-wing group set off a bomb near the Senate chamber at the U.S. Capitol in 1983 and caused extensive damage. Susan Rosenberg was indicted in the bomb attack in 1988 while serving a prison sentence for possession of explosives, but charges were dropped in 1990 before trial. Rosenberg served on the board of directors for a nonprofit that did administrative work for the Black Lives Matter Global Network, but that arrangement ended in 2020.",
+            "Sources": [
+                "FBI",
+                "facebook-posts",
+                "Influence Watch",
+                "Newsweek",
+                "PolitiFact",
+                "Politico",
+                "ProPublica",
+                "Smithsonian Magazine",
+                "Snopes: \" Did a ‘Convicted Terrorist’ Sit on the Board of a BLM Funding Body?",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "Thousand Currents",
+                "Tides",
+                "U.S. Department of Justice",
+                "U.S. Senate"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "A Black Lives Matter administrator was arrested in a 1983 bombing at the U.S. Capitol."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/jan/04/facebook-posts/judge-ghislaine-maxwell-trial-did-not-seal-all-evi/",
+            "Main Claim": "A judge sealed “all the evidence and proof of who helped Ghislaine Maxwell sex traffic children.”",
+            "Truth-O-Meter": "False",
+            "Justification": "•The judge did not order all the evidence sealed. Most of it is publicly available after being published by media outlets during the trial, including information about Jeffrey Epstein and other high-profile people.",
+            "Sources": [
+                "The Associated Press",
+                "facebook-posts",
+                "Insider",
+                "Miami Herald",
+                "NBC News",
+                "The New York Times",
+                "Newsweek",
+                "PolitiFact",
+                "WAMU"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "A judge sealed “all the evidence and proof of who helped Ghislaine Maxwell sex traffic children.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/jan/11/facebook-posts/chuck-schumers-wife-misidentified-photo-justice-so/",
+            "Main Claim": "Says Supreme Court Justice Sonia Sotomayor was photographed at dinner with Democratic lawmakers.",
+            "Truth-O-Meter": "False",
+            "Justification": "Politico published a photo and wrongly identified one of the people at a dinner with Democratic lawmakers as Supreme Court Justice Sonia Sotomayor. The publication later corrected the mistake, but the misinformation continues to spread online.",
+            "Sources": [
+                "facebook-posts",
+                "Politico",
+                "The Associated Press",
+                "Guardian",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says Supreme Court Justice Sonia Sotomayor was photographed at dinner with Democratic lawmakers."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/dec/08/facebook-posts/viruses-and-other-pathogens-can-evolve-become-more/",
+            "Main Claim": "\"Pathogens evolve to become less, not more, virulent over time” because otherwise, “they’d destroy their hosts which they depend on to live.”",
+            "Truth-O-Meter": "False",
+            "Justification": "A number of factors influence the way the virulence of a virus — that is, how harmful it is to its host — affects its ability to survive and spread; in some cases, higher virulence may help a virus survive and spread. Many viruses have evolved to become more lethal over time.",
+            "Sources": [
+                "The Associated Press",
+                "Caltech Science Exchange",
+                "Cell",
+                "Evolution",
+                "facebook-posts",
+                "Frontiers in Microbiology",
+                "History and Philosophy of the Life Sciences",
+                "Infection and Immunity",
+                "JAMA Internal Medicine",
+                "Journal of Evolutionary Biology",
+                "NAM Aidsmap",
+                "Nature Communications",
+                "Nature Education",
+                "Nature Reviews Genetics",
+                "North Carolina State University",
+                "Parasitology",
+                "Proceedings of the National Academy of Sciences",
+                "Smithsonian Magazine",
+                "The Conversation",
+                "The New York Times",
+                "Viral Pathogenesis"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "\"Pathogens evolve to become less, not more, virulent over time” because otherwise, “they’d destroy their hosts which they depend on to live.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/dec/08/facebook-posts/many-reporters-are-covering-ghislaine-maxwell-tria/",
+            "Main Claim": "“There’s only one reporter on site” at the Ghislaine Maxwell trial.",
+            "Truth-O-Meter": "False",
+            "Justification": "Reporters from many news organizations have filed stories, tweeted and more from Ghislaine Maxwell’s sex trafficking trial.",
+            "Sources": [
+                "The Associated Press",
+                "Cable News Network",
+                "CNN Reliable Sources",
+                "facebook-posts",
+                "The Independent",
+                "Julie K. Brown Twitter account",
+                "Justice Department",
+                "Lauren del Valle Twitter account",
+                "New York Post",
+                "PolitiFact",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“There’s only one reporter on site” at the Ghislaine Maxwell trial."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/dec/08/facebook-posts/fake-new-zealand-poster-targets-vaccine-refusers/",
+            "Main Claim": "A campaign poster for New Zealand Prime Minister Jacinda Ardern with the slogan, “No jab. No job, no refunds.”",
+            "Truth-O-Meter": "False",
+            "Justification": "The poster featuring New Zealand Prime Minister Jacinda Ardern’s headshot alongside the slogan, \"No jab. No job, no refunds,\" is fake. The image was edited.",
+            "Sources": [
+                "facebook-posts",
+                "Instagram post",
+                "National Public Radio",
+                "Reuters",
+                "Reverse image searches on Google",
+                "Shutterstock",
+                "The Associated Press",
+                "Guardian",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "A campaign poster for New Zealand Prime Minister Jacinda Ardern with the slogan, “No jab. No job, no refunds.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/dec/09/facebook-posts/omicron-still-being-studied-data-viral-facebook-po/",
+            "Main Claim": "“The toxicity of COVID-Omicron is 5 times higher than that of the delta variant, and the mortality rate is also higher than that of Delta.”",
+            "Truth-O-Meter": "False",
+            "Justification": "•Experts say early indications are that the omicron variant might result in milder illness, but they also caution that more information is still needed.",
+            "Sources": [
+                "The Associated Press",
+                "Boston 25 News",
+                "CNBC",
+                "facebook-posts",
+                "Global News",
+                "Japan Times",
+                "NBC New York",
+                "National Public Radio",
+                "The New York Times",
+                "Roll Call",
+                "Transcripts",
+                "Washington Post",
+                "World Health Organization"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“The toxicity of COVID-Omicron is 5 times higher than that of the delta variant, and the mortality rate is also higher than that of Delta.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/dec/02/facebook-posts/kyle-rittenhouse-did-not-sue-lebron-james-defamati/",
+            "Main Claim": "“Federal magistrate approves $110 million defamation suit against LeBron James by Kyle Rittenhouse.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "•Kyle Rittenhouse did not file a defamation lawsuit against LeBron James.•The claim originated on a website that identifies itself as \"satire, ridicule and mockery.\"",
+            "Sources": [
+                "The Associated Press",
+                "facebook-posts",
+                "Fox News Channel",
+                "PolitiFact",
+                "PotatriotsUnite.com",
+                "Sports Illustrated",
+                "The New York Times",
+                "Twitter post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Federal magistrate approves $110 million defamation suit against LeBron James by Kyle Rittenhouse.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/nov/18/facebook-posts/no-evidence-keystone-pipeline-was-canceled-warren-/",
+            "Main Claim": "Keystone Pipeline was blocked by Obama on Warren Buffett’s behalf.",
+            "Truth-O-Meter": "False",
+            "Justification": "This image and claim first appeared during the Obama administration. Buffett did contribute to Obama’s presidential campaigns. As president, Obama rejected a permit for the pipeline, arguing that the project would not lower gas prices or increase the nation’s energy security. Buffett supported the pipeline. He did not contribute to Joe Biden’s 2020 campaign. Biden halted the Keystone XL Pipeline on his first day in office through executive order, citing his administration’s economic and climate interests.",
+            "Sources": [
+                "The Associated Press",
+                "Ballotpedia",
+                "CNBC",
+                "facebook-posts",
+                "FactCheck.org",
+                "Federal Elections Commission",
+                "Forbes",
+                "National Public Radio",
+                "Omaha World-Herald",
+                "PolitiFact",
+                "Reuters",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Keystone Pipeline was blocked by Obama on Warren Buffett’s behalf."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/dec/01/facebook-posts/no-gag-order-ghislaine-maxwell-trial-and-courtroom/",
+            "Main Claim": "“BREAKING: Judge in Ghislaine Maxwell trial issues media-wide gag order: all press & spectators barred from courtroom.”",
+            "Truth-O-Meter": "False",
+            "Justification": "•The judge presiding over Ghislaine Maxwell’s criminal trial denied a 2020 request for a gag order.•The press and the public are allowed in the courtroom and the press is providing reports from the courtroom.",
+            "Sources": [
+                "Alison J. Nathan",
+                "The Associated Press",
+                "facebook-posts",
+                "National Public Radio",
+                "The New York Times",
+                "PolitiFact",
+                "Reuters",
+                "Twitter post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“BREAKING: Judge in Ghislaine Maxwell trial issues media-wide gag order: all press & spectators barred from courtroom.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/dec/04/facebook-posts/ceos-did-not-resign-en-masse-when-maxwell-trial-st/",
+            "Main Claim": "“On the first day of the Ghislaine Maxwell trial, the CEO of Twitter resigned, the CEO of Walmart resigned, the CEO of CNBC resigned”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "•Only the chief executive officer of Twitter stepped down, and there is no evidence that his departure is linked to the Ghislaine Maxwell case or trial.•Walmart’s chief executive officer did not resign, and CNBC does not have a CEO position. The highest-ranking executive at CNBC, the chairman, did not resign.",
+            "Sources": [
+                "The Associated Press",
+                "CNBC",
+                "facebook-posts",
+                "The New York Times",
+                "Walmart",
+                "Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“On the first day of the Ghislaine Maxwell trial, the CEO of Twitter resigned, the CEO of Walmart resigned, the CEO of CNBC resigned”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/dec/01/facebook-posts/black-friday-did-not-originate-sale-enslaved-peopl/",
+            "Main Claim": "Black Friday originated in 1904 when enslaved people were sold at a discount to boost the economy.",
+            "Truth-O-Meter": "False",
+            "Justification": "•The phrase \"Black Friday\" can be traced first to a gold market crash in 1869 and later to the headaches caused by post-Thanksgiving crowds who came to Philadelphia for an annual football game in the 1960s.•The photo that accompanies the claim shows prisoners in Western Australia.",
+            "Sources": [
+                "AFP",
+                "The Associated Press",
+                "Australian Broadcasting Corp. News",
+                "facebook-posts",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Black Friday originated in 1904 when enslaved people were sold at a discount to boost the economy."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/nov/10/facebook-posts/astroworld-music-festival-venue-has-capacity-20000/",
+            "Main Claim": "Live Nation scheduled the 50,000-person Astroworld music festival at a venue that has a capacity of 20,000.",
+            "Truth-O-Meter": "False",
+            "Justification": "•NRG Park, where Travis Scott’s Astroworld event was held, has a capacity of 200,000 people, based on fire codes.•Reports about a lack of water stations and medical personnel are anecdotal and have not been substantiated by city officials.",
+            "Sources": [
+                "The Associated Press",
+                "facebook-posts",
+                "KXAN",
+                "National Public Radio",
+                "NRGPark.com",
+                "New York Post",
+                "The New York Times",
+                "Radar Online"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Live Nation scheduled the 50,000-person Astroworld music festival at a venue that has a capacity of 20,000."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/nov/09/facebook-posts/no-astroworld-tragedy-wasnt-satanic-ritual/",
+            "Main Claim": "The deaths at the Astroworld festival were part of a satanic ritual.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "This is unfounded. Officials are still investigating the surge of fans at the Houston music festival that left eight people dead and dozens more hospitalized with injuries, but crowd control was a concern before the event.",
+            "Sources": [
+                "facebook-posts",
+                "Genius",
+                "Houston Chronicle",
+                "The Associated Press",
+                "The Daily Beast",
+                "The New York Times",
+                "Travis Scott tweet"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "The deaths at the Astroworld festival were part of a satanic ritual."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/aug/23/facebook-posts/attack-us-army-helicopter-afghanistan-occurred-201/",
+            "Main Claim": "Says “31 U.S. troops” were “killed in Afghanistan yesterday.”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "A viral post shared amid the U.S. Afghanistan withdrawal suggests 31 troops were killed there \"yesterday.\" The attack that killed 30 troops occurred in August 2011.",
+            "Sources": [
+                "ABC News",
+                "Air & Space",
+                "The Associated Press",
+                "Cape Cod Times",
+                "facebook-posts",
+                "NBC News",
+                "The New York Times",
+                "PolitiFact",
+                "Snopes",
+                "Stars and Stripes",
+                "U.S. House of Representatives"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says “31 U.S. troops” were “killed in Afghanistan yesterday.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/may/27/facebook-posts/claim-ballots-error-fulton-county-ga-unproven/",
+            "Main Claim": "\"21% of 140,000 ballots were found to be in error in GA.”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "A witness for plaintiffs seeking to inspect absentee ballots in Fulton County testified that there was a mismatch in the number of batches of ballots in the initial count and a risk-limiting audit and that he found a 21% error rate. The Secretary of State’s office said the claim about the error rate is wrong. Georgia’s Republican statewide election officials have said they are confident in the presidential election results, which have already been audited and certified.",
+            "Sources": [
+                "ABC News",
+                "The Associated Press",
+                "Atlanta Journal-Constitution",
+                "CNN Wire",
+                "Email interview",
+                "facebook-posts",
+                "Georgia Public Radio",
+                "Georgia Public Radio reporter Stephen Fowler",
+                "Georgia Secretary of State",
+                "Georgia Secretary of State Brad Raffensperger",
+                "The New York Times",
+                "Superior Court of Fulton County",
+                "Voter GA",
+                "Washington Post",
+                "Youtube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "\"21% of 140,000 ballots were found to be in error in GA.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/apr/27/facebook-posts/no-bill-gates-isnt-fighting-keep-vaccine-ingredien/",
+            "Main Claim": "“Bill Gates fights to keep vaccine ingredients secret.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Bill Gates has defended intellectual property rights for COVID-19 vaccine manufacturers, but the ingredients in COVID-19 vaccines approved for use in the United States are already public.",
+            "Sources": [
+                "Centers for Disease Control and Prevention",
+                "facebook-posts",
+                "Insider",
+                "The Associated Press",
+                "The New York Times",
+                "World Trade Organization",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Bill Gates fights to keep vaccine ingredients secret.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/apr/27/facebook-posts/no-quarter-million-fraudulent-votes-werent-uncover/",
+            "Main Claim": "“A quarter of a million illegal votes found in Arizona’s audit.”",
+            "Truth-O-Meter": "False",
+            "Justification": "The company overseeing a Republican-backed audit of the presidential election results in Maricopa County, Arizona, has not released the results of its analysis. A former adviser to former President Donald Trump has speculated that there were about 250,000 possible illegal votes in the county.",
+            "Sources": [
+                "Arizona Republic",
+                "facebook-posts",
+                "PolitiFact",
+                "Politico",
+                "The Associated Press",
+                "The Immaculate Deception",
+                "The New York Times",
+                "The Washington Post",
+                "Worthypolitics.com",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“A quarter of a million illegal votes found in Arizona’s audit.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/apr/20/facebook-posts/fact-check-biden-democrats-gender-remove/",
+            "Main Claim": "“Joe Biden and the Democrats want to remove any term that denotes gender.”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "Biden changed WhiteHouse.gov so that people contacting the White House can identify themselves without a specific gender, but it does not eliminate traditional gender options. Biden’s administration reportedly is considering a gender-neutral designation on federal documents such as passports, consistent with a campaign pledge he made, but traditional gender options would remain. In a party-line vote, the Democratic-led House of Representatives changed its rules document to replace gender-specific references with neutral ones. But the changes apply only to the verbiage in the rules document itself.",
+            "Sources": [
+                "The Associated Press",
+                "Congress.gov",
+                "Email",
+                "facebook-posts",
+                "House Rules Committee",
+                "JoeBiden.com",
+                "NBC News",
+                "The New York Times",
+                "PolitiFact",
+                "Reuters",
+                "Snopes",
+                "The 19th",
+                "USA Today"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Joe Biden and the Democrats want to remove any term that denotes gender.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/mar/22/facebook-posts/no-evidence-joe-biden-ordered-national-guard-parki/",
+            "Main Claim": "“Joe Biden and Kamala Harris forced our troops to sleep on the floor of a garage, yet has authorized $89 million for hotel rooms for illegal immigrants.”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "• The National Guard told PolitiFact that the request to move the troops is believed to have come from a Capitol Police officer acting on his own authority, not from Joe Biden or Kamala Harris.• Axios and Fox have reported that the Biden administration has awarded a contract to use hotel rooms to house and process migrant families. But the contract was for $86 million, not $89 million. Previous administrations, including Donald Trump’s, have used hotels to process migrant families. ​",
+            "Sources": [
+                "The Associated Press",
+                "Axios",
+                "facebook-posts",
+                "Fox News Channel",
+                "The New York Times",
+                "PolitiFact",
+                "The National Guard",
+                "U.S. Capitol Police",
+                "Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Joe Biden and Kamala Harris forced our troops to sleep on the floor of a garage, yet has authorized $89 million for hotel rooms for illegal immigrants.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/mar/23/facebook-posts/boulder-shooting-was-not-false-flag-attack/",
+            "Main Claim": "The shooting in Boulder, Colo., was a \"false flag like most of the others.\"",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "The Boulder, Colo., shooting wasn’t staged. A gunman killed 10 people at a grocery store.",
+            "Sources": [
+                "The Associated Press",
+                "Boulder Police Department",
+                "Cable News Network",
+                "facebook-posts",
+                "Instagram post",
+                "KMBC",
+                "KUSA",
+                "New York Post",
+                "PolitiFact",
+                "Guardian",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "The shooting in Boulder, Colo., was a \"false flag like most of the others.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/feb/25/facebook-posts/no-capitol-security-not-only-pelosis-responsibilit/",
+            "Main Claim": "Only Nancy Pelosi is “responsible for what happened at the Capitol” on Jan. 6, “security at the Capitol is her job.”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "Capitol security is not solely the responsibility of the House speaker. It is provided by the sergeants-at-arms of the House and Senate, and by the Capitol Police. The House sergeant-at-arms reports to the House speaker, or Pelosi at the time of the attack. The Senate sergeant-at-arms reports to the Senate majority leader — on Jan. 6, Sen. Mitch McConnell. News reports indicate that in the days before the attack,  House sergeant-at-arms Paul Irving resisted calls from the Capitol Police to bring in the National Guard for extra security at the Capitol because of \"optics.\" Irving later testified that intelligence reports didn’t show the need for the extra security, not that he rejected it because of optics.",
+            "Sources": [
+                "ABC News",
+                "Architect of the Capitol",
+                "The Associated Press",
+                "Email",
+                "facebook-posts",
+                "Fast Company",
+                "House Committee on Administrations",
+                "McClatchy",
+                "NBC News",
+                "The New York Times",
+                "U.S. House of Representatives",
+                "U.S. Senate",
+                "United States Capitol Police",
+                "Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Only Nancy Pelosi is “responsible for what happened at the Capitol” on Jan. 6, “security at the Capitol is her job.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/feb/10/facebook-posts/courts-have-affirmed-bidens-victory/",
+            "Main Claim": "“Not one court has looked at the evidence and said that Biden legally won” the presidential election.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "President Joe Biden was sworn into office Jan. 20. All 50 states and the District of Columbia certified the results affirming his win, some following recounts and audits. Trump and his allies filed dozens of lawsuits in state and federal courts to challenge the election results. Not one of them proved that voter fraud affected the election outcome.",
+            "Sources": [
+                "The Associated Press",
+                "C-SPAN",
+                "Cybersecurity and Infrastructure Security Agency",
+                "Democracy Docket",
+                "facebook-posts",
+                "Federal Judicial Center",
+                "Milwaukee Journal-Sentinel",
+                "NBC News",
+                "National Archives",
+                "National Constitution Center",
+                "Ohio State University",
+                "PolitiFact",
+                "STANFORD-MIT HEALTHY ELECTIONS PROJECT",
+                "The New York Times",
+                "USA Today"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Not one court has looked at the evidence and said that Biden legally won” the presidential election."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/jan/21/facebook-posts/how-bidens-executive-order-halting-keystone-xl-pip/",
+            "Main Claim": "\"By revoking the Keystone pipeline permit, Biden is destroying 11,000 jobs.”",
+            "Truth-O-Meter": "Half-True",
+            "Justification": "On his first day in office, President Joe Biden signed an executive order revoking the permit for the Keystone XL pipeline, halting its construction in the U.S. TC Energy Corp. said it will lay off \"thousands\" of union workers because of the order. The company’s president said the layoffs would number more than 1,000. TC Energy estimated in October that the pipeline would employ 11,000 Americans in 2021, generating more than $1.6 billion in wages. The pipeline provided far fewer permanent jobs.",
+            "Sources": [
+                "Alberta government",
+                "The Associated Press",
+                "Ballotpedia",
+                "CTV News",
+                "facebook-posts",
+                "Fox News Channel",
+                "JoeBiden.com",
+                "Keystone XL",
+                "PolitiFact",
+                "Rapid City Journal",
+                "TC Energy",
+                "The New York Times",
+                "The Wall Street Journal",
+                "The Washington Post",
+                "The White House",
+                "U.S. State Department",
+                "U.S. Supreme Court"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "\"By revoking the Keystone pipeline permit, Biden is destroying 11,000 jobs.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/jan/16/facebook-posts/claim-inauguration-canceled-trump-remain-president/",
+            "Main Claim": "“Inauguration Cancelled, Trump Remains in Office.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "President-elect Joe Biden’s Jan. 20 inauguration is proceeding as planned. On Jan. 7, Trump said that a new administration will be inaugurated. Vice President Mike Pence will be attend the ceremony, though Trump said he will not.",
+            "Sources": [
+                "ABC News",
+                "The Associated Press",
+                "Biden transition team",
+                "Columbia Journalism Review",
+                "Factcheck.org",
+                "Libertas Writers",
+                "The New York Times",
+                "NewsGuard",
+                "PolitiFact",
+                "Reuters",
+                "Rev.com",
+                "Snopes",
+                "USA Today"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Inauguration Cancelled, Trump Remains in Office.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/dec/29/facebook-posts/no-t-was-not-conducting-audit-dominion-voting-syst/",
+            "Main Claim": "The Nashville bombing was an attempt to stop an AT&T audit into Dominion software and cover up election corruption.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "There is no evidence to suggest that the Dec. 25 explosion was election-related. Both companies have denied the posts’ claims, saying that there was no such audit and that Dominion’s machines were not recently transported to Nashville, Tenn.",
+            "Sources": [
+                "AFP Fact Check",
+                "The Associated Press",
+                "Dominion Voting Systems Acquired by its Management Team and Staple Street Capital",
+                "Email interview",
+                "facebook-posts",
+                "The New York Times",
+                "Reuters"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "The Nashville bombing was an attempt to stop an AT&T audit into Dominion software and cover up election corruption."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/dec/17/facebook-posts/alabama-nurse-did-not-die-after-taking-coronavirus/",
+            "Main Claim": "“One of the first nurses to receive the vaccine in AL is now dead.”",
+            "Truth-O-Meter": "False",
+            "Justification": "The Alabama Department of Public Health said in a Dec. 16 statement that no recipients of the Pfizer coronavirus vaccine had died.",
+            "Sources": [
+                "The Associated Press",
+                "Email from Kristen Nordlund",
+                "facebook-posts",
+                "Food and Drug Administration",
+                "Statement",
+                "The New York Times",
+                "WHNT-TV"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“One of the first nurses to receive the vaccine in AL is now dead.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/dec/03/facebook-posts/no-hugo-chavezs-family-does-not-own-dominion-votin/",
+            "Main Claim": "Says “Hugo Chavez’s family still owns” Dominion Voting Systems.",
+            "Truth-O-Meter": "False",
+            "Justification": "• The company is majority-owned by a New York-based private equity firm.• The claim echoes elements of baseless conspiracy theories that we have debunked in the past. ​",
+            "Sources": [
+                "A Facebook video",
+                "AZ Central",
+                "The Associated Press",
+                "Businesswire",
+                "Global Banking and Finance Review",
+                "The New York Times",
+                "PolitiFact",
+                "Reuters",
+                "Smartmatic",
+                "The Wall Street Journal"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says “Hugo Chavez’s family still owns” Dominion Voting Systems."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/17/facebook-posts/photos-show-cleveland-cavaliers-parade-and-womens-/",
+            "Main Claim": "“These are real to date pictures taken during the Million (MAGA) March 2020.”",
+            "Truth-O-Meter": "False",
+            "Justification": "The post is wrong to say that more than 1 million people attended rallies for Donald Trump in Washington, D.C., on Nov. 14. News outlets estimate that attendance was in the thousands. Some of the images in the Facebook post are from a parade and rally for the Cleveland Cavaliers, who won the NBA championship in June 2016. Another photo shows an aerial view of the 2017 Women’s March in Washington.",
+            "Sources": [
+                "The Associated Press",
+                "CBS News",
+                "CrowdTangle",
+                "facebook-posts",
+                "George P. Johnson",
+                "Google Reverse Image Search",
+                "Lead Stories",
+                "National Public Radio",
+                "PolitiFact",
+                "The New York Times",
+                "TinEye",
+                "Tweet"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“These are real to date pictures taken during the Million (MAGA) March 2020.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/13/facebook-posts/no-evidence-dominion-voting-systems-caused-widespr/",
+            "Main Claim": "Says Dominion Voting System flipped votes to Joe Biden in states where Trump is bringing legal challenges.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "There is no credible evidence that the voting system affected any vote tallies. Dominion Voting Systems was only used in a few counties that experienced minor problems that were quickly resolved, and were either the result of human error or temporary malfunctions. These claims are a misunderstanding of how election administration works, experts said. The process involves several protocols and rigorous testing that would make it exceedingly difficult for mass fraud to happen at this level undetected.",
+            "Sources": [
+                "The Associated Press",
+                "Cybersecurity & Infrastructure Security Agency",
+                "DominionVoting.com",
+                "Edison Research",
+                "Email from Larry Rosin",
+                "facebook-posts",
+                "Instagram post",
+                "National Conference of State Legislatures",
+                "The New York Times",
+                "Phone/Email interview",
+                "PolitiFact",
+                "Tweet"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says Dominion Voting System flipped votes to Joe Biden in states where Trump is bringing legal challenges."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/11/facebook-posts/michigan-judge-has-not-called-hand-recount/",
+            "Main Claim": "A judge has ordered a \"HAND RECOUNT by an INDEPENDENT COMMISSION in the state of Michigan, following hard evidence of voting fraud by Detroit City Election Commission.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "A hand recount has not been ordered in Michigan. The secretary of state’s office said the post is \"made up.\"",
+            "Sources": [
+                "The Associated Press",
+                "CBS News",
+                "Detroit Free Press",
+                "Email from Tracy Wimmer",
+                "facebook-posts",
+                "MICHIGAN ELECTION LAW (EXCERPT)",
+                "MLive",
+                "Michigan Secretary of State Jocelyn Benson",
+                "PolitiFact",
+                "The New York Times",
+                "WXYZ-TV"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "A judge has ordered a \"HAND RECOUNT by an INDEPENDENT COMMISSION in the state of Michigan, following hard evidence of voting fraud by Detroit City Election Commission.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/18/facebook-posts/georgia-election-officials-found-more-2600-uncount/",
+            "Main Claim": "\"Voter FRAUD exposed in Georgia. Over 2600 votes 'FOUND.'\"",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "Election officials found more than 2,600 uncounted votes in Floyd County, Ga., northwest of Atlanta. Most of the votes favor President Donald Trump. Those uncounted ballots are not evidence of voter fraud in Georgia. State election officials said the mistake was due to human error. Georgia Secretary of State Brad Raffensperger, a Republican, has repeatedly said there is no evidence of fraud affecting the state’s presidential election results.",
+            "Sources": [
+                "AFP Fact Check",
+                "The Associated Press",
+                "Atlanta Journal-Constitution",
+                "CBS News",
+                "Email from Georgia Secretary of State Brad Raffensperger",
+                "Facebook Live video",
+                "Factcheck.org",
+                "Fox 5 Atlanta",
+                "Georgia Secretary of State",
+                "PolitiFact",
+                "The New York Times",
+                "The Washington Post",
+                "Tweet",
+                "USA Today",
+                "WSB-TV"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "\"Voter FRAUD exposed in Georgia. Over 2600 votes 'FOUND.'\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/11/facebook-posts/no-joe-bidens-leads-havent-disappeared-key-battleg/",
+            "Main Claim": "“Biden lead disappears in NV, AZ, GA, PA.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Major media organizations have projected Joe Biden as the winner of the 2020 presidential election. The media makes these calls every election year. Biden’s leads have not \"disappear(ed)\" in Nevada, Arizona, Georgia or Pennsylvania. When the ballots were counted, Biden received more votes than Trump.",
+            "Sources": [
+                "ABC News",
+                "CBS News",
+                "Cable News Network",
+                "Dave Wasserman on Twitter",
+                "Decision Desk HQ",
+                "Donald J. Trump on Twitter",
+                "facebook-posts",
+                "Fox News Channel",
+                "NBC News",
+                "PolitiFact",
+                "Reuters",
+                "The Associated Press",
+                "The New York Times",
+                "The Wall Street Journal",
+                "The Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Biden lead disappears in NV, AZ, GA, PA.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/11/facebook-posts/no-media-didnt-call-2016-election-clinton/",
+            "Main Claim": "The media called the 2016 election for Hillary Clinton.",
+            "Truth-O-Meter": "False",
+            "Justification": "Polls projected that Hillary Clinton would win but media organizations didn’t call the race for her. Early in the morning after Election Day, the Associated Press called the race for Donald Trump.",
+            "Sources": [
+                "facebook-posts",
+                "National Public Radio",
+                "Pew Research Center",
+                "PolitiFact",
+                "The Associated Press",
+                "The Chicago Tribune",
+                "Guardian",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "The media called the 2016 election for Hillary Clinton."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/10/facebook-posts/siri-glitch-sparks-misinformation-about-biden-25th/",
+            "Main Claim": "Siri gave “CONFIRMATION of the Democrats' sinister plan to REMOVE Sleepy Joe immediately using the 25th Amendment and instate Kamala Harris as President!”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "The Siri responses were part of a bug involving election data from Wolfram Alpha, a website that feeds into the assistant’s responses. There is no evidence that Democrats are working to invoke the 25th Amendment.",
+            "Sources": [
+                "The Associated Press",
+                "Congress.gov",
+                "CrowdTangle",
+                "Email from Danielle Rommel Mayer",
+                "facebook-posts",
+                "GovInfo.gov",
+                "PolitiFact",
+                "Siri",
+                "The New York Times",
+                "Tweet",
+                "USA Today",
+                "Wolfram Alpha"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Siri gave “CONFIRMATION of the Democrats' sinister plan to REMOVE Sleepy Joe immediately using the 25th Amendment and instate Kamala Harris as President!”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/04/facebook-posts/fact-checking-conspiracy-theory-about-ballot-count/",
+            "Main Claim": "\"Six states can't get the votes counted. Six states in which @realDonaldTrump is leading. Six states where Dems are in charge.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "When this post was shared, there was no winner in the U.S. presidential election. A few key states that determine the path to the White House remain uncalled. Some states in which Donald Trump was leading on election night experienced delays in the ballot-counting process due to an influx of mail-in ballots. There is no evidence that states are deliberately stalling vote tabulation to favor Joe Biden.",
+            "Sources": [
+                "The Associated Press",
+                "Business Insider",
+                "Cable News Network",
+                "facebook-posts",
+                "Georgia Secretary of State",
+                "Milwaukee Journal-Sentinel",
+                "National Public Radio",
+                "North Carolina State Board of Election",
+                "Pennsylvania Department of State",
+                "PolitiFact",
+                "The Hollywood Reporter",
+                "The New York Times",
+                "Tweet",
+                "U.S. Cybersecurity and Infrastructure Agency",
+                "WLNE-TV",
+                "WSB-TV"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "\"Six states can't get the votes counted. Six states in which @realDonaldTrump is leading. Six states where Dems are in charge.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/04/facebook-posts/battleground-states-did-not-stop-counting-votes-el/",
+            "Main Claim": "Six states \"decided to stop counting\" votes as Donald Trump was \"headed for a win” on election night.",
+            "Truth-O-Meter": "False",
+            "Justification": "None of the states cited in the post stopped counting votes altogether on Nov. 3. Election officials in Fulton County, Ga., briefly paused counting ballots after a pipe burst at a facility in Atlanta. North Carolina stopped counting in-person votes once 100% of precincts were reported, but the state is still counting absentee ballots. Delays in election results are due to an influx of mail-in ballots, spurred by the coronavirus pandemic.",
+            "Sources": [
+                "The Associated Press",
+                "Business Insider",
+                "Cable News Network",
+                "CrowdTangle",
+                "Email from Jessica Corbitt",
+                "Email from Patrick Gannon",
+                "Email from Tracy Wimmer",
+                "facebook-posts",
+                "Georgia Secretary of State",
+                "Milwaukee Journal-Sentinel",
+                "National Public Radio",
+                "North Carolina State Board of Election",
+                "Pennsylvania Department of State",
+                "PolitiFact",
+                "The Hill",
+                "The New York Times",
+                "The Wayback Machine",
+                "Tweet",
+                "U.S. Cybersecurity and Infrastructure Agency",
+                "WLNE-TV"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Six states \"decided to stop counting\" votes as Donald Trump was \"headed for a win” on election night."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/05/facebook-posts/despite-sharpiegate-no-evidence-plot-use-pens-canc/",
+            "Main Claim": "“If you were forced to use a Sharpie” to fill out your ballot, “that is voter fraud.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Some in-person voters complained that election officials gave them Sharpie pens at their polling place and that the ink spoiled and invalidated their ballots. In some cases, Sharpies are actually recommended as the best type of pen to use on ballots, and election officials have taken steps to guard against ink \"bleed-through\" on ballots. There is no evidence that elections officials used Sharpies to invalidate ballots.",
+            "Sources": [
+                "AFP Fact Check",
+                "Arizona Republic",
+                "The Associated Press",
+                "Cybersecurity and Infrastructure Security Agency",
+                "Email",
+                "facebook-posts",
+                "Maricopa County Board of Supervisors",
+                "The New York Times",
+                "Twitter",
+                "USA Today"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“If you were forced to use a Sharpie” to fill out your ballot, “that is voter fraud.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/oct/26/facebook-posts/no-evidence-hunter-biden-had-photos-coons-daughter/",
+            "Main Claim": "\"The daughter of Sen. Coons (D-DE), along with 7 other underaged girls are featured on Hunter's laptop! - Breitbart News\"",
+            "Truth-O-Meter": "False",
+            "Justification": "There is no evidence that a computer hard drive previously belonging to Hunter Biden contains illicit images of the teenage daughter of Sen. Chris Coons, D-Del. The claim comes from Lauren Witzke, a Republican running against Coons to represent Delaware in the Senate. She has not offered proof.",
+            "Sources": [
+                "Ballotpedia",
+                "CrowdTangle",
+                "Email from Lauren Witzke",
+                "facebook-posts",
+                "G News",
+                "NBC News",
+                "New York Post",
+                "PolitiFact",
+                "Politico",
+                "The Associated Press",
+                "The Daily Beast",
+                "The Gateway Pundit",
+                "The New York Times",
+                "TikTok post",
+                "Tweet",
+                "YouTube video"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "\"The daughter of Sen. Coons (D-DE), along with 7 other underaged girls are featured on Hunter's laptop! - Breitbart News\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/oct/16/facebook-posts/no-proof-jaime-harrison-was-left-touch-screen-mach/",
+            "Main Claim": "“Jaime Harrison is being left off of South Carolina ballots”",
+            "Truth-O-Meter": "False",
+            "Justification": "South Carolina is one of a handful of states that give voters the option to use straight party ticket voting. When voting straight ticket, a voter who selects the Democratic Party would see Harrison’s name appear automatically on the Senate screen. However, if the voter then touches Harrison’s name, that would deselect his name. Voters are given warnings on the screen if they skip a race, and they can confirm their choices when the machine prints out a paper card showing the names of the candidates they voted for.",
+            "Sources": [
+                "The Associated Press",
+                "Email exchange between Whitmire and Scott",
+                "Email interview",
+                "facebook-posts",
+                "Jaime Harrison",
+                "Jennifer Cohn",
+                "National Conference of State Legislatures",
+                "The New York Times",
+                "South Carolina Election Commission",
+                "Telephone interview",
+                "The State"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Jaime Harrison is being left off of South Carolina ballots”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/oct/04/facebook-posts/trump-did-not-board-marine-one-portable-oxygen-con/",
+            "Main Claim": "Says Donald Trump boarded Marine One \"with a portable oxygen concentrator in his pocket with the nasal cannula going up his back, hidden in his hair and tucked under his mask.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "There is a lot of confusion surrounding Trump’s use of supplemental oxygen to treat his COVID-19 symptoms. But he did not have a portable oxygen concentrator when he left the White House for the hospital. The source of the viral claim appears to be a now-suspended Twitter account. Other angles of Trump’s walk from the White House to Marine One don’t support the conspiracy theory.",
+            "Sources": [
+                "BuzzFeed News",
+                "C-SPAN",
+                "CBS News",
+                "Cable News Network",
+                "facebook-posts",
+                "Fox News Channel",
+                "Lead Stories",
+                "PolitiFact",
+                "Portable Oxygen Solutions",
+                "The Associated Press",
+                "The New York Times",
+                "Tweet"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says Donald Trump boarded Marine One \"with a portable oxygen concentrator in his pocket with the nasal cannula going up his back, hidden in his hair and tucked under his mask.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/sep/28/facebook-posts/no-jared-kushner-did-not-delete-tweets-after-new-y/",
+            "Main Claim": "Says Jared Kushner “deleted all of his tweets after the tax story broke.”",
+            "Truth-O-Meter": "False",
+            "Justification": "• Jared Kushner, President Donald Trump’s son-in-law and adviser, has not posted tweets on his account since 2016.• Kushner did not delete tweets after the news broke about Trump’s tax history.",
+            "Sources": [
+                "Archive.today",
+                "The Associated Press",
+                "facebook-posts",
+                "Lead Stories",
+                "The New York Times",
+                "Snopes.com",
+                "Web Archive"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says Jared Kushner “deleted all of his tweets after the tax story broke.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/sep/25/facebook-posts/graph-us-abortion-rate-during-different-presidents/",
+            "Main Claim": "A graphic on U.S. abortion rates shows larger declines during recent Democratic presidential administrations, and says its due to the party’s approach of making abortions unnecessary, rather than the Republican Party’s approach of making the procedure illegal.",
+            "Truth-O-Meter": "Half-True",
+            "Justification": "The graphic cites CDC data, but health department reporting on abortions has fluctuated so much over the years that making broad comparisons can prove challenging. Experts said tying the abortion rate to the occupant of the White House alone is an oversimplification of a variety of factors at play, including easier access to affordable contraception and fewer women getting pregnant.",
+            "Sources": [
+                "The Associated Press",
+                "Centers for Disease Control and Prevention",
+                "Email interview",
+                "facebook-posts",
+                "Guttmacher.org",
+                "The New York Times",
+                "Snopes"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "A graphic on U.S. abortion rates shows larger declines during recent Democratic presidential administrations, and says its due to the party’s approach of making abortions unnecessary, rather than the Republican Party’s approach of making the procedure illegal."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/sep/17/facebook-posts/no-james-comey-and-john-brennan-havent-been-charge/",
+            "Main Claim": "“James Comey has 50 counts of TREASON. And John Brennan has 48 counts of TREASON.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Former FBI Director James Comey and former CIA Director John Brennan have not been charged with treason.",
+            "Sources": [
+                "facebook-posts",
+                "Newsweek",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“James Comey has 50 counts of TREASON. And John Brennan has 48 counts of TREASON.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/sep/14/facebook-posts/what-attack-about-bidens-votes-social-security-omi/",
+            "Main Claim": "“In 1983, Joe Biden voted in favor of taxing 50% of Social Security” and in 1993, Biden “was the deciding vote in raising the percentage taxed on Social Security from 50% to 85%.”",
+            "Truth-O-Meter": "Half-True",
+            "Justification": "In 1983, then-Sen. Biden voted in favor of legislation to allow up to 50% of Social Security benefits to be added to taxable income if the taxpayer’s total income exceeded certain thresholds. The legislation, intended to shore up Social Security, had bipartisan support and was signed by President Ronald Reagan. In 1993, the Senate along with Biden passed President Bill Clinton’s deficit reduction plan, which required recipients with certain incomes to pay taxes on 85% of their Social Security benefits. In 1993, Vice President Al Gore cast the deciding vote after the Senate split 50-50.",
+            "Sources": [
+                "The Associated Press",
+                "Center for Budget and Policy Priorities",
+                "Congress.gov",
+                "Dallas Morning News",
+                "Email interview",
+                "facebook-posts",
+                "Houston Chronicle",
+                "Los Angeles Times",
+                "The New York Times",
+                "Social Security",
+                "U.S. Senate",
+                "UPI",
+                "Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“In 1983, Joe Biden voted in favor of taxing 50% of Social Security” and in 1993, Biden “was the deciding vote in raising the percentage taxed on Social Security from 50% to 85%.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/sep/10/facebook-posts/antifa-activists-did-not-start-west-coast-wildfire/",
+            "Main Claim": "Most of the wildfires on the West Coast are “all being started by antifa.”",
+            "Truth-O-Meter": "False",
+            "Justification": "A combination of drought, historic heat, lightning storms and heavy winds are thought to have contributed to more than 90 wildfires that have burned thousands of square miles across the West Coast. Antifa stands for \"anti-fascist.\" It’s a loose, broad coalition of left-wing activists. There is no evidence that antifa supporters set wildfires in California, Oregon and Washington. Police and fire officials have dispelled rumors about antifa, and while investigations are still ongoing, many of the wildfires appear to have been sparked accidentally.",
+            "Sources": [
+                "Cal Fire",
+                "Center for Disaster Philanthropy",
+                "facebook-posts",
+                "Fox News Channel",
+                "Interview with Sean McFadden",
+                "Los Angeles Times",
+                "National Interagency Coordination Center Incident Management Situation Report",
+                "PolitiFact",
+                "Siuslaw News",
+                "The Associated Press",
+                "The Columbian",
+                "The Deseret News",
+                "The Mercury News",
+                "The New York Times",
+                "The Oregonian",
+                "The Seattle Times",
+                "The Statesman Journal",
+                "The Washington Post",
+                "Tweet",
+                "USA Today"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Most of the wildfires on the West Coast are “all being started by antifa.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/aug/17/facebook-posts/no-kamala-harris-didnt-say-about-guns/",
+            "Main Claim": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”",
+            "Truth-O-Meter": "False",
+            "Justification": "• There is no evidence Sen. Kamala Harris ever said this.• When she was a candidate for the Democratic presidential nomination, Harris pledged to act on gun control within 100 days of being in office, but she did not say she would sign an executive order if elected that would force people to surrender their guns.• Other fact-checking organizations have debunked this claim.",
+            "Sources": [
+                "The Associated Press",
+                "CBS News",
+                "Cable News Network",
+                "CNN Politics",
+                "Factcheck.org",
+                "Law Enforcement Today",
+                "The New York Times",
+                "Snopes.com",
+                "The Washington Post",
+                "USA Today",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/aug/13/facebook-posts/conspiracy-about-moderna-gates-epstein-fauci-and-s/",
+            "Main Claim": "Says Anthony Fauci, Bill Gates, George Soros and Jeffrey Epstein are connected with Moderna, Inc., and its efforts to create the coronavirus vaccine.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "The connections the post claims are wrong. Fauci is more than 14 years older than Gates and had already graduated from Cornell and was working at the NIH when Gates was in college. Gates did not attend Cornell and did not room with Fauci. IG Farben is not connected to Moderna. Fauci was never CEO of Moderna. Epstein was not the primary stockholder of Moderna when he died.",
+            "Sources": [
+                "The Associated Press",
+                "Business Inside",
+                "CNN Money",
+                "Cornell Daily Sun",
+                "Encyclopedia Britannica",
+                "facebook-posts",
+                "GatesNotes",
+                "Miami Herald",
+                "NBC News",
+                "National Institute of Allergy and Infectious Disease",
+                "National Institutes of Health",
+                "New York Magazine",
+                "The New York Times",
+                "PolitiFact",
+                "PoltiiFact",
+                "PubChem",
+                "RFID Journal",
+                "ScienceMag.org",
+                "Snopes",
+                "The Wall Street Journal"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says Anthony Fauci, Bill Gates, George Soros and Jeffrey Epstein are connected with Moderna, Inc., and its efforts to create the coronavirus vaccine."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/aug/06/facebook-posts/qanon-conspiracy-theorists-seek-link-beirut-blast-/",
+            "Main Claim": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”",
+            "Truth-O-Meter": "False",
+            "Justification": "An explosion at the port of Beirut was said to have occurred at a warehouse. Lebanese authorities have attributed it to the detonation of ammonium nitrate. There is no evidence as of this writing that the blast was premeditated. The Central Bank of Lebanon is located a few miles away from the site of the explosion. It has financial autonomy and gets its capital from the state, according to its website. The Rothschilds, the influential European banking family, have been a target of anti-Semitic conspiracies for centuries, including recently by QAnon groups. There is no evidence that they had anything to do with the Beirut explosion.",
+            "Sources": [
+                "British Broadcasting Corporation",
+                "Banque du Liban",
+                "Cable News Network",
+                "facebook-posts",
+                "General Michael Aoun on Twitter",
+                "Global News on YouTube",
+                "PolitiFact",
+                "Politico",
+                "Reuters",
+                "Rothschild & Co",
+                "South African Reserve Bank",
+                "The Associated Press",
+                "The Federal Reserve Board",
+                "The New York Times",
+                "The Washington Post",
+                "United States Geological Survey",
+                "Various searches on Google Maps"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/aug/07/facebook-posts/no-proof-black-lives-matter-killed-36-people-injur/",
+            "Main Claim": "Black Lives Matter \"injures 1000 police officers kills 36 people and does $8 billion in damage.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "We found no evidence that the toll from protests against police brutality is as high as the numbers in the post. The U.S. Justice Department told us it does not have numbers on officer injuries or property damage resulting from civil disturbances. Black Lives Matter protests attract not only BLM members but supporters and opponents, making it difficult to assign blame to BLM for particular incidents.",
+            "Sources": [
+                "The Associated Press",
+                "Email",
+                "facebook-posts",
+                "Forbes",
+                "Fox News Channel",
+                "New York Post",
+                "The New York Times",
+                "PolitiFact",
+                "USA Today",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Black Lives Matter \"injures 1000 police officers kills 36 people and does $8 billion in damage.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/jul/31/facebook-posts/herman-cain-died-covid-19-not-cancer/",
+            "Main Claim": "Says Herman Cain died of cancer, not COVID-19.",
+            "Truth-O-Meter": "False",
+            "Justification": "Herman Cain died of complications from COVID-19 on July 30. In 2006, he was diagnosed with Stage 4 colon cancer, which spread to his liver, but he recovered and went on to run for president in 2012.",
+            "Sources": [
+                "facebook-posts",
+                "HermanCain.com",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "The White House",
+                "Tweet"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says Herman Cain died of cancer, not COVID-19."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/jul/10/facebook-posts/yes-science-led-new-zealand-currently-has-no-local/",
+            "Main Claim": "“New Zealand let health experts” rather than politicians make decisions about how to deal with COVID-19, “and as of today they have zero COVID cases.”",
+            "Truth-O-Meter": "Mostly True",
+            "Justification": "New Zealand has no current cases among people in the country. There were 22 cases as of the date of the Facebook post — all from people who tested positive upon entering the country. Health experts get some credit for New Zealand’s success, but the prime minister, following the advice of scientists, has been widely praised for her response.",
+            "Sources": [
+                "The Associated Press",
+                "British Broadcasting Corporation",
+                "Email",
+                "facebook-posts",
+                "Forbes",
+                "National Geographic",
+                "The New York Times",
+                "New Zealand Ministry of Health",
+                "Politico"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“New Zealand let health experts” rather than politicians make decisions about how to deal with COVID-19, “and as of today they have zero COVID cases.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/may/08/facebook-posts/central-park-field-hospital-treated-coronavirus-pa/",
+            "Main Claim": "Central Park hospital tents housed thousands of abused children released from underground captivity.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "• The field hospitals set up in tents in New York’s Central Park were treating coronavirus patients from the Mount Sinai Health System.• There is no evidence that children are being held in, or released from, underground captivity in New York.• This conspiracy has been researched and debunked by other news outlets.",
+            "Sources": [
+                "The Associated Press",
+                "NBC News",
+                "The New York Times",
+                "Religion News Service",
+                "Samaritan’s Purse",
+                "The Atlantic",
+                "Guardian",
+                "Untapped New York",
+                "Vice News",
+                "Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Central Park hospital tents housed thousands of abused children released from underground captivity."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/may/04/facebook-posts/Claim-New-York-Times-censored-Biden-sex-assault/",
+            "Main Claim": "“New York Times editor admits Biden sexual assault story was censored at behest of Biden campaign.”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "The 2,500-word New York Times story examined a new allegation that Joe Biden sexually assaulted a former staff assistant in 1993. Times executive editor Dean Baquet said 13 words about Biden’s past physical contact with women were deleted from the story post-publication after Biden’s campaign contacted them. The same words that were removed, however, are intact in the story two paragraphs earlier. The words describe past allegations of Biden \"kissing, hugging or touching\" women in ways that the women say they \"made them feel uncomfortable.\"",
+            "Sources": [
+                "The Associated Press",
+                "BuzzFeed News",
+                "Email",
+                "FrontPageMag.com",
+                "The New York Times",
+                "PolitiFact",
+                "The Wall Street Journal",
+                "Washington Examiner",
+                "Washington Free Beacon",
+                "Wayback Machine",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“New York Times editor admits Biden sexual assault story was censored at behest of Biden campaign.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/apr/24/facebook-posts/yes-san-francisco-residents-formed-anti-mask-leagu/",
+            "Main Claim": "During the 1918 flu pandemic, San Francisco residents formed the “Anti-Mask League.” San Francisco “was ultimately one of the cities that suffered the most with a high death rate.”",
+            "Truth-O-Meter": "Mostly True",
+            "Justification": "Some people have protested stay-at-home orders in recent weeks with public demonstrations. During the flu pandemic in 1918, protesters formed an Anti-Mask League in San Francisco. San Francisco was among several cities that experienced a second wave of cases.",
+            "Sources": [
+                "Alfred W Crosby",
+                "The Associated Press",
+                "Email interview",
+                "facebook-posts",
+                "J. Alexander Navarro and Howard Markel of the Center for the History of Medicine at the University of Michigan op ed in Washington Post",
+                "JAMA",
+                "NPR reporter Tim Mak",
+                "The New York Times",
+                "Pandemics Depress the Economy",
+                "PolitiFact",
+                "Proceedings of the National Academy of sciences",
+                "Reuters",
+                "San Francisco Chronicle",
+                "San Francisco Examiner",
+                "University of Michigan Center for the History of Medicine Influenza Encyclopedia",
+                "Vox Media"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "During the 1918 flu pandemic, San Francisco residents formed the “Anti-Mask League.” San Francisco “was ultimately one of the cities that suffered the most with a high death rate.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/mar/04/facebook-posts/fact-checking-attack-biden-and-warren-harks-back-1/",
+            "Main Claim": "In 1962, Joe Biden “worked with segregationists,” Elizabeth Warren “debated as a pro-Vietnam conservative” while Bernie Sanders “organized against segregation and Vietnam war”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "There is no evidence that Joe Biden worked with segregationists in 1962, though he did oppose busing for desegregation in the 1970s. Elizabeth Warren registered as a Democrat in 1996 but was a conservative as a teenager. Bernie Sanders spoke up against segregation in the early 1960s.",
+            "Sources": [
+                "The Associated Press",
+                "Cable News Network",
+                "Congress.gov",
+                "Congressional Record",
+                "Email interview",
+                "Los Angeles Times",
+                "NBC News",
+                "The New York Times",
+                "Phaidon",
+                "PolitiFact",
+                "Politico",
+                "Snopes",
+                "The Root",
+                "Washington Post",
+                "Wilmington Evening Journal"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "In 1962, Joe Biden “worked with segregationists,” Elizabeth Warren “debated as a pro-Vietnam conservative” while Bernie Sanders “organized against segregation and Vietnam war”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/mar/04/facebook-posts/pro-bernie-sanders-facebook-post-cherrypicks-joe-b/",
+            "Main Claim": "“Bernie Sanders in 1963 — arrested protesting segregation. Joe Biden in 1975 — passionate speech defending segregation.”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "Bernie Sanders was arrested in 1963 at a Chicago protest about segregation. Joe Biden, as a U.S. senator representing Delaware, opposed federally mandated busing for school desegregation in 1975. Biden supported other integration measures including in housing.",
+            "Sources": [
+                "The Associated Press",
+                "Congress.gov",
+                "Congressional Record",
+                "The New York Times",
+                "PolitiFact",
+                "Wilmington Evening Journal"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "“Bernie Sanders in 1963 — arrested protesting segregation. Joe Biden in 1975 — passionate speech defending segregation.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/feb/19/facebook-posts/conspiracy-buttigieg-never-served-military-pants-f/",
+            "Main Claim": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Buttigieg was a Navy intelligence officer in Afghanistan for six months. There are several photos of him in uniform and accounts of his service online. A false conspiracy alleging he never served in the military originated on a fringe internet platform known for disinformation and hate speech.",
+            "Sources": [
+                "ABC 57",
+                "ABC News",
+                "Advance Indiana",
+                "The Associated Press",
+                "Cable News Network",
+                "facebook-posts",
+                "Interview with the U.S. Navy",
+                "Mayor Pete Military Records - Redacted",
+                "Military.com",
+                "PolitiFact",
+                "South Bend Tribune",
+                "The New York Times",
+                "The Washington Post",
+                "Thread",
+                "Tweet",
+                "USA Today",
+                "Vox Media"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/feb/10/facebook-posts/no-george-soros-wasnt-nazi-soldier/",
+            "Main Claim": "Says George Soros was an “SS in the National Socialist German Workers Party. Nazi Party.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "The photo isn’t of Soros. It’s of Oskar Gröning, a former SS soldier who died in 2018. Soros, a Holocaust survivor, was not a member of the Nazi Party.",
+            "Sources": [
+                "facebook-posts",
+                "PolitiFact",
+                "Snopes",
+                "The Associated Press",
+                "Guardian",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says George Soros was an “SS in the National Socialist German Workers Party. Nazi Party.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2019/nov/04/facebook-posts/no-bill-cosby-wasnt-framed-sexual-assault-stop-him/",
+            "Main Claim": "Says Bill Cosby was framed for sexual assault by the Illuminati to stop him from buying NBC.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "N/A",
+            "Sources": [
+                "Archive.Today",
+                "The Associated Press",
+                "Govbanknotes.wordpress.com",
+                "Inquisitr",
+                "The New York Times",
+                "Snopes",
+                "Vanity Fair archives",
+                "Vox Media",
+                "Washington Post",
+                "WayBack Machine"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says Bill Cosby was framed for sexual assault by the Illuminati to stop him from buying NBC."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2019/nov/15/facebook-posts/viral-post-says-democrats-spent-40-million-impeach/",
+            "Main Claim": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "N/A",
+            "Sources": [
+                "The Associated Press",
+                "Bureau of Labor Statistics",
+                "CBS News",
+                "Cable News Network",
+                "Email interview with Steve Ellis",
+                "Emailed comments from Chris Edwards",
+                "Emailed comments from Matt Gardner",
+                "facebook-posts",
+                "House.gov",
+                "LegiStorm",
+                "PolitiFact",
+                "Politico",
+                "The Daily Mail",
+                "The New York Times",
+                "The Washington Post",
+                "Twitter Advanced Search",
+                "U.S. Department of Justice",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2019/sep/11/facebook-posts/no-ronald-reagan-didnt-meet-taliban-because-taliba/",
+            "Main Claim": "Says a photo shows President Ronald Reagan meeting with Taliban leaders in the White House.",
+            "Truth-O-Meter": "False",
+            "Justification": "N/A",
+            "Sources": [
+                "The Associated Press",
+                "Britannica",
+                "facebook-posts",
+                "The New York Times",
+                "ReaganLibrary.gov",
+                "Snopes",
+                "Twitter",
+                "U.S. State Department"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says a photo shows President Ronald Reagan meeting with Taliban leaders in the White House."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2019/jul/19/facebook-posts/trumps-ellis-island-award-was-not-work-within-blac/",
+            "Main Claim": "Says President Donald Trump is one of \"only three people that won the Ellis Island Award for their work within the black community.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "N/A",
+            "Sources": [
+                "The Associated Press",
+                "Ellis Island Honors Society",
+                "Email/Phone interview",
+                "facebook-posts",
+                "Getty Images",
+                "The New York Times"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Says President Donald Trump is one of \"only three people that won the Ellis Island Award for their work within the black community.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2019/jul/10/facebook-posts/meme-about-migrant-cell-phone-use-us-border-takes-/",
+            "Main Claim": "Migrants at the U.S. border are \"able to pay cell phone bills\" after a \"two-month excursion across four separate countries.\"",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "N/A",
+            "Sources": [
+                "facebook-posts",
+                "PolitiFact",
+                "Snopes",
+                "The Associated Press",
+                "The New York Times",
+                "USA Today"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "facebook-posts": "Migrants at the U.S. border are \"able to pay cell phone bills\" after a \"two-month excursion across four separate countries.\""
+            }
+        }
+    ]
+}

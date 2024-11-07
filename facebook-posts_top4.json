@@ -1,0 +1,655 @@
+{
+    "Combination": [
+        "The Associated Press",
+        "The New York Times",
+        "The Washington Post",
+        "facebook-posts"
+    ],
+    "Matched Articles": [
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jun/21/facebook-posts/claim-about-cristiano-ronaldo-and-rainbow-armbands/",
+            "Main Claim": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020.",
+            "Truth-O-Meter": "False",
+            "Justification": "There is evidence that three team captains — from Germany, England, and Denmark — wore rainbow or pro-LGBTQ+ armbands during this tournament, which included 24 teams. Germany’s captain, Manuel Neuer, was briefly investigated by the Union of European Football Associations for his rainbow armband. Cristiano Ronaldo was among many other captains who wore normal armbands.",
+            "Sources": [
+                "Axios",
+                "Cable News Network",
+                "ESPN",
+                "ESPN. \" Why FIFA banned LGBTQ OneLove armband at the World Cup",
+                "Email interview with UEFA spokesperson",
+                "facebook-posts",
+                "Firstpost",
+                "Forbes",
+                "KNVB",
+                "Reuters",
+                "SkySports",
+                "The Associated Press",
+                "The Athletic",
+                "Guardian",
+                "The Independent",
+                "The New York Times",
+                "The Washington Post",
+                "Time Magazine",
+                "UEFA",
+                "X post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jul/01/facebook-posts/no-jury-didnt-order-disney-to-pay-gina-carano-115/",
+            "Main Claim": "A jury “ordered Disney and Lucasfilm to pay” actor Gina Carano $115 million.",
+            "Truth-O-Meter": "False",
+            "Justification": "This claim originated on a self-described satire website. \"The Mandalorian\" actor Gina Carano has sued Disney for wrongful termination, but the lawsuit continues.",
+            "Sources": [
+                "The Associated Press",
+                "America’s Last Line of Defense",
+                "Big Oak Bay News",
+                "Court Listener",
+                "Entertainment Weekly",
+                "Facebook post ( archived",
+                "Newsweek",
+                "The Hollywood Reporter",
+                "The New York Times",
+                "The Washington Post",
+                "USA Today",
+                "Variety"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "A jury “ordered Disney and Lucasfilm to pay” actor Gina Carano $115 million."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/mar/28/facebook-posts/ship-that-struck-baltimore-bridge-was-not-a-chines/",
+            "Main Claim": "The ship that struck the Baltimore bridge was controlled by a Chinese company.",
+            "Truth-O-Meter": "False",
+            "Justification": "News reports and company statements about the incident show that the people who operated the ship Dali were not Chinese. It is owned by Singapore-based company Grace Ocean Private Ltd., managed by Synergy Marine Group and chartered by Danish shipping company Maersk. Learn more about PolitiFact’sfact-checking process and rating system.",
+            "Sources": [
+                "The Associated Press",
+                "CBS News",
+                "ClassNK page on Dali",
+                "ETInfra.com",
+                "facebook-posts",
+                "Hindustan Times",
+                "Lloyd’s List",
+                "MPA Singapore",
+                "Maersk",
+                "PolitiFact",
+                "Reuters",
+                "Synergy Marine Group",
+                "The Maritime Executive",
+                "The New York Times",
+                "The Washington Post",
+                "USA Today"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "The ship that struck the Baltimore bridge was controlled by a Chinese company."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/apr/02/facebook-posts/baltimore-bridge-collapse-federal-state-officials/",
+            "Main Claim": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Federal and Maryland officials have said there is no credible evidence the Dali ship’s collision with the Francis Scott Key Bridge in Baltimore was intentional. Officials have called it \"an accident.\" Preliminary reports show the ship’s crew made efforts to slow the vessel and prevent contact with the bridge. The pilot also issued a mayday call to stop traffic on the bridge. No spin, just facts you can trust.Here’s how we do it.",
+            "Sources": [
+                "Cable News Network",
+                "Facebook reel",
+                "Instagram reel",
+                "National Transportation Safety Board Newsroom",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jul/18/facebook-posts/target-has-no-evil-agenda-images-are-creator-havin/",
+            "Main Claim": "Photos show Target is pushing \"evil agenda\" on kids.",
+            "Truth-O-Meter": "False",
+            "Justification": "A digital creator used generative artificial intelligence to create images of occult-themed merchandise and store displays at the retailer Target. The images were created to \"mock\" people who boycotted the store, believing it was selling satanic clothing, the creator said in a Facebook comment.",
+            "Sources": [
+                "Discover Magazine",
+                "PolitiFact",
+                "Target",
+                "The Associated Press",
+                "The New York Times",
+                "The Pumpkin Empress",
+                "The Washington Post",
+                "TikTok video",
+                "Vox Media"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Photos show Target is pushing \"evil agenda\" on kids."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/mar/28/facebook-posts/these-are-not-real-photos-vladimir-putin-arrest/",
+            "Main Claim": "Images show “Putin has been arrested.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Images that claim to show Russian President Vladimir Putin being arrested are fake. Putin had not been arrested at the time the photos were first shared online.",
+            "Sources": [
+                "facebook-posts",
+                "International Criminal Court",
+                "NBC News",
+                "PolitiFact",
+                "President of Russia",
+                "The Associated Press",
+                "The New York Times",
+                "The New Yorker",
+                "The Washington Post",
+                "TikTok video",
+                "United Nations"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Images show “Putin has been arrested.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/15/facebook-posts/no-pope-putin-and-xi-didnt-meet-plan-world-events/",
+            "Main Claim": "“The pope, Xi and Putin all meet to plan world events!”",
+            "Truth-O-Meter": "False",
+            "Justification": "Trips by the pope and Chinese President Xi Jinping to Kazakhstan overlapped, but the men weren’t expected to meet. Xi met separately with Russian President Vladimir Putin this week in Uzbekistan.",
+            "Sources": [
+                "Cable News Network",
+                "facebook-posts",
+                "Le Monde",
+                "The New York Times",
+                "The Associated Press",
+                "The Washington Post",
+                "Vatican News"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“The pope, Xi and Putin all meet to plan world events!”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/08/facebook-posts/no-russia-not-withdrawing-ukraine/",
+            "Main Claim": "“The Russian army is withdrawing from Ukraine!” in September 2022",
+            "Truth-O-Meter": "False",
+            "Justification": "There have been no reports that Russia is withdrawing from Ukraine. Russian President Vladimir Putin said during a Sept. 7 speech, after this post was made, that Russia’s forces will continue to push farther into the country. The U.S. Defense Department estimates that about 80,000 Russian soldiers have been wounded or killed in the conflict since it began.",
+            "Sources": [
+                "The Associated Press",
+                "General Staff of the Armed Forces of Ukraine",
+                "PolitiFact",
+                "Reuters",
+                "The New York Times",
+                "The Washington Post",
+                "Violet"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“The Russian army is withdrawing from Ukraine!” in September 2022"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/jul/22/facebook-posts/theres-no-evidence-shooter-indiana-mall-was-cia-as/",
+            "Main Claim": "“The gunman at Greenwood Park Mall was a CIA asset.”",
+            "Truth-O-Meter": "False",
+            "Justification": "A gunman killed three people and wounded two others after firing into a crowd at a Greenwood, Indiana, shopping mall on July 17. An armed bystander returned fire and ended the mass shooting. Analysis of active shooter incidents shows that this rarely happens. There’s no evidence that the gunman at Greenwood Park Mall was a CIA asset or that the attack was a CIA operation.",
+            "Sources": [
+                "ActiveAttackData.org",
+                "The Associated Press",
+                "Cable News Network",
+                "Email exchange with Pete Blair",
+                "FBI",
+                "FOX 59",
+                "facebook-posts",
+                "Indianapolis Star",
+                "PolitiFact",
+                "Reuters",
+                "The New York Times",
+                "The Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“The gunman at Greenwood Park Mall was a CIA asset.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/apr/29/facebook-posts/grand-juries-determined-alleged-sex-trafficking-fr/",
+            "Main Claim": "The “Franklin scandal” broke in 1989 “when hundreds of children were apparently flown around the US to be abused by high ranking ‘Establishment’ members.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "Lurid claims about a child sex trafficking ring took hold in Omaha, Nebraska, in the late 1980s, but multiple grand juries found that the allegations were unfounded — \"a carefully crafted hoax.\"",
+            "Sources": [
+                "facebook-posts",
+                "The New York Times",
+                "The Associated Press",
+                "The Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "The “Franklin scandal” broke in 1989 “when hundreds of children were apparently flown around the US to be abused by high ranking ‘Establishment’ members.\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/apr/12/facebook-posts/theres-no-evidence-planes-sprayed-people-protestin/",
+            "Main Claim": "People protesting the Dakota Access pipeline “were intentionally poisoned” by government officials in North Dakota when a pilot “knowingly sprayed poisonous chemicals” over protesters’ camps.",
+            "Truth-O-Meter": "False",
+            "Justification": "During months-long protests in North Dakota that began in 2016 and persisted through 2017, thousands of protesters who opposed the Dakota Access pipeline clashed with security and police on several occasions. Protesters were pepper-sprayed, tear-gassed and doused with water in freezing temperatures. There is no evidence to suggest planes sprayed poisonous chemicals over the protesters’ camps. People who participated in the protests and officials have refuted these claims. The claims seem to stem from news of a private rancher’s illegal use of the rodenticide Rozol in 2016 in the same vicinity as the protests, in an attempt to kill prairie dogs. Researchers and state officials who studied the incident found no link to the protests or protester illnesses.",
+            "Sources": [
+                "ABC News",
+                "Al Jazeera English",
+                "The Associated Press",
+                "CBS News",
+                "Dallas Goldtooth’s Facebook post",
+                "Environmental Protection Agency",
+                "facebook-posts",
+                "KFYR West Dakota Fox",
+                "KVRR",
+                "Liphatech.com",
+                "NBC News",
+                "ND Response",
+                "National Public Radio",
+                "New York Magazine",
+                "The New York Times",
+                "PBS NewsHour",
+                "Reuters",
+                "Science Direct",
+                "The Bismarck Tribune",
+                "Guardian",
+                "The Intercept",
+                "The Seattle Times",
+                "The Washington Post",
+                "United Tribes Technical College research"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "People protesting the Dakota Access pipeline “were intentionally poisoned” by government officials in North Dakota when a pilot “knowingly sprayed poisonous chemicals” over protesters’ camps."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/jan/19/facebook-posts/woman-indicted-1983-capitol-bombing-not-black-live/",
+            "Main Claim": "A Black Lives Matter administrator was arrested in a 1983 bombing at the U.S. Capitol.",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "A left-wing group set off a bomb near the Senate chamber at the U.S. Capitol in 1983 and caused extensive damage. Susan Rosenberg was indicted in the bomb attack in 1988 while serving a prison sentence for possession of explosives, but charges were dropped in 1990 before trial. Rosenberg served on the board of directors for a nonprofit that did administrative work for the Black Lives Matter Global Network, but that arrangement ended in 2020.",
+            "Sources": [
+                "FBI",
+                "facebook-posts",
+                "Influence Watch",
+                "Newsweek",
+                "PolitiFact",
+                "Politico",
+                "ProPublica",
+                "Smithsonian Magazine",
+                "Snopes: \" Did a ‘Convicted Terrorist’ Sit on the Board of a BLM Funding Body?",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "Thousand Currents",
+                "Tides",
+                "U.S. Department of Justice",
+                "U.S. Senate"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "A Black Lives Matter administrator was arrested in a 1983 bombing at the U.S. Capitol."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/apr/27/facebook-posts/no-quarter-million-fraudulent-votes-werent-uncover/",
+            "Main Claim": "“A quarter of a million illegal votes found in Arizona’s audit.”",
+            "Truth-O-Meter": "False",
+            "Justification": "The company overseeing a Republican-backed audit of the presidential election results in Maricopa County, Arizona, has not released the results of its analysis. A former adviser to former President Donald Trump has speculated that there were about 250,000 possible illegal votes in the county.",
+            "Sources": [
+                "Arizona Republic",
+                "facebook-posts",
+                "PolitiFact",
+                "Politico",
+                "The Associated Press",
+                "The Immaculate Deception",
+                "The New York Times",
+                "The Washington Post",
+                "Worthypolitics.com",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“A quarter of a million illegal votes found in Arizona’s audit.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/jan/21/facebook-posts/how-bidens-executive-order-halting-keystone-xl-pip/",
+            "Main Claim": "\"By revoking the Keystone pipeline permit, Biden is destroying 11,000 jobs.”",
+            "Truth-O-Meter": "Half-True",
+            "Justification": "On his first day in office, President Joe Biden signed an executive order revoking the permit for the Keystone XL pipeline, halting its construction in the U.S. TC Energy Corp. said it will lay off \"thousands\" of union workers because of the order. The company’s president said the layoffs would number more than 1,000. TC Energy estimated in October that the pipeline would employ 11,000 Americans in 2021, generating more than $1.6 billion in wages. The pipeline provided far fewer permanent jobs.",
+            "Sources": [
+                "Alberta government",
+                "The Associated Press",
+                "Ballotpedia",
+                "CTV News",
+                "facebook-posts",
+                "Fox News Channel",
+                "JoeBiden.com",
+                "Keystone XL",
+                "PolitiFact",
+                "Rapid City Journal",
+                "TC Energy",
+                "The New York Times",
+                "The Wall Street Journal",
+                "The Washington Post",
+                "The White House",
+                "U.S. State Department",
+                "U.S. Supreme Court"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "\"By revoking the Keystone pipeline permit, Biden is destroying 11,000 jobs.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/18/facebook-posts/georgia-election-officials-found-more-2600-uncount/",
+            "Main Claim": "\"Voter FRAUD exposed in Georgia. Over 2600 votes 'FOUND.'\"",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "Election officials found more than 2,600 uncounted votes in Floyd County, Ga., northwest of Atlanta. Most of the votes favor President Donald Trump. Those uncounted ballots are not evidence of voter fraud in Georgia. State election officials said the mistake was due to human error. Georgia Secretary of State Brad Raffensperger, a Republican, has repeatedly said there is no evidence of fraud affecting the state’s presidential election results.",
+            "Sources": [
+                "AFP Fact Check",
+                "The Associated Press",
+                "Atlanta Journal-Constitution",
+                "CBS News",
+                "Email from Georgia Secretary of State Brad Raffensperger",
+                "Facebook Live video",
+                "Factcheck.org",
+                "Fox 5 Atlanta",
+                "Georgia Secretary of State",
+                "PolitiFact",
+                "The New York Times",
+                "The Washington Post",
+                "Tweet",
+                "USA Today",
+                "WSB-TV"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "\"Voter FRAUD exposed in Georgia. Over 2600 votes 'FOUND.'\""
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/11/facebook-posts/no-joe-bidens-leads-havent-disappeared-key-battleg/",
+            "Main Claim": "“Biden lead disappears in NV, AZ, GA, PA.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Major media organizations have projected Joe Biden as the winner of the 2020 presidential election. The media makes these calls every election year. Biden’s leads have not \"disappear(ed)\" in Nevada, Arizona, Georgia or Pennsylvania. When the ballots were counted, Biden received more votes than Trump.",
+            "Sources": [
+                "ABC News",
+                "CBS News",
+                "Cable News Network",
+                "Dave Wasserman on Twitter",
+                "Decision Desk HQ",
+                "Donald J. Trump on Twitter",
+                "facebook-posts",
+                "Fox News Channel",
+                "NBC News",
+                "PolitiFact",
+                "Reuters",
+                "The Associated Press",
+                "The New York Times",
+                "The Wall Street Journal",
+                "The Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“Biden lead disappears in NV, AZ, GA, PA.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/sep/17/facebook-posts/no-james-comey-and-john-brennan-havent-been-charge/",
+            "Main Claim": "“James Comey has 50 counts of TREASON. And John Brennan has 48 counts of TREASON.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Former FBI Director James Comey and former CIA Director John Brennan have not been charged with treason.",
+            "Sources": [
+                "facebook-posts",
+                "Newsweek",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“James Comey has 50 counts of TREASON. And John Brennan has 48 counts of TREASON.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/sep/10/facebook-posts/antifa-activists-did-not-start-west-coast-wildfire/",
+            "Main Claim": "Most of the wildfires on the West Coast are “all being started by antifa.”",
+            "Truth-O-Meter": "False",
+            "Justification": "A combination of drought, historic heat, lightning storms and heavy winds are thought to have contributed to more than 90 wildfires that have burned thousands of square miles across the West Coast. Antifa stands for \"anti-fascist.\" It’s a loose, broad coalition of left-wing activists. There is no evidence that antifa supporters set wildfires in California, Oregon and Washington. Police and fire officials have dispelled rumors about antifa, and while investigations are still ongoing, many of the wildfires appear to have been sparked accidentally.",
+            "Sources": [
+                "Cal Fire",
+                "Center for Disaster Philanthropy",
+                "facebook-posts",
+                "Fox News Channel",
+                "Interview with Sean McFadden",
+                "Los Angeles Times",
+                "National Interagency Coordination Center Incident Management Situation Report",
+                "PolitiFact",
+                "Siuslaw News",
+                "The Associated Press",
+                "The Columbian",
+                "The Deseret News",
+                "The Mercury News",
+                "The New York Times",
+                "The Oregonian",
+                "The Seattle Times",
+                "The Statesman Journal",
+                "The Washington Post",
+                "Tweet",
+                "USA Today"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Most of the wildfires on the West Coast are “all being started by antifa.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/aug/17/facebook-posts/no-kamala-harris-didnt-say-about-guns/",
+            "Main Claim": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”",
+            "Truth-O-Meter": "False",
+            "Justification": "• There is no evidence Sen. Kamala Harris ever said this.• When she was a candidate for the Democratic presidential nomination, Harris pledged to act on gun control within 100 days of being in office, but she did not say she would sign an executive order if elected that would force people to surrender their guns.• Other fact-checking organizations have debunked this claim.",
+            "Sources": [
+                "The Associated Press",
+                "CBS News",
+                "Cable News Network",
+                "CNN Politics",
+                "Factcheck.org",
+                "Law Enforcement Today",
+                "The New York Times",
+                "Snopes.com",
+                "The Washington Post",
+                "USA Today",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/aug/06/facebook-posts/qanon-conspiracy-theorists-seek-link-beirut-blast-/",
+            "Main Claim": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”",
+            "Truth-O-Meter": "False",
+            "Justification": "An explosion at the port of Beirut was said to have occurred at a warehouse. Lebanese authorities have attributed it to the detonation of ammonium nitrate. There is no evidence as of this writing that the blast was premeditated. The Central Bank of Lebanon is located a few miles away from the site of the explosion. It has financial autonomy and gets its capital from the state, according to its website. The Rothschilds, the influential European banking family, have been a target of anti-Semitic conspiracies for centuries, including recently by QAnon groups. There is no evidence that they had anything to do with the Beirut explosion.",
+            "Sources": [
+                "British Broadcasting Corporation",
+                "Banque du Liban",
+                "Cable News Network",
+                "facebook-posts",
+                "General Michael Aoun on Twitter",
+                "Global News on YouTube",
+                "PolitiFact",
+                "Politico",
+                "Reuters",
+                "Rothschild & Co",
+                "South African Reserve Bank",
+                "The Associated Press",
+                "The Federal Reserve Board",
+                "The New York Times",
+                "The Washington Post",
+                "United States Geological Survey",
+                "Various searches on Google Maps"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/jul/31/facebook-posts/herman-cain-died-covid-19-not-cancer/",
+            "Main Claim": "Says Herman Cain died of cancer, not COVID-19.",
+            "Truth-O-Meter": "False",
+            "Justification": "Herman Cain died of complications from COVID-19 on July 30. In 2006, he was diagnosed with Stage 4 colon cancer, which spread to his liver, but he recovered and went on to run for president in 2012.",
+            "Sources": [
+                "facebook-posts",
+                "HermanCain.com",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "The White House",
+                "Tweet"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Says Herman Cain died of cancer, not COVID-19."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/feb/19/facebook-posts/conspiracy-buttigieg-never-served-military-pants-f/",
+            "Main Claim": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Buttigieg was a Navy intelligence officer in Afghanistan for six months. There are several photos of him in uniform and accounts of his service online. A false conspiracy alleging he never served in the military originated on a fringe internet platform known for disinformation and hate speech.",
+            "Sources": [
+                "ABC 57",
+                "ABC News",
+                "Advance Indiana",
+                "The Associated Press",
+                "Cable News Network",
+                "facebook-posts",
+                "Interview with the U.S. Navy",
+                "Mayor Pete Military Records - Redacted",
+                "Military.com",
+                "PolitiFact",
+                "South Bend Tribune",
+                "The New York Times",
+                "The Washington Post",
+                "Thread",
+                "Tweet",
+                "USA Today",
+                "Vox Media"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2019/nov/15/facebook-posts/viral-post-says-democrats-spent-40-million-impeach/",
+            "Main Claim": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "N/A",
+            "Sources": [
+                "The Associated Press",
+                "Bureau of Labor Statistics",
+                "CBS News",
+                "Cable News Network",
+                "Email interview with Steve Ellis",
+                "Emailed comments from Chris Edwards",
+                "Emailed comments from Matt Gardner",
+                "facebook-posts",
+                "House.gov",
+                "LegiStorm",
+                "PolitiFact",
+                "Politico",
+                "The Daily Mail",
+                "The New York Times",
+                "The Washington Post",
+                "Twitter Advanced Search",
+                "U.S. Department of Justice",
+                "YouTube"
+            ],
+            "source_claims": {
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\""
+            }
+        }
+    ]
+}

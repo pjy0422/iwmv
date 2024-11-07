@@ -34,6 +34,7 @@ NON_ENGLISH_EDITIONS = [
     # Add more non-English editions as needed
 ]
 
+
 def get_listing_url(base_url, page_number, speaker):
     """
     Generate a single listing URL based on the page number and speaker.
@@ -196,6 +197,34 @@ def extract_editions(article_soup):
     return editions
 
 
+def extract_justification(article_soup):
+    """
+    Extract the justification from the 'short-on-time' section of the article.
+
+    Parameters:
+        article_soup (BeautifulSoup): Parsed HTML of the article page.
+
+    Returns:
+        str or None: The justification text, or None if not found.
+    """
+    justification_div = article_soup.find("div", class_="short-on-time")
+    if justification_div:
+        # Attempt to extract text from list items
+        list_items = justification_div.find_all("li")
+        if list_items:
+            # Join all list item texts into a single string
+            justification_text = " ".join([li.get_text(strip=True) for li in list_items])
+            return justification_text
+        else:
+            # If no list items, extract the direct text
+            justification_text = justification_div.get_text(strip=True)
+            return justification_text
+    else:
+        # Log if 'short-on-time' section is not found
+        logging.error("No 'short-on-time' section found in the article.")
+        return None
+
+
 async def fetch(session, url):
     """
     Asynchronously fetch the content of a URL.
@@ -220,7 +249,7 @@ async def fetch(session, url):
 
 async def process_article(session, url, processed_articles, speaker):
     """
-    Process a single article URL to extract unique sources, main claim, and Truth-O-Meter.
+    Process a single article URL to extract unique sources, main claim, Truth-O-Meter, and justification.
 
     Parameters:
         session (aiohttp.ClientSession): The HTTP session to use.
@@ -269,13 +298,17 @@ async def process_article(session, url, processed_articles, speaker):
     # Extract Truth-O-Meter rating
     truth_o_meter = extract_truth_o_meter(article_soup)
 
-    if sources or main_claim or truth_o_meter:
+    # Extract justification
+    justification = extract_justification(article_soup)
+
+    if sources or main_claim or truth_o_meter or justification:
         processed_articles.add(url)
         return {
             "Speaker": speaker,  # Added Speaker field
             "Article URL": url,
             "Main Claim": main_claim if main_claim else "N/A",
             "Truth-O-Meter": truth_o_meter if truth_o_meter else "N/A",
+            "Justification": justification if justification else "N/A",
             "Sources": sorted(sources) if sources else []
         }
     else:
@@ -384,7 +417,7 @@ async def main(speaker):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Scrape unique sources, main claims, and Truth-O-Meter ratings from PolitiFact fact-check articles for a given speaker."
+        description="Scrape unique sources, main claims, Truth-O-Meter ratings, and justifications from PolitiFact fact-check articles for a given speaker."
     )
     parser.add_argument(
         "speaker",

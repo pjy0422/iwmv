@@ -1,0 +1,281 @@
+{
+    "Combination": [
+        "Cable News Network",
+        "The Associated Press",
+        "The New York Times",
+        "The Washington Post",
+        "facebook-posts"
+    ],
+    "Matched Articles": [
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jun/21/facebook-posts/claim-about-cristiano-ronaldo-and-rainbow-armbands/",
+            "Main Claim": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020.",
+            "Truth-O-Meter": "False",
+            "Justification": "There is evidence that three team captains — from Germany, England, and Denmark — wore rainbow or pro-LGBTQ+ armbands during this tournament, which included 24 teams. Germany’s captain, Manuel Neuer, was briefly investigated by the Union of European Football Associations for his rainbow armband. Cristiano Ronaldo was among many other captains who wore normal armbands.",
+            "Sources": [
+                "Axios",
+                "Cable News Network",
+                "ESPN",
+                "ESPN. \" Why FIFA banned LGBTQ OneLove armband at the World Cup",
+                "Email interview with UEFA spokesperson",
+                "facebook-posts",
+                "Firstpost",
+                "Forbes",
+                "KNVB",
+                "Reuters",
+                "SkySports",
+                "The Associated Press",
+                "The Athletic",
+                "Guardian",
+                "The Independent",
+                "The New York Times",
+                "The Washington Post",
+                "Time Magazine",
+                "UEFA",
+                "X post"
+            ],
+            "source_claims": {
+                "Cable News Network": "",
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020."
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/apr/02/facebook-posts/baltimore-bridge-collapse-federal-state-officials/",
+            "Main Claim": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Federal and Maryland officials have said there is no credible evidence the Dali ship’s collision with the Francis Scott Key Bridge in Baltimore was intentional. Officials have called it \"an accident.\" Preliminary reports show the ship’s crew made efforts to slow the vessel and prevent contact with the bridge. The pilot also issued a mayday call to stop traffic on the bridge. No spin, just facts you can trust.Here’s how we do it.",
+            "Sources": [
+                "Cable News Network",
+                "Facebook reel",
+                "Instagram reel",
+                "National Transportation Safety Board Newsroom",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "YouTube"
+            ],
+            "source_claims": {
+                "Cable News Network": "",
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/15/facebook-posts/no-pope-putin-and-xi-didnt-meet-plan-world-events/",
+            "Main Claim": "“The pope, Xi and Putin all meet to plan world events!”",
+            "Truth-O-Meter": "False",
+            "Justification": "Trips by the pope and Chinese President Xi Jinping to Kazakhstan overlapped, but the men weren’t expected to meet. Xi met separately with Russian President Vladimir Putin this week in Uzbekistan.",
+            "Sources": [
+                "Cable News Network",
+                "facebook-posts",
+                "Le Monde",
+                "The New York Times",
+                "The Associated Press",
+                "The Washington Post",
+                "Vatican News"
+            ],
+            "source_claims": {
+                "Cable News Network": "",
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“The pope, Xi and Putin all meet to plan world events!”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/jul/22/facebook-posts/theres-no-evidence-shooter-indiana-mall-was-cia-as/",
+            "Main Claim": "“The gunman at Greenwood Park Mall was a CIA asset.”",
+            "Truth-O-Meter": "False",
+            "Justification": "A gunman killed three people and wounded two others after firing into a crowd at a Greenwood, Indiana, shopping mall on July 17. An armed bystander returned fire and ended the mass shooting. Analysis of active shooter incidents shows that this rarely happens. There’s no evidence that the gunman at Greenwood Park Mall was a CIA asset or that the attack was a CIA operation.",
+            "Sources": [
+                "ActiveAttackData.org",
+                "The Associated Press",
+                "Cable News Network",
+                "Email exchange with Pete Blair",
+                "FBI",
+                "FOX 59",
+                "facebook-posts",
+                "Indianapolis Star",
+                "PolitiFact",
+                "Reuters",
+                "The New York Times",
+                "The Washington Post"
+            ],
+            "source_claims": {
+                "Cable News Network": "",
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“The gunman at Greenwood Park Mall was a CIA asset.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/nov/11/facebook-posts/no-joe-bidens-leads-havent-disappeared-key-battleg/",
+            "Main Claim": "“Biden lead disappears in NV, AZ, GA, PA.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Major media organizations have projected Joe Biden as the winner of the 2020 presidential election. The media makes these calls every election year. Biden’s leads have not \"disappear(ed)\" in Nevada, Arizona, Georgia or Pennsylvania. When the ballots were counted, Biden received more votes than Trump.",
+            "Sources": [
+                "ABC News",
+                "CBS News",
+                "Cable News Network",
+                "Dave Wasserman on Twitter",
+                "Decision Desk HQ",
+                "Donald J. Trump on Twitter",
+                "facebook-posts",
+                "Fox News Channel",
+                "NBC News",
+                "PolitiFact",
+                "Reuters",
+                "The Associated Press",
+                "The New York Times",
+                "The Wall Street Journal",
+                "The Washington Post"
+            ],
+            "source_claims": {
+                "Cable News Network": "",
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“Biden lead disappears in NV, AZ, GA, PA.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/aug/17/facebook-posts/no-kamala-harris-didnt-say-about-guns/",
+            "Main Claim": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”",
+            "Truth-O-Meter": "False",
+            "Justification": "• There is no evidence Sen. Kamala Harris ever said this.• When she was a candidate for the Democratic presidential nomination, Harris pledged to act on gun control within 100 days of being in office, but she did not say she would sign an executive order if elected that would force people to surrender their guns.• Other fact-checking organizations have debunked this claim.",
+            "Sources": [
+                "The Associated Press",
+                "CBS News",
+                "Cable News Network",
+                "CNN Politics",
+                "Factcheck.org",
+                "Law Enforcement Today",
+                "The New York Times",
+                "Snopes.com",
+                "The Washington Post",
+                "USA Today",
+                "YouTube"
+            ],
+            "source_claims": {
+                "Cable News Network": "",
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/aug/06/facebook-posts/qanon-conspiracy-theorists-seek-link-beirut-blast-/",
+            "Main Claim": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”",
+            "Truth-O-Meter": "False",
+            "Justification": "An explosion at the port of Beirut was said to have occurred at a warehouse. Lebanese authorities have attributed it to the detonation of ammonium nitrate. There is no evidence as of this writing that the blast was premeditated. The Central Bank of Lebanon is located a few miles away from the site of the explosion. It has financial autonomy and gets its capital from the state, according to its website. The Rothschilds, the influential European banking family, have been a target of anti-Semitic conspiracies for centuries, including recently by QAnon groups. There is no evidence that they had anything to do with the Beirut explosion.",
+            "Sources": [
+                "British Broadcasting Corporation",
+                "Banque du Liban",
+                "Cable News Network",
+                "facebook-posts",
+                "General Michael Aoun on Twitter",
+                "Global News on YouTube",
+                "PolitiFact",
+                "Politico",
+                "Reuters",
+                "Rothschild & Co",
+                "South African Reserve Bank",
+                "The Associated Press",
+                "The Federal Reserve Board",
+                "The New York Times",
+                "The Washington Post",
+                "United States Geological Survey",
+                "Various searches on Google Maps"
+            ],
+            "source_claims": {
+                "Cable News Network": "",
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/feb/19/facebook-posts/conspiracy-buttigieg-never-served-military-pants-f/",
+            "Main Claim": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Buttigieg was a Navy intelligence officer in Afghanistan for six months. There are several photos of him in uniform and accounts of his service online. A false conspiracy alleging he never served in the military originated on a fringe internet platform known for disinformation and hate speech.",
+            "Sources": [
+                "ABC 57",
+                "ABC News",
+                "Advance Indiana",
+                "The Associated Press",
+                "Cable News Network",
+                "facebook-posts",
+                "Interview with the U.S. Navy",
+                "Mayor Pete Military Records - Redacted",
+                "Military.com",
+                "PolitiFact",
+                "South Bend Tribune",
+                "The New York Times",
+                "The Washington Post",
+                "Thread",
+                "Tweet",
+                "USA Today",
+                "Vox Media"
+            ],
+            "source_claims": {
+                "Cable News Network": "",
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”"
+            }
+        },
+        {
+            "Speaker": "facebook-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2019/nov/15/facebook-posts/viral-post-says-democrats-spent-40-million-impeach/",
+            "Main Claim": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "N/A",
+            "Sources": [
+                "The Associated Press",
+                "Bureau of Labor Statistics",
+                "CBS News",
+                "Cable News Network",
+                "Email interview with Steve Ellis",
+                "Emailed comments from Chris Edwards",
+                "Emailed comments from Matt Gardner",
+                "facebook-posts",
+                "House.gov",
+                "LegiStorm",
+                "PolitiFact",
+                "Politico",
+                "The Daily Mail",
+                "The New York Times",
+                "The Washington Post",
+                "Twitter Advanced Search",
+                "U.S. Department of Justice",
+                "YouTube"
+            ],
+            "source_claims": {
+                "Cable News Network": "",
+                "The Associated Press": "",
+                "The New York Times": "",
+                "The Washington Post": "",
+                "facebook-posts": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\""
+            }
+        }
+    ]
+}
