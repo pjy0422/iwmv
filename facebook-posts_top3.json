@@ -669,7 +669,7 @@
         {
             "Speaker": "facebook-posts",
             "Article URL": "https://www.politifact.com/factchecks/2023/jul/18/facebook-posts/target-has-no-evil-agenda-images-are-creator-havin/",
-            "Main Claim": "Photos show Target is pushing \"evil agenda\" on kids.",
+            "Main Claim": "Photos show retail chain Target is pushing \"evil agenda\" on kids.",
             "Truth-O-Meter": "False",
             "Justification": "A digital creator used generative artificial intelligence to create images of occult-themed merchandise and store displays at the retailer Target. The images were created to \"mock\" people who boycotted the store, believing it was selling satanic clothing, the creator said in a Facebook comment.",
             "Sources": [
@@ -716,13 +716,13 @@
             "source_claims": [
                 {
                     "source": "The Associated Press",
-                    "claim": "",
-                    "url": ""
+                    "claim": "Several human rights organizations are concerned about Open Society Foundations plans to lay off 40% of their global staff — the nonprofit’s second major cut in three years — as billionaire investor George Soros hands over leadership to his son. The news outlet didn’t hint that neither the nonprofit nor Soros is on the verge of bankruptcy.",
+                    "url": "https://apnews.com/article/george-soros-open-society-foundations-layoffs-5da856adc82b4de8dfe6a74d81b9c4e4"
                 },
                 {
                     "source": "The New York Times",
-                    "claim": "",
-                    "url": ""
+                    "claim": "After decades running one of the most prominent and politically active financial empires, George Soros is handing the reins of his $25 billion Open Society Foundations to his son Alex, the grant-making network confirmed on Monday.",
+                    "url": "https://www.nytimes.com/2023/06/12/business/dealbook/george-soros-alex-foundation.html"
                 },
                 {
                     "source": "facebook-posts",
@@ -756,8 +756,8 @@
             "source_claims": [
                 {
                     "source": "The Associated Press",
-                    "claim": "",
-                    "url": ""
+                    "claim": "The Bill & Melinda Gates Foundation doesn’t finance any modified mosquito release projects in the U.S. And experts say the types of mosquitoes that are used for that initiative in Florida are not capable of transmitting malaria.",
+                    "url": "https://apnews.com/article/fact-check-bill-gates-oxitec-mosquitoes-malaria-cases-106569617546"
                 },
                 {
                     "source": "The New York Times",
@@ -791,13 +791,13 @@
             "source_claims": [
                 {
                     "source": "The Associated Press",
-                    "claim": "",
-                    "url": ""
+                    "claim": "The U.S. Coast Guard, which is leading a search for the submersible, has not released any audio related to these efforts, a spokesperson for the military branch told The Associated Press. Underwater sounds described as “banging noises” were detected in the search area by a Canadian aircraft, but the Coast Guard now says they were likely unrelated to the missing submersible. An audio clip circulating on social media does not sound authentic, an ocean acoustics expert told The Associated Press.",
+                    "url": "https://apnews.com/ap-fact-check/coast-guard-did-not-release-audio-of-noises-from-its-search-for-the-titanic-bound-submersible-00000188e55dd582afdeff7d82590000"
                 },
                 {
                     "source": "The New York Times",
-                    "claim": "",
-                    "url": ""
+                    "claim": "Search teams picked up underwater banging noises, but they did not appear to have any relation to the submersible’s wreckage, Rear Adm. John Mauger of the U.S. Coast Guard said at a news conference on Thursday. He said a debris field found on the surface led to the discovery of the Titan’s tail cone and other pieces on the ocean floor Thursday morning, about 1,600 feet from the bow of the Titanic wreck.",
+                    "url": "https://www.nytimes.com/2023/06/20/us/missing-submarine-titanic-search.html"
                 },
                 {
                     "source": "facebook-posts",
@@ -880,13 +880,13 @@
             "source_claims": [
                 {
                     "source": "The Associated Press",
-                    "claim": "",
-                    "url": ""
+                    "claim": "A judge on Monday dismissed the only remaining legal claim in Republican Kari Lake’s challenge of her loss in last year’s race for Arizona governor, affirming the election of Democrat Katie Hobbs. Maricopa County Superior Court Judge Peter A. Thompson said Lake failed to prove her claim that Maricopa County did not verify signatures on mail ballots as required by law.",
+                    "url": "https://apnews.com/article/arizona-kari-lake-election-challenge-3a72275e94ed966cd5051c41f44abb95"
                 },
                 {
                     "source": "The New York Times",
-                    "claim": "",
-                    "url": ""
+                    "claim": "An Arizona judge threw out a lawsuit filed by Kari Lake over her defeat in last year’s race for governor, ruling that she had failed to prove that the state’s most populous county, Maricopa, had neglected to review voters’ signatures on mail-in ballot envelopes.",
+                    "url": "https://www.nytimes.com/2023/05/23/us/politics/kari-lake-lawsuit-thrown-out.html"
                 },
                 {
                     "source": "facebook-posts",
@@ -953,17 +953,17 @@
             "source_claims": [
                 {
                     "source": "The Associated Press",
-                    "claim": "",
-                    "url": ""
+                    "claim": "Former President Donald Trump getting gang-tackled by riot-gear-clad New York City police officers. Russian President Vladimir Putin in prison grays behind the bars of a dimly lit concrete cell. The highly detailed, sensational images have inundated Twitter and other platforms in recent days, amid news that Trump faces possible criminal charges and the International Criminal Court has issued an arrest warrant for Putin. But neither visual is remotely real. The images — and scores of variations littering social media — were produced using increasingly sophisticated and widely accessible image generators powered by artificial intelligence. Misinformation experts warn the images are harbingers of a new reality: waves of fake photos and videos flooding social media after major news events and further muddying fact and fiction at crucial times for society.",
+                    "url": "https://apnews.com/article/ai-misinformation-trump-putin-new-york-42ac9c41c5504d05412b492e48bcaded"
                 },
                 {
                     "source": "The New York Times",
-                    "claim": "",
-                    "url": ""
+                    "claim": "The International Criminal Court on Friday issued an arrest warrant for war crimes for President Vladimir V. Putin and a second Russian official. Here’s a closer look at the court, the warrant and what it could mean for Russia’s leader. The court has no power to arrest sitting heads of state or bring them to trial, and instead must rely on other leaders and governments to act as its sheriffs around the world. A suspect who manages to evade capture may never have a hearing to confirm the charges.",
+                    "url": "https://www.nytimes.com/2023/03/17/world/europe/putin-icc-arrest-warrant-war-crimes.html"
                 },
                 {
                     "source": "facebook-posts",
-                    "claim": "Images show “Putin has been arrested.”",
+                    "claim": "Video shows Ukraine was “nuked.”",
                     "url": ""
                 }
             ]
@@ -992,13 +992,13 @@
             "source_claims": [
                 {
                     "source": "The Associated Press",
-                    "claim": "",
-                    "url": ""
+                    "claim": "HAARP has an image problem that’s proving hard to shake. Short for High-frequency Active Auroral Research Program, HAARP has been the subject of conspiracy theories ever since the U.S. military started building it in the early 1990s.",
+                    "url": "https://apnews.com/general-news-b044592a89b14171b50d2f5e9d4b4a6c"
                 },
                 {
                     "source": "The New York Times",
-                    "claim": "",
-                    "url": ""
+                    "claim": "The major earthquake and large aftershock in Turkey on Monday are two of more than 70 quakes of magnitude 6.5 or higher recorded in the region since 1900. Turkey’s two main fault zones — the East Anatolian and the North Anatolian — make it one of the most seismically active regions in the world. These fault zones are a result of movement of large portions of Earth’s crust, or tectonic plates, relative to each other. One zone includes the Anatolian Plate, which makes up most of Turkey.",
+                    "url": "https://www.nytimes.com/interactive/2023/02/06/world/turkey-earthquake-faultlines.html"
                 },
                 {
                     "source": "facebook-posts",
@@ -1026,13 +1026,13 @@
             "source_claims": [
                 {
                     "source": "The Associated Press",
-                    "claim": "",
-                    "url": ""
+                    "claim": "Grant Wahl died of an aneurysm in his heart while covering a World Cup match this past weekend, according to an autopsy of the well-known American soccer writer. Wahl's wife, Dr. Celine Gounder, said Wednesday that an autopsy was conducted by the New York City Medical Examiner's Office. Grant died from the rupture of a slowly growing, undetected ascending aortic aneurysm with hemopericardium, she wrote on her husband's Substack newsletter; hemopericardium refers to blood in the sac that surrounds the heart. The chest pressure he experienced shortly before his death may have represented the initial symptoms. No amount of CPR or shocks would have saved him. His death was unrelated to COVID. His death was unrelated to vaccination status. There was nothing nefarious about his death.",
+                    "url": "https://www.espn.com/soccer/story/_/id/37634826/soccer-journalist-grant-wahl-died-undetected-aortic-aneurysm-wife"
                 },
                 {
                     "source": "The New York Times",
-                    "claim": "",
-                    "url": ""
+                    "claim": "Grant Wahl, the celebrated soccer journalist who died suddenly last week at the World Cup in Qatar, had a rupture in a blood vessel leading from the heart, his family announced on Wednesday. Mr. Wahl’s wife, Dr. Celine Gounder, is a leading infectious disease physician who rose to prominence during the coronavirus pandemic and advised President Biden’s transition team on Covid-19. She and the rest of the family rejected, in particular, the speculation linking his death to vaccines, saying that it was especially insulting because of her work.",
+                    "url": "https://www.nytimes.com/2022/12/14/health/grant-wahl-death.html"
                 },
                 {
                     "source": "facebook-posts",
