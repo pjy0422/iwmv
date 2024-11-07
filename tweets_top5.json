@@ -1,0 +1,324 @@
+{
+    "Combination": [
+        "CBS News",
+        "NBC News",
+        "The Associated Press",
+        "The New York Times",
+        "tweets"
+    ],
+    "Matched Articles": [
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/nov/03/tweets/this-video-about-ballot-fraud-is-not-from-the-fbi/",
+            "Main Claim": "Video shows the FBI reported that “three linked groups have been apprehended for rigging early voting by mail-in ballot.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "N/A",
+            "Sources": [
+                "The Associated Press",
+                "Antibot4Navalny",
+                "British Broadcasting Corporation",
+                "CBS News",
+                "Eliot Higgins",
+                "Email interview",
+                "FBI",
+                "Justice Department",
+                "NBC News",
+                "The New York Times",
+                "PolitiFact",
+                "X post from suspended account"
+            ],
+            "source_claims": [
+                {
+                    "source": "CBS News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "NBC News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Video shows the FBI reported that “three linked groups have been apprehended for rigging early voting by mail-in ballot.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/sep/26/tweets/picture-of-boarded-up-windows-is-from-2023-florida/",
+            "Main Claim": "Image of people boarding up a window shows Michigan election officials are “preparing to steal this election”",
+            "Truth-O-Meter": "False",
+            "Justification": "This photo was taken in Tampa, Florida, in 2023, ahead of Hurricane Idalia.",
+            "Sources": [
+                "CBS News",
+                "Cable News Network",
+                "Email interview with Angela Benander",
+                "Email interview with Vance Patrick",
+                "Getty Images",
+                "Michigan Courts",
+                "NBC News",
+                "Newsweek",
+                "PolitiFact",
+                "The Associated Press",
+                "The Detroit Free Press",
+                "Guardian",
+                "The New York Times",
+                "USA Today",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "CBS News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "NBC News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Image of people boarding up a window shows Michigan election officials are “preparing to steal this election”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jul/24/tweets/no-evidence-links-rep-sheila-jackson-lees-death-to/",
+            "Main Claim": "The death of Rep. Sheila Jackson Lee, D-Texas, six days after the Trump rally shooting was linked to her “oversight of the Secret Service.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Rep. Sheila Jackson Lee, D-Texas, died July 19 at age 74. Although a cause of death has not been publicly reported, Jackson Lee said in June that she had been diagnosed with pancreatic cancer. We searched using Google and Nexis and found no reliable news reports connecting Jackson Lee's death to Secret Service oversight work or the Trump rally shooting. During July 22 congressional testimony, then-Secret Service Director Kimberly Cheatle offered lawmakers condolences for Jackson Lee’s death. That sparked claims linking Jackson Lee’s death to oversight of the U.S. Secret Service.",
+            "Sources": [
+                "AFP Fact Check",
+                "CBS News",
+                "Cable News Network",
+                "Congresswoman Sheila Jackson Lee’s website",
+                "facebook-posts",
+                "Houston Landing",
+                "instagram-posts",
+                "NBC News",
+                "NewsGuard",
+                "PolitiFact",
+                "Post",
+                "Rep. Sheila Jackson Lee’s Family’s post",
+                "Rep. Sheila Jackson Lee’s Office’s post",
+                "The Associated Press",
+                "The New Republic",
+                "The New York Times",
+                "The Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "CBS News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "NBC News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "The death of Rep. Sheila Jackson Lee, D-Texas, six days after the Trump rally shooting was linked to her “oversight of the Secret Service.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jan/26/tweets/dean-phillips-didnt-win-the-nh-primary-he-said-so/",
+            "Main Claim": "“Rep. Dean Phillips received almost twice as many votes as Biden did in the New Hampshire primary.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Rep. Dean Phillips, D-Minn., got about 24,000 votes in the New Hampshire Democratic primary. President Biden got more than 79,000. President Biden did not appear on the ballot because of a disagreement between the state and national Democratic Party, but a widespread campaign was organized for Biden as a write-in candidate. There is no evidence of large-scale election fraud in the 2024 New Hampshire primary.",
+            "Sources": [
+                "Boston Globe",
+                "CBS News",
+                "Email interview with Anna Sventek",
+                "Email interview with Bradford E. Cook",
+                "Email interview with Emma Steiner",
+                "Justia",
+                "NBC News",
+                "New Hampshire Secretary of State",
+                "PBS NewsHour",
+                "PolitiFact",
+                "Substack",
+                "The Associated Press",
+                "The New York Times",
+                "USA Today",
+                "WBUR",
+                "WMUR",
+                "X post",
+                "X profile"
+            ],
+            "source_claims": [
+                {
+                    "source": "CBS News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "NBC News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "“Rep. Dean Phillips received almost twice as many votes as Biden did in the New Hampshire primary.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/apr/12/tweets/fact-checking-the-false-claim-that-oj-simpson-post/",
+            "Main Claim": "An X post that said, “I did it” was “the last thing O.J. Simpson tweeted before he passed.”",
+            "Truth-O-Meter": "False",
+            "Justification": "O.J. Simpson’s family announced that Simpson, a Pro Football Hall of Famer, actor and celebrity product pitcher, died of cancer on April 10. After a high-profile televised criminal trial, Simpson was acquitted of the 1994 murders of his ex-wife Nicole Brown Simpson and her friend Ron Goldman. In 1997, he was found liable for their deaths in a civil trial. Simpson maintained his innocence in the case and we found no reputable reports that he posted a confession on X before his death. Learn more about PolitiFact’sfact-checking process and rating system.",
+            "Sources": [
+                "ABC News",
+                "Business Insider",
+                "CBS News",
+                "Forbes",
+                "NBC News",
+                "National Public Radio",
+                "O.J. Simpson X post",
+                "O.J. Simpson’s X profile",
+                "Post",
+                "Reuters",
+                "Sports Illustrated",
+                "The Associated Press",
+                "The Independent",
+                "The New York Times",
+                "The Washington Post",
+                "Variety"
+            ],
+            "source_claims": [
+                {
+                    "source": "CBS News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "NBC News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "An X post that said, “I did it” was “the last thing O.J. Simpson tweeted before he passed.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/mar/27/tweets/warning-to-russia-about-a-terror-attack-doesnt-mea/",
+            "Main Claim": "A March 7 U.S. security alert … means the U.S. was “behind this gruesome terror attack on Russian civilians.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "The Islamic State claimed responsibility for the Moscow concert hall attacks. The U.S. warned Russia about the terror attack as part of a long-standing policy to alert other nations — even adversaries — about credible threats. The advance warning is not evidence that the U.S. perpetrated the attack. No spin, just facts you can trust.Here's how we do it.",
+            "Sources": [
+                "ABC News",
+                "British Broadcasting Corporation",
+                "CBS News",
+                "Cable News Network",
+                "Email interview with Cortney Weinbaum",
+                "Email interview with Geoffrey S. Corn",
+                "Email interview with Paul R. Pillar of the Georgetown University’s Center for Security Studies",
+                "NBC News",
+                "National Public Radio",
+                "Office of the Director of National Intelligence",
+                "Reuters",
+                "The Associated Press",
+                "The New York Times",
+                "The Times of Israel",
+                "The White House",
+                "U.S. Department of Justice Office of the Inspector General",
+                "U.S. Embassy and Consulates in Russia",
+                "Voice of America",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "CBS News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "NBC News",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "A March 7 U.S. security alert … means the U.S. was “behind this gruesome terror attack on Russian civilians.”",
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}

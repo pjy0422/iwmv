@@ -1,0 +1,789 @@
+{
+    "Combination": [
+        "The Associated Press",
+        "X post",
+        "tweets"
+    ],
+    "Matched Articles": [
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/sep/16/tweets/claims-that-an-apparent-assassination-attempt-agai/",
+            "Main Claim": "The apparent assassination attempt against former President Donald Trump on Sept. 15, 2024, was “staged.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Authorities arrested 58-year-old Ryan Wesley Routh on Sept. 15, whom they said pointed a gun through the fence at Trump International Golf Club in West Palm Beach, Florida, where former President Donald Trump was golfing. The FBI said it is investigating the event as \"what appears to be an assassination attempt\" against Trump. The investigation is ongoing, but neither the FBI nor local authorities have said it was staged. Authorities recovered evidence, including an AK-47-style rifle, from a spot along the fence surrounding Trump’s golf course. The suspect has been arrested and charged with two federal gun crimes.",
+            "Sources": [
+                "Donald Trump",
+                "FBI",
+                "Fox News Channel",
+                "Getty Images",
+                "instagram-posts",
+                "PolitiFact",
+                "Team Trump",
+                "The Associated Press",
+                "The Washington Post",
+                "U.S. District Court Southern District of Florida",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "The apparent assassination attempt against former President Donald Trump on Sept. 15, 2024, was “staged.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/sep/26/tweets/picture-of-boarded-up-windows-is-from-2023-florida/",
+            "Main Claim": "Image of people boarding up a window shows Michigan election officials are “preparing to steal this election”",
+            "Truth-O-Meter": "False",
+            "Justification": "This photo was taken in Tampa, Florida, in 2023, ahead of Hurricane Idalia.",
+            "Sources": [
+                "CBS News",
+                "Cable News Network",
+                "Email interview with Angela Benander",
+                "Email interview with Vance Patrick",
+                "Getty Images",
+                "Michigan Courts",
+                "NBC News",
+                "Newsweek",
+                "PolitiFact",
+                "The Associated Press",
+                "The Detroit Free Press",
+                "Guardian",
+                "The New York Times",
+                "USA Today",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Image of people boarding up a window shows Michigan election officials are “preparing to steal this election”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/aug/21/tweets/american-flag-wasnt-missing-at-the-dnc/",
+            "Main Claim": "The American flag is missing from the Democratic National Convention in Chicago.",
+            "Truth-O-Meter": "False",
+            "Justification": "Images show there were at least six flags onstage the first day of the Democratic National Convention.",
+            "Sources": [
+                "PolitiFact",
+                "The Associated Press",
+                "TikTok post",
+                "X post",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "The American flag is missing from the Democratic National Convention in Chicago.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/sep/29/tweets/video-compilation-doesnt-show-deadly-airstrikes-on/",
+            "Main Claim": "Video shows “the bunker-busting bombs that ended the lives of (Hassan) Nasrallah and Hezbollah’s leadership.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Hezbollah leader Hassan Nasrallah was killed at night in an Israeli airstrike Sept. 27 in a Beirut, Lebanon, suburb. Social media videos that claim to show Israeli bombs striking buildings with Nasrallah and other Hezbollah leadership inside were taken in daylight, and many are from earlier bombings in Gaza.",
+            "Sources": [
+                "Anadolu Agency",
+                "Anadolu English",
+                "Axios",
+                "Daniel Hagari",
+                "Digital Forensics",
+                "facebook-posts",
+                "instagram-posts",
+                "Palestine Info Center",
+                "Reuters",
+                "TRT Haber",
+                "The Associated Press",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Video shows “the bunker-busting bombs that ended the lives of (Hassan) Nasrallah and Hezbollah’s leadership.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/sep/24/tweets/no-this-isnt-a-photo-of-a-toilet-destroyed-by-an-e/",
+            "Main Claim": "Photo shows a toilet after “some Hezbollah operative blew up.”",
+            "Truth-O-Meter": "False",
+            "Justification": "This photo was taken in 2020 in Hong Kong after an improvised explosive device exploded in a public toilet there. It had nothing to do with the pager-linked explosions in Lebanon and Syria in 2024.",
+            "Sources": [
+                "British Broadcasting Corporation",
+                "Financial Times",
+                "South China Morning Post",
+                "The Associated Press",
+                "The New York Times",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Photo shows a toilet after “some Hezbollah operative blew up.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/sep/05/tweets/samantha-hyde-was-not-the-apalachee-high-school-sh/",
+            "Main Claim": "“BREAKING: Apalachee High School shooter has been identified as non-binary trans girl Samantha Hyde.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "The name \"Samantha Hyde\" is a variation of Sam Hyde, a name we have seen social media users resurface as a meme when shootings occur. Authorities identified the suspect in the fatal Sept. 4 shooting at Apalachee High School as 14-year-old Colt Gray.",
+            "Sources": [
+                "ABC News",
+                "CBS News",
+                "Cable News Network",
+                "FBI",
+                "Georgia Bureau of Investigation Facebook post",
+                "Georgia Bureau of Investigation YouTube video",
+                "Jackson County Sheriff’s Office incident report",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "USA Today",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "“BREAKING: Apalachee High School shooter has been identified as non-binary trans girl Samantha Hyde.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jul/19/tweets/no-grindr-executives-didnt-call-the-rnc-grindrs-su/",
+            "Main Claim": "An executive of the gay dating app Grindr said the Republican National Convention is \"basically Grindr’s Super Bowl.'”",
+            "Truth-O-Meter": "False",
+            "Justification": "The claim originated from a satire account. We found no credible reports that the company’s CEO called the Republican National Convention Grindr’s Super Bowl.",
+            "Sources": [
+                "Former Congressman George Santos",
+                "PolitiFact",
+                "The Associated Press",
+                "X account",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "An executive of the gay dating app Grindr said the Republican National Convention is \"basically Grindr’s Super Bowl.'”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jul/17/tweets/video-shows-donald-trumps-eyes-closed-in-prayer-no/",
+            "Main Claim": "Video shows Donald Trump sleeping at the Republican National Convention’s first night.",
+            "Truth-O-Meter": "False",
+            "Justification": "Longer video footage from the event shows that former President Donald Trump closed his eyes during a prayer.",
+            "Sources": [
+                "Messiah Lutheran Church",
+                "Milwaukee Journal Sentinel",
+                "Mint",
+                "The Associated Press",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Video shows Donald Trump sleeping at the Republican National Convention’s first night.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/aug/20/tweets/no-this-photo-doesnt-show-bricks-for-dnc-protests/",
+            "Main Claim": "Photo shows “pallets or containers of bricks have been found near locations designated for protests related to the Democratic National Convention”",
+            "Truth-O-Meter": "False",
+            "Justification": "This photo is from 2020 in Dallas. The bricks were near a construction site. Officials with Chicago’s Democratic National Convention Joint Information Center said Aug. 20 that brick pallets had not been found near protest sites. We last saw a rash of similarly misleading claims about bricks and protest sites in 2020, during social justice protests across the nation in response to George Floyd’s murder.",
+            "Sources": [
+                "The Associated Press",
+                "Email interview with DNC 2024 Joint Information Center",
+                "Factcheck.org",
+                "Google Maps",
+                "NBC News",
+                "PolitiFact",
+                "Sources",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Photo shows “pallets or containers of bricks have been found near locations designated for protests related to the Democratic National Convention”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jul/11/tweets/did-lgbtq-leaders-sign-a-wef-pro-pedophile-treaty/",
+            "Main Claim": "LGBTQ+ leaders sign World Economic Forum treaty to “Accept Pedophiles as 'Legally Protected Minority’”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "This claim originated on The People’s Voice, a website that frequently publishes false information. The 10-minute video in the post includes zero evidence to support the claim or details about what treaty or LGBTQ+ leaders it refers to. PolitiFact could find no evidence such a treaty to \"accept pedophiles as a legally protected minority\" exists, and a World Economic Forum spokesperson said the claim is fabricated.",
+            "Sources": [
+                "Email interview with Yann Zopf",
+                "Lead Stories",
+                "PolitiFact",
+                "Poynter",
+                "Reuters",
+                "Rumble",
+                "The Associated Press",
+                "The People’s Voice",
+                "USA Today",
+                "World Economic Forum",
+                "X",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "LGBTQ+ leaders sign World Economic Forum treaty to “Accept Pedophiles as 'Legally Protected Minority’”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/aug/06/tweets/tim-walz-didnt-pick-minnesotas-new-flag-and-its-de/",
+            "Main Claim": "Tim Walz “changed the Minnesota flag so it could resemble the Somalian flag.”",
+            "Truth-O-Meter": "False",
+            "Justification": "After a monthslong selection process, a Minnesota commission chose a new design for the state’s flag that was adopted May 11. The flag includes a star and blue coloring, as does Somalia’s national flag, but Somalia’s flag was not an inspiration, said a Minnesota man whose flag concept inspired the final design. The Minnesota flag has an eight-pointed star, while Somalia’s star is five-pointed. The dark blue surrounding the star on the Minnesota flag represents the state’s shape and the light blue on the right represents the state’s abundant lakes and rivers.",
+            "Sources": [
+                "Andrew Prekker",
+                "British Broadcasting Corporation",
+                "CBS News Minnesota",
+                "Email exchange",
+                "Email interview",
+                "Embassy of Somalia-USA",
+                "Fast Company",
+                "KMSP-TV",
+                "Minnesota Compass",
+                "Minnesota State Emblems Redesign Commission",
+                "Office of the Minnesota Secretary of State Steve Simon",
+                "The Associated Press",
+                "WCCO News",
+                "World Population Review",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Tim Walz “changed the Minnesota flag so it could resemble the Somalian flag.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/mar/26/tweets/maryland-bridge-collapse-a-false-flag-event-no-aut/",
+            "Main Claim": "Maryland bridge collapse was a false flag operation to distract from other events.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "A container ship lost power as it approached the Francis Scott Key Bridge, a major artery into Baltimore. The ship crashed into a pillar of the bridge, causing the structure’s collapse. Maryland officials said it was an accident. No spin, just facts you can trust.Here's how we do it.",
+            "Sources": [
+                "Gov. Wes Moore",
+                "Homeland Security Secretary Alejandro Mayorkas",
+                "PolitiFact",
+                "President Joe Biden",
+                "The Associated Press",
+                "WLKY",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Maryland bridge collapse was a false flag operation to distract from other events.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/may/16/tweets/would-sen-katie-britts-bill-create-a-national-regi/",
+            "Main Claim": "Sen. Katie Britt introduced a bill “to create a national registry of pregnant women.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Sen. Katie Britt, R-Ala., introduced a bill that would create pregnancy.gov, a federal website with resources for pregnant women and mothers. The resources would exclude information from organizations that provide abortions. The bill doesn’t mention the words \"registry\" or \"database.\" It says that if website users choose to take an \"assessment\" available through the website, they can consent to share their contact information \"which the (Department of Health and Human Services) Secretary may use to conduct outreach via phone or email to follow up with users on additional resources.\" The bill doesn’t explain how this collected data would be handled or who would have access to it. Critics said that vagueness poses concerns for pregnant women’s privacy.",
+            "Sources": [
+                "Amy McGrath",
+                "Dr. Rob Davidson",
+                "Email interview with Shannon Watts",
+                "Jaime Harrison",
+                "Phone interview with Dr. Rob Davidson",
+                "Phone interview with Mary Ziegler",
+                "Phone interviews and email exchanges with Sean Ross",
+                "Raw Story",
+                "Salon",
+                "Sen. Katie Britt",
+                "Shannon Watts",
+                "The American College of Obstetricians and Gynecologists",
+                "The Associated Press",
+                "Guardian",
+                "USA Today",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Sen. Katie Britt introduced a bill “to create a national registry of pregnant women.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/mar/19/tweets/no-video-of-clintons-engaging-in-cannibalism-with/",
+            "Main Claim": "Mel Gibson released a video of Bill and Hillary Clinton engaging in cannibalism with “Haitian cannibal gang leader ‘Barbecue!’”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Mel Gibson’s publicist said Gibson did not release a video of the Clintons engaging in cannibalism. No such video exists online. Learn more about PolitiFact’sfact-checking process and rating system.",
+            "Sources": [
+                "Al Jazeera English",
+                "Email interview with Alan Nierob",
+                "Entertainment Weekly",
+                "Medium",
+                "NBC News",
+                "PolitiFact",
+                "TMZ",
+                "The Associated Press",
+                "Guardian",
+                "X post",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Mel Gibson released a video of Bill and Hillary Clinton engaging in cannibalism with “Haitian cannibal gang leader ‘Barbecue!’”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jan/26/tweets/dean-phillips-didnt-win-the-nh-primary-he-said-so/",
+            "Main Claim": "“Rep. Dean Phillips received almost twice as many votes as Biden did in the New Hampshire primary.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Rep. Dean Phillips, D-Minn., got about 24,000 votes in the New Hampshire Democratic primary. President Biden got more than 79,000. President Biden did not appear on the ballot because of a disagreement between the state and national Democratic Party, but a widespread campaign was organized for Biden as a write-in candidate. There is no evidence of large-scale election fraud in the 2024 New Hampshire primary.",
+            "Sources": [
+                "Boston Globe",
+                "CBS News",
+                "Email interview with Anna Sventek",
+                "Email interview with Bradford E. Cook",
+                "Email interview with Emma Steiner",
+                "Justia",
+                "NBC News",
+                "New Hampshire Secretary of State",
+                "PBS NewsHour",
+                "PolitiFact",
+                "Substack",
+                "The Associated Press",
+                "The New York Times",
+                "USA Today",
+                "WBUR",
+                "WMUR",
+                "X post",
+                "X profile"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "“Rep. Dean Phillips received almost twice as many votes as Biden did in the New Hampshire primary.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jan/04/tweets/document-showing-jimmy-kimmel-in-epstein-court-cas/",
+            "Main Claim": "Jimmy Kimmel was on the Jeffrey Epstein list, documents show.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Comedian and TV host Jimmy Kimmel was not mentioned in the first batch of court documents released Jan. 3 from a 2015 sex trafficking lawsuit related to Jeffrey Epstein. A document widely shared on X showing a document describing a sexual encounter with Kimmel is fake. The Citizens Free Press said an image showing that it shared the document on X was fake. It also affirmed that Kimmel is not named in the official court documents released Jan. 3.",
+            "Sources": [
+                "Citizen Free Press X post",
+                "Jimmy Kimmel",
+                "The Associated Press",
+                "The Washington Post",
+                "U.S. Department of Justice",
+                "USA Today",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Jimmy Kimmel was on the Jeffrey Epstein list, documents show.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/apr/30/tweets/photo-does-not-show-pro-palestine-protesters-block/",
+            "Main Claim": "Photo shows “Palestinian activists” blocking “Jewish students from entering Columbia University.”",
+            "Truth-O-Meter": "False",
+            "Justification": "The Associated Press took the photo Oct. 12, 2023. The caption does not say it shows protesters blocking Jewish students from entering campus.",
+            "Sources": [
+                "Columbia Spectator",
+                "Columbia University Office of Public Affairs",
+                "Google Maps",
+                "Reuters",
+                "The Associated Press",
+                "The Hill",
+                "United States Holocaust Memorial Museum",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Photo shows “Palestinian activists” blocking “Jewish students from entering Columbia University.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/may/16/tweets/video-of-slovakia-prime-minister-speaking-against/",
+            "Main Claim": "Video shows Slovakia Prime Minister Fico speaking against the World Health Organization the week before he was the target of an assassination attempt.",
+            "Truth-O-Meter": "False",
+            "Justification": "Slovakian Prime Minister Robert Fico made this speech during an assembly in November 2023, not a \"week\" before he got shot. Slovakian Interior Minister Matúš Šutaj Eštok said the 71-year-old charged with trying to assassinate Fico did not belong to a political party but was politically motivated. Fico’s position on the World Health Organization’s pandemic plan was not among the policies Šutaj Eštok said the suspect mentioned as being objectionable.",
+            "Sources": [
+                "Cable News Network",
+                "Euractiv",
+                "facebook-posts",
+                "PolitiFact",
+                "Reuters",
+                "The Associated Press",
+                "The New York Times",
+                "The Slovak Spectator",
+                "The Washington Post",
+                "World Health Organization",
+                "X post",
+                "X post by Marjorie Taylor Greene",
+                "YouTube video"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Video shows Slovakia Prime Minister Fico speaking against the World Health Organization the week before he was the target of an assassination attempt.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/mar/27/tweets/warning-to-russia-about-a-terror-attack-doesnt-mea/",
+            "Main Claim": "A March 7 U.S. security alert … means the U.S. was “behind this gruesome terror attack on Russian civilians.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "The Islamic State claimed responsibility for the Moscow concert hall attacks. The U.S. warned Russia about the terror attack as part of a long-standing policy to alert other nations — even adversaries — about credible threats. The advance warning is not evidence that the U.S. perpetrated the attack. No spin, just facts you can trust.Here's how we do it.",
+            "Sources": [
+                "ABC News",
+                "British Broadcasting Corporation",
+                "CBS News",
+                "Cable News Network",
+                "Email interview with Cortney Weinbaum",
+                "Email interview with Geoffrey S. Corn",
+                "Email interview with Paul R. Pillar of the Georgetown University’s Center for Security Studies",
+                "NBC News",
+                "National Public Radio",
+                "Office of the Director of National Intelligence",
+                "Reuters",
+                "The Associated Press",
+                "The New York Times",
+                "The Times of Israel",
+                "The White House",
+                "U.S. Department of Justice Office of the Inspector General",
+                "U.S. Embassy and Consulates in Russia",
+                "Voice of America",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "A March 7 U.S. security alert … means the U.S. was “behind this gruesome terror attack on Russian civilians.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/apr/19/tweets/video-of-protesters-heckling-joe-biden-in-his-home/",
+            "Main Claim": "Video shows hecklers April 16 booing Joe Biden’s motorcade in his hometown of Scranton, Pennsylvania.",
+            "Truth-O-Meter": "False",
+            "Justification": "This footage is from President Joe Biden’s  2021 visit to his hometown of Scranton, Pennsylvania. It was not filmed in 2024.",
+            "Sources": [
+                "Benny Johnson",
+                "CBS News",
+                "Google Maps",
+                "PA Homepage",
+                "Right Side Broadcasting Network",
+                "The Associated Press",
+                "The Post Millennial",
+                "The Times-Tribune",
+                "TikTok post",
+                "WLS",
+                "WVIA News",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Video shows hecklers April 16 booing Joe Biden’s motorcade in his hometown of Scranton, Pennsylvania.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "tweets",
+            "Article URL": "https://www.politifact.com/factchecks/2024/may/21/tweets/no-milwaukees-election-chief-did-not-print-64000-b/",
+            "Main Claim": "Fired Milwaukee election leader “printed 64,000 ballots in a back room at City Hall in Milwaukee and had random employees fill them out,” giving Joe Biden the lead.",
+            "Truth-O-Meter": "False",
+            "Justification": "A spokesperson for Milwaukee Mayor Cavalier Johnson said Claire Woodall was not replaced as executive director of the Milwaukee Election Commission because of improper conduct related to the 2020 Wisconsin election. The claim that Woodall printed 64,000 ballots and had employees fill them out to favor Joe Biden originated with a Wisconsin man who has filed numerous lawsuits against Wisconsin officials, none of which have produced evidence of this claim. Milwaukee ballots are printed by city vendors, and the city does not have the capability to print 64,000 ballots, the mayoral spokesperson said.",
+            "Sources": [
+                "Deposition of Claire Woodall in Peter Bernegger vs. Claire Woodall-Vogg",
+                "Email exchange",
+                "Email interview",
+                "Milwaukee Journal Sentinel",
+                "Peter Bernegger",
+                "Phone interview",
+                "State of Wisconsin Circuit Court",
+                "State of Wisconsin Criminal Complaint",
+                "The Associated Press",
+                "Guardian",
+                "WISN-12",
+                "WisPolitics",
+                "Wisconsin Circuit Court Access",
+                "Wisconsin Elections Commission",
+                "Wisconsin Legislature",
+                "Wisconsin Public Radio",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "X post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "tweets",
+                    "claim": "Fired Milwaukee election leader “printed 64,000 ballots in a back room at City Hall in Milwaukee and had random employees fill them out,” giving Joe Biden the lead.",
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,358 @@
+{
+    "Combination": [
+        "Cable News Network",
+        "Reuters",
+        "The Associated Press",
+        "The Washington Post",
+        "instagram-posts"
+    ],
+    "Matched Articles": [
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jul/16/instagram-posts/no-trump-rally-shooter-wasnt-maxwell-yearick/",
+            "Main Claim": "The shooter who attempted to assassinate Donald Trump was “Maxwell Yearick.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "The FBI identified the shooter at the July 13 Donald Trump rally in Butler, Pennsylvania, as Thomas Matthew Crooks, a 20-year-old from Bethel Park, Pennsylvania. The gun used in the assassination attempt was traced to Crooks’ father. The FBI believes Crooks acted alone.",
+            "Sources": [
+                "The Associated Press",
+                "Australian Associated Press Fact Check",
+                "CBS News",
+                "Cable News Network",
+                "FBI Statement on Incident in Butler",
+                "instagram-posts",
+                "Reuters",
+                "The Washington Post",
+                "WTAE.com",
+                "X post by Roger Stone"
+            ],
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "Reuters",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "The shooter who attempted to assassinate Donald Trump was “Maxwell Yearick.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/mar/27/instagram-posts/footage-of-crimea-bridge-explosion-misrepresented/",
+            "Main Claim": "Footage shows explosion on Baltimore bridge.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "The explosion shown in this footage is from 2022 and happened on Kerch Bridge, which connects Crimea and Russia. Learn more about PolitiFact’sfact-checking process and rating system.",
+            "Sources": [
+                "AFP",
+                "Cable News Network",
+                "Facebook video",
+                "Instagram reel",
+                "Radio Free Europe / Radio Liberty",
+                "Reuters",
+                "Reverse-image search using Google Images",
+                "The Associated Press",
+                "Guardian",
+                "The Washington Post",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "Reuters",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Footage shows explosion on Baltimore bridge.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/mar/14/instagram-posts/it-takes-longer-than-24-hours-to-count-votes/",
+            "Main Claim": "The 2020 election was the only time in American history that an election took more than 24 hours to count.",
+            "Truth-O-Meter": "False",
+            "Justification": "There has never been a presidential election in which every vote has been counted within 24 hours. Official results take days to weeks to certify, experts said. Media organizations can call races before every vote is counted. There are several examples of presidential and state elections that took longer than the 2020 presidential election to call. Learn more about PolitiFact’sfact-checking process and rating system.",
+            "Sources": [
+                "Cable News Network",
+                "Email interview",
+                "History",
+                "National Public Radio",
+                "National Conference of State Legislatures",
+                "National Constitution Center",
+                "PolitiFact",
+                "Politico",
+                "Reuters",
+                "The Associated Press",
+                "The Washington Post",
+                "U.S. Election Assistance Commission",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "Reuters",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "The 2020 election was the only time in American history that an election took more than 24 hours to count.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/nov/09/instagram-posts/blame-mother-nature-not-mexican-government-on-hurr/",
+            "Main Claim": "\"Acapulco destroyed by yet another directed weather attack!”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Hurricane Otis stunned weather forecasters with winds that rapidly intensified in the 24 hours before it struck Acapulco, a Mexican resort city. Such rapid intensification is becoming more common because of warming oceans, a recent study showed. There are weather modification programs in use, but none that could intensify a hurricane or direct it on a path, experts said.",
+            "Sources": [
+                "Andra Garner",
+                "CBS News",
+                "CNBC",
+                "Cable News Network",
+                "Inspired",
+                "instagram-posts",
+                "Mexico News Daily",
+                "National",
+                "National Hurricane Center",
+                "Reuters",
+                "Steven Siems",
+                "The Associated Press",
+                "The National Oceanic and Atmospheric Administration",
+                "The Washington Post",
+                "The White House",
+                "U.S. State Department"
+            ],
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "Reuters",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "\"Acapulco destroyed by yet another directed weather attack!”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jan/25/instagram-posts/the-bill-gates-egg-shortage-conspiracy-isnt-all-it/",
+            "Main Claim": "The U.S. chicken and egg shortage is linked to Bill Gates.",
+            "Truth-O-Meter": "False",
+            "Justification": "The Agriculture Department has said the avian flu outbreak in the U.S. is the main contributor to low inventory and high prices. Other factors are pandemic-related supply chain issues and holiday demand. Over the last decade, Bill Gates has invested in multiple companies, including Beyond Meat and Impossible Foods, that develop plant-based meat alternatives. He has also been a proponent of chicken farming. Since 2020, Gates has held the title of the nation’s largest private farmland owner, per The Land Report. As of 2022, he owned 248,000 acres of farmland across more than a dozen states, but this accounts for less than 1% of the total farmland in the U.S.",
+            "Sources": [
+                "The Associated Press",
+                "Bill & Melinda Gates Foundation",
+                "Bloomberg News",
+                "CNBC",
+                "Cable News Network",
+                "Email exchange",
+                "GatesNotes",
+                "Gateway Pundit",
+                "Insider",
+                "instagram-posts",
+                "NBC News",
+                "National Public Radio",
+                "PolitiFact",
+                "Quartz",
+                "Reddit",
+                "Reuters",
+                "The Chicago Tribune",
+                "The Land Report",
+                "The Land Report 100",
+                "The Washington Post",
+                "U.S. Bureau of Labor Statistics",
+                "U.S. Department of Agriculture",
+                "Various searches on Google and Nexis",
+                "Vox Media"
+            ],
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "Reuters",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "The U.S. chicken and egg shortage is linked to Bill Gates.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/oct/28/instagram-posts/trump-campaigns-evidence-of-fraud-was-reviewed-bef/",
+            "Main Claim": "“It’s not that there is no evidence the election was stolen, but that no court had the guts to HEAR the evidence. They dismissed the cases, NOT the evidence.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Election security officials have said the 2020 presidential election was secure and post-election audits in various states found no evidence of widespread fraud. Post-election lawsuits were thrown out for jurisdictional or procedural reasons, but several judges also said the Trump campaign’s allegations of election fraud lacked sufficient proof. A group of prominent conservatives examined 64 cases brought by Trump and his allies and found that 30 included a hearing on the case’s merits. Trump and his allies won only one case, and it involved too few votes to impact the results, the group found.",
+            "Sources": [
+                "Bridge Michigan",
+                "Cable News Network",
+                "Email exchange with Rebecca Green",
+                "Email interview with Richard Pildes",
+                "instagram-posts",
+                "Lost",
+                "PolitiFact",
+                "Reuters",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "USCourts.gov"
+            ],
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "Reuters",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“It’s not that there is no evidence the election was stolen, but that no court had the guts to HEAR the evidence. They dismissed the cases, NOT the evidence.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/28/instagram-posts/video-italian-demonstrators-removing-european-unio/",
+            "Main Claim": "Video shows “Italians take down an EU flag and replace it with an Italian flag” after the 2022 national election.",
+            "Truth-O-Meter": "False",
+            "Justification": "The video is from 2013 and features neo-fascists in Italy tearing down the European Union flag. It is unrelated to the 2022 Italian election.",
+            "Sources": [
+                "Al Jazeera English",
+                "The Associated Press",
+                "Cable News Network",
+                "facebook-posts",
+                "Instagram video",
+                "Reuters",
+                "The Washington Post",
+                "Twitter post",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "Reuters",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Video shows “Italians take down an EU flag and replace it with an Italian flag” after the 2022 national election.",
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}

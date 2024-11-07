@@ -1,0 +1,2242 @@
+{
+    "Combination": [
+        "The Associated Press",
+        "The New York Times",
+        "instagram-posts"
+    ],
+    "Matched Articles": [
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/nov/03/instagram-posts/new-posts-stir-up-old-unproven-claims-about-domini/",
+            "Main Claim": "Dominion Voting Systems employee Eric Coomer told an Antifa meeting he “made sure” Donald Trump wouldn’t win.",
+            "Truth-O-Meter": "False",
+            "Justification": "Eric Coomer is a former Dominion Voting Systems employee who made anti-Trump comments on his Facebook page in 2016. Colorado conservative activist and podcaster Joe Oltmann claims he heard Coomer speaking on an \"antifa conference call\" before the 2020 election telling participants he \"made sure\" former President Donald Trump wouldn’t win the election. Oltmann has provided no evidence of the 2020 allegation, and Coomer is suing Oltmann for defamation.",
+            "Sources": [
+                "Colorado Politics",
+                "Email interview with Dominion spokesperson Stephanie Walstrom",
+                "instagram-posts",
+                "National Public Radio",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "USA Today"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Dominion Voting Systems employee Eric Coomer told an Antifa meeting he “made sure” Donald Trump wouldn’t win.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/oct/07/instagram-posts/video-shows-pyrotechnic-skydivers-in-united-arab-e/",
+            "Main Claim": "Video shows a missile strike on Israel.",
+            "Truth-O-Meter": "False",
+            "Justification": "The Instagram video does not show Israel on Oct. 1. We found the video posted on Facebook Jan. 4, 2023, showing footage from the Dubai Marina in the United Arab Emirates. Dubai’s government media office said December 2022 that mysterious lights in Dubai’s skies were caused by skydivers with pyrotechnics setting a Guinness World Record for highest-altitude skydiving firework display.",
+            "Sources": [
+                "Al Jazeera English",
+                "Condé Nast Traveller",
+                "Facebook video",
+                "Google Maps",
+                "Guinness World Records",
+                "instagram-posts",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "X post",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Video shows a missile strike on Israel.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/oct/17/instagram-posts/relief-delivered-hurricane-helene-aid-reached-vict/",
+            "Main Claim": "“Kamala Harris staged hurricane relief photo op with C-17, no supplies sent to victims.”",
+            "Truth-O-Meter": "False",
+            "Justification": "This claim is false. A mechanical issue was discovered on the plane after Vice President Kamala Harris was photographed near the aircraft, and the hurricane relief supplies were moved to another plane.",
+            "Sources": [
+                "C-SPAN",
+                "instagram-posts",
+                "Statement from the North Carolina National Guard",
+                "The Associated Press",
+                "The New York Times",
+                "X post",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“Kamala Harris staged hurricane relief photo op with C-17, no supplies sent to victims.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/aug/13/instagram-posts/the-audience-at-harris-arizona-rally-was-not-made/",
+            "Main Claim": "Craigslist ad shows “every single person” at Kamala Harris’ Arizona rally was paid.",
+            "Truth-O-Meter": "False",
+            "Justification": "A Craigslist ad offering anti-Trump protesters $15 per hour to attend a Phoenix event is from 2020. Vice President Kamala Harris’ Arizona presidential campaign rally was held at an arena in Gilbert, Arizona, and not at the Phoenix Convention Center, the location listed in the ad.",
+            "Sources": [
+                "AZ Central",
+                "instagram-posts",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Craigslist ad shows “every single person” at Kamala Harris’ Arizona rally was paid.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jul/23/instagram-posts/no-the-state-of-washingtons-2024-presidential-elec/",
+            "Main Claim": "“The state of Washington has already sent out their ballots” for the 2024 presidential election.",
+            "Truth-O-Meter": "False",
+            "Justification": "Washington sent out ballots for its Aug. 6 statewide primary election, which does not include a presidential primary. It held its presidential primary earlier this year, on March 12. President Joe Biden won Washington’s Democratic presidential primary in March, according to the certified election results. Biden has since dropped out of the race and endorsed Vice President Kamala Harris. Under Washington law, presidential candidates must be certified for the November ballot by Aug. 20, which falls before the Democratic nominee could be formally elected at the Democratic National Convention. Washington’s secretary of state will accept a letter from the Democratic National Committee attesting to the party’s alternate nominee, a spokesperson said.",
+            "Sources": [
+                "270 to Win",
+                "Axios",
+                "Email interview with Derrick Nunnally",
+                "instagram-posts",
+                "Slate Magazine",
+                "The Associated Press",
+                "The New York Times",
+                "The Seattle Times",
+                "The Washington Post",
+                "Washington Democrats’ X post",
+                "Washington State Legislature",
+                "Washington secretary of state",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“The state of Washington has already sent out their ballots” for the 2024 presidential election.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jun/17/instagram-posts/no-valerie-biden-owens-is-not-married-to-dominion/",
+            "Main Claim": "“Biden's sister is married to Stephen Owens, who owns Dominion Voting Systems.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Valerie Biden Owens is married to Jack Owens, not Stephen Owens. Jack Owens, a law school classmate of President Joe Biden’s, and Stephen Owens, whose company has invested in Dominion Voting Systems, are not related.",
+            "Sources": [
+                "Bloomberg News",
+                "Check Your Fact",
+                "Dominion Voting Systems",
+                "Email exchange with Grayson Pearce",
+                "Harvard Kennedy School",
+                "Instagram post (archived link",
+                "Reuters",
+                "Syracuse.com",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "USA Today",
+                "Valerie Biden Owens"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“Biden's sister is married to Stephen Owens, who owns Dominion Voting Systems.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/feb/29/instagram-posts/no-50-of-bidens-michigan-vote-was-not-unverified-m/",
+            "Main Claim": "Fifty percent of the votes to Joe Biden in Michigan’s presidential primary election were mail-in, unverified, no signature, no ID.",
+            "Truth-O-Meter": "False",
+            "Justification": "Michigan voters must be registered with proof of identification to apply for absentee ballots. Clerks verify that every signature on an absentee ballot matches with a signature on record. Learn more about PolitiFact’sfact-checking process and rating system.",
+            "Sources": [
+                "Instagram reel",
+                "Michigan State Department",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Fifty percent of the votes to Joe Biden in Michigan’s presidential primary election were mail-in, unverified, no signature, no ID.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/mar/01/instagram-posts/schumer-biden-discussed-election-not-blaming-repub/",
+            "Main Claim": "“Chuck Schumer caught on hot mic” plotting to “blame REPUBLICANS AND MAGA” for reform delays.",
+            "Truth-O-Meter": "False",
+            "Justification": "A video of a discussion between Sen. Chuck Schumer, D-N.Y., and President Joe Biden caught on a hot mic was altered in social media posts to show a different discussion. Biden and Schumer were heard discussing the state of the 2022 midterm elections at an airport. They did not discuss delaying any reforms or blaming Republicans, as social media posts claimed. Here’s how PolitiFact chooseswhich statements to fact-check.",
+            "Sources": [
+                "instagram-posts",
+                "New York Post",
+                "The Associated Press",
+                "The New York Times",
+                "The Wall Street Journal"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“Chuck Schumer caught on hot mic” plotting to “blame REPUBLICANS AND MAGA” for reform delays.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/mar/15/instagram-posts/migrants-in-parole-program-do-not-receive-free-fli/",
+            "Main Claim": "“300,000 illegal immigrants were able to use a simple app to get a free flight to our country.”",
+            "Truth-O-Meter": "False",
+            "Justification": "In 2023, the Biden administration let in about 327,000 people from Cuba, Haiti, Nicaragua and Venezuela through a parole program. People granted parole do not receive free flights to the U.S. They buy their own plane tickets. An app available to people in the parole program lets them check on their cases and get travel authorization. The app is not used to apply for or be granted parole. How does PolitiFact decide our ratings?Learn more here.",
+            "Sources": [
+                "ABC News",
+                "American Immigration Council",
+                "Center for Immigration Studies",
+                "instagram-posts",
+                "Interview with Ira Kurzban",
+                "Interview with Mark Krikorian",
+                "Interview with Nicole Hallett",
+                "PolitiFact",
+                "Snopes",
+                "The Associated Press",
+                "The Daily Mail",
+                "The New York Times",
+                "The Wall Street Journal",
+                "U.S. Department of Homeland Security",
+                "USCIS",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“300,000 illegal immigrants were able to use a simple app to get a free flight to our country.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/feb/21/instagram-posts/did-volodymyr-zelenskyy-use-us-aid-to-buy-yachts-n/",
+            "Main Claim": "Ukrainian President Volodymyr Zelenskyy used U.S. aid funds to buy two yachts for $75 million.",
+            "Truth-O-Meter": "False",
+            "Justification": "The documents claiming to show the yacht purchases were fabricated. They include an outdated name and logo of a yacht association that supposedly approved the purchases. The two yachts named in the documents, \"Lucky Me\" and \"My Legacy,\" are still for sale. No spin, just facts you can trust.Here’s how we do it.",
+            "Sources": [
+                "AFP",
+                "Archived version",
+                "British Broadcasting Corporation",
+                "BehneMar",
+                "Burgess",
+                "Cable News Network",
+                "facebook-posts",
+                "Facebook video",
+                "instagram-posts",
+                "International Consortium of Investigative Journalists",
+                "Logically Facts",
+                "MYBA The Worldwide Yachting Association",
+                "MYBA The Worldwide Yachting Association website",
+                "Northrop & Johnson",
+                "Organized Crime and Corruption Reporting Project",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "Transcript",
+                "Verify",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Ukrainian President Volodymyr Zelenskyy used U.S. aid funds to buy two yachts for $75 million.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/feb/14/instagram-posts/women-who-undergo-abortions-including-medication-a/",
+            "Main Claim": "If a woman in Texas takes “abortion pills voluntarily,” she would be “charged with murder.”",
+            "Truth-O-Meter": "False",
+            "Justification": "A Texas law that criminalizes abortion went into effect in August 2022, after the U.S. Supreme Court overturned Roe v. Wade. Under the law, physicians who provide abortions can be charged with a first-degree felony, punishable by up to 99 years in prison. Doctors also can face civil fines of $100,000. The new law explicitly says the criminal and civil penalties do not apply to women who get abortions.",
+            "Sources": [
+                "229th District Attorney Gocha Allen Ramirez",
+                "Austin American-Statesman Texas Supreme Court to hear case Tuesday challenging state's near-total abortion ban",
+                "CBS News",
+                "Center for Reproductive Rights",
+                "Email interview",
+                "FindLaw",
+                "instagram-posts",
+                "KFF",
+                "Texas",
+                "Texas Health and Safety Code",
+                "Texas Legislature",
+                "Texas Penal Code",
+                "Texas State Library",
+                "The Associated Press",
+                "Guardian",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "If a woman in Texas takes “abortion pills voluntarily,” she would be “charged with murder.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jan/19/instagram-posts/do-illegal-immigrants-now-have-the-right-to-vote-i/",
+            "Main Claim": "“Illegal immigrants now have the right to vote in New York.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "Only U.S. citizens may vote in statewide and national elections in New York. A 2021 New York City law involving local elections gave voting privileges to noncitizens who are in the U.S. legally, but a judge struck down that law  in 2022 and it’s not in effect. Before it was ruled unconstitutional in New York, the law did not grant voting rights to anyone in the country illegally. The ruling is on appeal. Our mission: Help you be an informed participant in democracy.Learn more.",
+            "Sources": [
+                "CBS News",
+                "City & State New York",
+                "Cornell Law School Legal Information Institute",
+                "Email exchange with Carla Laroche",
+                "Email exchange with Jerry H. Goldfeder",
+                "Email exchange with Kathleen R. McGrath",
+                "Email interview with Joshua Douglas",
+                "Email interview with Ron Hayduk",
+                "Email interview with Susan Lerner",
+                "Forbes",
+                "Homeland Security Republicans",
+                "instagram-posts",
+                "National Public Radio",
+                "NY.gov",
+                "Nassau County",
+                "The New York Times",
+                "PIX11",
+                "PolitiFact",
+                "Reuters",
+                "The Associated Press",
+                "The Oaklandside"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“Illegal immigrants now have the right to vote in New York.\"",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/feb/09/instagram-posts/tucker-carlson-wasnt-added-to-ukrainian-hit-list-a/",
+            "Main Claim": "\"Ukraine puts Tucker Carlson on a ‘hit list’ after an interview with Vladimir Putin.”",
+            "Truth-O-Meter": "False",
+            "Justification": "A website called Myrotvorets, which translates to \"Peacemaker\" in English, lists thousands of people, including celebrities and journalists, deemed to be enemies of Ukraine. Tucker Carlson was added to the list in 2023, not after his interview with Russian President Vladimir Putin. He was accused of being an anti-Ukrainian propagandist, among other allegations. The website uses inflammatory language in places, but did not call for Carlson to be killed or harmed. No spin, just facts you can trust.Here’s how we do it.",
+            "Sources": [
+                "Al-Jazeera",
+                "Email interview",
+                "instagram-posts",
+                "Myrotvorets",
+                "Phone interview",
+                "The Associated Press",
+                "The New York Times",
+                "The Times",
+                "U.S. State Department"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "\"Ukraine puts Tucker Carlson on a ‘hit list’ after an interview with Vladimir Putin.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jan/25/instagram-posts/did-judge-election-interference-delay-trump-defama/",
+            "Main Claim": "Social media post claims judge in Trump’s defamation trial engaged in “election interference” by delaying the trial to New Hampshire’s primary day.",
+            "Truth-O-Meter": "False",
+            "Justification": "A New York jury is being asked to decide what additional defamation damages, if any, former President Donald Trump should pay writer E. Jean Carroll for comments he made about her in 2019 while he was president. On Jan. 22, a juror’s illness and COVID-19 exposures caused a trial delay. The judge did not immediately grant the Trump legal team’s request that the trial not resume Jan. 23, the day of the New Hampshire primary, but the court docket later said the trial would not resume on primary day. It resumed Jan. 25. How does PolitiFact decide our ratings?Learn more here.",
+            "Sources": [
+                "Bloomberg News",
+                "Court Listener",
+                "instagram-posts",
+                "NBC News",
+                "Reuters",
+                "The Associated Press",
+                "The Daily Beast",
+                "Guardian",
+                "The New York Times",
+                "The Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Social media post claims judge in Trump’s defamation trial engaged in “election interference” by delaying the trial to New Hampshire’s primary day.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/jan/23/instagram-posts/claims-that-tennis-journalist-mike-dickson-died-fr/",
+            "Main Claim": "Sports journalist Mike Dickson died because of COVID-19 vaccines.",
+            "Truth-O-Meter": "False",
+            "Justification": "British sports journalist Mike Dickson died Jan. 17 in Melbourne, Australia, where he had been covering the Australian Open tennis tournament. His wife announced the news on X. The Daily Mail newspaper, for which Dickson was a correspondent, published a story about Dickson’s death. Neither announcement contained information about the cause of death. Dickson had written about a tennis star’s decision not to get vaccinated against COVID-19, but that does not link Dickson’s death to the vaccines. The vaccines, which have been administered to millions of people in the U.S. alone, are safe and effective at preventing severe illness. How does PolitiFact decide our ratings?Learn more here.",
+            "Sources": [
+                "Aljazeera",
+                "British Broadcasting Corporation",
+                "CBS News",
+                "Fox News Channel",
+                "Health Feedback",
+                "instagram-posts",
+                "News.com.au",
+                "People",
+                "PolitiFact",
+                "Tennis Threads",
+                "The American Heart Association",
+                "The Associated Press",
+                "The Daily Mail",
+                "The New York Times",
+                "The Telegraph",
+                "U.S. Centers for Disease Control and Prevention"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Sports journalist Mike Dickson died because of COVID-19 vaccines.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/feb/01/instagram-posts/we-fact-checked-a-years-old-epstein-list-with-166/",
+            "Main Claim": "“Epstein List” shows 166 people connected to convicted sex offender Jeffrey Epstein.",
+            "Truth-O-Meter": "False",
+            "Justification": "Searching through Jeffrey Epstein’s flight logs and address book as well as news reports and newly unsealed documents from a case against Epstein’s former girlfriend and associate, Ghislaine Maxwell, we found no proof that more than half of the names on a popular 166-name \"Epstein list\" were linked to the sex offender. Some names on the list, however, featured prominently in court documents as attorneys questioned witnesses about their relationships with Epstein, the disgraced financier and convicted sex offender. Learn more about PolitiFact’sfact-checking process and rating system.",
+            "Sources": [
+                "ABC News",
+                "Al Jazeera English",
+                "Business Insider",
+                "CBS News",
+                "Cable News Network",
+                "Copy uploaded by The Wall Street Journal",
+                "Daily Mail",
+                "facebook-posts",
+                "Facebook post ( archived",
+                "Forbes",
+                "instagram-posts",
+                "Intelligencer",
+                "Lead Stories",
+                "NBC News",
+                "Newsweek",
+                "People",
+                "PolitiFact",
+                "Politico",
+                "See sources linked in PolitiFact spreadsheet",
+                "The Associated Press",
+                "The Daily Beast",
+                "Guardian",
+                "The Harvard Crimson",
+                "The Hill",
+                "The New York Times",
+                "The Wall Street Journal",
+                "Time Magazine",
+                "U.S. Attorney’s Office",
+                "USA Today",
+                "Vox Media",
+                "Web Archive copy",
+                "X post from Clinton’s spokesperson Angel Ureña",
+                "azcentral.com"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“Epstein List” shows 166 people connected to convicted sex offender Jeffrey Epstein.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2024/feb/06/instagram-posts/abraham-lincoln-wasnt-removed-from-1860-ballots-co/",
+            "Main Claim": "\"Last time Democrats removed a Republican from the ballot” was Abraham Lincoln in 1860.",
+            "Truth-O-Meter": "False",
+            "Justification": "Former President Donald Trump’s inclusion on Republican primary ballots has been formally challenged in 35 states. Challengers have cited the U.S. Constitution’s 14th Amendment, Section 3, which prohibits anyone who engaged in insurrection from holding the office of president. President Abraham Lincoln was not removed from general election ballots in 1860. At that time, political parties distributed their own ballots, which were single-party tickets, and some slaveholding states in the South did not print and hand out Republican ballots because there was little support for Lincoln in those places. Our mission: Help you be an informed participant in democracy.Learn more.",
+            "Sources": [
+                "Cecily Zander",
+                "Christian McWhirter",
+                "Constitution Annotated",
+                "Department of the Maine Secretary of State",
+                "Email interview",
+                "Encyclopedia Britannica",
+                "instagram-posts",
+                "Library of Congress",
+                "Maine Secretary of State Shenna Bellows",
+                "National Museum of American History",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "\"Last time Democrats removed a Republican from the ballot” was Abraham Lincoln in 1860.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/dec/01/instagram-posts/germany-does-not-require-vaccination-before-assist/",
+            "Main Claim": "“In Germany, you must be fully vaxxed before your death by assisted suicide.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Germany has no policy requiring vaccination before assisted suicide. The post linked to a November 2021 story that referred to a German euthanasia assistance advocacy group’s directive that its members be vaccinated or have recovered from a COVID-19 infection. That rule was made to protect doctors, staff and other members from infection, the group’s website said. The organization, Verein Sterbehlife, no longer lists that directive on its website.",
+            "Sources": [
+                "The Associated Press",
+                "British Broadcasting Corporation",
+                "DW",
+                "France 24",
+                "instagram-posts",
+                "Library of Congress",
+                "Moonbattery",
+                "National Review",
+                "Snopes",
+                "The New York Times",
+                "The Spectator",
+                "Verein Sterbehilfe",
+                "Wayback Machine"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“In Germany, you must be fully vaxxed before your death by assisted suicide.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/nov/21/instagram-posts/video-shows-israeli-flag-planted-over-boys-school/",
+            "Main Claim": "Video shows Israeli soldiers “raising their flag” over al-Shifa hospital in Gaza.",
+            "Truth-O-Meter": "False",
+            "Justification": "The video was not taken in al-Shifa hospital, but at a nearby building. A journalist using satellite imagery to find where the video was shot found that it showed the Gaza Preliminary School for Boys. We verified the location by using Google Earth imagery and identifying matching features from the video. ​",
+            "Sources": [
+                "Cable News Network",
+                "Email exchange with Juliette Touma",
+                "Google Earth search",
+                "Google Maps search",
+                "instagram-posts",
+                "OpenStreetMap search",
+                "Reuters",
+                "Telegram video",
+                "The Associated Press",
+                "The New York Times",
+                "Tweet by Arthur Carpentier",
+                "Tweet by Shayan Sardarizadeh",
+                "UNRWA"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Video shows Israeli soldiers “raising their flag” over al-Shifa hospital in Gaza.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/nov/21/instagram-posts/footage-of-nancy-pelosi-on-jan-6-2021-doesnt-prove/",
+            "Main Claim": "Videos of Nancy Pelosi from Jan. 6, 2021, show the Capitol attack was staged.",
+            "Truth-O-Meter": "False",
+            "Justification": "This footage from Jan. 6, 2021, shows then-House Speaker Nancy Pelosi speaking with then-Vice President Mike Pence about when Congress would be able to reconvene to finish certifying the 2020 election results. There are copious news reports and video and audio recordings showing that the Jan. 6, 2021, attack on the U.S. Capitol was not staged. It was a real event with real consequences. More than 1,100 people have been charged with federal crimes related to the attack.",
+            "Sources": [
+                "instagram-posts",
+                "National Public Radio",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Videos of Nancy Pelosi from Jan. 6, 2021, show the Capitol attack was staged.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/oct/31/instagram-posts/haaretz-rebuts-claims-about-its-reporting-on-israe/",
+            "Main Claim": "“Haaretz investigation reveals discrepancies in Israel’s reporting on October 7th death toll.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Haaretz, an Israeli newspaper, said on X that these claims about its reporting are \"blatant lies.\" Haaretz and other news organizations have reported that during an Oct. 7 attack in Israel, Hamas killed about 1,300 people.",
+            "Sources": [
+                "Haaretz",
+                "Haaretz post",
+                "instagram-posts",
+                "NBC News",
+                "PolitiFact",
+                "Post",
+                "The Associated Press",
+                "Guardian",
+                "The New York Times",
+                "The Rolling Stone",
+                "The Washington Post",
+                "Vice News",
+                "eHalal.io"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“Haaretz investigation reveals discrepancies in Israel’s reporting on October 7th death toll.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/nov/03/instagram-posts/no-this-deposition-transcript-doesnt-prove-george/",
+            "Main Claim": "“New court documents reveal that George Floyd died of a fentanyl overdose.”",
+            "Truth-O-Meter": "False",
+            "Justification": "In an August deposition in a workplace discrimination lawsuit, Hennepin County prosecutor Amy Sweasy Tamburino claimed that Hennepin County’s medical examiner told her in 2020, prior to releasing his findings, that he found no evidence of asphyxia or strangulation during George Floyd’s autopsy. The medical examiner’s final autopsy report concluded that Floyd’s death was a homicide caused by \"cardiopulmonary arrest complicating law enforcement subdual, restraint, and neck compression,\" not a fentanyl overdose. Sweasy’s deposition transcript revealed no new information that would prove Floyd died of a fentanyl overdose.",
+            "Sources": [
+                "ABC News",
+                "Alpha News",
+                "Axios",
+                "C-SPAN",
+                "CBS News",
+                "Email exchange with Sonia Miller-Van Oort",
+                "Emailed statement from Carolyn Marinan",
+                "Hennepin County Medical Examiner’s Office",
+                "instagram-posts",
+                "KSTP",
+                "MPR News",
+                "Minnesota Judicial Branch",
+                "NBC News",
+                "National Public Radio",
+                "Newsweek",
+                "PolitiFact",
+                "Star Tribune",
+                "The Associated Press",
+                "Guardian",
+                "The New York Times",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“New court documents reveal that George Floyd died of a fentanyl overdose.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/oct/31/instagram-posts/old-photos-including-one-from-2019-dont-show-gaza/",
+            "Main Claim": "Photos show Gaza on Oct. 27.",
+            "Truth-O-Meter": "False",
+            "Justification": "None of these photos were taken on Oct. 27. One was taken in 2019.",
+            "Sources": [
+                "Agence France-Presse photo",
+                "Cable News Network",
+                "instagram-posts",
+                "National Public Radio",
+                "The Associated Press",
+                "The Atlantic",
+                "The New York Times",
+                "X post by Palestine Responds",
+                "X post by Quds News Network",
+                "X post by Shayan Sardarizadeh"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Photos show Gaza on Oct. 27.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/oct/30/instagram-posts/claims-that-matthew-perry-died-because-of-covid-19/",
+            "Main Claim": "Matthew Perry died because of a COVID-19 vaccine.",
+            "Truth-O-Meter": "False",
+            "Justification": "Actor Matthew Perry died Oct. 28, but his cause of death is still under investigation. Social media claims suggesting he died because he received a COVID-19 vaccine lack evidence.",
+            "Sources": [
+                "Cable News Network",
+                "County of Los Angeles Medical Examiner",
+                "instagram-posts",
+                "Matthew Perry tweet",
+                "People",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Matthew Perry died because of a COVID-19 vaccine.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/sep/27/instagram-posts/video-shows-donald-trump-admiring-a-glock-handgun/",
+            "Main Claim": "\"Trump just bought a handgun!”",
+            "Truth-O-Meter": "False",
+            "Justification": "Video footage shows former President Donald Trump saying he wanted to buy a Glock pistol during a recent visit to a South Carolina gun shop. But his campaign told PolitiFact that Trump did not purchase a firearm. Trump faces 91 criminal charges in four separate indictments. Federal law prohibits merchants from selling guns to people under felony indictment.",
+            "Sources": [
+                "CNBC",
+                "Email exchange with Steven Cheung",
+                "instagram-posts",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "The Texas Tribune",
+                "U.S. Code",
+                "USA Today"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "\"Trump just bought a handgun!”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/sep/29/instagram-posts/ew-york-city-mosquito-spraying-program-harms-mosqu/",
+            "Main Claim": "New York City is spraying unsafe pesticides to combat West Nile virus.",
+            "Truth-O-Meter": "False",
+            "Justification": "Experts and public health officials say pesticides sprayed in New York City and other cities to combat mosquitoes pose no danger to humans because of the small amount of the chemicals used. The main ingredients in pesticides used by New York City are \"not likely\" to cause cancer in humans, according to the U.S. Environmental Protection Agency. An ingredient in two of the pesticides was tied to benign tumors in animals, but there’s no evidence it causes cancer in humans. New York City’s health department said there have been no reported diseases in people or pets as a result of its mosquito spraying, which has been happening since 2001.",
+            "Sources": [
+                "Anvil 10+10",
+                "Centers for Disease Control and Prevention",
+                "Clarke",
+                "Dani Lightle",
+                "Duet",
+                "instagram-posts",
+                "Laura McGowan",
+                "Meredith Cocks",
+                "Merus",
+                "National Pesticide Information Center",
+                "New York City Department of Health and Mental Hygiene",
+                "Regulations.gov",
+                "Rubert Boyce",
+                "SIlive.com",
+                "Shari Logan",
+                "The American Mosquito Control Association",
+                "The Associated Press",
+                "The New York Times",
+                "U.S. Environmental Protection Agency",
+                "Voice of America"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "New York City is spraying unsafe pesticides to combat West Nile virus.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/oct/13/instagram-posts/claim-that-theres-zero-footage-from-the-ukraine-wa/",
+            "Main Claim": "Less than 48 hours after Israel was attacked “we have hundreds of hours worth of footage but zero footage from the Ukraine war.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Russia’s invasion of Ukraine has been well documented by news outlets and Ukrainian civilians.",
+            "Sources": [
+                "Getty Images",
+                "instagram-posts",
+                "Politico",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Less than 48 hours after Israel was attacked “we have hundreds of hours worth of footage but zero footage from the Ukraine war.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jul/27/instagram-posts/republican-sen-mitt-romney-has-not-threatened-to-j/",
+            "Main Claim": "\"Senator Mitt Romney threatens to leave the Republican party and join Democrats.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Republican Sen. Mitt Romney of Utah has not publicly threatened to switch to the Democratic Party. A spokesperson for the senator called online claims to the contrary \"misinformation spread by online bots.\" Romney in April filed a statement of candidacy with the Federal Election Commission as a Republican.",
+            "Sources": [
+                "CBS News",
+                "Cable News Network",
+                "Federal Election Commission",
+                "Insider",
+                "instagram-posts",
+                "Mitt Romney",
+                "Paige Waltz",
+                "The Associated Press",
+                "The New York Times",
+                "The Salt Lake Tribune",
+                "X post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "\"Senator Mitt Romney threatens to leave the Republican party and join Democrats.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/aug/07/instagram-posts/fbi-director-didnt-confirm-joe-biden-bribery-inves/",
+            "Main Claim": "\"FBI director Wray confirms Joe Biden is under criminal investigation for Ukrainian bribes by the U.S. attorney in Delaware then tries to backpedal.”",
+            "Truth-O-Meter": "False",
+            "Justification": "FBI Director Christopher Wray referred a legislator to the U.S attorney’s office in Delaware when asked in a House Judiciary Committee hearing whether President Joe Biden had received payments from Ukraine. There is a continuing investigation in Delaware into Hunter Biden, the president’s son. Wray did not say that Joe Biden is also being investigated. He said he would not say who is or isn’t being investigated, or for what, as part of the FBI’s long-standing policy. There was an unsubstantiated allegation made by an informant in a 2020 FBI form that a Burisma executive paid Joe and Hunter Biden $5 million each to fire a Ukrainian prosecutor. Multiple news outlets reported in early June that law enforcement couldn’t substantiate the allegations, and the FBI hasn’t commented publicly.",
+            "Sources": [
+                "Christopher Dunham",
+                "House Judiciary Committee",
+                "House Oversight Committee Democrats",
+                "instagram-posts",
+                "PolitiFact",
+                "Politico",
+                "The Associated Press",
+                "The New York Times",
+                "United States Attorney’s Office",
+                "Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "\"FBI director Wray confirms Joe Biden is under criminal investigation for Ukrainian bribes by the U.S. attorney in Delaware then tries to backpedal.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jul/26/instagram-posts/tafari-campbell-obamas-personal-chef-did-not-tweet/",
+            "Main Claim": "Tafari Campbell, the Obamas’ personal chef who drowned, tweeted that he had “information that will lead to the arrest of Barack Obama.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Tafari Campbell, a personal chef to the Obama family, was found dead July 24 after he drowned in a paddleboarding accident in Martha’s Vineyard. He was 45. Social media posts claimed Campbell tweeted that he had information that would lead to former President Barack Obama’s arrest. But that tweet was fabricated.",
+            "Sources": [
+                "instagram-posts",
+                "Massachusetts State Police",
+                "The Associated Press",
+                "The New York Times",
+                "Truth Social post",
+                "Twitter"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Tafari Campbell, the Obamas’ personal chef who drowned, tweeted that he had “information that will lead to the arrest of Barack Obama.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jun/13/instagram-posts/trump-indictment-social-media-posts-misconstrue-fa/",
+            "Main Claim": "“They are trying to throw Trump in jail for the rest of his life for having a couple dozen documents that he had authority to declassify.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Former President Donald Trump has been indicted on 37 charges in a case centered on federal documents he took to Mar-a-Lago, his Palm Beach, Florida, resort. In 2022, the federal government recovered more than 300 documents with classified markings from Mar-a-Lago. Presidents do have the authority to declassify documents, but the Justice Department said Trump gave no indication he declassified any of the sensitive material found at Mar-a-Lago.",
+            "Sources": [
+                "Department of Justice",
+                "instagram-posts",
+                "National Archives",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "U.S. Code",
+                "U.S. District Court for the District of Columbia",
+                "U.S. District Court for the Southern District of New York"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“They are trying to throw Trump in jail for the rest of his life for having a couple dozen documents that he had authority to declassify.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/apr/14/instagram-posts/theres-no-evidence-cash-app-founder-bob-lee-was-mu/",
+            "Main Claim": "Cash App founder Bob Lee’s death is connected to FedNow.",
+            "Truth-O-Meter": "False",
+            "Justification": "A suspect was arrested April 13 in the fatal stabbing of Cash App founder Bob Lee. We found no evidence that his death has anything to do with FedNow.",
+            "Sources": [
+                "instagram-posts",
+                "Mission Local",
+                "Nima Momeni LinkedIn page",
+                "PolitiFact",
+                "San Francisco Chronicle",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Cash App founder Bob Lee’s death is connected to FedNow.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/mar/29/instagram-posts/evidence-does-not-show-barack-obama-had-a-boyfrien/",
+            "Main Claim": "A photo shows former President Barack Obama’s “old boyfriend,” to whom he paid “hush money.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "This photo shows former president Barack Obama and his friend at a college dinner hosted by a student group. There is no evidence the two were ever romantically involved, and no proof Obama paid hush money.",
+            "Sources": [
+                "Getty Images",
+                "instagram-posts",
+                "The Associated Press",
+                "The New York Times",
+                "The New Yorker",
+                "Vanity Fair",
+                "WND",
+                "White House press release"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "A photo shows former President Barack Obama’s “old boyfriend,” to whom he paid “hush money.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jan/26/instagram-posts/titanic-sinking-was-accident-caused-over-1500-deat/",
+            "Main Claim": "The sinking of the Titanic was orchestrated by the Rothschilds and J.P. Morgan to kill prominent businessmen who opposed the creation of the Federal Reserve.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Experts and historians widely agree that the sinking of the Titanic was an accident. High speeds, a fatal wrong turn, weather conditions, a dismissed iceberg warning and lack of binoculars and lifeboats all contributed to the tragedy, historians say. Titanic expert George Behe found that there is no known documentation showing that the three men that this conspiracy theory claims were targeted in the sinking were against the Federal Reserve’s creation. One expressed support for the idea.",
+            "Sources": [
+                "The Associated Press",
+                "Business Insider",
+                "History.com",
+                "instagram-posts",
+                "Investopedia.com",
+                "The New York Times",
+                "NewYorkFed.org",
+                "Reuters",
+                "Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "The sinking of the Titanic was orchestrated by the Rothschilds and J.P. Morgan to kill prominent businessmen who opposed the creation of the Federal Reserve.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2023/jan/23/instagram-posts/photo-2017-used-false-post-alleging-recent-new-yor/",
+            "Main Claim": "\"New York is bombed. At this moment, there are many injured.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "There is no evidence that a bomb attack happened in New York City on Jan. 22, 2023. The photo in this Instagram post is from the Associated Press and was taken Dec. 11, 2017, after a failed suicide bombing attempt in Times Square.",
+            "Sources": [
+                "Fyrefox Media",
+                "instagram-posts",
+                "NBC News",
+                "NYPD",
+                "NYPD News",
+                "New York Police Department",
+                "The Associated Press",
+                "The New York Times",
+                "The U.S. Department of Justice"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "\"New York is bombed. At this moment, there are many injured.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/nov/16/instagram-posts/split-ticket-votes-in-arizona-arent-evidence-of-fr/",
+            "Main Claim": "Split election results show the Arizona governor’s race was rigged.",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Split-ticket voters cast ballots in Arizona, but that’s not evidence of election fraud.",
+            "Sources": [
+                "Arizona secretary of state",
+                "Axios",
+                "instagram-posts",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Split election results show the Arizona governor’s race was rigged.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/nov/08/instagram-posts/no-evidence-george-soros-has-funded-voting-machine/",
+            "Main Claim": "\"They’re trying to rig the election again! Do not trust the Soros funded voting machines!!!”",
+            "Truth-O-Meter": "False",
+            "Justification": "A spokesperson for George Soros said the billionaire philanthropist has no investment in any company that makes voting machines. Soros’ nonprofit Open Society Foundations also said neither Soros nor the organization has anything to do with voting machines. Voting technology companies Smartmatic and Dominion Voting Systems have said that Soros has no connection to them.",
+            "Sources": [
+                "Cable News Network",
+                "Dominion Voting Systems",
+                "Email exchange with Michael Vachon",
+                "instagram-posts",
+                "National Conference of State Legislatures",
+                "Open Society Foundations",
+                "Smartmatic",
+                "The Associated Press",
+                "The New York Times",
+                "Verified Voting"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "\"They’re trying to rig the election again! Do not trust the Soros funded voting machines!!!”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/nov/16/instagram-posts/florida-midterm-results-came-out-fast-why-do-other/",
+            "Main Claim": "It’s proof of “voter fraud” that it takes some states days to count 2 million votes while Florida results were available on election night.",
+            "Truth-O-Meter": "False",
+            "Justification": "Battleground states like Nevada and Arizona had races with close margins, which meant media organizations waited until more votes were counted to announce projected winners. Florida law allows for early processing of mail-in ballots and, in many counties in the state, machines speed up the processing of those ballots. In Arizona, where mail-in voting has been widely used since the 1990s, record numbers of mail ballots were dropped off at polling places on Election Day and those ballots take time to manually process. Arizona and Nevada voters also have a window of time to resolve any discrepancies with their ballots.",
+            "Sources": [
+                "Email interview with Mark Ard",
+                "Email interview with Sophia Solis",
+                "Email interview with Suzy Trutie",
+                "Email statement from Jennifer Russell",
+                "Florida Supervisor of Elections",
+                "Fox 4",
+                "instagram-posts",
+                "Las Vegas Review-Journal",
+                "Maricopa County on YouTube",
+                "National Public Radio",
+                "National Conference of State Legislatures",
+                "Nevada Secretary of State’s post",
+                "New York Magazine",
+                "PolitiFact",
+                "Secretary of State State of Arizona",
+                "Silver State 2022",
+                "The Associated Press",
+                "The New York Times",
+                "The Tampa Bay Times",
+                "The Washington Post",
+                "Vote Beat"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "It’s proof of “voter fraud” that it takes some states days to count 2 million votes while Florida results were available on election night.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/nov/09/instagram-posts/scott-jensen-conceded-minnesota-gubernatorial-race/",
+            "Main Claim": "“Minnesota was stolen from Scott Jensen.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Minnesota Gov. Tim Walz won re-election by an 8-point margin. His opponent, Republican candidate Scott Jensen, conceded early Nov. 9, saying, \"Republicans, quite frankly, we didn’t have a red wave.\" The election wasn’t stolen from him.",
+            "Sources": [
+                "Drazabot 2022",
+                "Duluth News Tribune",
+                "Email interview with Cassondra Knudson",
+                "instagram-posts",
+                "Minnesota Secretary of State",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times",
+                "The Star Tribune"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“Minnesota was stolen from Scott Jensen.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/nov/15/instagram-posts/ftx-helped-with-a-cryptocurrency-fundraising-site/",
+            "Main Claim": "U.S. tax dollars sent to help Ukraine were laundered back by cryptocurrency firm FTX to help Democrats in midterms.",
+            "Truth-O-Meter": "False",
+            "Justification": "FTX, a leading cryptocurrency exchange, announced on Nov. 11 it had filed for bankruptcy. Sam Bankman-Fried resigned as the company’s CEO. He is a large donor to Democrats, but has also given to Republicans. FTX partnered with a fundraising site called Aid for Ukraine, where people can donate cryptocurrency to help the country’s war effort. FTX’s role in the project was to facilitate the conversion of cryptocurrency into regular currency. There’s no evidence that U.S. aid money sent to Ukraine was then used to invest in FTX. Most U.S. aid doesn’t go directly to the Ukrainian government, but rather through third parties like contractors or humanitarian groups.",
+            "Sources": [
+                "Aid for Ukraine",
+                "Alex Bornyakov",
+                "Coindesk",
+                "Congress",
+                "Daily Coin",
+                "ESPN",
+                "Email and phone interview with Mark Cancian",
+                "Emailed statement from Ukraine’s Ministry of Digital Transformation",
+                "Emailed statement from a State Department spokesperson",
+                "Emailed statement from a United States Agency for International Development spokesperson",
+                "Everstake press release",
+                "FTX",
+                "FTX Official",
+                "FTX press release",
+                "Factcheck.org",
+                "Federal Election Commission",
+                "instagram-posts",
+                "Michael Chobanian",
+                "Mykhailo Fedorov",
+                "Nerdwallet",
+                "Samuel Bankman-Fried",
+                "Sergii Vasylchuk",
+                "The Associated Press",
+                "The Financial Times",
+                "The New York Times",
+                "The Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "U.S. tax dollars sent to help Ukraine were laundered back by cryptocurrency firm FTX to help Democrats in midterms.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/nov/03/instagram-posts/no-ray-epps-and-nancy-pelosi-did-not-talk-phone-we/",
+            "Main Claim": "“Freedom of Information Act requests show a dozen phone calls between the cell phone of Ray Epps and the office of Speaker Pelosi in the week before #January6th”",
+            "Truth-O-Meter": "False",
+            "Justification": "Members of Congress and private citizens do not fall under the Freedom of Information Act’s statutory purview. They are exempt. The House Select Committee has said publicly Ray Epps is not an informant, nor did he facilitate the deadly riot at the Capitol on Jan. 6, 2021. Pelosi’s spokesperson called the claim false.",
+            "Sources": [
+                "The Associated Press",
+                "Congressional Research Service",
+                "Email interview with Speaker Nancy Pelosi spokesperson Drew Hammill",
+                "FOIA.gov",
+                "Freedom of Information Act Division",
+                "instagram-posts",
+                "Lead Stories",
+                "PolitiFact",
+                "Revolver",
+                "The New York Times",
+                "USA Today"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“Freedom of Information Act requests show a dozen phone calls between the cell phone of Ray Epps and the office of Speaker Pelosi in the week before #January6th”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/nov/04/instagram-posts/us-election-deniers-spread-false-claims-about-braz/",
+            "Main Claim": "Brazil President Jair Bolsonaro will hold a press conference to “announce military audit of controversial election, may arrest criminal judges.”",
+            "Truth-O-Meter": "False",
+            "Justification": "• Brazil President Jair Bolsonaro did not announce a \"military audit\" of his country’s Oct. 30 election and did not seek to arrest judges in his first public remarks following his defeat. He initiated the peaceful transition of power to the incoming administration.• Brazil’s election was free and fair, according to independent electoral observers, who also said the nation’s electronic voting machines were \"secure, trustworthy, and credible.\"",
+            "Sources": [
+                "Al Jazeera English",
+                "An official statement from the Supreme Court of Brazil",
+                "PolitiFact",
+                "Reuters",
+                "The Associated Press",
+                "The Gateway Pundit",
+                "The New York Times",
+                "Tribunal Superior Eleitoral"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Brazil President Jair Bolsonaro will hold a press conference to “announce military audit of controversial election, may arrest criminal judges.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/oct/28/instagram-posts/trump-campaigns-evidence-of-fraud-was-reviewed-bef/",
+            "Main Claim": "“It’s not that there is no evidence the election was stolen, but that no court had the guts to HEAR the evidence. They dismissed the cases, NOT the evidence.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Election security officials have said the 2020 presidential election was secure and post-election audits in various states found no evidence of widespread fraud. Post-election lawsuits were thrown out for jurisdictional or procedural reasons, but several judges also said the Trump campaign’s allegations of election fraud lacked sufficient proof. A group of prominent conservatives examined 64 cases brought by Trump and his allies and found that 30 included a hearing on the case’s merits. Trump and his allies won only one case, and it involved too few votes to impact the results, the group found.",
+            "Sources": [
+                "Bridge Michigan",
+                "Cable News Network",
+                "Email exchange with Rebecca Green",
+                "Email interview with Richard Pildes",
+                "instagram-posts",
+                "Lost",
+                "PolitiFact",
+                "Reuters",
+                "The Associated Press",
+                "The New York Times",
+                "The Washington Post",
+                "USCourts.gov"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“It’s not that there is no evidence the election was stolen, but that no court had the guts to HEAR the evidence. They dismissed the cases, NOT the evidence.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/nov/04/instagram-posts/brazils-presidential-election-wasnt-stolen/",
+            "Main Claim": "Brazil’s presidential election was “stolen.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Brazil’s presidential election wasn’t stolen. Incumbent President Jair Bolsonaro has told his supporters to stop protesting the contest’s results and his chief of staff said the transition of power will happen.",
+            "Sources": [
+                "The Associated Press",
+                "British Broadcasting Corporation",
+                "instagram-posts",
+                "National Public Radio",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Brazil’s presidential election was “stolen.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/nov/07/instagram-posts/no-a-disgruntled-ex-employee-did-not-suspend-elon/",
+            "Main Claim": "“DISGRUNTLED EX-EMPLOYEE? Twitter CEO Elon Musk's account is presently suspended.”",
+            "Truth-O-Meter": "Pants on Fire!",
+            "Justification": "Elon Musk’s Twitter account was not suspended by a disgruntled ex-employee. An account that bears similar spelling as Musk’s Twitter handle was suspended.",
+            "Sources": [
+                "Elon Musk verified Twitter account",
+                "instagram-posts",
+                "Lead Stories",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“DISGRUNTLED EX-EMPLOYEE? Twitter CEO Elon Musk's account is presently suspended.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/oct/21/instagram-posts/video-doesnt-prove-two-gunmen-during-the-las-vegas/",
+            "Main Claim": "There were two shooters in the 2017 Las Vegas mass shooting.",
+            "Truth-O-Meter": "False",
+            "Justification": "Las Vegas police and the FBI investigated the deadly 2017 shooting on the Las Vegas Strip and found that Stephen Paddock acted alone. A video showing a strobing light as gunfire can he heard doesn’t prove there was a second gunman.",
+            "Sources": [
+                "instagram-posts",
+                "LVMPD criminal investigative report",
+                "PolitiFact",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "There were two shooters in the 2017 Las Vegas mass shooting.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/oct/11/instagram-posts/partnership-targeted-election-misinformation-not-c/",
+            "Main Claim": "The \"Department of Homeland Security and the State Department coordinated with a group called the ‘Election Integrity Partnership’ to censor Joe Biden’s opponents.”",
+            "Truth-O-Meter": "False",
+            "Justification": "The Election Integrity Partnership, composed of researchers, worked with government agencies, civilian groups and social media platforms to counter mis- and disinformation during the 2020 election cycle. The partnership focused on claims intended to suppress voting, reduce participation, confuse voters or delegitimize election results. The Cybersecurity and Infrastructure Security Agency, which is part of the Department of Homeland Security, partnered with the project on election misinformation claims. But in practice, no one from CISA sent examples of misinformation to the partnership, and the partnership sent no reports to social media companies on the agency’s behalf. The Global Engagement Center, which is part of the U.S. State Department, also partnered with the project. But the Global Engagement Center is focused on foreign propaganda, and less than 1% of the claims investigated by the partnership involved foreign actors.",
+            "Sources": [
+                "Cable News Network",
+                "Center for Internet Security",
+                "Cybersecurity and Infrastructure Security Agency",
+                "Department of Homeland Security",
+                "Email exchange with Alex Stamos",
+                "Just the News",
+                "Robby Starbuck",
+                "Stanford Cyber Policy Center",
+                "The Associated Press",
+                "The Atlantic Council",
+                "The Election Integrity Partnership",
+                "The New York Times",
+                "The Tennessean",
+                "Twitter",
+                "USASpending.gov",
+                "University of Washington Center for an Informed Public"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "The \"Department of Homeland Security and the State Department coordinated with a group called the ‘Election Integrity Partnership’ to censor Joe Biden’s opponents.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/oct/27/instagram-posts/no-ukraine-does-not-have-nuclear-bombs-or-dirty-bo/",
+            "Main Claim": "“Ukraine has a nuclear bomb primed in Mykolaiv.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Ukraine does not have a nuclear bomb or a \"dirty bomb,\" according to experts and watchdogs. The country used to have Soviet-era nuclear weapons but returned them to Russia after the Soviet Union collapsed. Ukraine also dismantled or destroyed its nuclear missiles and silos. Its nuclear materials are now used for peaceful purposes.",
+            "Sources": [
+                "A joint statement by the foreign ministers of France",
+                "A speech by Volodymyr Zelensky",
+                "A statement by Energoatom",
+                "A tweet by Dmytro Kuleba",
+                "Arms Control Association",
+                "Email exchange with Gabriela Hernández",
+                "Email exchange with a BBC Monitoring spokesperson",
+                "Email interview with Pavel Podvig",
+                "International Atomic Energy Agency",
+                "Remarks by Dmitry Polyanskiy",
+                "Reuters",
+                "TASS Russian News Agency",
+                "The Associated Press",
+                "The New York Times",
+                "United States Department of Defense",
+                "United States Department of Homeland Security"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“Ukraine has a nuclear bomb primed in Mykolaiv.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/sep/27/instagram-posts/instagram-post-wrongly-says-house-democrats-voted-/",
+            "Main Claim": "“Breaking: Judiciary Democrats just voted to support non-citizens voting in our elections.”",
+            "Truth-O-Meter": "False",
+            "Justification": "A Democratic representative proposed a bill to make it easier for elections officials to provide ballots and other election materials to eligible voters who are not proficient in English. A Republican amendment said the bill should not be construed to allow noncitizens to vote in a federal election. All the votes in favor of the amendment came from Republicans; all the votes against came from Democrats. But a vote against the amendment isn’t a vote to let noncitizens vote in federal elections — that’s already banned in federal law. Whether noncitizens can vote in nonfederal elections is up to states and local municipalities.",
+            "Sources": [
+                "ABC News",
+                "The Associated Press",
+                "Axios",
+                "House subpoena",
+                "MSNBC Morning Joe",
+                "Robin Vos lawsuit",
+                "The New York Times",
+                "The Recount",
+                "U.S. Attorney’s Office",
+                "USA Today",
+                "Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“Breaking: Judiciary Democrats just voted to support non-citizens voting in our elections.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/aug/16/instagram-posts/no-anne-heche-wasnt-murdered-because-she-was-worki/",
+            "Main Claim": "Anne Heche was murdered by the illuminati because she was working on a movie about Jeffrey Epstein.",
+            "Truth-O-Meter": "False",
+            "Justification": "Anne Heche died from injuries sustained when the car she was driving crashed into a Los Angeles home and caught fire. She stars in a Lifetime movie about sex trafficking that’s scheduled to air in September, but it’s not about Jeffrey Epstein.",
+            "Sources": [
+                "ET Canada",
+                "instagram-posts",
+                "Los Angeles Police Department",
+                "TMZ",
+                "The Associated Press",
+                "The New York Times",
+                "USA Today",
+                "YouTube"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Anne Heche was murdered by the illuminati because she was working on a movie about Jeffrey Epstein.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2022/may/19/instagram-posts/alabama-law-does-not-criminally-punish-women-who-g/",
+            "Main Claim": "\"In Iran, if a 12-year-old girl is raped and impregnated by her father, she must carry the baby to term, or be thrown in prison for life. Wait, sorry, no, That's Alabama.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "•An Alabama abortion law that never went into effect specified that women receiving abortions would not be criminally or civilly punished. The law would have punished doctors who provided abortions.",
+            "Sources": [
+                "AL.com",
+                "Cable News Network",
+                "instagram-posts",
+                "LegiScan",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "\"In Iran, if a 12-year-old girl is raped and impregnated by her father, she must carry the baby to term, or be thrown in prison for life. Wait, sorry, no, That's Alabama.\"",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/aug/23/instagram-posts/twitter-hasnt-suspended-afghanistans-president-the/",
+            "Main Claim": "\"Twitter has suspended the account of Afghanistan’s elected President… and have allowed the Taliban to keep their accounts.\"",
+            "Truth-O-Meter": "Half-True",
+            "Justification": "Twitter hasn’t suspended Afghanistan’s president. Two other accounts associated with the government are suspended as Twitter awaits identity verification from them. The Taliban is allowed on Twitter so long as they don’t break the platform’s rules, and so far, they have been careful not to.",
+            "Sources": [
+                "The Associated Press",
+                "British Broadcasting Corporation",
+                "Cable News Network",
+                "Islamic Republic of Afghanistan",
+                "Mediaite",
+                "NBC News",
+                "The New York Times",
+                "Reuters",
+                "Tweet from Suhail Shaheen",
+                "Tweet from Zabihullah Mujahid",
+                "Twitter",
+                "Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "\"Twitter has suspended the account of Afghanistan’s elected President… and have allowed the Taliban to keep their accounts.\"",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/aug/20/instagram-posts/biden-harris-questioned-trump-not-vaccines-they-ba/",
+            "Main Claim": "Joe Biden and Kamala Harris “continuously questioned the vaccine during the campaign” but now “they support vaccine cards and forced vaccinations.”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "Biden and Harris questioned whether Trump would roll out COVID-19 vaccines safely. They did not question the vaccines themselves. The Biden administration supports requiring some people, such as members of the military and VA hospital workers, to be vaccinated against COVID-19.",
+            "Sources": [
+                "The Associated Press",
+                "Cable News Network",
+                "instagram-posts",
+                "The New York Times",
+                "PolitiFact",
+                "Reuters",
+                "The White House"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Joe Biden and Kamala Harris “continuously questioned the vaccine during the campaign” but now “they support vaccine cards and forced vaccinations.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/jul/15/instagram-posts/federal-agents-are-not-going-door-door-coerce-peop/",
+            "Main Claim": "Federal agents are going “door-to-door coercing people to be injected with experimental drugs.”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "President Joe Biden advocated for a plan to knock on the doors of unvaccinated Americans in an effort to inform them about available COVID-19 vaccines. The people involved in the program are not federal employees but local community members and volunteers, a White House spokesperson said. There is no evidence that \"coercion\" — use of force or threat to get unwilling people to comply — is being used as part of the program. Following clinical trials involving tens of thousands of patients, the COVID-19 vaccines were granted emergency use authorization by the FDA and are considered safe and effective, not experimental.",
+            "Sources": [
+                "The Associated Press",
+                "Centers for Disease Control and Prevention",
+                "City of Chicago",
+                "Email interview with Chandra Zeikel",
+                "Email interview with Kristen Nordlund",
+                "Forbes",
+                "Henry McMaster",
+                "Jen Psaki",
+                "Milwaukee Journal Sentinel",
+                "The New York Times",
+                "PolitiFact",
+                "Remarks by President Biden on the COVID-19 Response and the Vaccination Program",
+                "The Advocate",
+                "U.S. Food and Drug Administration",
+                "University of Maryland",
+                "WCNC Charlotte",
+                "Washington Post",
+                "Wisconsin Public Radio",
+                "​​National Center for Biotechnology Information"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Federal agents are going “door-to-door coercing people to be injected with experimental drugs.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/sep/09/instagram-posts/russian-president-vladimir-putin-has-not-banned-ma/",
+            "Main Claim": "“President Putin bans mandatory vaccinations in Russia.”",
+            "Truth-O-Meter": "False",
+            "Justification": "The Russian president has said he opposes mandatory COVID-19 vaccination orders, but he has not stopped the many orders that have been in place in his country for months.",
+            "Sources": [
+                "AFP",
+                "The Associated Press",
+                "instagram-posts",
+                "The New York Times",
+                "News Punch",
+                "Reuters",
+                "Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "“President Putin bans mandatory vaccinations in Russia.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/jun/29/instagram-posts/no-evidence-post-about-funeral-directors-seeing-de/",
+            "Main Claim": "Funeral directors say “no one is dying from COVID” and \"the only ones dying are from the vaccine.\"",
+            "Truth-O-Meter": "False",
+            "Justification": "According to the CDC, most people dying from COVID-19 are unvaccinated. There is no evidence of funeral directors saying only vaccinated people are dying",
+            "Sources": [
+                "The Associated Press",
+                "Centers for Disease Control and Prevention",
+                "Email interview with Jeff Lancashire",
+                "Email interview with Jessica Koth",
+                "Los Angeles Times",
+                "The New York Times",
+                "PolitiFact",
+                "Washington Post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Funeral directors say “no one is dying from COVID” and \"the only ones dying are from the vaccine.\"",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/jul/07/instagram-posts/yes-three-former-police-officers-convicted-murder-/",
+            "Main Claim": "Three white former police officers were sentenced to less prison time — combined — for killing three Black people than a Black man was for selling marijuana.",
+            "Truth-O-Meter": "Half-True",
+            "Justification": "The three white, former police officers shown in the post were convicted in separate cases involving the murders of two Black men and a Black boy, and received shorter prison sentences than prosecutors wanted. The Black man shown in the post, Michael Thompson, was sentenced to 40 to 60 years in prison for firearms possession by a felon because of past convictions. The conviction for the drug offense led to a 15-year sentence.",
+            "Sources": [
+                "ACLU",
+                "Cable News Network",
+                "Council on Criminal Justice",
+                "facebook-posts",
+                "PolitiFact",
+                "Star Tribune",
+                "The Associated Press",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Three white former police officers were sentenced to less prison time — combined — for killing three Black people than a Black man was for selling marijuana.",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/jun/25/instagram-posts/fact-checking-false-instagram-post-about-eric-trum/",
+            "Main Claim": "Says Eric Trump said he “raised nearly $30 million for children dying of cancer at St. Jude before the age of 30.”",
+            "Truth-O-Meter": "False",
+            "Justification": "We found no evidence that the post accurately quoted Eric Trump. The Eric Trump Foundation raised $16.3 million for St. Jude, not $30 million as one Instagram post claimed. The foundation rebranded and restructured as Curetivity, and has continued to raise money for St. Jude.",
+            "Sources": [
+                "The Associated Press",
+                "Charity Navigator",
+                "Curetivity Foundation",
+                "Forbes",
+                "instagram-posts",
+                "The New York Times",
+                "ProPublica NonProfit Explorer",
+                "The Curetivity Foundation",
+                "The Eric Trump Foundation",
+                "Twitter post"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Says Eric Trump said he “raised nearly $30 million for children dying of cancer at St. Jude before the age of 30.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2021/apr/09/instagram-posts/instagram-post-ignores-full-floyd-video-falsely-cl/",
+            "Main Claim": "Says Officer Derek Chauvin’s knee was “not on neck of George Floyd.”",
+            "Truth-O-Meter": "False",
+            "Justification": "Video of the final seconds in the approximately eight minutes of Floyd’s restraint show Chauvin’s knee on Floyd’s shoulder. The rest of the video shows Chauvin’s knee on or next to his neck. Doctors say pressure in that area would cut off the flow of blood and oxygen.",
+            "Sources": [
+                "The Associated Press",
+                "Ann Coulter",
+                "instagram-posts",
+                "The New York Times"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Says Officer Derek Chauvin’s knee was “not on neck of George Floyd.”",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "Speaker": "instagram-posts",
+            "Article URL": "https://www.politifact.com/factchecks/2020/mar/17/instagram-posts/celebrities-are-sharing-misleading-post-about-trum/",
+            "Main Claim": "Says Donald Trump “cut funding to the CDC,” “fired the Pandemic Response Team,” “refused WHO tests” and “wasted two weeks calling this outbreak a ‘Democrat hoax.’”",
+            "Truth-O-Meter": "Mostly False",
+            "Justification": "Trump did attempt to cut the CDC’s funding, but Congress prevented it from happening. While officials in charge of the U.S. response to pandemics did leave in 2018, it’s unclear if they were \"fired.\" The U.S. was not on a list of countries receiving COVID-19 tests from the WHO. But the U.S. doesn’t usually rely on the agency for diagnostic tests, and the testing delay was due mainly to an error with the CDC’s protocol. While Trump has called the Democratic response to the coronavirus a \"hoax,\" he has not used the term to describe the virus itself.",
+            "Sources": [
+                "The Associated Press",
+                "Centers for Disease Control and Prevention",
+                "instagram-posts",
+                "National Public Radio",
+                "PolitiFact",
+                "Politico",
+                "Rev",
+                "The New York Times",
+                "The Wall Street Journal",
+                "The Washington Post",
+                "Time Magazine",
+                "Tweet",
+                "USA Today",
+                "YouTube video"
+            ],
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "instagram-posts",
+                    "claim": "Says Donald Trump “cut funding to the CDC,” “fired the Pandemic Response Team,” “refused WHO tests” and “wasted two weeks calling this outbreak a ‘Democrat hoax.’”",
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}
