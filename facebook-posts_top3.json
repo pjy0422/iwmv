@@ -21,11 +21,23 @@
                 "The New York Times",
                 "Toan Canh 24H"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "\"Michael Jackson discovered alive at age 65” and will testify against Sean “Diddy” Combs."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"Michael Jackson discovered alive at age 65” and will testify against Sean “Diddy” Combs.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -44,11 +56,23 @@
                 "The Associated Press",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "Swift did cancel some August Eras Tour shows in Austria after authorities discovered a terrorist attack was being planned outside her Vienna shows’ venue.",
-                "The New York Times": "",
-                "facebook-posts": "“Taylor Swift forced to cancel Eras Tour dates following endorsement backlash.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Taylor Swift forced to cancel Eras Tour dates following endorsement backlash.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -70,11 +94,23 @@
                 "X post",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Vice President Kamala Harris’ college professors disparaged her as their “worst student.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Vice President Kamala Harris’ college professors disparaged her as their “worst student.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -92,11 +128,23 @@
                 "The Associated Press",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "Two Olympic athletes revealed that they were pregnant during the 2024 Paris Games, but Biles wasn’t one of them. ",
-                "The New York Times": "The New York Times reported Aug. 5 that Biles’ floor competition that day could be her final Olympics performance, citing Biles’ mother Nellie Biles and sister Adria Biles. ",
-                "facebook-posts": "Says Simone Biles “announces retirement” and “reveals she is ‘expecting a baby.’”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Simone Biles “announces retirement” and “reveals she is ‘expecting a baby.’”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -112,11 +160,23 @@
                 "The Associated Press",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Netflix loses 6 million subscribers within hours of donation announcement.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Netflix loses 6 million subscribers within hours of donation announcement.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -136,11 +196,23 @@
                 "The New Statesman",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Thomas Matthew Crooks worked for BlackRock \"in the past\" and BlackRock owned the building Crooks stood on when he shot at the Trump campaign rally."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Thomas Matthew Crooks worked for BlackRock \"in the past\" and BlackRock owned the building Crooks stood on when he shot at the Trump campaign rally.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -170,11 +242,23 @@
                 "UEFA",
                 "X post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -198,11 +282,23 @@
                 "WeekTimesUS",
                 "X post"
             ],
-            "source_claims": {
-                "The Associated Press": "Caitlin Clark is set to sign a new Nike deal valued at $28 million over 8 years, reports say",
-                "The New York Times": "",
-                "facebook-posts": "“Caitlin Clark rejects $400 million deal from Nike” saying “not with that Kaepernick clown.’”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Caitlin Clark rejects $400 million deal from Nike” saying “not with that Kaepernick clown.’”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -224,11 +320,23 @@
                 "USA Today",
                 "Variety"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "A jury “ordered Disney and Lucasfilm to pay” actor Gina Carano $115 million."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A jury “ordered Disney and Lucasfilm to pay” actor Gina Carano $115 million.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -245,11 +353,23 @@
                 "The New York Times",
                 "X post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Video shows Iranian drone sent to Israel stuck in a power line in Iraq."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Video shows Iranian drone sent to Israel stuck in a power line in Iraq.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -275,11 +395,23 @@
                 "The Washington Post",
                 "USA Today"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "The ship that struck the Baltimore bridge was controlled by a Chinese company."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The ship that struck the Baltimore bridge was controlled by a Chinese company.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -298,11 +430,23 @@
                 "The Washington Post",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -319,11 +463,23 @@
                 "Tweet by The Post Millennial",
                 "USAGov"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "A video shows President Joe Biden invoking the Selective Service Act."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A video shows President Joe Biden invoking the Selective Service Act.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -342,11 +498,23 @@
                 "The Messenger",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "New York’s fraud case against Trump “has nothing to do with his home in Mar-a-Lago.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "New York’s fraud case against Trump “has nothing to do with his home in Mar-a-Lago.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -366,11 +534,23 @@
                 "Tweet",
                 "Twitter profile"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Image shows Sen. Rand Paul in a bathrobe on the steps of the U.S. Capitol."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Image shows Sen. Rand Paul in a bathrobe on the steps of the U.S. Capitol.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -389,11 +569,23 @@
                 "USA Today",
                 "World Economic Forum"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“WEF admits Maui wildfires orchestrated to transform Hawaii into 15-minute cities.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“WEF admits Maui wildfires orchestrated to transform Hawaii into 15-minute cities.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -407,11 +599,23 @@
                 "The New York Times",
                 "PolitiFact"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Official statement — Putin assassinated in the Kremlin!”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Official statement — Putin assassinated in the Kremlin!”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -444,11 +648,23 @@
                 "Tiktok post",
                 "University of La Laguna"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Smart-city plans are behind wildfires in Tenerife."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Smart-city plans are behind wildfires in Tenerife.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -467,11 +683,23 @@
                 "TikTok video",
                 "Vox Media"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Photos show Target is pushing \"evil agenda\" on kids."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Photos show Target is pushing \"evil agenda\" on kids.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -485,11 +713,23 @@
                 "The Associated Press",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Video shows that “George Soros is going bankrupt.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Video shows that “George Soros is going bankrupt.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -513,11 +753,23 @@
                 "The World Health Organization",
                 "U.S. Environmental Protection Agency"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Bill Gates is behind the five recent cases of malaria in the United States."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Bill Gates is behind the five recent cases of malaria in the United States.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -536,11 +788,23 @@
                 "U.S. Coast Guard Northeast",
                 "U.S. Coast Guard Northwest"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Audio is of “the knocking they caught from the submarine” that imploded on the way to view the Titanic wreckage."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Audio is of “the knocking they caught from the submarine” that imploded on the way to view the Titanic wreckage.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -563,11 +827,23 @@
                 "The New York Times",
                 "The Pete Santilli Show"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "30 tons of lost ammonium nitrate on a California-bound train suggest an orchestrated conspiracy."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "30 tons of lost ammonium nitrate on a California-bound train suggest an orchestrated conspiracy.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -601,11 +877,23 @@
                 "Votebeat Arizona",
                 "https://rumble.com/v2pk972-live-kari-lake-press-conference-big-announcement.html"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "An Arizona judge was “forced to overturn” an election and ruled “274,000 ballots must be thrown out.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "An Arizona judge was “forced to overturn” an election and ruled “274,000 ballots must be thrown out.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -625,11 +913,23 @@
                 "The New York Times",
                 "The War Zone"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Video shows Ukraine was “nuked.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Video shows Ukraine was “nuked.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -650,11 +950,23 @@
                 "TikTok video",
                 "United Nations"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Images show “Putin has been arrested.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Images show “Putin has been arrested.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -677,11 +989,23 @@
                 "The New York Times",
                 "United States Geological Survey"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "The earthquake in Turkey is a \"scripted\" use of geo engineering weather modification HAARP"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The earthquake in Turkey is a \"scripted\" use of geo engineering weather modification HAARP",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -699,11 +1023,23 @@
                 "The New York Times",
                 "University of Washington"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Grant Wahl died because of the COVID-19 vaccine."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Grant Wahl died because of the COVID-19 vaccine.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -725,11 +1061,23 @@
                 "The New York Times",
                 "The White House"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Norway readies its military to counter Biden.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Norway readies its military to counter Biden.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -751,11 +1099,23 @@
                 "The New York Times",
                 "Twitter post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“North Korea sent more than 100,000 troops to Russia for the Ukraine War!”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“North Korea sent more than 100,000 troops to Russia for the Ukraine War!”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -772,11 +1132,23 @@
                 "The Associated Press",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“The FBI confirmed” that Ashley Biden said her father molested her."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The FBI confirmed” that Ashley Biden said her father molested her.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -793,11 +1165,23 @@
                 "The Washington Post",
                 "Vatican News"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“The pope, Xi and Putin all meet to plan world events!”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The pope, Xi and Putin all meet to plan world events!”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -811,11 +1195,23 @@
                 "The Associated Press",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Vladimir Putin “is fleeing the war!”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Vladimir Putin “is fleeing the war!”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -840,11 +1236,23 @@
                 "The New York Times",
                 "Xinhua News Agency"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“President Xi of China under house arrest” amid “coup by the PLA.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“President Xi of China under house arrest” amid “coup by the PLA.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -861,11 +1269,23 @@
                 "The Washington Post",
                 "Violet"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“The Russian army is withdrawing from Ukraine!” in September 2022"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The Russian army is withdrawing from Ukraine!” in September 2022",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -886,11 +1306,23 @@
                 "PolitiFact",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "The deaths of U.S. Rep. Jackie Walorski, R-Ind., and actor Anne Heche are suspicious and linked because they “partnered fighting against pedophilia.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The deaths of U.S. Rep. Jackie Walorski, R-Ind., and actor Anne Heche are suspicious and linked because they “partnered fighting against pedophilia.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -912,11 +1344,23 @@
                 "The New York Times",
                 "The Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“The gunman at Greenwood Park Mall was a CIA asset.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The gunman at Greenwood Park Mall was a CIA asset.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1010,11 +1454,23 @@
                 "YakTriNews.com",
                 "Yakima Herald-Republic"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "95-item list of food-destroying incidents demonstrates that “you are duped if you think they aren’t planning a food shortage.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "95-item list of food-destroying incidents demonstrates that “you are duped if you think they aren’t planning a food shortage.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1040,11 +1496,23 @@
                 "Vox Media",
                 "WhiteHouse.gov"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "The United States can’t import baby formula because of the U.S.-Mexico-Canada Agreement."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The United States can’t import baby formula because of the U.S.-Mexico-Canada Agreement.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1060,11 +1528,23 @@
                 "U.S. Supreme Court",
                 "Vanity Fair"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Roe v. Wade happened because a woman lied about being raped by black men.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Roe v. Wade happened because a woman lied about being raped by black men.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1078,11 +1558,23 @@
                 "The Associated Press",
                 "The Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "The “Franklin scandal” broke in 1989 “when hundreds of children were apparently flown around the US to be abused by high ranking ‘Establishment’ members.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The “Franklin scandal” broke in 1989 “when hundreds of children were apparently flown around the US to be abused by high ranking ‘Establishment’ members.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1098,11 +1590,23 @@
                 "PolitiFact",
                 "Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“White House physician demands Biden’s immediate resignation following his ‘obvious’ cognitive decline.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“White House physician demands Biden’s immediate resignation following his ‘obvious’ cognitive decline.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1136,11 +1640,23 @@
                 "The Washington Post",
                 "United Tribes Technical College research"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "People protesting the Dakota Access pipeline “were intentionally poisoned” by government officials in North Dakota when a pilot “knowingly sprayed poisonous chemicals” over protesters’ camps."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "People protesting the Dakota Access pipeline “were intentionally poisoned” by government officials in North Dakota when a pilot “knowingly sprayed poisonous chemicals” over protesters’ camps.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1157,11 +1673,23 @@
                 "The New York Times",
                 "U.S. Environmental Protection Agency"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Fuel containing 15% ethanol will ruin a car engine."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Fuel containing 15% ethanol will ruin a car engine.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1178,11 +1706,23 @@
                 "The New York Times",
                 "USA Today"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "\"Alopecia isn't a medical disease; it's an aesthetic one.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"Alopecia isn't a medical disease; it's an aesthetic one.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1201,11 +1741,23 @@
                 "The White House",
                 "White House map"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Joe Biden didn’t sign an antilynching bill in a ceremony outside the White House on March 29."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Joe Biden didn’t sign an antilynching bill in a ceremony outside the White House on March 29.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1221,11 +1773,23 @@
                 "The New York Times",
                 "WhiteHouse.gov"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Biden \"wants to buy lithium from China for electric cars.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Biden \"wants to buy lithium from China for electric cars.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1255,11 +1819,23 @@
                 "The Wall Street Journal",
                 "U.S. Bureau of Labor Statistics"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "\"According to Congress, travel nurses need a pay cap.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"According to Congress, travel nurses need a pay cap.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1274,11 +1850,23 @@
                 "Ottawa Police Service Facebook post",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Fifty percent of the Ottawa police force have all turned in their resignation.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Fifty percent of the Ottawa police force have all turned in their resignation.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1301,11 +1889,23 @@
                 "The Hindu",
                 "The Print"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“India has nearly 1.4 billion citizens. Nearly 800 million of them live in extreme poverty — less than $1.90 per day. Yet EVERY singly (sic) Indian citizen is required to have a valid form of ID to vote in national elections.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“India has nearly 1.4 billion citizens. Nearly 800 million of them live in extreme poverty — less than $1.90 per day. Yet EVERY singly (sic) Indian citizen is required to have a valid form of ID to vote in national elections.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1331,11 +1931,23 @@
                 "U.S. Department of Justice",
                 "U.S. Senate"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "A Black Lives Matter administrator was arrested in a 1983 bombing at the U.S. Capitol."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A Black Lives Matter administrator was arrested in a 1983 bombing at the U.S. Capitol.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1354,11 +1966,23 @@
                 "PolitiFact",
                 "WAMU"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "A judge sealed “all the evidence and proof of who helped Ghislaine Maxwell sex traffic children.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A judge sealed “all the evidence and proof of who helped Ghislaine Maxwell sex traffic children.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1373,11 +1997,23 @@
                 "Guardian",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says Supreme Court Justice Sonia Sotomayor was photographed at dinner with Democratic lawmakers."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Supreme Court Justice Sonia Sotomayor was photographed at dinner with Democratic lawmakers.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1408,11 +2044,23 @@
                 "The New York Times",
                 "Viral Pathogenesis"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "\"Pathogens evolve to become less, not more, virulent over time” because otherwise, “they’d destroy their hosts which they depend on to live.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"Pathogens evolve to become less, not more, virulent over time” because otherwise, “they’d destroy their hosts which they depend on to live.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1433,11 +2081,23 @@
                 "PolitiFact",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“There’s only one reporter on site” at the Ghislaine Maxwell trial."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“There’s only one reporter on site” at the Ghislaine Maxwell trial.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1456,11 +2116,23 @@
                 "Guardian",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "A campaign poster for New Zealand Prime Minister Jacinda Ardern with the slogan, “No jab. No job, no refunds.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A campaign poster for New Zealand Prime Minister Jacinda Ardern with the slogan, “No jab. No job, no refunds.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1483,11 +2155,23 @@
                 "Washington Post",
                 "World Health Organization"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“The toxicity of COVID-Omicron is 5 times higher than that of the delta variant, and the mortality rate is also higher than that of Delta.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The toxicity of COVID-Omicron is 5 times higher than that of the delta variant, and the mortality rate is also higher than that of Delta.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1505,11 +2189,23 @@
                 "The New York Times",
                 "Twitter post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Federal magistrate approves $110 million defamation suit against LeBron James by Kyle Rittenhouse.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Federal magistrate approves $110 million defamation suit against LeBron James by Kyle Rittenhouse.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1531,11 +2227,23 @@
                 "Reuters",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Keystone Pipeline was blocked by Obama on Warren Buffett’s behalf."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Keystone Pipeline was blocked by Obama on Warren Buffett’s behalf.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1553,11 +2261,23 @@
                 "Reuters",
                 "Twitter post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“BREAKING: Judge in Ghislaine Maxwell trial issues media-wide gag order: all press & spectators barred from courtroom.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“BREAKING: Judge in Ghislaine Maxwell trial issues media-wide gag order: all press & spectators barred from courtroom.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1573,11 +2293,23 @@
                 "Walmart",
                 "Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“On the first day of the Ghislaine Maxwell trial, the CEO of Twitter resigned, the CEO of Walmart resigned, the CEO of CNBC resigned”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“On the first day of the Ghislaine Maxwell trial, the CEO of Twitter resigned, the CEO of Walmart resigned, the CEO of CNBC resigned”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1592,11 +2324,23 @@
                 "facebook-posts",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Black Friday originated in 1904 when enslaved people were sold at a discount to boost the economy."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Black Friday originated in 1904 when enslaved people were sold at a discount to boost the economy.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1614,11 +2358,23 @@
                 "The New York Times",
                 "Radar Online"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Live Nation scheduled the 50,000-person Astroworld music festival at a venue that has a capacity of 20,000."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Live Nation scheduled the 50,000-person Astroworld music festival at a venue that has a capacity of 20,000.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1635,11 +2391,23 @@
                 "The New York Times",
                 "Travis Scott tweet"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "The deaths at the Astroworld festival were part of a satanic ritual."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The deaths at the Astroworld festival were part of a satanic ritual.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1660,11 +2428,23 @@
                 "Stars and Stripes",
                 "U.S. House of Representatives"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says “31 U.S. troops” were “killed in Afghanistan yesterday.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says “31 U.S. troops” were “killed in Afghanistan yesterday.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1689,11 +2469,23 @@
                 "Washington Post",
                 "Youtube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "\"21% of 140,000 ballots were found to be in error in GA.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"21% of 140,000 ballots were found to be in error in GA.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1710,11 +2502,23 @@
                 "World Trade Organization",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Bill Gates fights to keep vaccine ingredients secret.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Bill Gates fights to keep vaccine ingredients secret.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1734,11 +2538,23 @@
                 "Worthypolitics.com",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“A quarter of a million illegal votes found in Arizona’s audit.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“A quarter of a million illegal votes found in Arizona’s audit.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1761,11 +2577,23 @@
                 "The 19th",
                 "USA Today"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Joe Biden and the Democrats want to remove any term that denotes gender.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Joe Biden and the Democrats want to remove any term that denotes gender.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1784,11 +2612,23 @@
                 "U.S. Capitol Police",
                 "Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Joe Biden and Kamala Harris forced our troops to sleep on the floor of a garage, yet has authorized $89 million for hotel rooms for illegal immigrants.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Joe Biden and Kamala Harris forced our troops to sleep on the floor of a garage, yet has authorized $89 million for hotel rooms for illegal immigrants.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1809,11 +2649,23 @@
                 "Guardian",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "The shooting in Boulder, Colo., was a \"false flag like most of the others.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The shooting in Boulder, Colo., was a \"false flag like most of the others.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1837,11 +2689,23 @@
                 "United States Capitol Police",
                 "Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Only Nancy Pelosi is “responsible for what happened at the Capitol” on Jan. 6, “security at the Capitol is her job.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Only Nancy Pelosi is “responsible for what happened at the Capitol” on Jan. 6, “security at the Capitol is her job.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1866,11 +2730,23 @@
                 "The New York Times",
                 "USA Today"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Not one court has looked at the evidence and said that Biden legally won” the presidential election."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Not one court has looked at the evidence and said that Biden legally won” the presidential election.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1897,11 +2773,23 @@
                 "U.S. State Department",
                 "U.S. Supreme Court"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "\"By revoking the Keystone pipeline permit, Biden is destroying 11,000 jobs.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"By revoking the Keystone pipeline permit, Biden is destroying 11,000 jobs.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1924,11 +2812,23 @@
                 "Snopes",
                 "USA Today"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Inauguration Cancelled, Trump Remains in Office.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Inauguration Cancelled, Trump Remains in Office.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1945,11 +2845,23 @@
                 "The New York Times",
                 "Reuters"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "The Nashville bombing was an attempt to stop an AT&T audit into Dominion software and cover up election corruption."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The Nashville bombing was an attempt to stop an AT&T audit into Dominion software and cover up election corruption.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1966,11 +2878,23 @@
                 "The New York Times",
                 "WHNT-TV"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“One of the first nurses to receive the vaccine in AL is now dead.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“One of the first nurses to receive the vaccine in AL is now dead.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -1990,11 +2914,23 @@
                 "Smartmatic",
                 "The Wall Street Journal"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says “Hugo Chavez’s family still owns” Dominion Voting Systems."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says “Hugo Chavez’s family still owns” Dominion Voting Systems.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2016,11 +2952,23 @@
                 "TinEye",
                 "Tweet"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“These are real to date pictures taken during the Million (MAGA) March 2020.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“These are real to date pictures taken during the Million (MAGA) March 2020.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2042,11 +2990,23 @@
                 "PolitiFact",
                 "Tweet"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says Dominion Voting System flipped votes to Joe Biden in states where Trump is bringing legal challenges."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Dominion Voting System flipped votes to Joe Biden in states where Trump is bringing legal challenges.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2067,11 +3027,23 @@
                 "The New York Times",
                 "WXYZ-TV"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "A judge has ordered a \"HAND RECOUNT by an INDEPENDENT COMMISSION in the state of Michigan, following hard evidence of voting fraud by Detroit City Election Commission.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A judge has ordered a \"HAND RECOUNT by an INDEPENDENT COMMISSION in the state of Michigan, following hard evidence of voting fraud by Detroit City Election Commission.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2096,11 +3068,23 @@
                 "USA Today",
                 "WSB-TV"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "\"Voter FRAUD exposed in Georgia. Over 2600 votes 'FOUND.'\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"Voter FRAUD exposed in Georgia. Over 2600 votes 'FOUND.'\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2125,11 +3109,23 @@
                 "The Wall Street Journal",
                 "The Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Biden lead disappears in NV, AZ, GA, PA.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Biden lead disappears in NV, AZ, GA, PA.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2147,11 +3143,23 @@
                 "Guardian",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "The media called the 2016 election for Hillary Clinton."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The media called the 2016 election for Hillary Clinton.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2173,11 +3181,23 @@
                 "USA Today",
                 "Wolfram Alpha"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Siri gave “CONFIRMATION of the Democrats' sinister plan to REMOVE Sleepy Joe immediately using the 25th Amendment and instate Kamala Harris as President!”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Siri gave “CONFIRMATION of the Democrats' sinister plan to REMOVE Sleepy Joe immediately using the 25th Amendment and instate Kamala Harris as President!”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2203,11 +3223,23 @@
                 "WLNE-TV",
                 "WSB-TV"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "\"Six states can't get the votes counted. Six states in which @realDonaldTrump is leading. Six states where Dems are in charge.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"Six states can't get the votes counted. Six states in which @realDonaldTrump is leading. Six states where Dems are in charge.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2237,11 +3269,23 @@
                 "U.S. Cybersecurity and Infrastructure Agency",
                 "WLNE-TV"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Six states \"decided to stop counting\" votes as Donald Trump was \"headed for a win” on election night."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Six states \"decided to stop counting\" votes as Donald Trump was \"headed for a win” on election night.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2261,11 +3305,23 @@
                 "Twitter",
                 "USA Today"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“If you were forced to use a Sharpie” to fill out your ballot, “that is voter fraud.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“If you were forced to use a Sharpie” to fill out your ballot, “that is voter fraud.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2291,11 +3347,23 @@
                 "Tweet",
                 "YouTube video"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "\"The daughter of Sen. Coons (D-DE), along with 7 other underaged girls are featured on Hunter's laptop! - Breitbart News\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"The daughter of Sen. Coons (D-DE), along with 7 other underaged girls are featured on Hunter's laptop! - Breitbart News\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2316,11 +3384,23 @@
                 "Telephone interview",
                 "The State"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Jaime Harrison is being left off of South Carolina ballots”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Jaime Harrison is being left off of South Carolina ballots”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2342,11 +3422,23 @@
                 "The New York Times",
                 "Tweet"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says Donald Trump boarded Marine One \"with a portable oxygen concentrator in his pocket with the nasal cannula going up his back, hidden in his hair and tucked under his mask.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Donald Trump boarded Marine One \"with a portable oxygen concentrator in his pocket with the nasal cannula going up his back, hidden in his hair and tucked under his mask.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2363,11 +3455,23 @@
                 "Snopes.com",
                 "Web Archive"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says Jared Kushner “deleted all of his tweets after the tax story broke.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Jared Kushner “deleted all of his tweets after the tax story broke.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2384,11 +3488,23 @@
                 "The New York Times",
                 "Snopes"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "A graphic on U.S. abortion rates shows larger declines during recent Democratic presidential administrations, and says its due to the party’s approach of making abortions unnecessary, rather than the Republican Party’s approach of making the procedure illegal."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A graphic on U.S. abortion rates shows larger declines during recent Democratic presidential administrations, and says its due to the party’s approach of making abortions unnecessary, rather than the Republican Party’s approach of making the procedure illegal.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2404,11 +3520,23 @@
                 "The New York Times",
                 "The Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“James Comey has 50 counts of TREASON. And John Brennan has 48 counts of TREASON.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“James Comey has 50 counts of TREASON. And John Brennan has 48 counts of TREASON.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2431,11 +3559,23 @@
                 "UPI",
                 "Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“In 1983, Joe Biden voted in favor of taxing 50% of Social Security” and in 1993, Biden “was the deciding vote in raising the percentage taxed on Social Security from 50% to 85%.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“In 1983, Joe Biden voted in favor of taxing 50% of Social Security” and in 1993, Biden “was the deciding vote in raising the percentage taxed on Social Security from 50% to 85%.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2465,11 +3605,23 @@
                 "Tweet",
                 "USA Today"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Most of the wildfires on the West Coast are “all being started by antifa.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Most of the wildfires on the West Coast are “all being started by antifa.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2490,11 +3642,23 @@
                 "USA Today",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2524,11 +3688,23 @@
                 "Snopes",
                 "The Wall Street Journal"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says Anthony Fauci, Bill Gates, George Soros and Jeffrey Epstein are connected with Moderna, Inc., and its efforts to create the coronavirus vaccine."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Anthony Fauci, Bill Gates, George Soros and Jeffrey Epstein are connected with Moderna, Inc., and its efforts to create the coronavirus vaccine.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2555,11 +3731,23 @@
                 "United States Geological Survey",
                 "Various searches on Google Maps"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2579,11 +3767,23 @@
                 "USA Today",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Black Lives Matter \"injures 1000 police officers kills 36 people and does $8 billion in damage.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Black Lives Matter \"injures 1000 police officers kills 36 people and does $8 billion in damage.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2600,11 +3800,23 @@
                 "The White House",
                 "Tweet"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says Herman Cain died of cancer, not COVID-19."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Herman Cain died of cancer, not COVID-19.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2623,11 +3835,23 @@
                 "New Zealand Ministry of Health",
                 "Politico"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“New Zealand let health experts” rather than politicians make decisions about how to deal with COVID-19, “and as of today they have zero COVID cases.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“New Zealand let health experts” rather than politicians make decisions about how to deal with COVID-19, “and as of today they have zero COVID cases.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2647,11 +3871,23 @@
                 "Vice News",
                 "Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Central Park hospital tents housed thousands of abused children released from underground captivity."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Central Park hospital tents housed thousands of abused children released from underground captivity.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2672,11 +3908,23 @@
                 "Wayback Machine",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“New York Times editor admits Biden sexual assault story was censored at behest of Biden campaign.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“New York Times editor admits Biden sexual assault story was censored at behest of Biden campaign.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2702,11 +3950,23 @@
                 "University of Michigan Center for the History of Medicine Influenza Encyclopedia",
                 "Vox Media"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "During the 1918 flu pandemic, San Francisco residents formed the “Anti-Mask League.” San Francisco “was ultimately one of the cities that suffered the most with a high death rate.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "During the 1918 flu pandemic, San Francisco residents formed the “Anti-Mask League.” San Francisco “was ultimately one of the cities that suffered the most with a high death rate.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2731,11 +3991,23 @@
                 "Washington Post",
                 "Wilmington Evening Journal"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "In 1962, Joe Biden “worked with segregationists,” Elizabeth Warren “debated as a pro-Vietnam conservative” while Bernie Sanders “organized against segregation and Vietnam war”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "In 1962, Joe Biden “worked with segregationists,” Elizabeth Warren “debated as a pro-Vietnam conservative” while Bernie Sanders “organized against segregation and Vietnam war”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2751,11 +4023,23 @@
                 "PolitiFact",
                 "Wilmington Evening Journal"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "“Bernie Sanders in 1963 — arrested protesting segregation. Joe Biden in 1975 — passionate speech defending segregation.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Bernie Sanders in 1963 — arrested protesting segregation. Joe Biden in 1975 — passionate speech defending segregation.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2782,11 +4066,23 @@
                 "USA Today",
                 "Vox Media"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2802,11 +4098,23 @@
                 "Guardian",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says George Soros was an “SS in the National Socialist German Workers Party. Nazi Party.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says George Soros was an “SS in the National Socialist German Workers Party. Nazi Party.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2826,11 +4134,23 @@
                 "Washington Post",
                 "WayBack Machine"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says Bill Cosby was framed for sexual assault by the Illuminati to stop him from buying NBC."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Bill Cosby was framed for sexual assault by the Illuminati to stop him from buying NBC.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2858,11 +4178,23 @@
                 "U.S. Department of Justice",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2880,11 +4212,23 @@
                 "Twitter",
                 "U.S. State Department"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says a photo shows President Ronald Reagan meeting with Taliban leaders in the White House."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says a photo shows President Ronald Reagan meeting with Taliban leaders in the White House.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2900,11 +4244,23 @@
                 "Getty Images",
                 "The New York Times"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Says President Donald Trump is one of \"only three people that won the Ellis Island Award for their work within the black community.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says President Donald Trump is one of \"only three people that won the Ellis Island Award for their work within the black community.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -2920,11 +4276,23 @@
                 "The New York Times",
                 "USA Today"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "facebook-posts": "Migrants at the U.S. border are \"able to pay cell phone bills\" after a \"two-month excursion across four separate countries.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Migrants at the U.S. border are \"able to pay cell phone bills\" after a \"two-month excursion across four separate countries.\"",
+                    "url": ""
+                }
+            ]
         }
     ]
 }

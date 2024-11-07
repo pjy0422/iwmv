@@ -34,12 +34,28 @@
                 "UEFA",
                 "X post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -61,12 +77,28 @@
                 "USA Today",
                 "Variety"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "A jury “ordered Disney and Lucasfilm to pay” actor Gina Carano $115 million."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A jury “ordered Disney and Lucasfilm to pay” actor Gina Carano $115 million.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -92,12 +124,28 @@
                 "The Washington Post",
                 "USA Today"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "The ship that struck the Baltimore bridge was controlled by a Chinese company."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The ship that struck the Baltimore bridge was controlled by a Chinese company.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -116,12 +164,28 @@
                 "The Washington Post",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -140,12 +204,28 @@
                 "TikTok video",
                 "Vox Media"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Photos show Target is pushing \"evil agenda\" on kids."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Photos show Target is pushing \"evil agenda\" on kids.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -166,12 +246,28 @@
                 "TikTok video",
                 "United Nations"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Images show “Putin has been arrested.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Images show “Putin has been arrested.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -188,12 +284,28 @@
                 "The Washington Post",
                 "Vatican News"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“The pope, Xi and Putin all meet to plan world events!”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The pope, Xi and Putin all meet to plan world events!”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -210,12 +322,28 @@
                 "The Washington Post",
                 "Violet"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“The Russian army is withdrawing from Ukraine!” in September 2022"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The Russian army is withdrawing from Ukraine!” in September 2022",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -237,12 +365,28 @@
                 "The New York Times",
                 "The Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“The gunman at Greenwood Park Mall was a CIA asset.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The gunman at Greenwood Park Mall was a CIA asset.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -256,12 +400,28 @@
                 "The Associated Press",
                 "The Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "The “Franklin scandal” broke in 1989 “when hundreds of children were apparently flown around the US to be abused by high ranking ‘Establishment’ members.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "The “Franklin scandal” broke in 1989 “when hundreds of children were apparently flown around the US to be abused by high ranking ‘Establishment’ members.\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -295,12 +455,28 @@
                 "The Washington Post",
                 "United Tribes Technical College research"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "People protesting the Dakota Access pipeline “were intentionally poisoned” by government officials in North Dakota when a pilot “knowingly sprayed poisonous chemicals” over protesters’ camps."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "People protesting the Dakota Access pipeline “were intentionally poisoned” by government officials in North Dakota when a pilot “knowingly sprayed poisonous chemicals” over protesters’ camps.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -326,12 +502,28 @@
                 "U.S. Department of Justice",
                 "U.S. Senate"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "A Black Lives Matter administrator was arrested in a 1983 bombing at the U.S. Capitol."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A Black Lives Matter administrator was arrested in a 1983 bombing at the U.S. Capitol.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -351,12 +543,28 @@
                 "Worthypolitics.com",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“A quarter of a million illegal votes found in Arizona’s audit.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“A quarter of a million illegal votes found in Arizona’s audit.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -383,12 +591,28 @@
                 "U.S. State Department",
                 "U.S. Supreme Court"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "\"By revoking the Keystone pipeline permit, Biden is destroying 11,000 jobs.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"By revoking the Keystone pipeline permit, Biden is destroying 11,000 jobs.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -413,12 +637,28 @@
                 "USA Today",
                 "WSB-TV"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "\"Voter FRAUD exposed in Georgia. Over 2600 votes 'FOUND.'\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "\"Voter FRAUD exposed in Georgia. Over 2600 votes 'FOUND.'\"",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -443,12 +683,28 @@
                 "The Wall Street Journal",
                 "The Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“Biden lead disappears in NV, AZ, GA, PA.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Biden lead disappears in NV, AZ, GA, PA.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -464,12 +720,28 @@
                 "The New York Times",
                 "The Washington Post"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“James Comey has 50 counts of TREASON. And John Brennan has 48 counts of TREASON.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“James Comey has 50 counts of TREASON. And John Brennan has 48 counts of TREASON.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -499,12 +771,28 @@
                 "Tweet",
                 "USA Today"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Most of the wildfires on the West Coast are “all being started by antifa.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Most of the wildfires on the West Coast are “all being started by antifa.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -525,12 +813,28 @@
                 "USA Today",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -557,12 +861,28 @@
                 "United States Geological Survey",
                 "Various searches on Google Maps"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -579,12 +899,28 @@
                 "The White House",
                 "Tweet"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Says Herman Cain died of cancer, not COVID-19."
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Herman Cain died of cancer, not COVID-19.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -611,12 +947,28 @@
                 "USA Today",
                 "Vox Media"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”"
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -644,12 +996,28 @@
                 "U.S. Department of Justice",
                 "YouTube"
             ],
-            "source_claims": {
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\""
-            }
+            "source_claims": [
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\"",
+                    "url": ""
+                }
+            ]
         }
     ]
 }

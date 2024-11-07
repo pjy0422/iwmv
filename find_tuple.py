@@ -1,11 +1,12 @@
-import json
 import argparse
+import json
 from collections import Counter
 from itertools import combinations
 from typing import Any, Dict, List, Tuple
 
 # Optional: Use pandas for better data handling (if desired)
 # import pandas as pd
+
 
 def load_synonyms(synonym_file: str) -> Dict[str, str]:
     """
@@ -21,8 +22,12 @@ def load_synonyms(synonym_file: str) -> Dict[str, str]:
         with open(synonym_file, "r", encoding="utf-8") as f:
             synonyms = json.load(f)
         # Create a new dictionary with lowercased keys for case-insensitive matching
-        synonyms_lower = {key.lower(): value for key, value in synonyms.items()}
-        print(f"Loaded {len(synonyms_lower)} synonym mappings from {synonym_file}.")
+        synonyms_lower = {
+            key.lower(): value for key, value in synonyms.items()
+        }
+        print(
+            f"Loaded {len(synonyms_lower)} synonym mappings from {synonym_file}."
+        )
         return synonyms_lower
     except FileNotFoundError:
         print(f"Synonym file {synonym_file} not found.")
@@ -31,7 +36,10 @@ def load_synonyms(synonym_file: str) -> Dict[str, str]:
         print(f"Error decoding JSON in synonym file: {e}")
         return {}
 
-def normalize_sources(sources: List[str], synonyms: Dict[str, str]) -> List[str]:
+
+def normalize_sources(
+    sources: List[str], synonyms: Dict[str, str]
+) -> List[str]:
     """
     Normalize source names using the provided synonyms mapping with case-insensitive matching.
 
@@ -49,7 +57,10 @@ def normalize_sources(sources: List[str], synonyms: Dict[str, str]) -> List[str]
         normalized.append(normalized_source)
     return normalized
 
-def load_data(json_file: str, synonyms: Dict[str, str]) -> List[Dict[str, Any]]:
+
+def load_data(
+    json_file: str, synonyms: Dict[str, str]
+) -> List[Dict[str, Any]]:
     """
     Load JSON data from a file and normalize source names.
 
@@ -77,11 +88,12 @@ def load_data(json_file: str, synonyms: Dict[str, str]) -> List[Dict[str, Any]]:
         print(f"Error decoding JSON: {e}")
         return []
 
+
 def calculate_frequent_combinations(
     data: List[Dict[str, Any]],
     combination_size: int,
     exclude_sources: List[str],
-    synonyms: Dict[str, str]
+    synonyms: Dict[str, str],
 ) -> Counter:
     """
     Calculate the frequency of combinations of sources, including Speaker, excluding specified sources.
@@ -108,7 +120,9 @@ def calculate_frequent_combinations(
         normalized_sources = normalize_sources(sources, synonyms)
         # Exclude specified sources
         filtered_sources = [
-            source for source in normalized_sources if source.lower() not in exclude_sources_lower
+            source
+            for source in normalized_sources
+            if source.lower() not in exclude_sources_lower
         ]
         # Include Speaker in the sources list if it's not empty and not in exclude_sources
         if speaker and speaker_lower not in exclude_sources_lower:
@@ -126,6 +140,7 @@ def calculate_frequent_combinations(
         f"Calculated frequencies for {combination_size}-plets, excluding {exclude_sources}."
     )
     return combination_counter
+
 
 def find_articles_with_combination(
     data: List[Dict[str, Any]], combination: Tuple[str, ...]
@@ -155,6 +170,7 @@ def find_articles_with_combination(
     )
     return matched_articles
 
+
 def display_top_combinations(
     combination_counter: Counter, top_n: int = 10
 ) -> None:
@@ -168,6 +184,7 @@ def display_top_combinations(
     print(f"\nTop {top_n} combinations:")
     for combo, freq in combination_counter.most_common(top_n):
         print(f"{combo}: {freq} times")
+
 
 def save_articles_to_json(
     articles: List[Dict[str, Any]],
@@ -190,10 +207,7 @@ def save_articles_to_json(
     filename = f"./{speaker}_top{combination_size}.json"
 
     # Prepare the data to save
-    output_data = {
-        "Combination": combination,
-        "Matched Articles": []
-    }
+    output_data = {"Combination": combination, "Matched Articles": []}
 
     # Add `source_claims` field to each matched article
     for article in articles:
@@ -210,7 +224,10 @@ def save_articles_to_json(
             else:
                 # Assign empty string to other sources
                 source_claims[source] = ""
-        article_copy["source_claims"] = source_claims
+        source_claims_list = []
+        for key, val in source_claims.items():
+            source_claims_list.append({"source": key, "claim": val, "url": ""})
+        article_copy["source_claims"] = source_claims_list
         output_data["Matched Articles"].append(article_copy)
 
     try:
@@ -219,6 +236,7 @@ def save_articles_to_json(
         print(f"Saved {len(articles)} articles to {filename}.")
     except IOError as e:
         print(f"Error saving to {filename}: {e}")
+
 
 def parse_arguments():
     """
@@ -256,6 +274,7 @@ def parse_arguments():
     )
     return parser.parse_args()
 
+
 def main():
     # Parse command-line arguments
     args = parse_arguments()
@@ -282,7 +301,10 @@ def main():
     combination_counters = {}
     for size in combination_sizes:
         counter = calculate_frequent_combinations(
-            data, combination_size=size, exclude_sources=exclude_sources, synonyms=synonyms
+            data,
+            combination_size=size,
+            exclude_sources=exclude_sources,
+            synonyms=synonyms,
         )
         combination_counters[size] = counter
 
@@ -295,14 +317,21 @@ def main():
         counter = combination_counters[size]
         if counter:
             top_combination, top_freq = counter.most_common(1)[0]
-            print(f"\nTop {size}-plet combination: {top_combination} ({top_freq} times)")
-            matched_articles = find_articles_with_combination(data, top_combination)
+            print(
+                f"\nTop {size}-plet combination: {top_combination} ({top_freq} times)"
+            )
+            matched_articles = find_articles_with_combination(
+                data, top_combination
+            )
             save_articles_to_json(
                 matched_articles, top_combination, size, speaker
             )
-            print(f"The size of the matched articles is {len(matched_articles)}.")
+            print(
+                f"The size of the matched articles is {len(matched_articles)}."
+            )
         else:
             print(f"No {size}-plet combinations found.")
+
 
 if __name__ == "__main__":
     main()

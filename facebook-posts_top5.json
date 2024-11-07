@@ -35,13 +35,33 @@
                 "UEFA",
                 "X post"
             ],
-            "source_claims": {
-                "Cable News Network": "",
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020."
-            }
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Cristiano Ronaldo was the only European soccer captain who did not wear a rainbow armband at Euro 2020.",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -60,13 +80,33 @@
                 "The Washington Post",
                 "YouTube"
             ],
-            "source_claims": {
-                "Cable News Network": "",
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”"
-            }
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Video of the ship colliding with the Baltimore bridge proves the bridge collapse wasn’t “an accident.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -83,13 +123,33 @@
                 "The Washington Post",
                 "Vatican News"
             ],
-            "source_claims": {
-                "Cable News Network": "",
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“The pope, Xi and Putin all meet to plan world events!”"
-            }
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The pope, Xi and Putin all meet to plan world events!”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -111,13 +171,33 @@
                 "The New York Times",
                 "The Washington Post"
             ],
-            "source_claims": {
-                "Cable News Network": "",
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“The gunman at Greenwood Park Mall was a CIA asset.”"
-            }
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The gunman at Greenwood Park Mall was a CIA asset.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -142,13 +222,33 @@
                 "The Wall Street Journal",
                 "The Washington Post"
             ],
-            "source_claims": {
-                "Cable News Network": "",
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“Biden lead disappears in NV, AZ, GA, PA.”"
-            }
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“Biden lead disappears in NV, AZ, GA, PA.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -169,13 +269,33 @@
                 "USA Today",
                 "YouTube"
             ],
-            "source_claims": {
-                "Cable News Network": "",
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”"
-            }
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Kamala Harris said, “If elected & you don’t surrender your guns, I will sign an executive order & the police will show up at your door.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -202,13 +322,33 @@
                 "United States Geological Survey",
                 "Various searches on Google Maps"
             ],
-            "source_claims": {
-                "Cable News Network": "",
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”"
-            }
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "“The Beirut bombing today was directly next to the Lebanon Central Bank, which is also owned by the most evil deep state family, the Rothschilds. There are no coincidences.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -235,13 +375,33 @@
                 "USA Today",
                 "Vox Media"
             ],
-            "source_claims": {
-                "Cable News Network": "",
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”"
-            }
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "A photo of Pete Buttigieg in a military uniform without visible patches shows that “he is a fraud.”",
+                    "url": ""
+                }
+            ]
         },
         {
             "Speaker": "facebook-posts",
@@ -269,13 +429,33 @@
                 "U.S. Department of Justice",
                 "YouTube"
             ],
-            "source_claims": {
-                "Cable News Network": "",
-                "The Associated Press": "",
-                "The New York Times": "",
-                "The Washington Post": "",
-                "facebook-posts": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\""
-            }
+            "source_claims": [
+                {
+                    "source": "Cable News Network",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Associated Press",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The New York Times",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "The Washington Post",
+                    "claim": "",
+                    "url": ""
+                },
+                {
+                    "source": "facebook-posts",
+                    "claim": "Says Democrats \"spent $40,000,000 of YOUR tax dollars trying to impeach Trump.\"",
+                    "url": ""
+                }
+            ]
         }
     ]
 }
