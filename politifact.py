@@ -4,9 +4,11 @@ import json
 import logging
 import re
 import sys
+import urllib.parse
 
 import aiofiles
 import aiohttp
+import tldextract
 from bs4 import BeautifulSoup
 from tqdm.asyncio import tqdm_asyncio
 
@@ -34,6 +36,22 @@ NON_ENGLISH_EDITIONS = [
     "PolitiFact en français",
     "PolitiFact en Deutsch",
 ]
+
+# Mapping of domains to standard source names
+SOURCE_DOMAIN_MAP = {
+    "nytimes.com": "The New York Times",
+    "cnn.com": "Cable News Network",
+    "washingtonpost.com": "The Washington Post",
+    "apnews.com": "The Associated Press",
+    "associatedpress.com": "The Associated Press",
+    "whitehouse.gov": "White House",
+    "politico.com": "Politico",
+    "c-span.org": "C-SPAN",
+    "nbcnews.com": "NBC News",
+    "foxnews.com": "Fox News",
+    "npr.org": "National Public Radio",
+    "crsreports.congress.gov": "Congressional Research Service",
+}
 
 
 def get_listing_url(base_url, page_number, speaker):
@@ -64,57 +82,43 @@ def extract_unique_sources(article_soup):
     Extract unique sources and their corresponding URLs from the 'Our Sources' section.
 
     Returns:
-        list: A list of dictionaries, each containing source name and URL
+        dict: A dictionary with standard source names as keys and URLs or "N/A" as values
     """
-    sources = []
+    # Initialize the sources dictionary with standard source names and "N/A" as default values
+    sources = {
+        source_name: "N/A" for source_name in SOURCE_DOMAIN_MAP.values()
+    }
+
     sources_section = article_soup.find("section", id="sources")
     if sources_section:
         source_paragraphs = sources_section.find_all("p")
         for p in source_paragraphs:
             links = p.find_all("a")
             if links:
-                # Extract text before the first link
-                text_parts = []
-                for content in p.contents:
-                    if content == links[0]:
-                        break
-                    if isinstance(content, str):
-                        text_parts.append(content.strip())
-                text_before_link = " ".join(text_parts)
+                for link in links:
+                    source_url = link.get("href", "")
+                    if source_url:
+                        # Ensure URL is absolute
+                        if source_url.startswith("/"):
+                            source_url = (
+                                "https://www.politifact.com" + source_url
+                            )
+                        elif not source_url.startswith(
+                            ("http://", "https://")
+                        ):
+                            source_url = "https://" + source_url.lstrip("/")
 
-                # Get source name and URL
-                source_name = (
-                    text_before_link + " " + links[0].text.strip()
-                ).strip()
-                source_url = links[0].get("href", "")
+                        # Parse the domain using tldextract
+                        ext = tldextract.extract(source_url)
+                        domain = f"{ext.domain}.{ext.suffix}".lower()
 
-                # Ensure URL is absolute
-                if source_url.startswith("/"):
-                    source_url = "https://www.politifact.com" + source_url
-                elif not source_url.startswith(("http://", "https://")):
-                    source_url = "https://" + source_url.lstrip("/")
-
-                # Simplify source name by removing extra details after commas
-                source_name_simple = source_name.split(",")[0].strip()
-
-                if source_name_simple:
-                    source_entry = {
-                        "name": source_name_simple,
-                        "url": source_url,
-                    }
-                    if source_entry not in sources:  # Avoid duplicates
-                        sources.append(source_entry)
+                        # Check if the domain matches any in our mapping
+                        if domain in SOURCE_DOMAIN_MAP:
+                            standard_name = SOURCE_DOMAIN_MAP[domain]
+                            sources[standard_name] = source_url
             else:
-                # No links, use paragraph text as source name
-                source_name = p.text.strip()
-                source_name_simple = source_name.split(",")[0].strip()
-                if source_name_simple:
-                    source_entry = {
-                        "name": source_name_simple,
-                        "url": None,  # No URL available
-                    }
-                    if source_entry not in sources:
-                        sources.append(source_entry)
+                # No links, skip
+                continue
     else:
         logging.error("No 'Our Sources' section found in the article.")
     return sources
@@ -189,12 +193,40 @@ async def fetch(session, url):
     try:
         async with session.get(url, timeout=10) as response:
             response.raise_for_status()
-            return await response.text()
+            # Attempt to get the encoding from the response
+            encoding = response.charset or "utf-8"
+            try:
+                return await response.text(encoding=encoding)
+            except UnicodeDecodeError as e:
+                logging.error(f"UnicodeDecodeError for URL {url}: {e}")
+                # Fallback: decode with 'utf-8' and replace undecodable bytes
+                return await response.text(encoding="utf-8", errors="replace")
     except aiohttp.ClientError as e:
         logging.error(f"Error fetching URL {url}: {e}")
     except asyncio.TimeoutError:
         logging.error(f"Timeout fetching URL {url}")
     return None
+
+
+async def fetch_title_and_text(session, url):
+    """Fetch the page and extract the title and text."""
+    html = await fetch(session, url)
+    if not html:
+        return None, None
+    soup = BeautifulSoup(html, "html.parser")
+    title = (
+        soup.title.string.strip()
+        if soup.title and soup.title.string
+        else "N/A"
+    )
+    # For text, extract all paragraphs
+    paragraphs = soup.find_all("p")
+    text = (
+        " ".join([p.get_text(strip=True) for p in paragraphs])
+        if paragraphs
+        else "N/A"
+    )
+    return title, text
 
 
 async def process_article(session, url, processed_articles, speaker):
@@ -231,13 +263,33 @@ async def process_article(session, url, processed_articles, speaker):
 
     if sources or main_claim or truth_o_meter or justification:
         processed_articles.add(url)
+
+        # Fetch title and text for each source URL
+        source_titles_texts = {}
+        for source_name, source_url in sources.items():
+            if source_url != "N/A":
+                title, text = await fetch_title_and_text(session, source_url)
+                # If title or text couldn't be fetched, set to "N/A"
+                source_titles_texts[source_name] = {
+                    "URL": source_url,
+                    "Title": title if title else "N/A",
+                    "Text": text if text else "N/A",
+                }
+            else:
+                source_titles_texts[source_name] = {
+                    "URL": "N/A",
+                    "Title": "N/A",
+                    "Text": "N/A",
+                }
+
         return {
             "Speaker": speaker,
             "Article URL": url,
             "Main Claim": main_claim if main_claim else "N/A",
             "Truth-O-Meter": truth_o_meter if truth_o_meter else "N/A",
             "Justification": justification if justification else "N/A",
-            "Sources": sources,  # Now contains list of dicts with name and URL
+            "Sources": sources,  # Now contains dict with standard source names and URLs or "N/A"
+            "Source Titles and Texts": source_titles_texts,
         }
     else:
         return None
@@ -342,3 +394,7 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nScraping interrupted by user.")
         sys.exit(0)
+    except Exception as e:
+        logging.error(f"Unexpected error: {e}")
+        print(f"An unexpected error occurred: {e}")
+        sys.exit(1)
