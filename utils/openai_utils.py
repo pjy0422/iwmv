@@ -45,7 +45,8 @@ class OpenaiQueryHandler:
                     response_format=self.response_format,
                     timeout=self.kwargs.get("timeout", 10),
                 )
-                return completion.choices[0].message.parsed
+                usage = completion["usage"]
+                return completion.choices[0].message.parsed, usage
             except Exception as e:
                 print(f"{e=}")
                 print(f"Attempt {attempts} failed.")
