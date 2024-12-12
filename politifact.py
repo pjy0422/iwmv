@@ -267,20 +267,12 @@ async def process_article(session, url, processed_articles, speaker):
         # Fetch title and text for each source URL
         source_titles_texts = {}
         for source_name, source_url in sources.items():
-            if source_url != "N/A":
-                title, text = await fetch_title_and_text(session, source_url)
-                # If title or text couldn't be fetched, set to "N/A"
-                source_titles_texts[source_name] = {
-                    "URL": source_url,
-                    "Title": title if title else "N/A",
-                    "Text": text if text else "N/A",
-                }
-            else:
-                source_titles_texts[source_name] = {
-                    "URL": "N/A",
-                    "Title": "N/A",
-                    "Text": "N/A",
-                }
+
+            source_titles_texts[source_name] = {
+                "URL": "N/A",
+                "Title": "N/A",
+                "Text": "N/A",
+            }
 
         return {
             "Speaker": speaker,
@@ -288,8 +280,6 @@ async def process_article(session, url, processed_articles, speaker):
             "Main Claim": main_claim if main_claim else "N/A",
             "Truth-O-Meter": truth_o_meter if truth_o_meter else "N/A",
             "Justification": justification if justification else "N/A",
-            "Sources": sources,  # Now contains dict with standard source names and URLs or "N/A"
-            "Source Titles and Texts": source_titles_texts,
         }
     else:
         return None
